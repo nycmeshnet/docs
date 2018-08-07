@@ -1,0 +1,61 @@
+{{ if isset .Params "title" }}
+	{{ .Scratch.Set "title" .Title }}
+	{{ .Scratch.Add "title" " - " }}
+{{ end }}
+{{ .Scratch.Add "title" .Site.Title }}
+{{ $title := .Scratch.Get "title" }}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		{{ $title }}
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='{{ "/css/main.css" }}' rel='stylesheet' />
+
+	 <!-- Start of Open Graph -->
+    <meta property="og:title" content="{{ $title }}">
+    {{ if .IsPage }}
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}">
+    {{ else }}
+    <meta property="og:type" content="website">
+    {{ end }}
+    <meta property="og:description" content="{{ .Description }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    {{ if .Params.thumbnail }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+    {{ end }}
+    {{ range .Params.tags }}
+    <meta property="og:tags" content="{{ . }}">
+    {{ end }}
+    <!-- End of Open Graph -->
+    <!-- Start of Twitter -->
+    {{ if .Site.Params.twitter_card_whitelisted }}
+        {{ if .Params.twitter_summary }}
+    <meta property="twitter:card" content="{{ .Params.twitter_summary }}">
+        {{ else if .Description }}
+    <meta property="twitter:card" content="{{ .Description }}">
+        {{ else }}
+    <meta property="twitter:card" content="{{ $title }}">
+        {{ end }}
+    {{ end }}
+    <meta property="twitter:description" content="{{ .Description }}">
+    <meta property="twitter:title" content="{{ $title }}">
+    {{ if .Params.thumbnail }}
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+    {{ end }}
+    <!-- End of Twitter -->
+</head>
+<body class="sans-serif">
+    <div class="fixed top-0 right-0 bottom-0 left-0 flex-l overflow-y-scroll overflow-y-hidden-l">
+    	{{ partial "sidebar" . }}
+        <div class="overflow-y-scroll w-70-l">
+            {{ partial "header" . }}
+        	{{ block "main" . }}
+            {{ end }}
+        </div>
+    </div>
+</body>
+</html>

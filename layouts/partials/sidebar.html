@@ -1,0 +1,37 @@
+{{ $currentPage := . }}
+<div class="ph4 w-30-l flex justify-end-l br bg-near-white b--light-gray">
+	<div class="w5">
+		<a href="/" title="Home" class="h3 f3-ns f4 ttu fw7 black nowrap flex items-center">
+			<img src="/img/logo.svg" class="h2 mr2" /> 
+		        <span class="db-ns dn f4">NYC Mesh
+                <span class="ml1 blue f5">Docs</span></span>
+		</a>
+		<ul class="list ma0 pv4 ph0">
+			{{ range .Site.Sections }}
+				<li>
+					<div class="flex items-center pv2">
+						{{ if eq $currentPage . | or (eq $currentPage.Parent .) }}
+						<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="#ccc" class="red mr2">
+							<path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6z"/>
+						</svg>	
+						{{ else }}
+						<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 8 16" fill="#ccc" class="red mr2">
+							<path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/>
+						</svg>
+						{{ end }}
+						<a href="{{ .RelPermalink }}" class="db black {{ if eq $currentPage . }} blue fw5 {{ end }}">{{ .Title }}</a>
+					</div>
+					{{ if eq $currentPage . | or (eq $currentPage.Parent .) }}
+					<ul class="ma0 pa0 ml3 pl2">
+						{{ range .Data.Pages }}
+							<a href="{{ .RelPermalink }}" class="db mv3 ml0 gray {{ if eq $currentPage . }} blue fw5 {{ end }}">
+								{{ .Title }}
+							</a>
+						{{ end }}
+					</ul>
+					{{ end }}
+				</li>
+			{{ end }}
+		</ul>
+	</div>
+</div>
