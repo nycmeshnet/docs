@@ -4,4 +4,4 @@ title: Supernode 2
 category: Networking
 ---
 
-[This page has moved.](/Sites/supernode2)
+[This page has moved.](/sites/supernode2)
