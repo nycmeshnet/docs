@@ -7,7 +7,7 @@ author: Brian
 There are two standards for ethernet cables. We use T-568B. (oO-gB-bG-brBR)
 
 ![window/wall install](/img/ethernet/T-568B.gif)
-[source](http://www.siongboon.com/projects/2006-03-06_serial_communication/)
+[source](https://www.siongboon.com/projects/2006-03-06_serial_communication/)
 
 A straight cable will work as long as both ends are the same configuration, but to stop confusion we are sticking to the standard T-568B, which is the most common one in this country.
 

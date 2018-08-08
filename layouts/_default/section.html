@@ -2,17 +2,17 @@
 	<main class="bg-white bt bw05 b--light-gray sans-serif flex flex-row-l flex-column">
 		<div class="bg-white w-100 mw8 pa4-ns pa3">
 			<div class="f4 measure-wide-l">
-				<h1 class="mv0">
-					{{ .Title }}
-				</h1>
+				{{ partial "title" . }}
 				<div class="f5">
 					{{ if .Content }}
 						{{ .Content }}
 					{{else}}
 						{{ range .Data.Pages }}
-							<a href="{{ .RelPermalink }}" class="db mv3 ml0 blue fw5">
-								{{ .Title }}
-							</a>
+							<p>
+								<a href="{{ .RelPermalink }}">
+									{{ .Title }}
+								</a>
+							</p>
 						{{ end }}
 					{{ end }}
 				</div>

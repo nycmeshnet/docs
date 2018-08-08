@@ -10,7 +10,7 @@ These GitHub pages serve as our primary public documentation and are editable on
 
 Our [Slack chat](http://slack.nycmesh.net/) is a great resource to connect with our active community.
 
-[Getting Started](/how-to)  
+[Getting Started](/how-to/gettingstarted)  
 [Hardware](/hardware)  
 [Networking and Architecture](/networking)  
 [NYC Mesh](https://nycmesh.net)
