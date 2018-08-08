@@ -1,11 +1,13 @@
 {{ define "main" }}
 	<main class="bt bw05 b--light-gray sans-serif flex flex-row-l flex-column">
 		<div class="bg-white w-100 mw8 pa4-ns pa3">
-			<div class="f4-ns f5 measure-wide-l">
+			<div class="f4 measure-wide-l">
 				<h1 class="mv0">
 					{{ .Title }}
 				</h1>
-				{{ .Content }}
+				<div class="f5">
+					{{ .Content }}
+				</div>
 			</div>
 		</div>
 	</main>

@@ -2,6 +2,7 @@
 layout: default
 title: Supernode 2
 category: Sites
+aliases: [/networking/supernode1/]
 ---
 
 Supernode 2 (node 570) is located at 1196 Metropolitan Avenue in Brooklyn New York. The installation provides mesh and internet connectivity for building residents as well as some areas of the East Williamsburg and Bushwick neighborhoods.
@@ -22,12 +23,6 @@ Supernode 2 (node 570) is located at 1196 Metropolitan Avenue in Brooklyn New Yo
 <img title="Battery backup" src="/img/nycmesh-570-battery.png" style="width:49.7%;">
 
 ## Hardware
-
-<style>
-section td {
-  width: 33.33%;
-}
-</style>
 
 | Description          | Model        | Manufacturer   | Quantity |
 | -------------------- | ------------ | -------------- | -------: |

@@ -6,7 +6,15 @@
 					{{ .Title }}
 				</h1>
 				<div class="f5">
-					{{ .Content }}
+					{{ if .Content }}
+						{{ .Content }}
+					{{else}}
+						{{ range .Data.Pages }}
+							<a href="{{ .RelPermalink }}" class="db mv3 ml0 blue fw5">
+								{{ .Title }}
+							</a>
+						{{ end }}
+					{{ end }}
 				</div>
 			</div>
 		</div>

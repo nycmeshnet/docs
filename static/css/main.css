@@ -66,6 +66,10 @@ a {
   text-decoration: none;
 }
 
+table {
+  width: 100%;
+}
+
 @media screen and (min-width: 60em) {
   .showDropdown,
   .hideDropdown {
