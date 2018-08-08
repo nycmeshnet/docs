@@ -48,7 +48,7 @@ section td {
 
 A pair of AirFiber 24s was donated to NYC Mesh and was deployed between 227 and 570 to provide Brooklyn with a near 1Gbps backhaul link to Supernode 1, the Manhattan area of the mesh and the internet.
 
-<img title="Deploying an AF24 at node 227" src="/img/nycmesh-570-227-link-2.png" style="max-width:480px;">
+<img title="Deploying an AF24 at node 227" src="/img/nycmesh-570-227-link-2.png">
 
 ## Battery backup
 
