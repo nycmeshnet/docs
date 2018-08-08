@@ -18,7 +18,7 @@ This opens a [vi editor](http://www.lagmonster.org/docs/vi.html) and you can cha
 
 For some nodes, their main purpose is to be an internet gateway. To ensure that they always try to be online, you can add a watchdog script that pings a known website and calls "network restart" if it fails. These kind of scripts often ping 8.8.8.8, which is Google's DNS server.
 
-I've discovered 3 ways to recover a qMp mesh router that has functioning wifi but has lost internet- ```network restart```, ```bmx6 restart``` and restarting dnsmasq-```killall dnsmasq; dnsmasq start```. Sometimes the dns forwarder, dnsmasq will stop working correctly letting you ping some things and not others. dnsmasq will then forward bad dns info to the other routers too so it needs to be fixed quickly! ```killall dnsmasq; dnsmasq start``` will fix it.
+I've discovered 3 ways to recover a qMp mesh router that has functioning wifi but has lost internet- `network restart`, `bmx6 restart` and restarting dnsmasq-`killall dnsmasq; dnsmasq start`. Sometimes the dns forwarder, dnsmasq will stop working correctly letting you ping some things and not others. dnsmasq will then forward bad dns info to the other routers too so it needs to be fixed quickly! `killall dnsmasq; dnsmasq start` will fix it.
 
 gwck is a qMp utility that is restarted after network restart.
 
@@ -30,7 +30,7 @@ I'm using "Signal: unknown" to show there is no connection. It seems to work rel
 
 "sleep 5" is usual between "wifi down" and "wifi up". I've found it not necessary when there are no connections, but I'll leave it there in case.
 
-You can [download the watchdog here](../../download/watchdog.html)
+You can [download the watchdog here](/download/watchdog.html)
 
 in the terminal-
 
@@ -63,7 +63,7 @@ restartNetwork()
   /etc/init.d/dnsmasq start
 }
 
-#gets date-time from log and exit if recently run. date-time is first two words of last line 
+#gets date-time from log and exit if recently run. date-time is first two words of last line
 exitIfRecentRestart()
 {
 if [ -e $LOG ]; then
@@ -93,11 +93,11 @@ fi
 LOG="/tmp/log/mesh-watchdog.log"
 FORCE=0
 
-if [ "$1" = "-n" ]; then       
-  echo "restartNetwork"         
-  restartNetwork                                                                                                                             
+if [ "$1" = "-n" ]; then
+  echo "restartNetwork"
+  restartNetwork
   exit 1
-elif [ "$1" = "-f" ]; then     
+elif [ "$1" = "-f" ]; then
   echo "force tests-"
   FORCE=1  
 elif [ "$1" = "-w" ]; then
@@ -109,7 +109,7 @@ elif [ "$1" = "-b" ]; then
   restartWifi; wait 60; restartNetwork
   exit 1
 elif [ "$1" != "" ]; then
-  echo -e "Usage: `basename $0` [OPTION]\n\nTests wifi and internet connections and restarts if necessary (default)\n\n\t-f\tforce test\n\t-n\trestart network\n\t-w\trestart wifi\n\t-b\trestart both wifi and network\n\t-h\toptions\n" 
+  echo -e "Usage: `basename $0` [OPTION]\n\nTests wifi and internet connections and restarts if necessary (default)\n\n\t-f\tforce test\n\t-n\trestart network\n\t-w\trestart wifi\n\t-b\trestart both wifi and network\n\t-h\toptions\n"
   exit 1
 fi
 
@@ -129,14 +129,14 @@ NOSIGNAL=`echo "$IWINFO" | grep 'Signal: unknown' | wc -l`
 if [ $WLAN -eq 0 ]; then
   echo "no wlan interfaces, wifi is probably disabled"
 elif [ $WLAN -eq $NOSIGNAL ]; then
-  # all wlan interfaces are down, so restart wifi   
+  # all wlan interfaces are down, so restart wifi
   echo "$DATE restart wifi- wlans:$WLAN no-signal:$NOSIGNAL interfaces:$WI" | tee -a $LOG
   restartWifi
   sleep 60
   restartNetwork
   exit 1
 else
-  echo "wifi:ok	wlans:$WLAN	no-signal:$NOSIGNAL	interfaces:$WI"
+  echo "wifi:ok wlans:$WLAN no-signal:$NOSIGNAL interfaces:$WI"
 fi
 
 # restart network if ping google.com && 8.8.8.8 fails 4 times
@@ -144,7 +144,7 @@ count=1
 while [ "$count" -le 4 ]
  do
    if /bin/ping -c 1 google.com >/dev/null && /bin/ping -c 1 8.8.8.8 >/dev/null; then
-      echo "wan:ok	ping-count:$count"
+      echo "wan:ok  ping-count:$count"
       exit 0
    fi
  let count++
@@ -153,7 +153,7 @@ echo "$DATE network restart" | tee -a $LOG
 restartNetwork
 ```
 
-Make it executable- 
+Make it executable-
 
 ```
 chmod +x /root/mesh-watchdog.sh
@@ -170,6 +170,3 @@ It can run once a minute as it detects whether a network restart has just occurr
 Thanks to Nitin for help with the wifi problem and Zach for help with dnsmasq.
 
 [Email me](mailto:brian@nycmesh.net) if you have any questions or suggestions.
-
-
-

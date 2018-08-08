@@ -1,8 +1,10 @@
 {{ define "main" }}
-	<main class="bg-white bt bw05 b--light-gray sans-serif flex flex-column">
-		<div class="bg-white w-100 mw8 pa4">
-			<div class="f4 lh-copy measure-wide">
-				<h1 class="f2 fw5">{{ .Title }}</h1>
+	<main class="bg-white bt bw05 b--light-gray sans-serif flex flex-row-l flex-column">
+		<div class="bg-white w-100 mw8 pa4-ns pa3">
+			<div class="f4-ns f5 measure-wide">
+				<h1 class="f2-ns f3 fw6 mv0">
+					{{ .Title }}
+				</h1>
 				{{ .Content }}
 			</div>
 		</div>

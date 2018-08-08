@@ -12,14 +12,14 @@ Supernode 2 (node 570) is located at 1196 Metropolitan Avenue in Brooklyn New Yo
 
 ## Coverage
 
-<img title="Coverage area" src="../img/nycmesh-570-coverage.jpg">
+<img title="Coverage area" src="/img/nycmesh-570-coverage.jpg">
 
 ## Photos
 
-<img title="The radios" src="../img/nycmesh-570-radios.png" style="width:49.7%;">
-<img title="Point-to-point link to node 227" src="../img/nycmesh-570-227-link.png" style="width:49.7%;">
-<img title="The router" src="../img/nycmesh-570-router.png" style="width:49.7%;">
-<img title="Battery backup" src="../img/nycmesh-570-battery.png" style="width:49.7%;">
+<img title="The radios" src="/img/nycmesh-570-radios.png" style="width:49.7%;">
+<img title="Point-to-point link to node 227" src="/img/nycmesh-570-227-link.png" style="width:49.7%;">
+<img title="The router" src="/img/nycmesh-570-router.png" style="width:49.7%;">
+<img title="Battery backup" src="/img/nycmesh-570-battery.png" style="width:49.7%;">
 
 ## Hardware
 
@@ -42,13 +42,13 @@ section td {
 
 ## Schematic
 
-<img title="Schematic" src="../img/nycmesh-570-schematic.png">
+<img title="Schematic" src="/img/nycmesh-570-schematic.png">
 
 ## Backhaul
 
 A pair of AirFiber 24s was donated to NYC Mesh and was deployed between 227 and 570 to provide Brooklyn with a near 1Gbps backhaul link to Supernode 1, the Manhattan area of the mesh and the internet.
 
-<img title="Deploying an AF24 at node 227" src="../img/nycmesh-570-227-link-2.png" style="max-width:480px;">
+<img title="Deploying an AF24 at node 227" src="/img/nycmesh-570-227-link-2.png" style="max-width:480px;">
 
 ## Battery backup
 
