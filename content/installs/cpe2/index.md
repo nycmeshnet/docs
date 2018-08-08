@@ -31,27 +31,21 @@ title: "Supernode 2 CPE"
 
 1.  Plug in the POE adapter to power it.
 1.  Connect the POE port on the POE adapter to the CPE via ethernet cable.
-
-*   A little light should come on to show the CPE is powered.
-
+   * A little light should come on to show the CPE is powered.
 1.  Connect the ETH port on the POE adapter to your laptop via ethernet cable
 1.  Right click the wi-fi icon on your laptop and click Open Network Preferences (or go to System Preferences > Network )
 1.  Set your Network Preferences for the ethernet connection (usually called USB LAN, Ethernet, or Thunderbolt Ethernet) to [the following](./litebeam/netprefs.png):
-
-*   Configure IPv4: manual
-*   IP Address: 192.168.1.11
-*   Mask: 255.255.255.0
-
+   *   Configure IPv4: manual
+   *   IP Address: 192.168.1.11
+   *   Mask: 255.255.255.0
 1.  Turn off your Wi-Fi to allow your browser to connect to the CPE
 1.  Go to http://192.168.1.20 and use: ubnt as both user name and password if it's a new device
-
-*   If the device has already been configured you should use its new settings for IP, user name, and password.
-*   If you're getting an error along the lines of "Can't connect to Internet" or "Timed Out":
-    *   Make sure your Wi-Fi is off and the ethernet connection is green in your Network Preferences
-    *   Make sure you typed "http://" before the IP address (otherwise your browser might think you're trying to google the IP address)
-    *   If you still can't connect try hard resetting the device by inserting a pin or paperclip into the little hole above the port and pressing the internal button for about 10 seconds.
-    *   If all else fails, try asking on the #install channel on [our Slack](nycmesh.slack.com)
-
+   *   If the device has already been configured you should use its new settings for IP, user name, and password.
+   *   If you're getting an error along the lines of "Can't connect to Internet" or "Timed Out":
+       *   Make sure your Wi-Fi is off and the ethernet connection is green in your Network Preferences
+       *   Make sure you typed "http://" before the IP address (otherwise your browser might think you're trying to google the IP address)
+       *   If you still can't connect try hard resetting the device by inserting a pin or paperclip into the little hole above the port and pressing the internal button for about 10 seconds.
+       *   If all else fails, try asking on the #install channel on [our Slack](nycmesh.slack.com)
 1.  You will get an ssh warning "Your connection is not..." -- ignore it and click "advanced" to proceed. (This is because the interface uses https)
 
 ### 2. Flash the CPE with latest firmware
@@ -62,9 +56,9 @@ title: "Supernode 2 CPE"
 1.  Log in again and go to System > Upload Firmware
 1.  Select the firmware file you downloaded earlier and upload it
 
-*   If you get recurring "Configuration upload falied" you might be trying to upload the current version. Compare the firmware version you downloaded earlier to the current version:
-    *   The file name usually has the version in it, e.g. WA.**v8.5.7**.38314.180628.1036.bin
-    *   In the CPE dashboard on the top left you should see the current firmware version number
+   *   If you get recurring "Configuration upload falied" you might be trying to upload the current version. Compare the firmware version you downloaded earlier to the current version:
+     *   The file name usually has the version in it, e.g. WA.**v8.5.7**.38314.180628.1036.bin
+     *   In the CPE dashboard on the top left you should see the current firmware version number
 
 1.  Reset to factory again as in the first step
 1.  Change the password as prompted
@@ -104,9 +98,7 @@ Same as above but find the strongest nycmesh-1340-X signal. The sectors are alig
 
 1.  There is a visual level built into the antenna. Make sure the bubble is in the middle.
 1.  There is a "tools" icon in the upper right of the interface. Click this and select Antenna alignment.
-
-*   The sound option is very helpful for this.
-
+   *   The sound option is very helpful for this.
 1.  First align the antenna by pointing it directly at the supernode.
 1.  Now move it slightly up or down to get a stronger signal.
 1.  Once you have the vertical alignment, do the same by moving the antenna horizontally.
@@ -114,14 +106,11 @@ Same as above but find the strongest nycmesh-1340-X signal. The sectors are alig
 ### 6. Test speed
 
 1.  To get internet from the CPE you need to set your laptop's network configuration to:
-
-*   IPv4:using DHCP ("automatic" setting on some machines)
-*   If the device is paired with the supernode it will automatically get an IP address in our range- 199.x.x.x
-
+   *   IPv4:using DHCP ("automatic" setting on some machines)
+   *   If the device is paired with the supernode it will automatically get an IP address in our range- 199.x.x.x
 1.  Test the speed by browsing to speedtest.net
-
-*   A good speed is over 50Mps. We have been getting 60 to 120Mbps so far.
-*   It is possible to get 200Mbps from SN2 if you are close with good line of sight.
-*   **Note:** You must have a gigabit adapter to get over 100Mbps. If you don't have a gigabit adapter the maximum speed is going to be under 95Mbps.
-*   If the speed is under 20Mbps explain to the member the limitations (Netflix standard streaming is 5Mbps).
-*   It is not good to install if connection is less than 10Mbps as it won't reliably play video.
+   *   A good speed is over 50Mps. We have been getting 60 to 120Mbps so far.
+   *   It is possible to get 200Mbps from SN2 if you are close with good line of sight.
+   *   **Note:** You must have a gigabit adapter to get over 100Mbps. If you don't have a gigabit adapter the maximum speed is going to be under 95Mbps.
+   *   If the speed is under 20Mbps explain to the member the limitations (Netflix standard streaming is 5Mbps).
+   *   It is not good to install if connection is less than 10Mbps as it won't reliably play video.
