@@ -3,7 +3,7 @@ layout: page
 title: "Supernode 2 CPE (also 1340)"
 ---
 
-This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with supernode 2 and node 1340. [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](nycmesh.slack.com).
+This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with supernode 2 and node 1340. [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](https://nycmesh.slack.com).
 
 **Supernode 2** (English Kills, Bushwick)
 
@@ -65,7 +65,7 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
       *   Make sure your Wi-Fi is off and the ethernet connection is green in your Network Preferences
       *   Make sure you typed "http://" before the IP address (otherwise your browser might think you're trying to google the IP address)
       *   If you still can't connect try hard resetting the device by inserting a pin or paperclip into the little hole above the port and pressing the internal button for about 10 seconds.
-      *   If all else fails, try asking on the #install channel on [our Slack](nycmesh.slack.com)
+      *   If all else fails, try asking on the #install channel on [our Slack](https://nycmesh.slack.com)
 
 1.  You will get an ssh warning "Your connection is not..." -- ignore it and click "advanced" to proceed. (This is because the interface uses https)
 
