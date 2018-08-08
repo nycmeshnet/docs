@@ -1,5 +1,5 @@
 ---
-title: Software Overview
+title: Software
 layout: default
 category: Software
 ---
