@@ -9,7 +9,7 @@ The device was released in early 2018 and is capable of gigabit-level speeds wit
 
 ## Uses
 
-*   LinkNYC Kiosk connection
+*   [LinkNYC Kiosk connection](/installs/linknyc)
 *   Hub node connection ( for standard 802.11ac hubs )
 
 ## Device idiosyncrasies
