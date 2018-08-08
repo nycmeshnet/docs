@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NYC Mesh Project docs
+title: Documentation
 ---
 
 NYC Mesh is a community owned network in the New York City area.  

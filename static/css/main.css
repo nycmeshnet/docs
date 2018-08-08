@@ -5,6 +5,34 @@ body {
   height: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+}
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,6 +42,48 @@ body {
 a {
   color: #007aff;
   text-decoration: none;
+}
+
+@media screen and (min-width: 60em) {
+  .showDropdown,
+  .hideDropdown {
+    display: none;
+  }
+}
+
+.minw5-l {
+  min-width: 16rem;
+}
+
+.showDropdown,
+.hideDropdown {
+  position: absolute;
+  top: 0;
+  right: 0;
+  outline: none;
+}
+
+.showDropdown:focus {
+  width: 0;
+  height: 0;
+}
+
+.showDropdown:focus ~ .hideDropdown,
+.dropdown:hover ~ .hideDropdown {
+  display: block;
+}
+
+/* Hide and show dropdown menu*/
+.hideDropdown:focus ~ .dropdown {
+  display: none;
+}
+
+.showDropdown:focus ~ .dropdown {
+  display: block;
+}
+
+.dropdown:hover {
+  display: block;
 }
 
 pre {
