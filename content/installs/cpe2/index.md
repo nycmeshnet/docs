@@ -1,17 +1,19 @@
 ---
 layout: page
-title: "Supernode 2 CPE"
+title: "Supernode 2 CPE (also 1340)"
 ---
 
-#eastwburg_bushwick, English Kills
+This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with supernode 2 and node 1340. [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](nycmesh.slack.com).
 
-# Configuring supernode2 CPEs
+**Supernode 2** (English Kills, Bushwick)
 
-(line of sight to 40.713991, -73.929049 )
+* Line of sight to: 40.713991, -73.929049
+* Slack room: *#eastwburg_bushwick*
 
-[For connecting to supernode 1 see here](../cpe)
+**Node 1340** (33 Saratoga Ave, Bed Stuy)
 
-## Ubiquiti sector clients
+* Line of sight to: 40.686017, -73.917494
+* Slack rooms: *#1340-alerts, #nycha, #bedstuy, #crownheights, #eastwburg_bushwick*
 
 ### 0. Get everything ready
 
@@ -159,5 +161,5 @@ Same as above but find the strongest nycmesh-1340-X signal. The sectors are alig
    *   **Note:** You must have a gigabit adapter to get over 100Mbps. If you don't have a gigabit adapter the maximum speed is going to be under 95Mbps.
 
    *   If the speed is under 20Mbps explain to the member the limitations (Netflix standard streaming is 5Mbps).
-   
+
    *   It is not good to install if connection is less than 10Mbps as it won't reliably play video.
