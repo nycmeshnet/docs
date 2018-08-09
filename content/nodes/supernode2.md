@@ -7,20 +7,21 @@ aliases: [/networking/supernode1/]
 
 Supernode 2 (node 570) is located at 1196 Metropolitan Avenue in Brooklyn New York. The installation provides mesh and internet connectivity for building residents as well as some areas of the East Williamsburg and Bushwick neighborhoods.
 
+![Supernode 2 radios](/img/nycmesh-570-radios.png)
+
 ## Status
 
 [https://stats.570.nycmesh.net](https://stats.570.nycmesh.net)
 
 ## Coverage
 
-<img title="Coverage area" src="/img/nycmesh-570-coverage.jpg">
+![Supernode 2 coverage](/img/nycmesh-570-coverage.jpg)
 
 ## Photos
 
-<img title="The radios" src="/img/nycmesh-570-radios.png" style="width:49.7%;">
-<img title="Point-to-point link to node 227" src="/img/nycmesh-570-227-link.png" style="width:49.7%;">
-<img title="The router" src="/img/nycmesh-570-router.png" style="width:49.7%;">
-<img title="Battery backup" src="/img/nycmesh-570-battery.png" style="width:49.7%;">
+![Point-to-point link to node 227](/img/nycmesh-570-227-link.png)
+![The router](/img/nycmesh-570-router.png)
+![Battery backup](/img/nycmesh-570-battery.png)
 
 ## Hardware
 
