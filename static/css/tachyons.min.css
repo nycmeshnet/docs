@@ -3002,7 +3002,7 @@ code {
 		url(data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7)
 		repeat 0 0;
 }
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 50em) {
 	.aspect-ratio-ns {
 		height: 0;
 		position: relative;
