@@ -104,20 +104,31 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 *   SSID:
     *   For SN2: nycmesh-english-kills-east OR nycmesh-english-kills-west (see pairing below)
     *   For 1340: nycmesh-1340-north or ...-east or ...-south or ...-west (depending on where you are)
-*   WPA2 PSK: nycmeshnet
-*   Antenna 23 -23dbi
+*   Enable Auto Channel Width
+*   Antenna 23 - 23dbi
+*   Slide Output Power all the way to the right for max dBm
+*   Security: WPA2-AES
+*   WPA Authentication: PSK
+*   WPA Preshared Key: nycmeshnet
+*   Disable Automatic Power Control
 
 [**Network settings**](./litebeam/network.png)  
- (leave as default)
+
+*   Enable IPV6
+*   Set IPV6 Address to SLAAC
+
 [**Services**](./litebeam/services.png)
 
-*   [x]SNMP Agent
-*   community: public location: nycmesh
-*   contact: nycmesh
+*   Enable SNMP Agent
+*   SNMP community: public 
+*   Location: nycmesh
+*   Contact: nycmesh
 
 [**System**](./litebeam/system.png)
 
 *   Device name: nycmesh-lbe-nn (**lbe** is LiteBeam, **nbe** is NanoBeam, **nn** is replaced with the install number)
+
+**IMPORTANT:** Click SAVE CHANGES when you're done! 
 
 ### 4. Pairing
 
