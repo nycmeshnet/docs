@@ -127,6 +127,7 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 [**System**](./litebeam/system.png)
 
 *   Device name: nycmesh-lbe-nn (**lbe** is LiteBeam, **nbe** is NanoBeam, **nn** is replaced with the install number)
+*   If you're using a *Gen 1* Litebeam you might need to deactivate UNII rules (which allows the device to use DFS channels as long as no radars are using them, like Gen 2 devices do). Ask for support on Slack on how to do so.
 
 **IMPORTANT:** Click SAVE CHANGES when you're done! 
 
