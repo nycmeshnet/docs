@@ -51,6 +51,7 @@ Wireless \| Network \| Services \| System
     Ask us to assign this to you!
 
 DEFAULT IP CANNOT BE USED! Ask us to assign you one _before_ you connect!
+
 [**Services**](./litebeam/services.png)
 
 *   [x]SNMP Agent
