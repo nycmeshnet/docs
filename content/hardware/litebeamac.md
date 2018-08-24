@@ -10,7 +10,7 @@ The gen1 cannot use the DFS channels unless you unlock it with a code on the Sys
 
 Gen2 comes with a more sturdy mount (though less range) and also a management 2.4Ghz radio. The new mount has no movement clockwise so the only way to get the level bubble in the middle is with a straight mount! The management radio is very handy as you don't need to know the IP of the device. The management radio is on a timer so it will go off after about 5 minutes.
 
-LiteBeams are very directional so use the built-in alignment tool to get the strongest signal. We like to get better than -70. Very close to the supernodes you can get -45db.
+LiteBeams are very directional so use the built-in alignment tool to get the strongest signal. We like to get better than -65db. Very close to the supernodes you can get -45db.
 
 The default IP is https://192.168.1.20/ with name:ubnt pwd:ubnt
 
