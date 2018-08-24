@@ -12,7 +12,7 @@ Gen2 comes with a more sturdy mount (though less range) and also a management 2.
 
 LiteBeams are very directional so use the built-in alignment tool to get the strongest signal. We like to get better than -70. Very close to the supernodes you can get -45db.
 
-The default IP is https://192.168.1.20/
+The default IP is https://192.168.1.20/ with name:ubnt pwd:ubnt
 
 For Supernode1 we assign IP addresses in the 192.168.42.xxx range
 
