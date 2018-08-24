@@ -3,7 +3,7 @@ layout: default
 title: Ubiquiti Litebeam AC
 category: Hardware
 ---
-The LiteBeamAC is a very good, cheap directional router. We use it for most rooftop installs. As with all Ubiquiti gear you need to flash it with the latest firmware first. Often they ship with old beta firmware, and the latest firmware usually gets you faster speeds.
+The LiteBeamAC is a very good, cheap directional router. We use it for most rooftop installs. As with all Ubiquiti gear you need to flash it with the latest firmware first. Often they ship with old beta firmware, and the latest firmware usually gets you faster speeds. The AC in the name is not 802.11ac, it is Ubiquiti's own protocol. These devices can only connect to other Ubiquiti "AC" devices. 
 
 There are two versions- gen1 and gen2. By default they are on two different sets of channels which causes much confusion.
 The gen1 cannot use the DFS channels unless you unlock it with a code on the System tab. Once you unlock a gen1 it has the same channels as the gen2. We have the unlock code for "NYCMesh". Ask us if you need to connect a gen1 to one of our hubs or supernodes.
