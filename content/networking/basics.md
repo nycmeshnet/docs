@@ -4,7 +4,6 @@ title: Basics
 category: Networking
 wip: true
 ---
-This is a section on the basics of networking
 
 This is the slideshow from our first training class, written by Zach Giles
 
