@@ -70,6 +70,11 @@ table {
   width: 100%;
 }
 
+th,
+td {
+  text-align: left;
+}
+
 @media screen and (min-width: 50em) {
   .showDropdown,
   .hideDropdown {
