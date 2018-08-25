@@ -6,14 +6,6 @@ wip: true
 ---
 This is a section on the basics of networking
 
+This is the slideshow from our first training class, written by Zach Giles
 
-# Basic Stuff
-run these commands
-```
-$ stop services
-$ start services
-```
-
-
-Ya..
-
+[Slides](https://goo.gl/i9Asx4)
