@@ -4,8 +4,6 @@ title: Getting Started
 category: How to
 ---
 
-Get a radio. Done
-
 Please read our [FAQ](https://nycmesh.net/faq) if you haven't already.
 
 **Join the mesh**  
