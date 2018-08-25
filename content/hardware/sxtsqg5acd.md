@@ -7,35 +7,17 @@ category: Hardware
 The SXTSQ 5acD ( sxtsq ) is a small client access antenna that is 802.11 standards compliant antenna ( and also nstream mikrotik if available ).  
 The device was released in early 2018 and is capable of gigabit-level speeds with 80Mhz wide 802.11ac wifi connections.
 
+_Please be sure to see [MikroTik Specifics](/hardware/mikrotikspecifics) for extra info about Mikrotik devices, how to connect, etc._
+
+
 ## Uses
 
 *   [LinkNYC Kiosk connection](/installs/linknyc)
 *   Hub node connection ( for standard 802.11ac hubs )
 
-## Device idiosyncrasies
+## Configurations
 
-### License
-
-Mikrotik software usually requires a license, though all Mikrotik devices come with an internal license, which varies with the model.
-This antenna comes with a "Level 3" license which technically only allows it to function as a CPE, not an AP. Therefore this device can not be used as a base station.
-
-### US vs International version
-
-On the positive side, it is a great CPE and can connect to DFS channels ( international version ) and other intersting features such as EAP TTLS authentication.  
-As a precaution, this antenna has a US version and an International version. The US version is locked to "united states3" channels which are the non-DFS range.  
-The international version also has US settings, but it has two additional "united states" channel selections all for valid legal US channels. To function on LinkNYC and other DFS networks, the international version is required, but be sure to put it in "united states2" mode before using it.
-
-# Reset
-
-To factory reset an SXTsq, hold down the RouterBOOT reset button (located behind the front panel) during boot time until LED light starts flashing, then release the button to reset RouterOS configuration (total 5 seconds).
-
-# Connecting
-
-The initial IP address out of the box is 192.168.88.1, so set you computer’s local IP to something similar ( 192.168.88.5 ). The username is admin and there is no password.
-
-# Configuration lines
-
-## LinkNYC Kiosk connection ( encrypted )
+### LinkNYC Kiosk connection ( encrypted )
 
 LinkNYC kiosks have both an unencrypted and encrypted network available. They function similarly and have the same internet available.  
 The encrypted version is using a fancy feature which is marketed as "passpoint" ( an authentication tech that cable internet provider are trying to leverage that allows you to roam across an area with a login ).  
