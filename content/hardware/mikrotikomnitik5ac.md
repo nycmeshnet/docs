@@ -20,6 +20,7 @@ _Please be sure to see [MikroTik Specifics](/hardware/mikrotikspecifics) for ext
 ### Omnitik config v3.2
 As discussed in the [MikroTik Specifics](/hardware/mikrotikspecifics) page, these devices need a script to be generated and loaded onto the device rather than a saved config file.  
 The below is a template script which needs some variables filled in.  
+This script _only_ works on the OmniTik 5ac PoE model  
 
 <details>
 <summary>Expand for `nycmesh-omnitik-v3.2.rsc` example</summary>
@@ -157,32 +158,26 @@ add action=accept chain=input
 </details>
 
 ### How to apply config:
-*   Acquire config parameters ( BGP ASN, IP range, node number, etc. )
-*   Fill in config file parameters at the top of the script.  
-      *   Save as __nycmesh-omni-####.rsc__ where #### is your node number. The file must be named with `.rsc` at the end.
-*   Factory Reset device if needed ( see [MikroTik Specifics](/hardware/mikrotikspecifics) for details )
-      *   _( Connect to a port besides Port 1 )_
-*   Update firmware to latest on your device ( see [Mikrotik Firmware](/software/mikrotikfirmware) )
-*   Upload the rsc file - In the Web UI, go to Files and upload the file to
+1.   Acquire config parameters ( BGP ASN, IP range, node number, etc. )
+2.   Fill in config file parameters at the top of the script.  
+      Save as __nycmesh-omni-####.rsc__ where #### is your node number.  
+      The file must be named with `.rsc` at the end.  
+*   Factory Reset device if needed ( see [MikroTik Specifics](/hardware/mikrotikspecifics) for details )  
+    _( Connect to a port besides Port 1 )_  
+*   Update firmware to latest on your device ( see [Mikrotik Firmware](/software/mikrotikfirmware) )  
+*   Upload the rsc file  
       *   The file needs to be in the `flash/` folder. However, there is no way to create a folder from the device.
       *   Instead you need to upload the file using scp.
-      *   From a Mac or Linux desktop, upload the file using scp:
-
-          ```
-          # scp nycmesh-omni-####.rsc admin@192.168.88.1:flash/  
-          The authentication of host.....  
-          ...  
-          Are you sure you want to continue connecting (yes/no)? yes  
-          nycmesh-omni-####.rsc        100% 3590   268KB/s  3.5KB/s  00:00  
-          ```
-
+      *   From a Mac or Linux desktop, upload the file using scp:  
+          `scp nycmesh-omni-####.rsc admin@192.168.88.1:flash/`  
+          You may need to confirm the SSH key ( typical with SSH )
       * You should see the file in the WebUI as `flash/nycmesh-omni-####.rsc`
 *   Factory Reset the device with the option to restore this script.
-      * WebFig > System > Reset Configuration. Select:
+      * From Web UI:
+          * WebFig > System > Reset Configuration. Select:
           * No Defaults
           * Run After Reset: `flash/nycmesh-omni-####.rsc`
           * Apply
       * Or from CLI:
           * `/system reset-configuration run-after-reset=flash/nycmesh-omni-####.rsc no-defaults=yes`
           * Dangerous Reset anyway? Y
-          
