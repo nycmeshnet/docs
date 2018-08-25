@@ -7,7 +7,8 @@ title: Documentation
 
 Our [Slack chat](https://slack.nycmesh.net/) is a great resource to connect with our active community.
 
-[Getting Started](/how-to/gettingstarted)  
+[Getting Started](/installs/gettingstarted)  
 [Hardware](/hardware)  
-[Networking and Architecture](/networking)  
-[NYC Mesh](https://nycmesh.net)
+[Networking and Architecture](/networking)
+
+[NYC Mesh Main Site →](https://nycmesh.net)
