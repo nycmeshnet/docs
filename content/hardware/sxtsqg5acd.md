@@ -28,11 +28,11 @@ As a precaution, this antenna has a US version and an International version. The
 The international version also has US settings, but it has two additional "united states" channel selections all for valid legal US channels.  To function on LinkNYC and other DFS networks, the international version is required, but be sure to put it in "united states2" mode before using it.
 
 
-# Reset
+## Reset
 To factory reset an SXTsq, hold down the RouterBOOT reset button (located behind the front panel) during boot time until LED light starts flashing, then release the button to reset RouterOS configuration (total 5 seconds).
 
 
-# Connecting
+## Connecting
 The initial IP address out of the box is 192.168.88.1, so set you computer’s local IP to something similar ( 192.168.88.5 ). The username is admin and there is no password.
 
 
