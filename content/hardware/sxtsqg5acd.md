@@ -16,13 +16,13 @@ _Please be sure to see [MikroTik Specifics](/hardware/mikrotikspecifics) for ext
 *   Hub node connection ( for standard 802.11ac hubs )
 
 
-# Device idiosyncrasies
+## Device idiosyncrasies
 
-## License 
+### License 
 Mikrotik software usually requires a license, though all Mikrotik devices come with an internal license, which varies with the model.
 This antenna comes with a "Level 3" license which technically only allows it to function as a CPE, not an AP. Therefore this device can not be used as a base station.  
 
-## US vs International version
+### US vs International version
 On the positive side, it is a great CPE and can connect to DFS channels ( international version ) and other intersting features such as EAP TTLS authentication.  
 As a precaution, this antenna has a US version and an International version. The US version is locked to "united states3" channels which are the non-DFS range.  
 The international version also has US settings, but it has two additional "united states" channel selections all for valid legal US channels.  To function on LinkNYC and other DFS networks, the international version is required, but be sure to put it in "united states2" mode before using it.
