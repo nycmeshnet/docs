@@ -360,3 +360,6 @@ Mikrotik's RouterOS has its own closed source BGP implementation.
 ```
 TODO
 ```
+
+### [OpenBGPD](http://www.openbgpd.org/)
+An example of a working configuration, abeit without BGP community rules, is available [here](https://github.com/bongozone/kibble/blob/master/src/etc/bgpd.conf).
