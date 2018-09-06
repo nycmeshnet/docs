@@ -30,7 +30,7 @@ A typical home install creates two wireless networks - one open 802.11 access po
 
 ### DNS
 
-We have a DNS server running as a VM on supernode 1 (knot-dns setup [available on github](https://github.com/nycmeshnet/nycmesh-dns). We use anycast 10.10.10.10 to encourage people to run more local DNS servers.
+The default setup routes `.mesh` tld DNS requests to 10.10.10.10, which is anycast. Multiple people are running our [knot-dns setup available on github](https://github.com/nycmeshnet/nycmesh-dns) (including supernode 1 at 10.10.10.11), but a malicious actor that is closer could take advantage of this.
 
 [map-nodes]: https://github.com/nycmeshnet/map-nodes
 [join our slack]: https://slack.nycmesh.net/
