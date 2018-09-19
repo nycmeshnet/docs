@@ -1,3 +1,9 @@
+---
+layout: default
+title: Safety Guide for Installers
+category: How to
+---
+
 Growing the mesh is important, but so is staying safe to install more nodes.
 These are general safety guidelines intended to address more common hazards on an install, but keep an eye out for risks even if they are not covered here.
 
