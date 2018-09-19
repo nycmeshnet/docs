@@ -5,12 +5,13 @@ category: Networking
 wip: true
 ---
 ### ARP
-Arp is a fun tool
-Learn more about
+ARP stands for Address Resolution Protocol, which is used to find the address of a network neighbor for a given IPv4 address.
+
+Linux arp command-
 ```
 arp -a
 ```
-Hah.
+
 [Basics](/networking/basics) 
 
 
