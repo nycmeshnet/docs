@@ -1,3 +1,9 @@
+---
+layout: default
+title: Etiquette Guide for Installers
+category: How to
+---
+
 **Courtesy and Respect on Installs**
 
 You, the installer, are the public face of NYCMesh! Courtesy, respect, friendliness and
