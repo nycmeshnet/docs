@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Etiquette Guide for Installers
+title: Etiquette Guide
 category: How to
 ---
 
@@ -34,6 +34,7 @@ the install. Ask them if they have any questions and confirm that they will be a
 host you for the expected duration of the install. Be polite and friendly!
 
 Be sensitive to cultural and social differences, such as:
+
 * Attitudes towards physical contact. For example, some people may not feel comfortable
 shaking hands upon meeting.
 * Wearing or not wearing outdoor footwear in the apartment. Ask for permission to wear
@@ -50,7 +51,7 @@ Ask your member to show you around their apartment. Ask where the bathroom is in
 Discuss options for cabling into the apartment with your member during your initial tour
 of their apartment. Ask for permission before carrying out any drilling.
 
-onsider taking your boots off inside the apartment. Some apartments insist on this, and also your boots are probably dirty. Molten tar on roofs is a big problem in summer and will stick to everything. Snow in winter will melt.
+Consider taking your boots off inside the apartment. Some apartments insist on this, and also your boots are probably dirty. Molten tar on roofs is a big problem in summer and will stick to everything. Snow in winter will melt.
 
 **During the Install**
 
@@ -63,7 +64,7 @@ Carry out the install quickly and efficiently but do not rush or compromise safe
 
 If you need to move anything, ask permission or ask them to help you if they are able. 
 If you run into installation issues and feel frustrated, try to maintain a positive
-attitude when communicating with the member and with your fellow installers. Resolve issues efficiently and post questions to the #install-team channel.
+attitude when communicating with the member and with your fellow installers. Resolve issues efficiently and post questions to the #install-team slack channel.
 
 If the install is taking longer than planned, tell the member. Confirm they will be able to host you for the extended install duration.
 
