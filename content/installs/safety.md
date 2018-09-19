@@ -35,7 +35,7 @@ During your site survey, note potential hazards and tell your fellow installers.
 * Biohazards, such as animal waste
 * Puddles and ice patches
 * Skylights
-* Unsecure, damaged or absent parapet walls and fences
+* Unsecured, damaged or absent parapet walls and fences
 
 
 **Working with Others**
