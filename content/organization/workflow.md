@@ -14,7 +14,7 @@ Submitting it assigns the user a node number, sends a support ticket, and adds a
 
 **Main Spreadsheet**
 
-New nodes are displayed as gray dots on [our map](nycmesh.net/map). They are rendered from the spreadsheet using the [map-nodes](https://github.com/nycmeshnet/map-nodes) code on our Github.
+New nodes are displayed as gray dots on [our map](https://nycmesh.net/map). They are rendered from the spreadsheet using the [map-nodes](https://github.com/nycmeshnet/map-nodes) code on our Github.
 
 **Support Ticketing**
 
