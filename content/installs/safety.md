@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Safety Guide for Installers
+title: Site Safety
 category: How to
 ---
 
