@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Etiquette Guide for Installers
+title: Etiquette Guide
 category: How to
 ---
 
