@@ -1,8 +1,5 @@
 ---
-title: Installs
-layout: default
-category: Installers
-wip: true
+title: "Installs"
 ---
 
 Installers are people who help new users join our mesh, typically by installing wireless equipment on their roof.

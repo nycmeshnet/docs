@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Workflow
-category: Organization
+title: "Workflow"
 ---
 
 # Overview

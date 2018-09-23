@@ -1,7 +1,5 @@
 ---
-layout: default
-title: MikroTik Specifics
-category: Hardware
+title: "MikroTik Specifics"
 ---
 
 Mikrotik routers have a few interesting things to note in order to under and use them well. This page documents those interesting pieces and might help clarify some things.

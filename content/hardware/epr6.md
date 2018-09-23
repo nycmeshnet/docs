@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Ubiquiti EdgePoint R6
-category: Hardware
+title: "Ubiquiti EdgePoint R6"
 ---
 
 The EP-R6 is an outdoor rooftop switch/router with 6 ports ( 5 GigE, 1 SFP ).  

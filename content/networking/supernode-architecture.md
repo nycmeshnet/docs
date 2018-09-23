@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Supernode Architecture
-category: Networking
+title: "Supernode Architecture"
 ---
 
 ## Goals of this documents

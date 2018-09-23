@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Supernode 1 CPE"
 ---
 
