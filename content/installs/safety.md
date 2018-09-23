@@ -20,6 +20,9 @@ In addition to standard installation equipment, bring the following gear to ensu
 * Cold-weather apparel (in winter - rooftops tend to be windy)
 * Allergy medication (consider indoor as well as outdoor allergens)
 
+**Traveling to and from Site**
+
+Be aware of your surroundings at all times. If you feel unsafe traveling to a particular location, consider meeting up with co-installers beforehand and traveling together.
 
 **Site Survey**
 
@@ -47,6 +50,7 @@ If you are an install team leader, understand the capabilities of your fellow in
 Inform your fellow installers of any medical conditions that could impact the install. 
 
 If you are asked to do something you find unsafe, respectfully decline the task and propose an alternate method.
+
 
 
 **Weather**
