@@ -12,11 +12,11 @@ If you need to aim the router up or down you can use a [nanobracket](https://www
 
 ![nanobracket](/img/nsm5/nanobracket.jpg)
 
-The [Ubiquiti window/wall mount](http://www.amazon.com/Ubiquiti-Networks-NanoStation-Window-Mount/dp/B004EHUR8U) is a versatile mount that comes with a suction cup for windows or a screw mount for walls. The parts are reversible so the NSM5 can face either way and it also has vertical and horizontal adjustment to point in almost any direction.
+The [Ubiquiti window/wall mount](http://www.amazon.com/Ubiquiti-Networks-NanoStation-Window-Mount/dp/B004EHUR8U?tag=nycmesh-20) is a versatile mount that comes with a suction cup for windows or a screw mount for walls. The parts are reversible so the NSM5 can face either way and it also has vertical and horizontal adjustment to point in almost any direction.
 
 ![window/wall install](/img/nsm5/ubiquiti-window-wall-mount.jpg)
 
-The [Ubiquiti universal antenna mount](http://www.amazon.com/gp/product/B006J1WSGI/) can be used on rooftops or walls, where a very strong mount is needed.
+The [Ubiquiti universal antenna mount](http://www.amazon.com/gp/product/B006J1WSGI?tag=nycmesh-20) can be used on rooftops or walls, where a very strong mount is needed.
 
 ![universal antenna mount](/img/nsm5/ubiquiti-universal-mount.jpg)
 
