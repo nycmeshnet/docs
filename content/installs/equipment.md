@@ -1,17 +1,18 @@
 ---
-title: "Install Kit"
+title: "Equipment"
 ---
 
-### Equipment
+### Hardware
 * Laptop
+* Antennas (LightBeam, NanoStation, NanoBeam, etc.)
 * [POE Battery](https://www.amazon.com/dp/B01LB3U8X8?ref=nycmesh-20)
 * Gigabit Ethernet Adapter (one that matches your laptop port)
 * 2 Ethernet Cables (short - for testing device only)
+* [Cable Tester](https://www.amazon.com/gp/product/B06XZYXN63?ref=nycmesh-20) (with a spare 9V battery)
 
 
 ### Supplies
 * Ethernet Cable Roll (100 ft?)
-* Antennas (LightBeam, NanoStation, NanoBeam, etc.)
 * [RJ45 Ethernet Connectors with Ground](https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0?ref=nycmesh-20)
 * Zipties (good quality)
 * [Sealant](https://www.amazon.com/gp/product/B01GLGED2M?ref=nycmesh-20)
@@ -19,7 +20,6 @@ title: "Install Kit"
 
 ### Tools
 * [Crimping Tools](https://www.amazon.com/gp/product/B00H9P4AGE?ref=nycmesh-20) (crimper, scissors, casing cutter)
-* [Ethernet Tester](https://www.amazon.com/gp/product/B06XZYXN63?ref=nycmesh-20) (with a spare 9V battery)
 * Hammer Drill (with 2 charged batteries)
 * [Drill Bits](https://www.amazon.com/gp/product/B000RGY2LK?ref=nycmesh-20)
 * [Masonry Fasteners and Screws](https://www.amazon.com/dp/B000HEFDV0?ref=nycmesh-20)
