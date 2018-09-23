@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Etiquette Guide
-category: How to
+title: "Etiquette Guide"
 ---
 
 **Courtesy and Respect on Installs**

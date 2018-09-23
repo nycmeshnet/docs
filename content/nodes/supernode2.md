@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Supernode 2
-category: Sites
+title: "Supernode 2"
 aliases: [/networking/supernode1/]
 ---
 

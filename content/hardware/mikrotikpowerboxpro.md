@@ -1,7 +1,5 @@
 ---
-layout: default
-title: MikroTik Powerbox Pro
-category: Hardware
+title: "MikroTik Powerbox Pro"
 ---
 
 The PowerBox Pro is an outdoor five gigabit ethernet port router with PoE output on four ports. Since the device has a waterproof outdoor case, you can mount it on a tower, or in other outdoor locations.

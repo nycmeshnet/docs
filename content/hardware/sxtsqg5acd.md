@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Mikrotik SXTsq G-5acD
-category: Hardware
+title: "Mikrotik SXTsq G-5acD"
 ---
 
 The SXTSQ 5acD ( sxtsq ) is a small client access antenna that is 802.11 standards compliant antenna ( and also nstream mikrotik if available ).  

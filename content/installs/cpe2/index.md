@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Supernode 2 CPE (also 1340)"
 ---
 

@@ -1,7 +1,5 @@
 ---
-layout: default
-title: TP-Link Router
-category: Hardware
+title: "TP-Link Router"
 ---
 
 # When setting up this router, do the following:

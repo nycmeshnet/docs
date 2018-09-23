@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Site Safety
-category: How to
+title: "Site Safety"
 ---
 
 Growing the mesh is important, but so is staying safe to install more nodes.

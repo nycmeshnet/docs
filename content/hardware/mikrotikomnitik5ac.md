@@ -1,7 +1,5 @@
 ---
-layout: default
-title: MikroTik OmniTik 5ac
-category: Hardware
+title: "MikroTik OmniTik 5ac"
 ---
 
 The Omnitik 5ac is an outdoor switch/router with a built-in 5Ghz 802.11ac access point and omnidirectional antenna.

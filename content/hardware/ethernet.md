@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "Ethernet"
-author: Brian
 ---
 
 There are two standards for ethernet cables. We use T-568B. (oO-gB-bG-brBR)

@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "NanoStationM5 Outdoor"
-category: How to
 ---
 
 **Hardware**

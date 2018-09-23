@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Documentation
+title: "Documentation"
 ---
 
 [Join](https://nycmesh.net/join) our community-owned network to replace your current internet connection.

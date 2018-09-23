@@ -1,8 +1,5 @@
 ---
-title: Firmware
-layout: default
-category: Software
-wip: true
+title: "Firmware"
 ---
 
 Slack chat: [#software-firmware](https://nycmesh.slack.com/app_redirect?channel=software-firmware)

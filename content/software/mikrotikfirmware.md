@@ -1,7 +1,5 @@
 ---
-layout: default
-title: MikroTik Firmware
-category: Software
+title: "MikroTik Firmware"
 ---
 
 Mikrotik devices come in a variety of architectures and form-factors. Fortunately the firmware versioning and built levels are the same across all platforms. The main variant is the architecture, which might be a different chip for each device model.  
