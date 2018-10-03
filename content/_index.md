@@ -11,5 +11,3 @@ Our [Slack chat](https://slack.nycmesh.net/) is a great resource to connect with
 [Networking and Architecture](/networking)
 
 [NYC Mesh Main Site →](https://nycmesh.net)
-
-Hello :)
