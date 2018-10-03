@@ -2,3 +2,4 @@ baseurl = ""
 relativeurls = true
 languageCode = "en-us"
 title = "NYC Mesh Docs"
+pluralizeListTitles = false
