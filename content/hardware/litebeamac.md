@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Ubiquiti Litebeam AC
-category: Hardware
+title: "Ubiquiti Litebeam AC"
 ---
 The LiteBeamAC is a very good, cheap directional router. We use it for most rooftop installs. As with all Ubiquiti gear you need to flash it with the latest firmware first. Often they ship with old beta firmware, and the latest firmware usually gets you faster speeds. The AC in the name is not 802.11ac, it is Ubiquiti's own protocol. These devices can only connect to other Ubiquiti "AC" devices. 
 

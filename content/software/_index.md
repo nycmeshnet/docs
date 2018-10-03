@@ -1,7 +1,5 @@
 ---
-title: Software
-layout: default
-category: Software
+title: "Software"
 ---
 
 ### Projects

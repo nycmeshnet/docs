@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Mikrotik SXTsq G-5acD
-category: Hardware
+title: "Mikrotik SXTsq G-5acD"
 ---
 
 The SXTSQ 5acD ( sxtsq ) is a small client access antenna that is 802.11 standards compliant antenna ( and also nstream mikrotik if available ).  
@@ -33,7 +31,7 @@ To factory reset an SXTsq, hold down the RouterBOOT reset button (located behind
 
 
 ## Connecting
-The initial IP address out of the box is 192.168.88.1, so set you computer’s local IP to something similar ( 192.168.88.5 ). The username is admin and there is no password.
+The initial IP address out of the box is 192.168.88.1, so set you computer’s local IP to something similar ( 192.168.88.5 ) and connect to http://192.168.88.1. The username is admin and there is no password.
 
 
 ## Configurations

@@ -1,4 +1,3 @@
 ---
-layout: default
-title: Organization
+title: "Organization"
 ---
