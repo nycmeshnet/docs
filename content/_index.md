@@ -6,7 +6,7 @@ title: "Documentation"
 
 Our [Slack chat](https://slack.nycmesh.net/) is a great resource to connect with our active community.
 
-[Getting Started](/installs/gettingstarted)  
+[Getting Started](/gettingstarted)  
 [Hardware](/hardware)  
 [Networking and Architecture](/networking)
 
