@@ -24,6 +24,8 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 **node**: WiFi router or other routing devices in a particular location on a network   
 **OLSR**: Optimized Link State Routing Protocol (popular mesh protocol)  
 **OpenWRT**: Open source Wireless Receiver/Transmitter (WRT) software  
+**P2P**: Point-to-point connection between two antennas  
+**P2MP**: Point-to-multipoint connection, e.g. between one sector antenna and multiple smaller antennas
 **POE**: Power over ethernet (how Ubiquiti routers get 24 volt power)  
 **Radio**: The wireless receiver/transmitter part of a router  
 **RIR**: Regional Internet registry  
