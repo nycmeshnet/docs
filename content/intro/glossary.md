@@ -8,12 +8,12 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 **Backhaul**: very high bandwidth connections, often point to point.  
 **BGP**: This is the routing protocol of the Internet. We use it extensively to mesh our network and connect at an IXP  
 **BMX6**: An ad-hoc mesh protocol we use. (BatMan eXperimental 6)  
-**BuB**: “Bottom up Broadband” The beneficiaries of the networks actively participate in the planning, deployment and maintenance tasks.
+**BuB**: “Bottom up Broadband” The beneficiaries of the networks actively participate in the planning, deployment and maintenance tasks.  
 **Captive portal**: a web page that is shown before connecting to the Internet normally  
 **Cjdns**: Caleb James DeLisle's Network Suite. Encrypted IPv6 mesh protocol.  
 **Clearnet**: the regular internet as opposed to the hidden web (Tor, I2P, Freenet)  
 **Commons**: The commons include public libraries, the Internet, parks and roads and some mesh networks. Guifi has a “Wireless Commons License”.  
-**Dark fiber**: fiber cable that is not connected. 
+**Dark fiber**: fiber cable that is not connected.  
 **FFTF**: Fiber From The Farms Broadband Initiative -- Guifi term for BuB   
 **FNF**: Free Network Foundation  
 **Guifi**: The largest community owned network, based in Catalonia, Spain  
