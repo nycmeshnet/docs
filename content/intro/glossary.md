@@ -6,7 +6,7 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 -->
 **AP**: a wifi Access Point  
 **Backhaul**: very high bandwidth connections, often point to point.  
-**BGP**: This is the routing protocol of the Internet. We use it extensively to mesh our network and connect at an IXP  
+[**BGP**](../networking/bgp/): This is the routing protocol of the Internet. We use it extensively to mesh our network and connect at an IXP  
 **BMX6**: An ad-hoc mesh protocol we use. (BatMan eXperimental 6)  
 **BuB**: “Bottom up Broadband” The beneficiaries of the networks actively participate in the planning, deployment and maintenance tasks.  
 **Captive portal**: a web page that is shown before connecting to the Internet normally  
