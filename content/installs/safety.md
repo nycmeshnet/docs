@@ -12,6 +12,8 @@ In addition to standard installation equipment, bring the following gear to ensu
 
 * Fully-charged cell phone
 * First-aid kit
+* Eye protection
+* Gloves (optional, but may come in handy if moving anything dirty)
 * Boots or sturdy closed-toed shoes (nothing fancy; they *will* get dirty)
 * Sunblock and hat (in summer)
 * Water
@@ -33,7 +35,7 @@ During your site survey, note potential hazards and tell your fellow installers.
 * Locking doors
 * Ladder defects
 * Glass, needles, nails and other sharp objects
-* Biohazards, such as animal waste
+* Biohazards, such as insects or animal waste
 * Puddles and ice patches
 * Skylights
 * Unsecured, damaged or absent parapet walls and fences
@@ -115,7 +117,7 @@ Inspect the ladder prior to using it. Make sure it is secured to the wall and th
 
 Only one person on the ladder at a time.
 
-When climbing through a narrow passage, make sure to take off any loose-fitting clothing. If carrying a backpack, ensure you have enough clearance.
+When climbing through a narrow passage, make sure to take off any loose-fitting clothing. If carrying a backpack, ensure you have enough clearance behind you.
 
 Always maintain 3-point contact (i.e. only let go and move one hand or one foot at a time). Do not carry anything that compromises your ability to grip the ladder or could cause you to become imbalanced.
 
@@ -189,6 +191,8 @@ Make sure you are using the right bit for the material you are drilling into and
 
 Tighten the chuck securely.
 
+Use eye protection, especially when drilling through metal. Metal will shred, and shards could fly into your eye.
+
 Keep the drill away from water. Move the drill to a dry location if it starts to rain.
 
 Clean the drill bit after operation.
@@ -207,9 +211,13 @@ Coordinate the moving of any heavy furniture with the member.
 
 Before moving anything, plan the move and communicate the plan it to your member or fellow installer. Consider where you will pick it up, where you will move it and identify any tripping hazards.
 
+Make sure nothing will fall off the furniture you are moving or that moving the furniture will not cause something else to fall.
+
 Get as close to the load as possible. While lifting upwards, keep your back straight and your knees bent, and do not twist your body. 
 
 Do not lift anything that is too heavy for you to pick up in a smooth motion.
+
+If moving any outdoor items (for example air conditioner supports), pick up cautiously as there may be insects underneath. 
 
 References and further reading:
 
