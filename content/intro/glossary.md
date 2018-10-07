@@ -14,13 +14,13 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 **Cjdns**: Caleb James DeLisle's Network Suite. Encrypted IPv6 mesh protocol.  
 **Clearnet**: the regular internet as opposed to the hidden web (Tor, I2P, Freenet)  
 **Commons**: The commons include public libraries, the Internet, parks and roads and some mesh networks. Guifi has a “Wireless Commons License”.  
-**CPE**: Customer premises equipment (e.g. a LiteBeam, NanoStation, home router). ISP jargon
+**CPE**: Customer premises equipment (e.g. a LiteBeam, NanoStation, home router). ISP jargon  
 **Dark fiber**: fiber cable that is not connected.  
 **FFTF**: Fiber From The Farms Broadband Initiative -- Guifi term for BuB   
 **FNF**: Free Network Foundation  
-**Guifi**: The largest community owned network, based in Catalonia, Spain 
+**Guifi**: The largest community owned network, based in Catalonia, Spain  
 **IPv4**: the most common version of the Internet Protocol (IP), An IPv4 address consists of four octets e.g. 192.168.1.20  
-**IPv6**: 6th version of Internet Protocol. Designed to replace IPv4. e.g. 2001:db8:0:1:1:1:1:1
+**IPv6**: 6th version of Internet Protocol. Designed to replace IPv4. e.g. 2001:db8:0:1:1:1:1:1  
 **HNA**: Host and Network Association information used by mesh protocols  
 **LIR**: local Internet registry, an organization that has been allocated a block of IP addresses by a regional Internet registry (RIR)  
 **LuCI**: (pronounced Lucy) Lua Unified Configuration Interface, the web interface in OpenWRT  
