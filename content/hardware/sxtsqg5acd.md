@@ -52,7 +52,7 @@ When you login to the LinkNYC unencrypted network, a captive portal prompts you 
 After powering on an sxtsq you should configure it as a CPE with routing, NAT, and DHCP on the internal port.
 
 Then, to configure the radio, apply the following lines on the command line interface (CLI):
-( This can be performed using the graphical user interface, but it may be faster to paste these lines. )
+(This can be performed using the graphical user interface, but it may be faster to paste these lines.)
 
 ```
 /interface wireless security-profiles
