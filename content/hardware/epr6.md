@@ -2,10 +2,16 @@
 title: "Ubiquiti EdgePoint R6"
 ---
 
-The EP-R6 is an outdoor rooftop switch/router with 6 ports ( 5 GigE, 1 SFP ).  
-It supports PoE, but only Ubiquiti's 24v Passive PoE style, not any of the fancier types.
+The EP-R6 is an outdoor rooftop switch/router with 6 ports (5 GigE, 1 SFP). It supports PoE, but only Ubiquiti's 24v Passive PoE style, not any of the fancier types.
 
-It can be configured in switch mode ( just a switch, with a management console ) or routing mode ( hub node setup, BGP, etc ).
+It can be configured in switch mode (just a switch, with a management console) or routing mode (hub node setup, BGP, etc).
+
+![Ubiquity EdgePoint R6 Front View](/img/hardware/ubiquity_edgepointr6_front.png)
+
+![Ubiquity EdgePoint R6 Ports](/img/hardware/ubiquity_edgepointr6_ports.png)
+
+Device specs are available at [store.ubnt.com](https://store.ubnt.com/products/edgepoint-r6).
+
 
 ## Reset ##
 To factory reset an EP-R6, press and hold the reset button, by the ethernet plugs, for about 10 seconds until the eth4 LED begins to flash, then release the button. The device will reboot and reset.
