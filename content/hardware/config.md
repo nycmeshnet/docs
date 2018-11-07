@@ -1,8 +1,8 @@
----  
-title: "Configs"  
-weight: 99  
----  
-  
+---
+title: "Configs"
+weight: 99
+---
+
 **List of devices we use and links to standard configs and firmware**   
   
 This doc is in progress. Please add links below to the specific config instructions   
@@ -14,7 +14,7 @@ We also need a simple way to log into cpe through a omnitik or edgepoint BGP con
 ## SXTsq    
 * [Kiosk client](#sxtKiosk)   
 * [Kiosk client + vpn?](#sxtVpn)  
-* [OmniTik client?](#sxtClient)  
+* [OmniTik client](#sxtClient)  
 * [Point-to-point](#sxtP2P)   
   
 ## LiteBeams    
