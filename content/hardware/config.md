@@ -7,7 +7,7 @@ weight: 99
   
 This doc is in progress. Please add links below to the specific config instructions   
   
-**What is immediately needed is are SXTsq configs for omni client and also vpn kiosk client**  
+**What is immediately needed is an [SXTsq VPN kiosk client config](#sxtVpn)**  
   
 We also need a simple way to log into cpe through a omnitik or edgepoint BGP config  
   
@@ -36,7 +36,9 @@ We also need a simple way to log into cpe through a omnitik or edgepoint BGP con
   
 ## NanoStation NSM5    
 * Dan Grinkevich image (qMp/bmx6/tinc)    
-* Joachim’s image (LEDE/bmx6)    
+* Joachim’s image (LEDE/bmx6)  
+
+## TPLink TL-WR841N  
   
 ---  
   
@@ -62,7 +64,10 @@ This script automatically connects the SXTsq to the private LinkNYC Kiosk channe
   
 ### <a name="sxtVpn"></a>SXTsq VPN  
   
-DHCP server?  
+Lots of requests for this!  
+
+
+
   
 ### <a name="sxtClient"></a>SXTsq Client  
   
