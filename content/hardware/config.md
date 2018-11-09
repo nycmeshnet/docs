@@ -44,7 +44,7 @@ We also need a simple way to log into cpe through a omnitik or edgepoint BGP con
   
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
-The following works with a new SXTsq or a reset SXTsq. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
+The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
   
 ssh into 192.168.88.1 and paste this-  
   
