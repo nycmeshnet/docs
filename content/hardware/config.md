@@ -69,7 +69,7 @@ Lots of requests for this!
 
 
   
-### <a name="sxtClient"></a>SXTsq Client  
+### <a name="sxtClient"></a>SXTsq Client    
   
   
 Assign a static IP to the computer you connect from  
