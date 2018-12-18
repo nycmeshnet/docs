@@ -44,7 +44,7 @@ We also need a simple way to log into cpe through a omnitik or edgepoint BGP con
   
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
-The following works with a new SXTsq or a reset SXTsq. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
+The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
   
 ssh into 192.168.88.1 and paste this-  
   
@@ -85,36 +85,43 @@ Once one of the LEDs begins to flash white/blue (about 5 seconds), release reset
 open your browser and connect to http://192.168.88.1/  
 default username: admin  
 default password: (leave empty)  
+Click the button that says "Webfig" in the top right  
   
 **Name the device**   
-WebFig  (top right button)  
 system > identity  
-`nycmesh-nnn`  
-nnn = node id  
+"n<your-node-id>-<device-type>-<index>". So if your node id is 1000, your device name could be: n1000-sxt-0  
   
 **Set a password**  
 System > password  
+IMPORTANT: You must use a unique and strong (at least 8 characters, the longer the better) password to ensure the security of your device!  
+
+**IP > Services**  
+- Disable telnet  
+- Disable ftp  
+- Consider disabling the api and winbox services if you will not be using them.  
+
+Other security precautions to consider
+https://wiki.mikrotik.com/wiki/Manual:Securing_Your_Router
+
   
-IP > firewall  
+**IP > firewall**  
+Find and disable this input rule:  
 4  
 ;;; defconf: drop all not coming from LAN  
-Edit this rule  
-- remove "In. Interface List" by clicking the upfacing arrow  
-- set "In. Interface" to 'Wlan1'  
   
 **Bridge**  
 - add new  
 set Protocol Mode to "none"  
 - hit apply and OK  
   
-IP > DHCP Server  
+**IP > DHCP Server**  
 disable by clicking the small [D] button  
   
-IP > DHCP Client  
+**IP > DHCP Client**  
 - change Interface to bridge1  
 - hit apply and OK  
   
-Wireless > security profiles (tab)  
+**Wireless > security profiles (tab)**   
 add new  
 name: nycmeshnet  
 uncheck wpa psk  
@@ -122,7 +129,7 @@ leave wpa2 psk checked
 write in wpa2 Pre-Shared-Key field: nycmeshnet  
 apply and ok  
   
-Wireless > wlan1  
+**Wireless > wlan1**  
 Set mode to station-bridge  
 Set SSID of the hub you want to connect to e.g. nycmesh-xxx   
 Set channel width to 20/40/80MHz XXXX  
@@ -130,36 +137,38 @@ Set frequency to auto
 Set security profile to nycmeshnet  
 (below only if you have SXT international version)  
 Click Advanced Mode button at top  
-Scroll down and set country drop down to united states  
+Scroll down and set country drop down to united states   
   
 When all settings are correct and the station connects the status should change from "searching for network" to "connected to ess".  
   
-Bridge > Ports   
+**Bridge > Ports**   
 Add new, set interface to ether1, set bridge to bridge1  
 Add new, set interface to wlan1, set bridge to bridge1  
   
-IP  > Addresses   
-delete entry 192.168.88.1/24  
-Add new, set address to 192.168.88.1/24, set interface to bridge1  
+**IP  > Addresses**   
+- Add new, set address to 192.168.88.1/24 set interface to bridge1
+- Delete entry 192.168.88.1/24 on interface ether1
+
+**Change your computer network settings back to automatic or DHCP**  
+(Note you must be connected to the access point to proceed beyond this point)
   
-- Refresh the page and log in again.  
-  
-**Lookup routable address for device**  
-IP > Addresses  
-- You should see an address marked D for dynamic, this can be used to access your radio even from behind your home router  
-  
-Update (2 step process)  
+**Access GUI via routable IP address**  
+Use the name you used for your device, plus the name of the access point to generate the correct URL. For example if your node id is 1000 and the hub id is 500, the URL would be:  
+http://n1000-sxt-0.n500.mesh/  
+
+**Update (2 step process)**   
 1. system > packages  
-- enable ipv6  
+- enable ipv6   
 - update / reboot  
 2. system > routerboard > update  
+Reboot  
   
   
 ### <a name="sxtP2P"></a>SXTsq Point-to-Point  
   
 ?  
   
-  
+ 
   
   
   
