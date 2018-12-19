@@ -17,10 +17,12 @@ We also need a simple way to log into cpe through a omnitik or edgepoint BGP con
 * [OmniTik client](#sxtClient)  
 * [Point-to-point](#sxtP2P)   
   
-## LiteBeams    
-* SN1 192.168.42.x orig config    
-* SN2 (WPA: nycmeshnet)    
-* Hub configs    
+## LiteBeams  
+SN1 clients need to have an IP address assigned 192.168.42.xxx
+SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
+  
+* SN1 orig config- [Detailed config](/installs/cpe), [Easy config](#sn1)     
+* SN2+ and hubs [Detailed config](/installs/cpe2), [Easy config](#sn2)         
 * P2P    
   
 ## LiteAC / LBE120 Sector    
@@ -41,7 +43,14 @@ We also need a simple way to log into cpe through a omnitik or edgepoint BGP con
 ## TPLink TL-WR841N  
   
 ---  
-  
+
+### <a name="sn1"></a>Litebeam client SN1 
+
+[download SN1 config file](/download/sn1.cnf)
+ 
+### <a name="sn1"></a>Litebeam client SN2, 3, 4, and hubs 
+
+[download SN1 config file](/download/sn2.cnf)
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
 The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
