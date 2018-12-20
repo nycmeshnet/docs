@@ -46,11 +46,29 @@ SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 
 ### <a name="sn1"></a>Litebeam client SN1 
 
+First update the firmware on the LiteBeam or NanoBeam.  
+
+When it relaunches "upload backup configuration" with this file-  
+
 [download SN1 config file](/download/sn1.html)
+
+Change the management IP address 192.168.1.20 to the assigned IP address we have given you (192.168.42.xxx)    
+
+Change the "nn" device name from lbe-nycmesh-nn to your node number e.g. lbe-nycmesh-1234  
  
+Click save (twice if necessary)  
+
 ### <a name="sn2"></a>Litebeam client SN2, 3, 4, and hubs 
 
-[download SN1 config file](/download/sn2.html)
+First update the firmware on the LiteBeam or NanoBeam.  
+When it relaunches "upload backup configuration" with this file-  
+
+[download SN2+ hub config file](/download/sn2.html)
+
+Change the "nn" device name from lbe-nycmesh-nn to your node number e.g. lbe-nycmesh-1234
+
+Click save (twice if necessary)  
+
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
 The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
