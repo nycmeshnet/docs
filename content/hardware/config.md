@@ -46,11 +46,11 @@ SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 
 ### <a name="sn1"></a>Litebeam client SN1 
 
-[download SN1 config file](/download/sn1.cnf)
+[download SN1 config file](/download/sn1.html)
  
-### <a name="sn1"></a>Litebeam client SN2, 3, 4, and hubs 
+### <a name="sn2"></a>Litebeam client SN2, 3, 4, and hubs 
 
-[download SN1 config file](/download/sn2.cnf)
+[download SN1 config file](/download/sn2.html)
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
 The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
