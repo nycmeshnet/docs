@@ -73,10 +73,14 @@ Click save (twice if necessary)
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
 The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
+
+Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx address
   
-In the terminal-
-```ssh admin@192.168.88.1```   
-and paste this-  
+In the terminal
+```
+ssh admin@192.168.88.1
+```   
+Say 'yes' to the warning and paste this-  
   
 ```  
 /interface wireless security-profiles  
