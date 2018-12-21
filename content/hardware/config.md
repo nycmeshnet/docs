@@ -60,7 +60,8 @@ Click save (twice if necessary)
 
 ### <a name="sn2"></a>Litebeam client SN2, 3, 4, and hubs 
 
-First update the firmware on the LiteBeam or NanoBeam.  
+First update the firmware on the LiteBeam or NanoBeam.   
+
 When it relaunches "upload backup configuration" with this file-  
 
 [download SN2+ hub config file](/download/sn2.html)
