@@ -26,10 +26,10 @@ If two routes to a particular destination prefix are known, a decision must be m
 |Community|Meaning|Suggested interpretation|
 |---|---|---|
 |65000:1001|Internet connected by NYC Mesh|Set local preference to 130|
-|65000:1005|Internet connected by a fast, neutral 3rd party|Set local preference to 110|
-|65000:1002|Internet connected by a fast, non-neutral 3rd party|Set local preference to 100|
-|65000:1003|Internet connected by a slow, non-neutral 3rd party|Set local preference to 90|
-|65000:1004|Internet connected by a slow, NATed or possibly compromised 3rd party|Set local preference to 80|
+|65000:1002|Internet connected by a fast, neutral 3rd party|Set local preference to 110|
+|65000:1003|Internet connected by a fast, non-neutral 3rd party|Set local preference to 100|
+|65000:1004|Internet connected by a slow, non-neutral 3rd party|Set local preference to 90|
+|65000:1005|Internet connected by a slow, NATed or possibly compromised 3rd party|Set local preference to 80|
 
 ## Prefix lists
 IPv4 and IPv6 prefix lists that BGP speakers within the mesh commonly filter on (for import and export) are listed below:
