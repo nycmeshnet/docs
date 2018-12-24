@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "Ethernet"
-author: Brian
 ---
 
 There are two standards for ethernet cables. We use T-568B. (oO-gB-bG-brBR)
@@ -11,7 +9,7 @@ There are two standards for ethernet cables. We use T-568B. (oO-gB-bG-brBR)
 
 A straight cable will work as long as both ends are the same configuration, but to stop confusion we are sticking to the standard T-568B, which is the most common one in this country.
 
-In 100base-T (100Mbps most ethernet), orange is data transmit (pins 1 & 2) and green is receive (pins 3 & 6) pins 4,5,7,8 are not used for data.
+In 100base-T (100Mbps most old ethernet), orange is data transmit (pins 1 & 2) and green is receive (pins 3 & 6) pins 4,5,7,8 are not used for data.
 
 In 1000Base-T (gigabit ethernet) all pins are used for data. If pins 4,5,7 & 8 are not connected the speed falls back to 100Mbps.
 

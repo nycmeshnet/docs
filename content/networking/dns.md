@@ -1,8 +1,7 @@
 ---
-layout: default
-title: DNS
-category: Networking
+title: "DNS"
 ---
+
 ## DNS Infrastructure
 NYCMesh maintains an internal DNS with the "fake" tld of `.mesh` ( dot mesh ).  
 Through this, services can be hosted, internal sites, etc.  

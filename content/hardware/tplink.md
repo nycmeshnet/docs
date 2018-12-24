@@ -29,8 +29,9 @@ Before configuring, ask the user member to tell you:
 ![alt text](https://i.imgur.com/5BVxd9h.jpg "TP-Link Router")
 
 1.  Navigate to the router dashboard in an Internet browser. The Default IP address is **192.168.0.1** 
-    * Username: **admin**
+    *  Username: **admin**
     *  Password: **admin** 
+    
 1.  Set up the guest WiFi. 
 Navigate to “Guest Network” and set as follows:
 ![alt text](https://i.imgur.com/QLDcMDf.png "Guest Network Configuration Settings")
@@ -44,6 +45,7 @@ Navigate to System Tools > Password and input a new username and password.
 **for volunteer installers**
 
 If you have time you should pre-configure the router as much as possible, including upgrading the firmware to the latest version. To do that the router does not need to be connected to a network. It can be pre-configured following the above steps excluding point 1.
+
 1.  Download the latest firmware file [here](https://www.tp-link.com/us/download/TL-WR841N.html#Firmware).
 1.  Connect to **192.168.0.1** and log in with the username and password you set for the router.
 1.  Go to System Tools > Firmware Upgrade.

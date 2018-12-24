@@ -1,12 +1,15 @@
 ---
-layout: default
-title: Ubiquiti Nanostation M5
-category: Hardware
+title: "Ubiquiti Nanostation M5"
 ---
 
 The NanoStation M5 is a workhorse of mesh networks. There are two versions XM (pre 2016) and XW. It is 802.11n and 10/100 ethernet, so not the fastest on the block, but it has good support from OpenWRT. It also has two ethernet ports usually set up as WAN and LAN. Recent versions require downgrading AirOS before you flash.
 
-NanoStation NSM5 installs
+![Ubiquity NanoStation M5](/img/hardware/ubiquity_nanostationm5.png)
+
+Device details are available at [ubnt.com](https://www.ubnt.com/airmax/nanostationm/).
+
+
+## NanoStation NSM5 installs
 
 **Hardware**
 
@@ -18,11 +21,11 @@ If you need to aim the router up or down you can use a [nanobracket](https://www
 
 ![nanobracket](/img/nsm5/nanobracket.jpg)
 
-The [Ubiquiti window/wall mount](http://www.amazon.com/Ubiquiti-Networks-NanoStation-Window-Mount/dp/B004EHUR8U) is a versatile mount that comes with a suction cup for windows or a screw mount for walls. The parts are reversible so the NSM5 can face either way and it also has vertical and horizontal adjustment to point in almost any direction.
+The [Ubiquiti window/wall mount](http://www.amazon.com/Ubiquiti-Networks-NanoStation-Window-Mount/dp/B004EHUR8U?tag=nycmesh-20) is a versatile mount that comes with a suction cup for windows or a screw mount for walls. The parts are reversible so the NSM5 can face either way and it also has vertical and horizontal adjustment to point in almost any direction.
 
 ![window/wall install](/img/nsm5/ubiquiti-window-wall-mount.jpg)
 
-The [Ubiquiti universal antenna mount](http://www.amazon.com/gp/product/B006J1WSGI/) can be used on rooftops or walls, where a very strong mount is needed.
+The [Ubiquiti universal antenna mount](http://www.amazon.com/gp/product/B006J1WSGI?tag=nycmesh-20) can be used on rooftops or walls, where a very strong mount is needed.
 
 ![universal antenna mount](/img/nsm5/ubiquiti-universal-mount.jpg)
 

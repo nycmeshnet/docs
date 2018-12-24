@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Getting Started
-category: How to
+title: "Getting Started"
 ---
 
 Please read our [FAQ](https://nycmesh.net/faq) if you haven't already.

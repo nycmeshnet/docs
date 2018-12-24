@@ -1,7 +1,5 @@
 ---
-layout: default
 title: "Flashing Nanostation M5 with NYC Mesh Firmware"
-category: How to
 ---
 
 Don't forget to read our [FAQ](https://nycmesh.net/faq) on the main site.  
@@ -16,7 +14,7 @@ When finished, read how to [install a NanoStation outdoors](/howto/nsm5-install/
 **For Supernode connections you need a different router (usually LiteBeamAC)**
 
 Buy on Amazon:   
-[Ubiquiti NanoStation NSM5](http://www.amazon.com/dp/B0049AVWAO/?tag=nsm5-nycmesh-20)  
+[Ubiquiti NanoStation NSM5](http://www.amazon.com/dp/B0049AVWAO?tag=nycmesh-20)  
 
 Buy at B&H: (free delivery)   
 [Ubiquiti NanoStation NSM5](http://www.bhphotovideo.com/c/product/1049768-REG/)  
@@ -57,9 +55,9 @@ Wait ten minutes or so. It now has a SSID name like "nycmesh 1a2b" and a random 
 
 * Plug an ethernet cable from LAN on your current router to LAN on the power supply, and from POE to the **secondary** input on the NanoStation. 
 
-* <a href="mailto:newnode@nycmesh.net">Email us</a> and we will check that everything is working and add you to the mesh. You must do this as we manually configure the tinc tunneling for each newly flashed router.
+* <a htag="mailto:newnode@nycmesh.net">Email us</a> and we will check that everything is working and add you to the mesh. You must do this as we manually configure the tinc tunneling for each newly flashed router.
 
-**You must also install a watchdog script to keep the network stable**. [Here are the instructions](/howto/watchdog). <a href="mailto:newnode@nycmesh.net">Email us</a> if you are not comfortable doing this. This script will be included in the next version of our firmware.
+**You must also install a watchdog script to keep the network stable**. [Here are the instructions](/howto/watchdog). <a htag="mailto:newnode@nycmesh.net">Email us</a> if you are not comfortable doing this. This script will be included in the next version of our firmware.
 
 You're done! 
 Now your router is flashed, read how to [install a NanoStation](/howto/nsm5-install/)
@@ -80,7 +78,7 @@ Upgrades are for when your router is already running nycmesh/qMp or another vers
 
 **Am I on the mesh?**  
 
-After you successfully flash your router and you have <a href="mailto:newnode@nycmesh.net">emailed us</a>, and we have added your tinc tunneling key, you should be on the mesh. If you re-flash your router (not usually necessary) you will have to email us again so we can add your new tinc tunneling key. Emailing us also lets us know who's router was just flashed.
+After you successfully flash your router and you have <a htag="mailto:newnode@nycmesh.net">emailed us</a>, and we have added your tinc tunneling key, you should be on the mesh. If you re-flash your router (not usually necessary) you will have to email us again so we can add your new tinc tunneling key. Emailing us also lets us know who's router was just flashed.
 
 A quick test to see if you are on the mesh is to go here-
 [http://10.100.4.10/](http://10.100.4.10/)
@@ -106,7 +104,7 @@ Wait ten minutes or so and connect to the router via Wi-Fi. It now has a SSID na
 
 * Plug an ethernet cable from LAN on your current router to the blue WAN on the TP-Link.
 
-* <a href="mailto:contact@nycmesh.net">Email us</a> and we will check that everything is working.
+* <a htag="mailto:contact@nycmesh.net">Email us</a> and we will check that everything is working.
 
  
 
