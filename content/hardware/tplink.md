@@ -12,6 +12,7 @@ An indoor router, connected by ethernet cable to the outdoor router, is required
 
 ### Pre-Configuration Best Practices
 **for volunteer installers**
+
 Before configuring, ask the user member to tell you:
 * Whether they would like to use the TP-Link router we supply or their own router
 * A username and password for the router
@@ -38,6 +39,7 @@ Navigate to System Tools > Password and input a new username and password.
 
 ### Optional TP-Link TL-WR841N Firmware Upgrade
 **for volunteer installers**
+
 If you have time you should pre-configure the router as much as possible, including upgrading the firmware to the latest version. To do that the router does not need to be connected to a network. It can be pre-configured following the above steps excluding point 1.
 1.  Download the latest firmware file [here](https://www.tp-link.com/us/download/TL-WR841N.html#Firmware).
 1.  Connect to **192.168.0.1** and log in with the username and password you set for the router.
@@ -48,5 +50,6 @@ If you have time you should pre-configure the router as much as possible, includ
 
 ### Support
 **for volunteer installers and DIY installers**
+
 A Quick Installation Guide and User Guide for the TP-Link TL-WR841N router can be downloaded [here](https://www.tp-link.com/us/download/TL-WR841N.html).
 
