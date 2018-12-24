@@ -25,7 +25,9 @@ Before configuring, ask the user member to tell you:
 1.  Plug the ethernet cable from the outdoor antenna/router into the TP-Link’s blue WAN port.
 1.  Plug the power adapter into the wall and the cable into the power socket of the router. The router will turn on automatically.
 1.  Connect the installation laptop to the router by plugging an  Ethernet patch cable into the yellow LAN port or via Wifi (see the underside of the router for SSID and pwd). 
+
 ![alt text](https://i.imgur.com/5BVxd9h.jpg "TP-Link Router")
+
 1.  Navigate to the router dashboard in an Internet browser. The Default IP address is **192.168.0.1** 
     * Username: **admin**
     *  Password: **admin** 
