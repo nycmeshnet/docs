@@ -70,6 +70,8 @@ Change the "nn" device name from lbe-nycmesh-nn to your node number e.g. lbe-nyc
 
 Click save (twice if necessary)  
 
+Once this device pairs it will get a different IP address using DHCP. To stay logged in, use the management wifi and log in at https://192.168.172.1
+
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
 The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
