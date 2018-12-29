@@ -58,6 +58,8 @@ Some configuration examples for BGP implementations known to be in use within NY
 
 ### [Bird](http://bird.network.cz)
 Bird is an open source routing daemon with support for a number of different routing protocols including BGP.
+<details>
+<summary>**Expand Bird Example**</summary>
 ```
 log stderr all;
 
@@ -159,9 +161,12 @@ protocol bgp n1234 from meshpeer {
   neighbor 10.70.x.y as 65yyy;
 }
 ```
+</details>
 
 ### [UBNT/EdgeOS](https://www.ubnt.com/products/#edgemax)
 UBNT's EdgeOS was forked from Vyatta, which in turn borrows from [Quagga](https://www.nongnu.org/quagga/).
+<details>
+<summary>**Expand for UBNT/EdgeOS Example**</summary>
 ```
 protocols {
     bgp 65xxx {
@@ -352,12 +357,11 @@ policy {
 }
 
 ```
+</details>
 
 ### [Mikrotik/RouterOS](https://wiki.mikrotik.com/wiki/Manual:TOC)
-Mikrotik's RouterOS has its own closed source BGP implementation.
-```
-TODO
-```
+Mikrotik's RouterOS has its own closed source BGP implementation.  
+**TODO**
 
 ### [OpenBGPD](http://www.openbgpd.org/)
 An example of a working configuration, abeit without BGP community rules, is available [here](https://github.com/bongozone/kibble/blob/master/src/etc/bgpd.conf).
