@@ -1,11 +1,18 @@
 ---
-title: "MikroTik OmniTik 5ac"
+title: "MikroTik OmniTik 5 POE ac"
 ---
 
-The Omnitik 5ac is an outdoor switch/router with a built-in 5Ghz 802.11ac access point and omnidirectional antenna.
+The Omnitik 5ac is an outdoor switch/router with a built-in 5Ghz 802.11ac access point, omnidirectional antenna, and 5 gigabit ethernet ports. Be sure to get the POE version.
 
 _Please be sure to see [MikroTik Specifics](/hardware/mikrotikspecifics) for extra info about Mikrotik devices, how to connect, etc._
 
+![MikroTik OmniTik PoE 5ac Front View](/img/hardware/mikrotik_omnitik5poeac_front.jpg)
+
+The PoE version accepts 12-57V passive PoE on port 1 and can be configured to provide PoE out to ports 2-5.
+
+![MikroTik OmniTik PoE 5ac Ports](/img/hardware/mikrotik_omnitik5poeac_ports.jpg)
+
+Device specs are available at [mikrotik.com](https://mikrotik.com/product/rbomnitikpg_5hacd).
 
 ## Uses
 

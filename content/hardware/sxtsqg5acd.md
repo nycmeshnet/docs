@@ -5,7 +5,13 @@ title: "Mikrotik SXTsq G-5acD"
 The SXTSQ 5acD (sxtsq) is a small client access antenna that is 802.11 standards compliant antenna (and also nstream mikrotik if available).  
 The device was released in early 2018 and is capable of gigabit-level speeds with 80Mhz wide 802.11ac wifi connections.
 
+
 _Please be sure to see [MikroTik Specifics](/hardware/mikrotikspecifics) for extra info about Mikrotik devices, how to connect, etc._
+
+![MikroTik SXTsq 5 ac](/img/hardware/mikrotik_sxtsq5ac.jpg)
+
+Device specs are available at [mikrotik.com](https://mikrotik.com/product/sxtsq_5_ac).
+
 
 
 ## Uses
@@ -22,7 +28,8 @@ This antenna comes with a "Level 3" license which technically only allows it to 
 
 ### US vs International version
 On the positive side, it is a great CPE and can connect to DFS channels ( international version ) and other intersting features such as EAP TTLS authentication.  
-As a precaution, this antenna has a US version and an International version. The US version is locked to "united states3" channels which are the non-DFS range.  
+Be aware during purchase -- this antenna has a US version and an International version.
+The US version is locked to "united states3" channels which are the non-DFS range.  
 The international version also has US settings, but it has two additional "united states" channel selections all for valid legal US channels. 
 
 _To function on LinkNYC and other DFS networks, the international version is required, but be sure to put it in "united states2" mode before using it._
@@ -45,7 +52,7 @@ The initial IP address out of the box is 192.168.88.1, so set you computer’s l
 
 LinkNYC kiosks have both an unencrypted and encrypted network available. They function similarly and have the same Internet available.
 
-The encrypted version uses a feature marketed by cable companies as "passpoint" which allows you to roam across an area with a user name and password (and allows LinkNYC to track you) using [EAP TTLS](https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol#EAP_Tunneled_Transport_Layer_Security_(EAP-TTLS). The encrypted network is more secure because no traffic can be sniffed between the kiosk and your CPE. Another benefit is it skips the captive portal (a webpage that pops up when you connect).
+The encrypted version uses a feature marketed as "passpoint" which allows you to roam across an area with a user name and password using [EAP TTLS](https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol#EAP_Tunneled_Transport_Layer_Security_(EAP-TTLS). The encrypted network is more secure because no traffic can be sniffed between the kiosk and your CPE. Another benefit is it skips the captive portal (a webpage that pops up when you connect).
 
 When you login to the LinkNYC unencrypted network, a captive portal prompts you to click a button, and if your device is supported, download a profile and reconnect to the encrypted network. Currently only iPhones are supported with the auto-config feature. However, it's technically possible to connect with any capable device once you have a connection profile. By taking the profile from an iPhone, we can extract the pieces needed to connect a standard antenna such as the sxtsq.
 

@@ -1,15 +1,10 @@
 ---
-title: "Supernode 2 CPE (also 1340)"
+title: "Supernode 2, 3, 4 and hub CPE"
 ---
 
 This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with supernode 2 and node 1340. [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](https://nycmesh.slack.com).
 
-**Supernode 2** (English Kills, Bushwick)
-
-* Line of sight to: 40.713991, -73.929049
-* Slack room: *#eastwburg_bushwick*
-
-**Node 1340** (33 Saratoga Ave, Bed Stuy)
+**Saratoga hub 1340** (33 Saratoga Ave, Bed Stuy)
 
 * Line of sight to: 40.686017, -73.917494
 * Slack rooms: *#1340-alerts, #nycha, #bedstuy, #crownheights, #eastwburg_bushwick*
@@ -103,6 +98,7 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 *   SSID:
     *   For SN2: nycmesh-english-kills-east OR nycmesh-english-kills-west (see pairing below)
     *   For 1340: nycmesh-1340-north or ...-east or ...-south or ...-west (depending on where you are)
+    *   For others see pairing below
 *   Enable Auto Channel Width
 *   Antenna 23 - 23dbi
 *   Slide Output Power all the way to the right for max dBm
@@ -113,6 +109,8 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 
 [**Network settings**](./litebeam/network.png)  
 
+*   Management IP address [x] DHCP
+*   DHCP FALLBACK IP change back to 192.168.1.20  (it changes to .10)
 *   Enable IPV6
 *   Set IPV6 Address to SLAAC
 
@@ -131,6 +129,8 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 **IMPORTANT:** Click SAVE CHANGES when you're done! 
 
 ### 4. Pairing
+
+Once this device pairs it will get a different IP address using DHCP. To stay logged in, use the management wifi and log in at https://192.168.172.1
 
 **Supernode 2**
 
