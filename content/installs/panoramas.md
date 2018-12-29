@@ -9,6 +9,10 @@ A direct line of sight to a Supernode or hub node is required to connect to NYC 
 
 Lorem Ipsum
 
+**iPhone**
+
+![alt text](https://i.imgur.com/CyqlDeU.jpg "iPhone Sequence")
+
 **Android**
 
 
