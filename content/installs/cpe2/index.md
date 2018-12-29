@@ -130,6 +130,8 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 
 ### 4. Pairing
 
+Once this device pairs it will get a different IP address using DHCP. To stay logged in, use the management wifi and log in at https://192.168.172.1
+
 **Supernode 2**
 
 In the ["Wireless" settings](./litebeam/wireless.png) click "Select" and choose the strongest "nycmesh-english-kills" signal. The strongest signal has the lower number. -80db would be very weak, -50db would be very strong.
