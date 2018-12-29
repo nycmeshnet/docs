@@ -1,5 +1,5 @@
 {{ $currentPage := . }}
-<div class="relative w-30-ns ph4-l ph3 flex justify-end-ns br bg-near-white b--light-gray">
+<div class="relative w-20-ns ph4-l ph3 flex justify-end-ns br bg-near-white b--light-gray">
 	<div class="mw5 w-100 overflow-y-hidden flex flex-column">
 		<div class="nowrap flex items-center justify-start h3">
 			<a href="/" title="Home" class="f3-ns f4 fw7 black nowrap flex items-center">
@@ -14,7 +14,7 @@
 		<div role="button" class="showDropdown bg-near-white h3 w3 flex items-center justify-center" tabindex="0">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
 		</div>
-		<div class="dn db-ns dropdown overflow-y-scroll pv4-ns pv3">
+		<div class="dn db-ns dropdown overflow-y-hidden pv4-ns pv3">
 			<ul class="list ma0 ph0">
 				{{ range .Site.Sections }}
 					<li>
