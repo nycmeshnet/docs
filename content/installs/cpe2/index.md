@@ -1,13 +1,17 @@
 ---
-title: "Node 1340 (33 Saratoga Ave, serving Bed Stuy, Bushwick, Ridgewood, Crown Heights)"
+title: "Hub CPE"
 ---
 
-This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with node 1340. [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](https://nycmesh.slack.com).
+This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with Hub nodes (such as Node 1340). [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](https://nycmesh.slack.com).  
 
-**Node 1340** (33 Saratoga Ave, Bed Stuy)
+#### Notable sites that can use this config:
+* Node 1340 (33 Saratoga Ave, serving Bed Stuy, Bushwick, Ridgewood, Crown Heights)
+  * Line of sight to: 40.686017, -73.917494
+  * Slack rooms: *#1340-alerts, #nycha, #bedstuy, #crownheights, #eastwburg_bushwick*
+* Supernode 3
+* Supernode 4
+* Most Hubs ( Henry St )
 
-* Line of sight to: 40.686017, -73.917494
-* Slack rooms: *#1340-alerts, #nycha, #bedstuy, #crownheights, #eastwburg_bushwick*
 
 ### 0. Get everything ready
 
@@ -98,6 +102,7 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 *   SSID:
     *   For 1340: nycmesh-1340-north or ...-east or ...-south or ...-west (depending on where you are)
     *   For English Kills (former SN2): nycmesh-english-kills-east OR nycmesh-english-kills-west (see pairing below)
+    *   For others see pairing below
 *   Enable Auto Channel Width
 *   Antenna 23 - 23dbi
 *   Slide Output Power all the way to the right for max dBm
@@ -108,6 +113,8 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 
 [**Network settings**](./litebeam/network.png)  
 
+*   Management IP address [x] DHCP
+*   DHCP FALLBACK IP change back to 192.168.1.20  (it changes to .10)
 *   Enable IPV6
 *   Set IPV6 Address to SLAAC
 
@@ -126,6 +133,8 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 **IMPORTANT:** Click SAVE CHANGES when you're done! 
 
 ### 4. Pairing
+
+Once this device pairs it will get a different IP address using DHCP. To stay logged in, use the management wifi and log in at https://192.168.172.1
 
 **Supernode 2**
 
