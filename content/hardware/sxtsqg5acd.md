@@ -42,6 +42,7 @@ To factory reset an SXTsq, hold down the RouterBOOT reset button (located behind
 
 ### Connecting
 The initial IP address out of the box is 192.168.88.1, so set you computer’s local IP ([windows](https://web.archive.org/web/20180917053130/https://www.howtogeek.com/howto/19249/how-to-assign-a-static-ip-address-in-xp-vista-or-windows-7/)|[mac](https://web.archive.org/web/20180910092344/http://www.macinstruct.com/node/550) to something similar (e.g. 192.168.88.5), and browse to http://192.168.88.1. The username is admin and there is no password.
+
   * Be sure to use the "http://" prefix when browsing to the admin panel
   * On some computers you might need to turn off your Wi-Fi to allow the cable to connect
 
