@@ -1,13 +1,17 @@
 ---
-title: "Supernode 2, 3, 4 and hub CPE"
+title: "Hub CPE"
 ---
 
-This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with supernode 2 and node 1340. [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](https://nycmesh.slack.com).
+This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with Hub nodes (such as Node 1340). [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](https://nycmesh.slack.com).  
 
-**Saratoga hub 1340** (33 Saratoga Ave, Bed Stuy)
+#### Notable sites that can use this config:
+* Node 1340 (33 Saratoga Ave, serving Bed Stuy, Bushwick, Ridgewood, Crown Heights)
+  * Line of sight to: 40.686017, -73.917494
+  * Slack rooms: *#1340-alerts, #nycha, #bedstuy, #crownheights, #eastwburg_bushwick*
+* Supernode 3
+* Supernode 4
+* Most Hubs ( Henry St )
 
-* Line of sight to: 40.686017, -73.917494
-* Slack rooms: *#1340-alerts, #nycha, #bedstuy, #crownheights, #eastwburg_bushwick*
 
 ### 0. Get everything ready
 
@@ -96,8 +100,8 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 
 *   Station PtMP
 *   SSID:
-    *   For SN2: nycmesh-english-kills-east OR nycmesh-english-kills-west (see pairing below)
     *   For 1340: nycmesh-1340-north or ...-east or ...-south or ...-west (depending on where you are)
+    *   For English Kills (former SN2): nycmesh-english-kills-east OR nycmesh-english-kills-west (see pairing below)
     *   For others see pairing below
 *   Enable Auto Channel Width
 *   Antenna 23 - 23dbi
@@ -123,8 +127,8 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 
 [**System**](./litebeam/system.png)
 
-*   Device name: nycmesh-lbe-nn (**lbe** is LiteBeam, **nbe** is NanoBeam, **nn** is replaced with the install number)
-*   If you're using a *Gen 1* Litebeam you might need to activate UNII rules (which allows the device to use DFS channels as long as no radars are using them, like Gen 2 devices do). Ask for support on Slack on how to do so.
+*   Device name: nycmesh-lbe-#### (**lbe** is LiteBeam, **nbe** is NanoBeam, **####** is replaced with your node number)
+*   If you're using a *Gen 1* Litebeam you might need to activate UNII rules (which allows the device to use DFS channels as long as no radars are using them, like Gen 2 devices do). Ask for support on Slack #install channel on how to do so.
 
 **IMPORTANT:** Click SAVE CHANGES when you're done! 
 
