@@ -30,18 +30,20 @@ Taking a panorama image should show as much of the surrounding landscape as poss
 * 360 degrees shown
 * identify which side of your building is the closest node
 * clear and well-lit (daytime photos only)
-* include existing antennas
+* include existing antenna masts
 
 ### Best practices for window panoramas
 
-* open window
-* put your arm all the way out of the window
-* show as much of the view out of the window as possible 
 * 180 degrees shown
+* open window and put your arm all the way out
+* show as much of the view out of the window as possible 
+* tilt your phone upwards if necessary to capture the tops of nearby buildings
 * clear and well-lit (daytime photos only)
 
 ### Example Panoramas
 
-![alt text](https://node-db.netlify.com/panoramas/944a.jpg "Example 1")
 ![alt text](https://node-db.netlify.com/panoramas/303.jpg "Example 2")
 ![alt text](https://node-db.netlify.com/panoramas/303a.jpg "Example 3")
+![alt text](https://i.imgur.com/flNZi7r.jpg "Example 4")
+
+
