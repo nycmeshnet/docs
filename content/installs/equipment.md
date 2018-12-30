@@ -12,11 +12,17 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 
 | Product Name  | Product Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ------- |
-| Laptop and charging cable | ![alt text](https://i.imgur.com/rE9JFWH.jpg "Laptop") | Configuring outdoor and indoor routers | Bring your own |
+| Laptop (charged) | ![alt text](https://i.imgur.com/rE9JFWH.jpg "Laptop") | Configuring outdoor and indoor routers, reading docs and install plan | Bring your own |
 | Outdoor router (pre-configured) | ![alt text](https://i.imgur.com/EYfuxfi.jpg "Outdoor router") | Connecting to a Supernode or Hub node | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
 | Power Over Ethernet (POE) adapter and power cable | ![alt text](https://i.imgur.com/mvWnLmL.jpg "POE") | Passing power to the outdoor router and data from the outdoor Ethernet cable to the indoor patch cable | Comes packaged with the outdoor router |
 | Switch router (pre-configured, for multiple-apartment installs) | ![alt text](https://i.imgur.com/SKAyY5b.jpg "Switch router") | Passing data to multiple apartments in one building | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
 | Indoor router | ![alt text](https://i.imgur.com/1icPBQB.jpg "Indoor router") | Connection point for user's devices | Order online (see [TP Link page](https://docs.nycmesh.net/hardware/tplink/) for an expensive and commonly-used model) or use existing indoor router |
+| CAT5e cable (outdoor-rated, grounded and shielded) | ![alt text](https://i.imgur.com/jEy1pxc.jpg "CAT5e cable") | Passing power and data between outdoor router, indoor router and power outlet | Available from online retailers in different spool lengths |
+| RJ45 Tough Connectors (metal, with grounding loop) | ![alt text](https://i.imgur.com/OWfMQu3.jpg "RJ45") | Gets crimped onto the ends of the CAT5e cable to provide power and data interface | Available from online retailers |
+| Two Ethernet patch cables | ![alt text](https://i.imgur.com/6l8FGGh.jpg "Ethernet Patch cable") | Connecting routers to POE injector, battery pack, laptop  | Available from online retailers |
+| Battery pack with Ethernet port (charged) | ![alt text](https://i.imgur.com/hLgmFyQ.jpg "Battery pack") | Providing power to outdoor router while surveying for signal | Available from online retailers |
+| Gigabit USB/Thunderbolt to Ethernet adapter | ![alt text](https://i.imgur.com/q3DH0dc.jpg "Ethernet adapter") | Connecting laptop to outdoor router (not needed if connecting wirelessly) | Available from online retailers |
+
 
 ### Tools
 
