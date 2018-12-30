@@ -2,9 +2,9 @@
 title: "Equipment"
 ---
 
-To connect to NYC Mesh, you will need to install wireless networking equipment on a rooftop or outside a window. This page lists the equipment and tools required for setup. Before purchasing any equipment, carry out a site survey and make an install plan. For detailed information about specific routers, visit the [hardware](https://docs.nycmesh.net/hardware/) docs.
+To connect to NYC Mesh, you will need to install wireless networking equipment on a rooftop or outside a window. This page lists a range of equipment and tools that are commonly used for typical installations. Before assembling any equipment, first carry out a site survey and make an install plan to narrow down the equipment you really need. For detailed information about specific routers, visit the [hardware](https://docs.nycmesh.net/hardware/) docs.
 
-**For DIY installers:** To get help creating an install plan or purchasing appropriate networking equipment and installation tools, reach out to the NYC Mesh community on [slack] on the #install channel.
+**For DIY installers:** To get help figuring out which equipment you need for your installation, first familiarize yourself with the equipment below and then reach out to the NYC Mesh community on [slack] on the #install channel.
 
 **For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel. Shared equipment is available!
 
@@ -21,20 +21,10 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 | Hex socket drill bits (3/8" for hose clamps and 1/4" for masonry screws) | ![alt text](https://i.imgur.com/60SL2bY.jpg "Hex Socket bit") | Tightening hose clamps, inserting concrete screws | Hardware store drill bits aisle |
 | Carbide-tip masonry drill bit (5/32") | ![alt text](https://i.imgur.com/8v2cbO0.jpg "Masonry Drill Bit") | Drilling holes in concrete or masonry for inserting masonry screws | Hardware store drill bits aisle |
 | Cobalt drill bit (1/4") | ![alt text](https://i.imgur.com/r1PaS8R.jpg "Cobalt Drill Bit") | Drilling hole for CAT5e cable to pass through steel window frame | Hardware store drill bits aisle |
+| Concrete nail | ![alt text](https://i.imgur.com/yofvjgF.jpg "Concrete nail") | For starting a hole in concrete or masonry (makes drilling easier) | Hardware store nails aisle |
 | Phillips Precision Screwdriver (No. 1) | ![alt text](https://i.imgur.com/MNupv1V.jpg "Phillips No. 1 Precision Screwdriver") | Assembling Litebeam Router | Hardware store tools aisle |
 | Adjustable crescent wrench (6") | ![alt text](https://i.imgur.com/6jhA0iQ.jpg "Crescent wrench") | Assembling J-pipe mount | Hardware store tools aisle |
 | Vise grips | ![alt text](https://i.imgur.com/QuycUAr.jpg "Vise grips") | Removing stuck drill bits | Hardware store tools aisle |
-
-### Miscellanious Supplies
-
-| Product Name  | Product Photo | What it's used for | Where you can get it |
-| ------- | ------- | ------- | ---- |
-| Electrical tape | ![alt text](https://i.imgur.com/4hxLbXK.jpg "Electrical tape") | For pulling cable through holes | Hardware store adhesives aisle |
-| Weather stripping (9/16" thick or greater) | ![alt text](https://i.imgur.com/OwVCJ0z.jpg "Weatherstrip") | For sealing the bottom of a window when the CAT5e cable is run over the window frame | Hardware store insulation aisle |
-| Rubberized waterproof sealant | ![alt text](https://i.imgur.com/Gl02rst.jpg "Sealant") | For sealing gaps and holes to prevent water infiltration | Hardware store adhesives aisle |
-| WD-40 or other oil | ![alt text](https://i.imgur.com/3lzIxyg.jpg "WD40") | For drilling through thicker metals | Hardware store |
-| Small brush and dustpan | ![alt text](https://i.imgur.com/HPr0xuW.jpg "Tiny broom") | For sweeping up cable ends and metal shavings from drilling through window frame | Online retailers |
-| Small garbage bag | ![alt text](https://i.imgur.com/KXNTCjH.jpg "Garbage bag") | For disposing of garbage | Reuse a shopping bag |
 
 ### Mounting Equipment
 
@@ -48,6 +38,18 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 | Washers (1/4" hole diameter) | ![alt text](https://i.imgur.com/6Rl41ue.jpg "Washers") | ![alt text](https://i.imgur.com/fy1YZCv.jpg "Concrete Screws in Field") | Securing mast mounts to concrete or masonry | Hardware store fasteners aisle |
 | Zip ties | ![alt text](https://i.imgur.com/6jjM6Ai.jpg "Zip Ties") | ![alt text](https://i.imgur.com/sIHVTCg.jpg "Zip tie in field") | Securing ethernet cable | Hardware store electrical aisle |
 | Cable staples | ![alt text](https://i.imgur.com/3vI3hd0.jpg "Cable Staples") | ![alt text](https://i.imgur.com/NuL5tqT.jpg "Cable staples in field") | Securing ethernet cable to an indoor wall | Hardware store electrical aisle |
+
+### Miscellanious supplies
+
+| Product Name  | Product Photo | What it's used for | Where you can get it |
+| ------- | ------- | ------- | ---- |
+| Electrical tape | ![alt text](https://i.imgur.com/4hxLbXK.jpg "Electrical tape") | For pulling cable through holes | Hardware store adhesives aisle |
+| Weather stripping (9/16" thick or greater) | ![alt text](https://i.imgur.com/OwVCJ0z.jpg "Weatherstrip") | For sealing the bottom of a window when the CAT5e cable is run over the window frame | Hardware store insulation aisle |
+| Rubberized waterproof sealant | ![alt text](https://i.imgur.com/Gl02rst.jpg "Sealant") | For sealing gaps and holes to prevent water infiltration | Hardware store adhesives aisle |
+| WD-40 or other oil | ![alt text](https://i.imgur.com/3lzIxyg.jpg "WD40") | For drilling through thicker metals | Hardware store |
+| Small brush and dustpan | ![alt text](https://i.imgur.com/HPr0xuW.jpg "Tiny broom") | Sweeping up cable ends and metal shavings from drilling through window frame | Online retailers |
+| Small garbage bag | ![alt text](https://i.imgur.com/KXNTCjH.jpg "Garbage bag") | Disposing of garbage | Reuse a shopping bag |
+| Stair-climbing hand truck | ![alt text](https://i.imgur.com/7x3UWYR.jpg "Hand truck") | For transporting cable reel box and equipment bag in and out of subway stations | Online retailers, larger hardware stores |
 
 ### Safety equipment
 
