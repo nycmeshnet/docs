@@ -8,6 +8,11 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 
 **For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel. Shared equipment is available!
 
+### Networking Equipment
+
+| Product Name  | Product Photo | Field Photo | What it's used for | Where you can get it |
+| ------- | ------- | ------- | ------- | ---- |
+
 ### Tools
 
 | Product Name  | Product Photo | What it's used for | Where you can get it |
@@ -21,6 +26,7 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 | Hex socket drill bits (3/8" for hose clamps and 1/4" for masonry screws) | ![alt text](https://i.imgur.com/60SL2bY.jpg "Hex Socket bit") | Tightening hose clamps, inserting concrete screws | Hardware store drill bits aisle |
 | Carbide-tip masonry drill bit (5/32") | ![alt text](https://i.imgur.com/8v2cbO0.jpg "Masonry Drill Bit") | Drilling holes in concrete or masonry for inserting masonry screws | Hardware store drill bits aisle |
 | Cobalt drill bit (1/4") | ![alt text](https://i.imgur.com/r1PaS8R.jpg "Cobalt Drill Bit") | Drilling hole for CAT5e cable to pass through steel window frame | Hardware store drill bits aisle |
+| Hammer | ![alt text](https://i.imgur.com/e2297lH.jpg "Hammer") | For driving in concrete nails | Hardware store tools aisle |
 | Concrete nail | ![alt text](https://i.imgur.com/yofvjgF.jpg "Concrete nail") | For starting a hole in concrete or masonry (makes drilling easier) | Hardware store nails aisle |
 | Phillips Precision Screwdriver (No. 1) | ![alt text](https://i.imgur.com/MNupv1V.jpg "Phillips No. 1 Precision Screwdriver") | Assembling Litebeam Router | Hardware store tools aisle |
 | Adjustable crescent wrench (6") | ![alt text](https://i.imgur.com/6jhA0iQ.jpg "Crescent wrench") | Assembling J-pipe mount | Hardware store tools aisle |
@@ -51,7 +57,7 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 | Small garbage bag | ![alt text](https://i.imgur.com/KXNTCjH.jpg "Garbage bag") | Disposing of garbage | Reuse a shopping bag |
 | Stair-climbing hand truck | ![alt text](https://i.imgur.com/7x3UWYR.jpg "Hand truck") | For transporting cable reel box and equipment bag in and out of subway stations | Online retailers, larger hardware stores |
 
-### Safety equipment
+### Safety gear
 
 | Product Name  | Product Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ---- |
