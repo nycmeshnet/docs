@@ -2,6 +2,20 @@
 title: "Equipment"
 ---
 
+### Mounting Accessories
+
+You will need some mounting accessories to attach the outdoor router and cabling. 
+
+| Name  | Product Photo | Field Photo | What it's used for | Where you can get it |
+| -- | -- | -- | -- | -- |
+| Small Diameter Hose clamp  | ![alt text](https://i.imgur.com/rX4lSAK.jpg "Small Diameter Hose clamp") | hello | Securing the router to a thin mast or pipe | Hardware store plumbing aisle |
+| Large Diameter Hose clamp  | ![alt text](https://i.imgur.com/s932nZv.jpg "Large Diameter Hose clamp")  | ![alt text](https://i.imgur.com/ncbuXY5.jpg "Larde Diameter Hose clamp in field") | Securing the router or mast to a large pipe or window guard | Hardware store plumbing aisle |
+
+
+
+
+
+
 ### Hardware
 * Laptop
 * Antennas (LightBeam, NanoStation, NanoBeam, etc.)
