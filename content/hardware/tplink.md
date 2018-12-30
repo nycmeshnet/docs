@@ -34,7 +34,7 @@ Before configuring, ask the user member to tell you:
     
 1.  Set up the guest WiFi. 
 Navigate to “Guest Network” and set as follows:
-![alt text](https://i.imgur.com/QLDcMDf.png "Guest Network Configuration Settings")
+![alt text](https://i.imgur.com/BXzdita.jpg "Guest Network Configuration Settings")
 1.  Set up the home WiFi. 
 Navigate to Wireless > Basic Settings
 to set the home WiFi network SSID you wish to use and  navigate to Wireless > Wireless Security to set the password. 
