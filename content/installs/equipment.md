@@ -24,13 +24,17 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 | Phillips Precision Screwdriver (No. 1) | ![alt text](https://i.imgur.com/MNupv1V.jpg "Phillips No. 1 Precision Screwdriver") | Assembling Litebeam Router | Hardware store tools aisle |
 | Adjustable crescent wrench (6") | ![alt text](https://i.imgur.com/6jhA0iQ.jpg "Crescent wrench") | Assembling J-pipe mount | Hardware store tools aisle |
 | Vise grips | ![alt text](https://i.imgur.com/QuycUAr.jpg "Vise grips") | Removing stuck drill bits | Hardware store tools aisle |
-| Electrical tape | ![alt text](https://i.imgur.com/4hxLbXK.jpg "Electrical tape") | For pulling cable through holes | Hardware store adhesives aisle |
 
 ### Miscellanious Supplies
 
 | Product Name  | Product Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ---- |
 | Electrical tape | ![alt text](https://i.imgur.com/4hxLbXK.jpg "Electrical tape") | For pulling cable through holes | Hardware store adhesives aisle |
+| Weather stripping (9/16" thick or greater) | ![alt text](https://i.imgur.com/OwVCJ0z.jpg "Weatherstrip") | For sealing the bottom of a window when the CAT5e cable is run over the window frame | Hardware store insulation aisle |
+| Rubberized waterproof sealant | ![alt text](https://i.imgur.com/Gl02rst.jpg "Sealant") | For sealing gaps and holes to prevent water infiltration | Hardware store adhesives aisle |
+| WD-40 or other oil | ![alt text](https://i.imgur.com/3lzIxyg.jpg "WD40") | For drilling through thicker metals | Hardware store |
+| Small brush and dustpan | ![alt text](https://i.imgur.com/HPr0xuW.jpg "Tiny broom") | For sweeping up cable ends and metal shavings from drilling through window frame | Online retailers |
+| Small garbage bag | ![alt text](https://i.imgur.com/KXNTCjH.jpg "Garbage bag") | For disposing of garbage | Reuse a shopping bag |
 
 ### Mounting Equipment
 
