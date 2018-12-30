@@ -6,12 +6,17 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 
 **For DIY installers:** To get help figuring out which equipment you need for your installation, first familiarize yourself with the equipment below and then reach out to the NYC Mesh community on [slack] on the #install channel.
 
-**For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel. Shared equipment is available!
+**For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel. Shared tools are available and we keep a small stock of networking equipment that can be distributed as needed.
 
 ### Networking Equipment
 
-| Product Name  | Product Photo | Field Photo | What it's used for | Where you can get it |
-| ------- | ------- | ------- | ------- | ---- |
+| Product Name  | Product Photo | What it's used for | Where you can get it |
+| ------- | ------- | ------- | ------- |
+| Laptop and charging cable | ![alt text](https://i.imgur.com/rE9JFWH.jpg "Laptop") | Configuring outdoor and indoor routers | Bring your own |
+| Outdoor router (pre-configured) | ![alt text](https://i.imgur.com/EYfuxfi.jpg "Outdoor router") | Connecting to a Supernode or Hub node | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
+| Power Over Ethernet (POE) adapter and power cable | ![alt text](https://i.imgur.com/mvWnLmL.jpg "POE") | Passing power to the outdoor router and data from the outdoor Ethernet cable to the indoor patch cable | Comes packaged with the outdoor router |
+| Switch router (pre-configured, for multiple-apartment installs) | ![alt text](https://i.imgur.com/SKAyY5b.jpg "Switch router") | Passing data to multiple apartments in one building | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
+| Indoor router | ![alt text](https://i.imgur.com/1icPBQB.jpg "Indoor router") | Connection point for user's devices | Order online (see [TP Link page](https://docs.nycmesh.net/hardware/tplink/) for an expensive and commonly-used model) or use existing indoor router |
 
 ### Tools
 
