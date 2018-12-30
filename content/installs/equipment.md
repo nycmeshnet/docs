@@ -16,12 +16,20 @@ You will need some tools to assemble and mount the router and crimp the ethernet
 | Scissors | ![alt text](https://i.imgur.com/ZnX3ZwF.jpg "Scissors") | Cutting CAT5e cable and cable ties | Hardware store tools aisle |
 | Needlenose pliers | ![alt text](https://i.imgur.com/8mXEltX.jpg "Needlenose pliers") | Clamping CAT5e cable ground wire, pulling cable through holes | Hardware store tools aisle |
 | Cordless hammer drill | ![alt text](https://i.imgur.com/UpnEduf.jpg "Hammer drill") | Drilling holes, inserting screws, securing pipe clamps  | Hardware store tools aisle |
-| Hex socket drill bits | ![alt text](https://i.imgur.com/60SL2bY.jpg "Hex Socket bit") | Tightening hose clamps, inserting concrete screws | Hardware store drill bits aisle |
-| 5/32" Carbide-tip masonry drill bit | ![alt text](https://i.imgur.com/8v2cbO0.jpg "Masonry Drill Bit") | Drilling holes in concrete or masonry for inserting masonry screws | Hardware store drill bits aisle |
-| 1/4" Cobalt drill bit | ![alt text](https://i.imgur.com/r1PaS8R.jpg "Cobalt Drill Bit") | Drilling hole for CAT5e cable to pass through steel window frame | Hardware store drill bits aisle |
-| Phillips No. 1 Precision Screwdriver | ![alt text](https://i.imgur.com/j7Cl9pu.jpg "Phillips No. 1 Precision Screwdriver") | Assembling Litebeam Router | Hardware store tools aisle |
+| Hex socket drill bits (3/8" for hose clamps and 1/4" for masonry screws) | ![alt text](https://i.imgur.com/60SL2bY.jpg "Hex Socket bit") | Tightening hose clamps, inserting concrete screws | Hardware store drill bits aisle |
+| Carbide-tip masonry drill bit (5/32") | ![alt text](https://i.imgur.com/8v2cbO0.jpg "Masonry Drill Bit") | Drilling holes in concrete or masonry for inserting masonry screws | Hardware store drill bits aisle |
+| Cobalt drill bit (1/4") | ![alt text](https://i.imgur.com/r1PaS8R.jpg "Cobalt Drill Bit") | Drilling hole for CAT5e cable to pass through steel window frame | Hardware store drill bits aisle |
+| Phillips Precision Screwdriver (No. 1) | ![alt text](https://i.imgur.com/MNupv1V.jpg "Phillips No. 1 Precision Screwdriver") | Assembling Litebeam Router | Hardware store tools aisle |
+| Adjustable crescent wrench (6") | ![alt text](https://i.imgur.com/6jhA0iQ.jpg "Crescent wrench") | Assembling J-pipe mount | Hardware store tools aisle |
+| Vise grips | ![alt text](https://i.imgur.com/QuycUAr.jpg "Vise grips") | Removing stuck drill bits | Hardware store tools aisle |
+| Electrical tape | ![alt text](https://i.imgur.com/4hxLbXK.jpg "Electrical tape") | For pulling cable through holes | Hardware store adhesives aisle |
 
-### Mounting Accessories
+### Miscellanious Supplies
+| Product Name  | Product Photo | What it's used for | Where you can get it |
+| ------- | ------- | ------- | ---- |
+| Electrical tape | ![alt text](https://i.imgur.com/4hxLbXK.jpg "Electrical tape") | For pulling cable through holes | Hardware store adhesives aisle |
+
+### Mounting Equipment
 
 You will need some mounting accessories to secure the outdoor router and cabling. 
 
@@ -35,10 +43,11 @@ You will need some mounting accessories to secure the outdoor router and cabling
 | Large diameter (88) hose clamp  | ![alt text](https://i.imgur.com/s932nZv.jpg "Large Diameter Hose clamp")  | ![alt text](https://i.imgur.com/ncbuXY5.jpg "Larde Diameter Hose clamp in field") | Securing the router or mast to a large pipe or window guard | Hardware store plumbing aisle |
 | J pipe antenna mast | ![alt text](https://i.imgur.com/iRbOsrt.jpg "J Pipe") | ![alt text](https://i.imgur.com/xRCL13J.jpg "J pipe in the field") | Mounting to a wall or parapet | Online retailers |
 | L pipe antenna mast | ![alt text](https://i.imgur.com/hF6IClf.jpg "L Pipe") | ![alt text](https://i.imgur.com/vgOZ29B.jpg "L pipe in the field") | Orienting an SXT router up and down | Online retailers |
-| Concrete screws CSH316134 | ![alt text](https://i.imgur.com/CaVQeHM.jpg "Concrete Screws") | ![alt text](https://i.imgur.com/fy1YZCv.jpg "Concrete Screws in Field") | Securing mast mounts to concrete or masonry | Hardware store screws and anchors aisle |
+| Concrete screws (CSH316134) | ![alt text](https://i.imgur.com/CaVQeHM.jpg "Concrete Screws") | ![alt text](https://i.imgur.com/fy1YZCv.jpg "Concrete Screws in Field") | Securing mast mounts to concrete or masonry | Hardware store screws and anchors aisle |
 | Washers (1/4" hole diameter) | ![alt text](https://i.imgur.com/6Rl41ue.jpg "Washers") | ![alt text](https://i.imgur.com/fy1YZCv.jpg "Concrete Screws in Field") | Securing mast mounts to concrete or masonry | Hardware store fasteners aisle |
 | Zip ties | ![alt text](https://i.imgur.com/6jjM6Ai.jpg "Zip Ties") | ![alt text](https://i.imgur.com/sIHVTCg.jpg "Zip tie in field") | Securing ethernet cable | Hardware store electrical aisle |
 | Cable staples | ![alt text](https://i.imgur.com/3vI3hd0.jpg "Cable Staples") | ![alt text](https://i.imgur.com/NuL5tqT.jpg "Cable staples in field") | Securing ethernet cable to an indoor wall | Hardware store electrical aisle |
+
 
 
 ### Safety equipment
