@@ -2,6 +2,9 @@
 title: "Equipment"
 ---
 
+| Name | ![alt text](https://i.imgur.com/NuL5tqT.jpg "ProductPhotoName") | ![alt text](https://i.imgur.com/NuL5tqT.jpg "FieldPhotoName") | WhatItsUsedFor | WhereYouCanGetIt |
+
+
 ### Mounting Accessories
 
 You will need some mounting accessories to secure the outdoor router and cabling. 
@@ -14,10 +17,11 @@ You will need some mounting accessories to secure the outdoor router and cabling
 | ------- | ------- | ------- | ------- | ---- |
 | Small diameter (28) hose clamp  | ![alt text](https://i.imgur.com/rX4lSAK.jpg "Small Diameter Hose clamp in field") | ![alt text](https://i.imgur.com/9GMe0EM.jpg "Small Diameter Hose clamp") | Securing the router to a thin mast or pipe | Hardware store plumbing aisle |
 | Large diameter (88) hose clamp  | ![alt text](https://i.imgur.com/s932nZv.jpg "Large Diameter Hose clamp")  | ![alt text](https://i.imgur.com/ncbuXY5.jpg "Larde Diameter Hose clamp in field") | Securing the router or mast to a large pipe or window guard | Hardware store plumbing aisle |
-| Zip ties | ![alt text](https://i.imgur.com/6jjM6Ai.jpg "Zip Ties") | ![alt text](https://i.imgur.com/sIHVTCg.jpg "Zip tie in field") | Securing ethernet cable | Hardware store electrical aisle |
 | J pipe antenna mast | ![alt text](https://i.imgur.com/iRbOsrt.jpg "J Pipe") | ![alt text](https://i.imgur.com/xRCL13J.jpg "J pipe in the field") | Mounting to a wall or parapet | Online retailers |
 | L pipe antenna mast | ![alt text](https://i.imgur.com/hF6IClf.jpg "L Pipe") | ![alt text](https://i.imgur.com/vgOZ29B.jpg "L pipe in the field") | Orienting an SXT router up and down | Online retailers |
-
+| Concrete screws CSH316134 | ![alt text](https://i.imgur.com/CaVQeHM.jpg "Concrete Screws") | ![alt text](https://i.imgur.com/fy1YZCv.jpg "Concrete Screws in Field") | Securing mast mounts to concrete or masonry | Hardware store screws and anchors aisle |
+| Zip ties | ![alt text](https://i.imgur.com/6jjM6Ai.jpg "Zip Ties") | ![alt text](https://i.imgur.com/sIHVTCg.jpg "Zip tie in field") | Securing ethernet cable | Hardware store electrical aisle |
+| Cable staples | ![alt text](https://i.imgur.com/3vI3hd0.jpg "Cable Staples") | ![alt text](https://i.imgur.com/NuL5tqT.jpg "Cable staples in field") | Securing ethernet cable to an indoor wall | Hardware store electrical aisle |
 
 
 
