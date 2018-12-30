@@ -2,11 +2,13 @@
 title: "Equipment"
 ---
 
-| Name | ![alt text](https://i.imgur.com/NuL5tqT.jpg "ProductPhotoName") | WhatItsUsedFor | WhereYouCanGetIt |
+To connect to NYC Mesh, you will need to install wireless networking equipment on a rooftop or outside a window. This page lists the equipment and tools required for setup. Before purchasing any equipment, carry out a site survey and make an install plan. For detailed information about specific routers, visit the [hardware](https://docs.nycmesh.net/hardware/) docs.
+
+**For DIY installers:** To get help creating an install plan or purchasing appropriate networking equipment and installation tools, reach out to the NYC Mesh community on [slack] on the #install channel.
+
+**For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel. Shared equipment is available!
 
 ### Tools
-
-You will need some tools to assemble and mount the router and crimp the ethernet cable.
 
 | Product Name  | Product Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ---- |
@@ -25,17 +27,12 @@ You will need some tools to assemble and mount the router and crimp the ethernet
 | Electrical tape | ![alt text](https://i.imgur.com/4hxLbXK.jpg "Electrical tape") | For pulling cable through holes | Hardware store adhesives aisle |
 
 ### Miscellanious Supplies
+
 | Product Name  | Product Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ---- |
 | Electrical tape | ![alt text](https://i.imgur.com/4hxLbXK.jpg "Electrical tape") | For pulling cable through holes | Hardware store adhesives aisle |
 
 ### Mounting Equipment
-
-You will need some mounting accessories to secure the outdoor router and cabling. 
-
-**For DIY installers:**  survey possible mounting locations and make a mounting plan before purchasing any of the following equipment. If you are leading a volunteer-led install
-
-**For volunteer installers:** check panorama photos for possible mounting locations and decide which of the following equipment to take with you.
 
 | Product Name  | Product Photo | Field Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ------- | ---- |
@@ -48,11 +45,7 @@ You will need some mounting accessories to secure the outdoor router and cabling
 | Zip ties | ![alt text](https://i.imgur.com/6jjM6Ai.jpg "Zip Ties") | ![alt text](https://i.imgur.com/sIHVTCg.jpg "Zip tie in field") | Securing ethernet cable | Hardware store electrical aisle |
 | Cable staples | ![alt text](https://i.imgur.com/3vI3hd0.jpg "Cable Staples") | ![alt text](https://i.imgur.com/NuL5tqT.jpg "Cable staples in field") | Securing ethernet cable to an indoor wall | Hardware store electrical aisle |
 
-
-
 ### Safety equipment
-
-Stay safe during the install by bringing the following equipment. 
 
 | Product Name  | Product Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ---- |
@@ -65,31 +58,5 @@ Stay safe during the install by bringing the following equipment.
 | Fully-charged cell phone | ![alt text](https://i.imgur.com/2dg0uGH.jpg "Cell phone") | Communication in case of lockout, team communication, providing mobile hotspot | Charge at home |
 
 
+[slack]: https://join.slack.com/t/nycmesh/shared_invite/enQtNDk0NDA4OTAyNDY0LTU5NWMyODY5ZTYyMDY2NzgzOTJmZjFmZTg3YWRjYjE0M2EyMzlhNDE3YmIxZmZhYTZmNjIwNTVkMDIwMjI2ZDg
 
-### Hardware
-* Laptop
-* Antennas (LightBeam, NanoStation, NanoBeam, etc.)
-* [POE Battery](https://www.amazon.com/dp/B01LB3U8X8?tag=nycmesh-20)
-* Gigabit Ethernet Adapter (one that matches your laptop port)
-* 2 Ethernet Cables (short - for testing device only)
-* [Cable Tester](https://www.amazon.com/gp/product/B06XZYXN63?tag=nycmesh-20) (with a spare 9V battery)
-
-
-### Supplies
-* Ethernet Cable Roll (100 ft?)
-* [RJ45 Ethernet Connectors with Ground](https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0?tag=nycmesh-20)
-* Zipties (good quality)
-* [Sealant](https://www.amazon.com/gp/product/B01GLGED2M?tag=nycmesh-20)
-
-
-### Tools
-* [Crimping Tools](https://www.amazon.com/gp/product/B00H9P4AGE?tag=nycmesh-20) (crimper, scissors, casing cutter)
-* Hammer Drill (with 2 charged batteries)
-* [Drill Bits](https://www.amazon.com/gp/product/B000RGY2LK?tag=nycmesh-20)
-* [Masonry Fasteners and Screws](https://www.amazon.com/dp/B000HEFDV0?tag=nycmesh-20)
-* Needle Nose Plyers (for threading ground wire)
-* Vice Grips (for removing stuck drill bits)
-* Adjustable Wrench (for j-pipe assembly)
-* Screwdriver
-* Phillips Bits
-* [2 Hex Bit Sockets](https://www.amazon.com/TEKTON-2928-14-Piece-Power-Driver/dp/B000NPXHUM?tag=nycmesh-20) (3/8" fits the pipe clamp screws and 1/4" fits masonry fasteners) 
