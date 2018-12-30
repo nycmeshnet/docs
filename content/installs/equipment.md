@@ -2,7 +2,20 @@
 title: "Equipment"
 ---
 
-| Name | ![alt text](https://i.imgur.com/NuL5tqT.jpg "ProductPhotoName") | ![alt text](https://i.imgur.com/NuL5tqT.jpg "FieldPhotoName") | WhatItsUsedFor | WhereYouCanGetIt |
+| Name | ![alt text](https://i.imgur.com/NuL5tqT.jpg "ProductPhotoName") | WhatItsUsedFor | WhereYouCanGetIt |
+
+### Tools
+
+You will need some tools to assemble and mount the router and crimp the ethernet cable.
+
+| Product Name  | Product Photo | What it's used for | Where you can get it |
+| ------- | ------- | ------- | ---- |
+| Ethernet cable crimper | ![alt text](https://i.imgur.com/UNiGWRu.jpg "Crimper") | Attaching RJ-45 connectors to CAT5 cable | Online retailers (included in crimping all-in-one kit) |
+| CAT5 cable stripper | ![alt text](https://i.imgur.com/zF4kuXt.jpg "Cable stripper") | Stripping CAT5 cable | Online retailers (included in crimping all-in-one kit) |
+| Ethernet cable tester | ![alt text](https://i.imgur.com/JqzLNKp.jpg "Cable tester") | Testing that Ethernet cable has been correctly crimped | Online retailers (included in crimping all-in-one kit) |
+| Scissors | ![alt text](https://i.imgur.com/ZnX3ZwF.jpg "Scissors") | Cutting CAT5 cable and cable ties | Hardware store tools aisle |
+| Cordless hammer drill | ![alt text](https://i.imgur.com/UpnEduf.jpg "Hammer drill") | Drilling holes, inserting screws, securing pipe clamps  | Hardware store tools aisle |
+
 
 
 ### Mounting Accessories
