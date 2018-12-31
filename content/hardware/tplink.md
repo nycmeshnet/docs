@@ -32,12 +32,16 @@ Before configuring, ask the user member to tell you:
     *  Username: **admin**
     *  Password: **admin** 
     
-1.  Set up the guest WiFi. 
+1.  Set up the guest WiFi to “**-NYC Mesh Community WiFi-**” (including the dashes). 
 Navigate to “Guest Network” and set as follows:
+
 ![alt text](https://i.imgur.com/BXzdita.jpg "Guest Network Configuration Settings")
+[Obligations](https://www.nycmesh.net/faq#obligations)
+
 1.  Set up the home WiFi. 
 Navigate to Wireless > Basic Settings
 to set the home WiFi network SSID you wish to use and  navigate to Wireless > Wireless Security to set the password. 
+
 1.  Replace the router’s admin/admin login with a more secure username and password.
 Navigate to System Tools > Password and input a new username and password. 
 
