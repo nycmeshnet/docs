@@ -56,12 +56,6 @@ To connect via management wifi-
 
 **OR** Connect via Ethernet
 
-1.  Plug in the POE adapter to power it
-
-1.  Connect the POE port on the POE adapter to the CPE via ethernet cable
-
-  * A little light should come on to show the CPE is powered
-
 1.  Connect the ETH port on the POE adapter to your laptop via ethernet cable
 
 1.  Right click the wi-fi icon on your laptop and click Open Network Preferences (or go to System Preferences > Network )
