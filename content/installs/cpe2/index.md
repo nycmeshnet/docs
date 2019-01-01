@@ -36,14 +36,33 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 
 ### 1. Connect the CPE to your laptop
 
+There are two ways to connect to the LiteBeam, ethernet or the management radio (gen2 only). The management radio is much easier but you will not be able to do a bandwidth test this way. The management radio is only on for 15 minutes after booting.
+
+1.  Plug in the POE adapter to power it
+
+1.  Connect the POE port on the POE adapter to the CPE via ethernet cable
+
+  * A little blue light should come on to show the CPE is powered
+  
+To connect via management wifi-
+
+1.  Look for and connect to wifi SSID like-  "LBE-5AC-Gen2:...." or "NBE..." for Nanobeam
+
+2.  Go to https://192.168.172.1 in your browser
+
+3.  You will get an ssh warning "Your connection is not..." -- ignore it and click "advanced" to proceed. (This is because the interface uses https)
+
+4.  Log in with username ubnt and password ubnt for a new device
+
+**OR** Connect via Ethernet
+
 1.  Plug in the POE adapter to power it
 
 1.  Connect the POE port on the POE adapter to the CPE via ethernet cable
 
   * A little light should come on to show the CPE is powered
 
-1.  Connect the ETH port on the POE adapter to your laptop via ethernet cable, 
-  * **OR** Connect using the management wifi, go to http://192.168.1.20 and skip next few steps (much easier).
+1.  Connect the ETH port on the POE adapter to your laptop via ethernet cable
 
 1.  Right click the wi-fi icon on your laptop and click Open Network Preferences (or go to System Preferences > Network )
 
@@ -63,10 +82,9 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 
       *   Make sure your Wi-Fi is off and the ethernet connection is green in your Network Preferences
       *   Make sure you typed "http://" before the IP address (otherwise your browser might think you're trying to google the IP address)
-      *   Try connecting via the management WiFi instead of ethernet. This is usually easier for Gen2 devices  
+      *   Try connecting via the management WiFi instead of ethernet as above. 
       *   If you still can't connect try hard resetting the device by inserting a pin or paperclip into the little hole above the port and pressing the internal button for about 10 seconds.
       *   If all else fails, try asking on the #install channel on [our Slack](https://nycmesh.slack.com)
-      
       
 
 1.  You will get an ssh warning "Your connection is not..." -- ignore it and click "advanced" to proceed. (This is because the interface uses https)
