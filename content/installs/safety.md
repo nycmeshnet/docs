@@ -6,7 +6,7 @@ Growing the mesh is important, but so is staying safe to install more nodes.
 These are general safety guidelines intended to address more common hazards on an install, but keep an eye out for risks even if they are not covered here.
 
 
-**What to Bring to Site**
+## What to Bring to Site
 
 In addition to standard installation equipment, bring the following gear to ensure safety on site:
 
@@ -20,11 +20,13 @@ In addition to standard installation equipment, bring the following gear to ensu
 * Cold-weather apparel (in winter - rooftops tend to be windy)
 * Allergy medication (consider indoor as well as outdoor allergens)
 
-**Traveling to and from Site**
+## Traveling to and from Site
 
 Be aware of your surroundings at all times. If you feel unsafe traveling to a particular location, consider meeting up with co-installers beforehand and traveling together.
 
-**Site Survey**
+## Site Survey
+
+![alt text](https://i.imgur.com/4Mkodsw.jpg "Site Survey")
 
 Ask your member to tell you about any hazards on site.
 
@@ -40,8 +42,7 @@ During your site survey, note potential hazards and tell your fellow installers.
 * Skylights
 * Unsecured, damaged or absent parapet walls and fences
 
-
-**Working with Others**
+## Working with Others
 
 Take responsibility for your own safety first but make sure to watch out for your co-installers.
 
@@ -51,9 +52,7 @@ Inform your fellow installers of any medical conditions that could impact the in
 
 If you are asked to do something you find unsafe, respectfully decline the task and propose an alternate method.
 
-
-
-**Weather**
+## Weather
 
 Read the weather forecast the day of the survey. If there is a high likelihood of poor conditions, cancel the install.
 
@@ -72,7 +71,9 @@ References and further reading:
 [https://www.ccohs.ca/products/posters/pdfs/keepyourcool.pdf](https://www.ccohs.ca/products/posters/pdfs/keepyourcool.pdf)   
 [https://www.ccohs.ca/oshanswers/phys_agents/cold_working.html] (https://www.ccohs.ca/oshanswers/phys_agents/cold_working.html)
 
-**Avoiding Falls**
+## Avoiding Falls
+
+![alt text](https://i.imgur.com/zwS0Cs4.jpg "Equipment Near The Edge")
 
 Rooftops present various falling hazards. Exercise caution while working on rooftops at all times. 
 
@@ -99,8 +100,9 @@ References and further reading:
 [https://www.buildings.com/article-details/articleid/18484/title/best-practices-for-roof-safety/viewall/true](https://www.buildings.com/article-details/articleid/18484/title/best-practices-for-roof-safety/viewall/true)
 [https://www.cdc.gov/niosh/docs/2004-156/pdfs/2004-156.pdf](https://www.cdc.gov/niosh/docs/2004-156/pdfs/2004-156.pdf)
 
+## Access Hazards and Confined Spaces
 
-**Access Hazards and Confined Spaces**
+![alt text](https://i.imgur.com/eFKbOxa.jpg "Locking door")
 
 Understand egress (exit) routes from the rooftop space. If there is a door or a hatch, make sure that it does not lock behind you. Prop open if necessary. 
 
@@ -110,8 +112,7 @@ References and further reading:
 
 [https://www.ccohs.ca/oshanswers/hsprograms/confinedspace_intro.html](https://www.ccohs.ca/oshanswers/hsprograms/confinedspace_intro.html)
 
-
-**Fixed Ladders to the Rooftop**
+## Fixed Ladders to the Rooftop
 
 Inspect the ladder prior to using it. Make sure it is secured to the wall and that rungs are stable and not slippery.
 
@@ -129,8 +130,7 @@ References and further reading:
 
 [https://www.americanladderinstitute.org/page/FixedLadder](https://www.americanladderinstitute.org/page/FixedLadder)
 
-
-**Temporary Ladders**
+## Temporary Ladders
 
 Inspect the ladder prior to using it. Use the ladder only on a stable and level surface..
 
@@ -149,9 +149,9 @@ References and further reading:
 [https://www.osha.gov/OshDoc/data_Hurricane_Facts/portable_ladder_qc.pdf](https://www.osha.gov/OshDoc/data_Hurricane_Facts/portable_ladder_qc.pdf)
 [https://www.creighton.edu/fileadmin/user/AdminFinance/Facilities/EHS/docs/Training/Ladder_Safety.pdf](https://www.creighton.edu/fileadmin/user/AdminFinance/Facilities/EHS/docs/Training/Ladder_Safety.pdf)
 
+## Electrical and Cable Safety**
 
-**Electrical and Cable Safety**
-
+![alt text](https://i.imgur.com/h7BBh6r.jpg "Loose Cables")
 
 The equipment used in a typical install is classified as low-voltage beyond the electrical outlet adapter. Low-voltage electrical circuits still present a shock hazard.
 
@@ -171,15 +171,13 @@ Make sure to secure cable to rooftop and wall surfaces, and keep it out of the w
 
 Make sure to clean up cable sheathing after stripping. A pet or child might eat them if left on the floor.
 
-
 References and further reading:
 
 [https://www.ecmag.com/section/miscellaneous/low-voltage-not-low-risk](https://www.ecmag.com/section/miscellaneous/low-voltage-not-low-risk)
 [https://www.cablinginstall.com/articles/print/volume-4/issue-6/cable-installer-tips/avoid-electric-shock-by-carefully-handling-low-voltage-wiring.html](https://www.cablinginstall.com/articles/print/volume-4/issue-6/cable-installer-tips/avoid-electric-shock-by-carefully-handling-low-voltage-wiring.html)
 [https://electrical-engineering-portal.com/21-safety-rules-for-working-with-electrical-equipment](https://electrical-engineering-portal.com/21-safety-rules-for-working-with-electrical-equipment)
 
-
-**Drill Usage**
+## Drill Usage
 
 Inspect the drilling area before starting to identify any objects that might get in the way, such as electrical cables, nails or staples.
 
@@ -204,8 +202,7 @@ References and further reading:
 [https://ehs.yale.edu/sites/default/files/files/powered-hand-drill.pdf](https://ehs.yale.edu/sites/default/files/files/powered-hand-drill.pdf)
 [https://www.ccohs.ca/oshanswers/safety_haz/power_tools/drills.html](https://www.ccohs.ca/oshanswers/safety_haz/power_tools/drills.html)
 
-
-**Moving furniture**
+## Moving furniture
 
 Coordinate the moving of any heavy furniture with the member.
 
@@ -223,8 +220,7 @@ References and further reading:
 
 [https://ehs.unc.edu/workplace-safety/ergonomics/lifting/](https://ehs.unc.edu/workplace-safety/ergonomics/lifting/)
 
-
-**Asbestos**
+## Asbestos
 
 Buildings in New York City may contain asbestos. Learn how to identify materials that may contain friable asbestos and avoid exposure (see link below). 
 
@@ -249,15 +245,13 @@ References and further reading:
 [http://www.merryhillenvirotec.com/what-does-asbestos-look-like/](http://www.merryhillenvirotec.com/what-does-asbestos-look-like/)
 [https://inspectapedia.com/hazmat/Asbestos_Identification.php](https://inspectapedia.com/hazmat/Asbestos_Identification.php)
 
-
-**Liability**
+## Liability
 
 The property owner may face liability for any injury. Maintaining safe work practices helps protect your member as well as yourself and your fellow installers!
 
 Read more about homeowner liability here: [https://realestate.findlaw.com/owning-a-home/homeowner-liability-safety.html](https://realestate.findlaw.com/owning-a-home/homeowner-liability-safety.html)
 
-
-**Further Reading**
+## Further Reading
 
 [OSHA Publications] (https://www.osha.gov/pls/publications/publication.html)
 [Canadian Center for Occupational Health and Safety] (https://www.ccohs.ca/) 
