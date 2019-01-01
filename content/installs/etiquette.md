@@ -1,14 +1,13 @@
 ---
 title: "Etiquette Guide"
 ---
-
-**Courtesy and Respect on Installs**
+**for volunteer installers**
 
 You, the installer, are the public face of NYCMesh! Courtesy, respect, friendliness and
 professionalism will give install members a great first impression of our organization and
 will encourage them to become active members.
 
-**Before the Install**
+## Before the Install
 
 Check the weather forecast the day of the install. If you have to cancel due to weather
 conditions, inform the install team on slack, call the member and ask the member to
@@ -25,7 +24,7 @@ fellow installers.
 Check MTA delays and allow sufficient time to get to the install. If you can’t help being
 late, call or text your member and update your co-installers on slack.
 
-**When You Arrive at the Site**
+## When You Arrive at the Site
 
 When meeting a member, introduce yourself by name and explain how you plan to carry out
 the install. Ask them if they have any questions and confirm that they will be able to
@@ -51,7 +50,7 @@ of their apartment. Ask for permission before carrying out any drilling.
 
 Consider taking your boots off inside the apartment. Some apartments insist on this, and also your boots are probably dirty. Molten tar on roofs is a big problem in summer and will stick to everything. Snow in winter will melt.
 
-**During the Install**
+## During the Install
 
 The install leader will assign tasks as per volunteers abilities. Minimal time should be wasted.
 
@@ -68,7 +67,7 @@ If the install is taking longer than planned, tell the member. Confirm they will
 
 If for any reason you need to halt the install (eg. weather or unsafe conditions), respectfully explain the situation to the member.
 
-**At the End of the Install**
+## At the End of the Install
 
 Take photos of the install, preferably with happy member in background. Photos are used to evaluate the install for problems, and the best photos are tweeted
 
