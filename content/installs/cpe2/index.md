@@ -42,7 +42,8 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 
   * A little light should come on to show the CPE is powered
 
-1.  Connect the ETH port on the POE adapter to your laptop via ethernet cable
+1.  Connect the ETH port on the POE adapter to your laptop via ethernet cable, 
+  * **OR** Connect using the management wifi, go to http://192.168.1.20 and skip next few steps (much easier).
 
 1.  Right click the wi-fi icon on your laptop and click Open Network Preferences (or go to System Preferences > Network )
 
@@ -52,7 +53,7 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
   *   IP Address: 192.168.1.11
   *   Mask: 255.255.255.0
 
-1.  Turn off your Wi-Fi to allow your browser to connect to the CPE
+1.  Turn off your Wi-Fi to allow your browser to connect to the CPE (unless of course you are connecting by wifi)
 
 1.  Go to http://192.168.1.20 and use: ubnt as both user name and password if it's a new device
 
@@ -62,8 +63,11 @@ This explains how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoB
 
       *   Make sure your Wi-Fi is off and the ethernet connection is green in your Network Preferences
       *   Make sure you typed "http://" before the IP address (otherwise your browser might think you're trying to google the IP address)
+      *   Try connecting via the management WiFi instead of ethernet. This is usually easier for Gen2 devices  
       *   If you still can't connect try hard resetting the device by inserting a pin or paperclip into the little hole above the port and pressing the internal button for about 10 seconds.
       *   If all else fails, try asking on the #install channel on [our Slack](https://nycmesh.slack.com)
+      
+      
 
 1.  You will get an ssh warning "Your connection is not..." -- ignore it and click "advanced" to proceed. (This is because the interface uses https)
 
