@@ -101,8 +101,6 @@ To connect via management wifi-
 
 1.  Select the firmware file you downloaded earlier and upload it
 
-  *   If you get recurring "Configuration upload falied" you might be trying to upload the current version. Compare the firmware version you downloaded earlier to the current version:
-
     *   The file name usually has the version in it, e.g. WA.**v8.5.7**.38314.180628.1036.bin
     *   In the CPE dashboard on the top left you should see the current firmware version number
 
