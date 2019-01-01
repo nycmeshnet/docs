@@ -116,7 +116,7 @@ To connect via management wifi-
 1. Once you're logged into the CPE's dashboard click the "Settings" button (gear icon) on the left to give you:
     Wireless | Network | Services | System
 
-1. Change the settings as follows:
+1. Change the settings as follows, or simply [download SN2+ hub config file](/download/sn2.html)
 
 **[Wireless settings](./litebeam/wireless.png)**
 
