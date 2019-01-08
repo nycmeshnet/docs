@@ -130,7 +130,7 @@ To connect via management wifi-
 [**Network settings**](./litebeam/network.png)  
 
 *   Management IP address [x] DHCP
-*   DHCP FALLBACK IP change back to 192.168.1.20  (it changes to .10)
+*   DHCP FALLBACK IP change back to 192.168.1.20  
 *   Enable IPV6
 *   Set IPV6 Address to SLAAC
 
