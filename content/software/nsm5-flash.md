@@ -44,7 +44,7 @@ Buy at B&H: (free delivery)
 * There are two loading screens here, and if you don't go through both, you will irreparably break the router.
 * Wait until it reboots
 * Make sure you are now running 5.5.10 and NOT 5.6.x. Seriously. Read this. Double check. Triple check. If not, you'll break the router.
-* Download our firmware- [NSM5 XW download](http://nycmeshnet.github.io/download/NSM5-XW.html) 
+* Download our firmware- [NSM5 XW download](http://nycmesh.net/download/NSM5-XW.html) 
 * Go to [192.168.1.20](http://192.168.1.20), login and select "System" again
 * Click "Upload Firmware: Choose File"
 * Select the M5-XW factory image you downloaded
