@@ -58,19 +58,25 @@ Change the "nn" device name from lbe-nycmesh-nn to your node number e.g. lbe-nyc
  
 Click save (twice if necessary)  
 
-### <a name="sn2"></a>Litebeam client SN2, 3, 4, and hubs 
+### <a name="sn2"></a>Litebeam Gen2 client SN2, 3, 4, and hubs 
 
-First update the firmware on the LiteBeam or NanoBeam.   
+First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and [config sn2 file](/download/sn2.html) and save to folder for future use
 
-When it relaunches "upload backup configuration" with this file-  
+Connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (rebooting turns on wifi for 15 minutes)
 
-[download SN2+ hub config file](/download/sn2.html)
+Go to https://192.168.172.1 in your browser, click "advanced" to proceed.
+
+Log in with username ubnt and password ubnt for a new device
+
+When it relaunches "upload backup configuration" with sn2.cfg file you downloaded above
 
 Change the "nn" device name from lbe-nycmesh-nn to your node number e.g. lbe-nycmesh-1234
 
 Click save (twice if necessary)  
 
 Once this device pairs it will get a different IP address using DHCP. To stay logged in, use the management wifi and log in at https://192.168.172.1
+
+Troubleshooting: If you are unable to log into the LiteBeam reset it to factory defaults- press and hold the Reset button for more than 10 seconds while the LiteBeam ac is already powered on
 
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
