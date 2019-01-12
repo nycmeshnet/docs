@@ -35,38 +35,46 @@ Change the pass
 Click the "Settings" button (gear icon) on the left to give you-  
 Wireless \| Network \| Services \| System
 
-[**Wireless settings**](./litebeam/wireless.png)
+[**Wireless**](./litebeam/wireless.png)
 
-*   Station PtMP
-*   SSID: nycmesh prism1 s2  
+*   Wireless Mode : Station PtMP
+*   SSID : nycmesh prism1 s2  
      - see "Pairing" below for selecting s1, s2 or s3
-*   Antenna 23 -23dbi  
+*   Antenna : 23 -23dbi  
 
 
-[**Network settings**](./litebeam/network.png)
+[**Network**](./litebeam/network.png)
 
-*   Static
-*   IP 192.168.42.x  
-    Ask us to assign this to you!
-
-DEFAULT IP CANNOT BE USED! Ask us to assign you one _before_ you connect!
+*   Manegement IP address : Static
+*   IP address : [192.168.42.x ] <-- Ask NYCMesh to assign this last number to you.
+                      
 
 [**Services**](./litebeam/services.png)
 
 *   [x]SNMP Agent
-*   community: public location: nycmesh
-*   contact: nycmesh  
+*   community : public 
+*   location : nycmesh
+*   contact : nycmesh  
 
 
 [**System**](./litebeam/system.png)
 
-*   Device name: nycmesh-lbe-nn (**lbe** is LiteBeam, **nbe** is NanoBeam, **nn** is replaced with the install number)
+*   Device name : nycmesh-lbe-nn (nn = Node Number) 
+*   (**lbe** is LiteBeam, **nbe** is NanoBeam)
 
 You can download this example [LiteBeamAC config](./litebeam/WA-F09FC242795C.cfg) with the above configuration
 
+[**Wireless**] 
+
+*   Click [Select] then you wll see a lot of networks
+*   In the search box, type "nyc" to narrow down the search results --> [SCAN]
+*   Choose the strongest "nycmesh prism" signal.  eg.-50 is stronger than -80
+    You can only choose the ones with a circle mark on the left        
+
+
 **Pairing with Supernode1**
 
-In the ["Wireless" settings](./litebeam/wireless.png) click "Select" and choose the strongest "nycmesh prism" signal. The strongest signal has the lower number. -80db would be very weak, -50db would be very strong.
+* Go to [Dash board] 
 
 Gen1 LiteBeams can only see s1 and s2 sectors, unless they are unlocked (giving them gen2 specs)
 Gen2 can see s2, s3 and prism2
@@ -79,9 +87,7 @@ Prism2 has one radio facing North. It is very strong in Chinatown
 
 **Antenna Alignment**
 
-There is a visual level built into the antenna make sure the bubble is in the middle.
-
-There is a "tools" menu in the upper right of the interface. Click this and select Antenna alignment. First align the antenna by pointing it directly at the supernode. Now move it slightly up or down to get a stronger signal. Once you have the vertical alignment, do the same by moving the antenna horizontally. The sound option is very helpful for this.
+There is a "tools" menu in the upper right of the interface. Click this and select [alignment]. First align the antenna by pointing it directly at the supernode. Now move it slightly up or down to get a stronger signal. Once you have the vertical alignment, do the same by moving the antenna horizontally. The sound option is very helpful for this.
 
 **Download test**
 
