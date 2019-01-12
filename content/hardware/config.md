@@ -76,7 +76,7 @@ Change the "nn" device name from lbe-nycmesh-nn to your node number e.g. lbe-nyc
 
 Click save (twice if necessary)  
 
-To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan and then you select the button next to the best AirMac AC signal. (-80 is bad, -50 is good)
+To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan. Click the button next to the best AirMac AC signal. (-80 is bad, -50 is good) Click "SELECT" and then "SAVE CHANGES"
 
 Once this device pairs (numbers appear on dashboard) it will get a different IP address using DHCP. To stay logged in to router, you must use the management wifi!
 
