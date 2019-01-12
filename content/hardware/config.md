@@ -68,7 +68,7 @@ Go to https://192.168.172.1 in your browser, click "advanced" to proceed.
 
 Log in with username ubnt and password ubnt for a new device (or select upload config!)
 
-Go to System and select "upload firmware" and choose the WA .bin file you downloaded before
+Go to Settings>System and select "upload firmware" and choose the WA .bin file you downloaded before
 
 While still in System, scroll down to "upload configuration" and select sn2.cfg file you downloaded before
 
@@ -76,7 +76,11 @@ Change the "nn" device name from lbe-nycmesh-nn to your node number e.g. lbe-nyc
 
 Click save (twice if necessary)  
 
-Once this device pairs it will get a different IP address using DHCP. To stay logged in, use the management wifi and log in at https://192.168.172.1
+To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan and then you select the button next to the best AirMac AC signal. (-80 is bad, -50 is good)
+
+Once this device pairs (numbers appear on dashboard) it will get a different IP address using DHCP. To stay logged in, you must use the management wifi at https://192.168.172.1
+
+To do a bandwidth test, connect via ethernet and set your network settings to "DHCP" (or "Automatic") and go to [speedtest](http://www.speedtest.net/}
 
 Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory defaults- press and hold the Reset button for more than 10 seconds while the LiteBeam ac is already powered on.
 
