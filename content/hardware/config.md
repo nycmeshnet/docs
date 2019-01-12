@@ -86,7 +86,7 @@ Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory
 
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
-The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for 10 seconds while the unit is running  
+The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as one of the lights begins to flash.
 
 Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx address
   
