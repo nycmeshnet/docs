@@ -62,7 +62,7 @@ Click save (twice if necessary)
 
 First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [sn2 config file](/download/sn2.html) and save to folder for future use
 
-Connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (rebooting turns on wifi for 15 minutes)
+Plug in LiteBeam to POE and connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (booting turns on wifi for 15 minutes)
 
 Go to https://192.168.172.1 in your browser, click "advanced" to proceed.
 
