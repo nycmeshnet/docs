@@ -60,7 +60,7 @@ Click save (twice if necessary)
 
 ### <a name="sn2"></a>Litebeam Gen2 client SN2, 3, 4, and hubs 
 
-First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and [config sn2 file](/download/sn2.html) and save to folder for future use
+First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [sn2 config file](/download/sn2.html) and save to folder for future use
 
 Connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (rebooting turns on wifi for 15 minutes)
 
@@ -78,9 +78,9 @@ Click save (twice if necessary)
 
 To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan and then you select the button next to the best AirMac AC signal. (-80 is bad, -50 is good)
 
-Once this device pairs (numbers appear on dashboard) it will get a different IP address using DHCP. To stay logged in, you must use the management wifi at https://192.168.172.1
+Once this device pairs (numbers appear on dashboard) it will get a different IP address using DHCP. To stay logged in to router, you must use the management wifi!
 
-To do a bandwidth test, connect via ethernet and set your network settings to "DHCP" (or "Automatic") and go to [speedtest](http://www.speedtest.net/}
+To disconnect from the LiteBeam dashboard and do a bandwidth test, connect via ethernet and set your network settings to "DHCP" (or "Automatic") and go to [speedtest](http://www.speedtest.net/)
 
 Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory defaults- press and hold the Reset button for more than 10 seconds while the LiteBeam ac is already powered on.
 
