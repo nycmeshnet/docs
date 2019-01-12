@@ -66,9 +66,11 @@ Connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (rebooting tu
 
 Go to https://192.168.172.1 in your browser, click "advanced" to proceed.
 
-Log in with username ubnt and password ubnt for a new device
+Log in with username ubnt and password ubnt for a new device (or select upload config!)
 
-When it relaunches "upload backup configuration" with sn2.cfg file you downloaded above
+Go to System and select "upload firmware" and choose the WA .bin file you downloaded before
+
+While still in System, scroll down to "upload configuration" and select sn2.cfg file you downloaded before
 
 Change the "nn" device name from lbe-nycmesh-nn to your node number e.g. lbe-nycmesh-1234
 
@@ -76,7 +78,7 @@ Click save (twice if necessary)
 
 Once this device pairs it will get a different IP address using DHCP. To stay logged in, use the management wifi and log in at https://192.168.172.1
 
-Troubleshooting: If you are unable to log into the LiteBeam reset it to factory defaults- press and hold the Reset button for more than 10 seconds while the LiteBeam ac is already powered on
+Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory defaults- press and hold the Reset button for more than 10 seconds while the LiteBeam ac is already powered on.
 
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
