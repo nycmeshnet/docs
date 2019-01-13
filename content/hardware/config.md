@@ -46,7 +46,7 @@ SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 
 ### <a name="lbe-client"></a>Litebeam client for Supernodes and hubs
 
-Supernode 1 has a slightly different config (sn1.cnf) and it also needs an assigned IP address. All other Supernodes and hubs use the same sn2.cfg.
+All Supernodes and hubs apart from SN1 use the same sn2.cfg. Supernode 1 has a slightly different config (sn1.cnf) and it also needs an assigned IP address. 
 
 First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [sn1 config file](/download/sn1.html) and [sn2 config file](/download/sn2.html) and save to a folder for offline use.
 
