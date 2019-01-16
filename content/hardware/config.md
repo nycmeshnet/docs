@@ -40,7 +40,8 @@ SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 * Dan Grinkevich image (qMp/bmx6/tinc)    
 * Joachim’s image (LEDE/bmx6)  
 
-## TPLink TL-WR841N  
+## TP-Link N300 (TL-WR841N)  
+* [Config](/installs/tp-link/)
   
 ---  
 
