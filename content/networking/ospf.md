@@ -63,3 +63,70 @@ Consider the following diagram:
 - The hub nodes each gather and announce all these routes under their own ASN ( "BGP Anycast" ) to the rest of the mesh. Approximately 13 additional routes are present from this setup -- one per connected interface per node, about 2-3 per node.
 
 
+## Examples
+Some configuration examples for BGP implementations known to be in use within NYC Mesh today are listed below in no particular order.
+
+### Bird
+
+<details>
+<summary>**Expand Bird Example**</summary>
+
+</details>
+
+### UBNT/EdgeOS
+
+<details>
+<summary>**Expand UBNT/EdgeOS Example - GUI Version**</summary>
+
+</details>
+
+<details>
+<summary>**Expand UBNT/EdgeOS Example - CLI Version**</summary>
+
+</details>
+
+### Mikrotik/RouterOS
+
+
+<details>
+<summary>**Expand Mikrotik Example - GUI Version**</summary>
+
+- Click Routing > OSPF
+  - Instances Tab - Click the default instance
+    - Change the `Redistribute Default Route` to `always ( as type 1 )` for a hub, or `if installed ( as type 1 )` for a non-hub
+    - Change the router-id to be appropriate
+    - Click OK
+  - Interfaces Tab
+    - Click `Add New` and add an interface with default settings ( verify they are the same as above in rules, should be ), for each interface, or, `all` if appropriate.
+  - Networks Tab
+    - Click `Add New` and add a network for each subnet that should be routable in the network.
+- click Routing > Filters
+  - Click `Add New`, and set:
+    - Matchers:
+      - Chain: `ospf-in`
+    - Actions: 
+      - Action: `passthrough`
+      - Set Distance: `205`
+    - BGP Actions:
+      - Set BGP Communities ( click Down arrow, then click new Down arrow to get a box ): `65000:110`
+    - Click OK
+- Neighbors will show under Routing > OSPF > Neighbors
+
+</details>
+
+<details>
+<summary>**Expand Mikrotik Example - CLI Version**</summary>
+
+Starting from the default configuration, assuming interface definitions haven't been created already, etc:
+
+```
+/routing ospf instance set [ find default=yes ] distribute-default=always-as-type-1 router-id=10.70.3.1
+/routing filter add chain=ospf=in set-bgp-communities=65000:110 set-distance=205
+/routing ospf interface add network-type=broadcast
+/routing ospf network add area=backbone network=10.70.3.0/24
+
+```
+
+</details>
+
+
