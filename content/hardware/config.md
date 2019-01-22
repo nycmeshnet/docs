@@ -13,7 +13,7 @@ We also need a simple way to log into cpe through a omnitik or edgepoint BGP con
   
 ## SXTsq    
 * [Kiosk client](#sxtKiosk)   
-* [Kiosk client + vpn?](#sxtVpn)  
+* [Kiosk client + vpn](#sxtVpn)  
 * [OmniTik client](#sxtClient)  
 * [Point-to-point](#sxtP2P)   
   
@@ -75,9 +75,11 @@ To disconnect from the LiteBeam dashboard and do a bandwidth test, connect via e
 
 Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory defaults- press and hold the Reset button for more than 10 seconds while the LiteBeam ac is already powered on.
 
+---  
+
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
   
-The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as one of the lights begins to flash.
+The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults).
 
 Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx address
   
@@ -101,13 +103,86 @@ add interface=wlan1 security-profile=linknyc ssid="LinkNYC Private" wireless-pro
   
 This script automatically connects the SXTsq to the private LinkNYC Kiosk channel. No login is required.  
   
-### <a name="sxtVpn"></a>SXTsq VPN  
+  ---  
   
-Lots of requests for this!  
-
-
-
+### <a name="sxtVpn"></a>SXTsq Kiosk + VPN  
   
+  The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults).
+  
+  Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx address
+  
+  In the terminal
+  ```
+  ssh admin@192.168.88.1
+ ```   
+  Say 'yes' to the warning and paste this-  
+  ```
+  # SXT to Kiosk Private
+  /interface wireless security-profiles
+  add authentication-types=wpa-eap,wpa2-eap eap-methods=eap-ttls-mschapv2 \
+  group-ciphers=tkip,aes-ccm mode=dynamic-keys mschapv2-password=5fsOpxER \
+  mschapv2-username=anonymous@citybridge.com name=linknyc \
+  supplicant-identity=anonymous@citybridge.com tls-mode=\
+  dont-verify-certificate unicast-ciphers=tkip,aes-ccm
+  /interface wireless
+  set [ find default-name=wlan1 ] band=5ghz-a/n/ac channel-width=\
+  20/40/80mhz-Ceee country="united states2" default-authentication=no \
+  disabled=no frequency=auto security-profile=linknyc ssid=\
+  "LinkNYC Private" wireless-protocol=802.11
+  /interface wireless connect-list
+  add interface=wlan1 security-profile=linknyc ssid="LinkNYC Private" \
+  wireless-protocol=802.11
+  
+  # VPN to NYCMEsh
+  /interface l2tp-client
+  add connect-to=199.167.59.6 disabled=no ipsec-secret=nycmeshnet \
+  keepalive-timeout=disabled max-mtu=1300 name="NYCMESH l2tp-out1" \
+  password=nycmeshnet use-ipsec=yes user=nycmesh
+  /ip neighbor discovery-settings
+  set discover-interface-list=LAN
+  /interface list member
+  add interface="NYCMESH l2tp-out1" list=WAN
+  
+  # DHCP-Client setup and lease script
+  /ip dhcp-client
+  set add-default-route=no comment=defcon dhcp-options=hostname,clientid disabled=no interface=wlan1 use-peer-dns=no script=":local currentGateway [/ip dhcp-client\
+  \_get [/ip dhcp-client find status=bound ] gateway ]\
+  \n:local count [/ip route print count-only where comment=\"NYCMeshVPN\" ]\
+  \n:if ( \$count = 0 ) do={/ip route add gateway=\$currentGateway dst-addre\
+  ss=199.167.59.6/32 comment=NYCMeshVPN } else={\
+  \n:if ( \$count = 1) do={:local champ [ /ip route find where comment=\"NYC\
+  MeshVPN\" ] \
+  \n:if ([/ip route get \$champ gateway] != \$currentGateway) do={/ip route \
+  set \$champ gateway=\$currentGateway }\
+  \n}\
+  \n}" number=0
+  
+  # DNS Firewall NAT
+  /ip dns
+  set allow-remote-requests=yes servers=10.10.10.10,8.8.8.8
+  /ip firewall address-list
+  add address=10.0.0.0/8 list=mesh
+  add address=199.167.59.0/24 list=mesh
+  add address=192.168.88.0/24 list=mesh
+  /ip firewall filter
+  add action=drop chain=input comment="drop all not coming from mesh" src-address-list=!mesh 
+  /ip firewall nat
+  add action=masquerade chain=srcnat comment="defconf: masquerade" ipsec-policy=out,none out-interface="NYCMESH l2tp-out1"
+  /ip route
+  add comment="New default" distance=1 gateway=10.70.72.1
+  /system clock
+  set time-zone-name=America/New_York
+  
+  ```
+  replace 1111 by your node number.
+   ```
+  /system identity
+  set name=n1111-sxt-0
+  
+ ```
+  
+
+  ---  
 ### <a name="sxtClient"></a>SXTsq Client    
   
   
@@ -202,10 +277,11 @@ http://n1000-sxt-0.n500.mesh/
 2. system > routerboard > update  
 Reboot  
   
+  ---  
   
 ### <a name="sxtP2P"></a>SXTsq Point-to-Point  
   
-?  
+to come
   
  
   
