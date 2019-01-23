@@ -7,3 +7,4 @@ pluralizeListTitles = false
 # Markdown config
 [blackfriday]
 fractions = false
+hrefTargetBlank = true
