@@ -106,6 +106,8 @@ This script automatically connects the SXTsq to the private LinkNYC Kiosk channe
   ---  
   
 ### <a name="sxtVpn"></a>SXTsq Kiosk + VPN  
+
+This adds a VPN connection so you will be connected to the mesh network over a virtual private network.  The will bypass any possible privacy issues of using the kiosk. The downside to this is it will limit your connection to 100Mbps as the router cpu must work harder to encrypt the data for a VPN connection.
   
   The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults).
   
