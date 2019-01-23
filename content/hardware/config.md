@@ -107,84 +107,84 @@ This script automatically connects the SXTsq to the private LinkNYC Kiosk channe
   
 ### <a name="sxtVpn"></a>SXTsq Kiosk + VPN  
 
-This adds a VPN connection so you will be connected to the mesh network over a virtual private network.  The will bypass any possible privacy issues of using the kiosk. The downside to this is it will limit your connection to 100Mbps as the router cpu must work harder to encrypt the data for a VPN connection.
+This adds a VPN to the configuration so you will be connected to the mesh network over a virtual private network.  This bypasses any possible privacy issues of using the kiosk. The downside is it will limit your connection to under 100Mbps as the router cpu must work harder to encrypt the data for a VPN connection.
   
-  The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults).
+The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults).
   
-  Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx address
+Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx address
   
-  In the terminal
-  ```
-  ssh admin@192.168.88.1
- ```   
-  Say 'yes' to the warning and paste this-  
-  ```
-  # SXT to Kiosk Private
-  /interface wireless security-profiles
-  add authentication-types=wpa-eap,wpa2-eap eap-methods=eap-ttls-mschapv2 \
-  group-ciphers=tkip,aes-ccm mode=dynamic-keys mschapv2-password=5fsOpxER \
-  mschapv2-username=anonymous@citybridge.com name=linknyc \
-  supplicant-identity=anonymous@citybridge.com tls-mode=\
-  dont-verify-certificate unicast-ciphers=tkip,aes-ccm
-  /interface wireless
-  set [ find default-name=wlan1 ] band=5ghz-a/n/ac channel-width=\
-  20/40/80mhz-Ceee country="united states2" default-authentication=no \
-  disabled=no frequency=auto security-profile=linknyc ssid=\
-  "LinkNYC Private" wireless-protocol=802.11
-  /interface wireless connect-list
-  add interface=wlan1 security-profile=linknyc ssid="LinkNYC Private" \
-  wireless-protocol=802.11
+In the terminal
+```
+ssh admin@192.168.88.1
+```   
+Say 'yes' to the warning and paste this-  
+```
+# SXT to Kiosk Private
+/interface wireless security-profiles
+add authentication-types=wpa-eap,wpa2-eap eap-methods=eap-ttls-mschapv2 \
+group-ciphers=tkip,aes-ccm mode=dynamic-keys mschapv2-password=5fsOpxER \
+mschapv2-username=anonymous@citybridge.com name=linknyc \
+supplicant-identity=anonymous@citybridge.com tls-mode=\
+dont-verify-certificate unicast-ciphers=tkip,aes-ccm
+/interface wireless
+set [ find default-name=wlan1 ] band=5ghz-a/n/ac channel-width=\
+20/40/80mhz-Ceee country="united states2" default-authentication=no \
+disabled=no frequency=auto security-profile=linknyc ssid=\
+"LinkNYC Private" wireless-protocol=802.11
+/interface wireless connect-list
+add interface=wlan1 security-profile=linknyc ssid="LinkNYC Private" \
+wireless-protocol=802.11
   
-  # VPN to NYCMEsh
-  /interface l2tp-client
-  add connect-to=199.167.59.6 disabled=no ipsec-secret=nycmeshnet \
-  keepalive-timeout=disabled max-mtu=1300 name="NYCMESH l2tp-out1" \
-  password=nycmeshnet use-ipsec=yes user=nycmesh
-  /ip neighbor discovery-settings
-  set discover-interface-list=LAN
-  /interface list member
-  add interface="NYCMESH l2tp-out1" list=WAN
+# VPN to NYCMEsh
+/interface l2tp-client
+add connect-to=199.167.59.6 disabled=no ipsec-secret=nycmeshnet \
+keepalive-timeout=disabled max-mtu=1300 name="NYCMESH l2tp-out1" \
+password=nycmeshnet use-ipsec=yes user=nycmesh
+/ip neighbor discovery-settings
+set discover-interface-list=LAN
+/interface list member
+add interface="NYCMESH l2tp-out1" list=WAN
   
-  # DHCP-Client setup and lease script
-  /ip dhcp-client
-  set add-default-route=no comment=defcon dhcp-options=hostname,clientid disabled=no interface=wlan1 use-peer-dns=no script=":local currentGateway [/ip dhcp-client\
-  \_get [/ip dhcp-client find status=bound ] gateway ]\
-  \n:local count [/ip route print count-only where comment=\"NYCMeshVPN\" ]\
-  \n:if ( \$count = 0 ) do={/ip route add gateway=\$currentGateway dst-addre\
-  ss=199.167.59.6/32 comment=NYCMeshVPN } else={\
-  \n:if ( \$count = 1) do={:local champ [ /ip route find where comment=\"NYC\
-  MeshVPN\" ] \
-  \n:if ([/ip route get \$champ gateway] != \$currentGateway) do={/ip route \
-  set \$champ gateway=\$currentGateway }\
-  \n}\
-  \n}" number=0
+# DHCP-Client setup and lease script
+/ip dhcp-client
+set add-default-route=no comment=defcon dhcp-options=hostname,clientid disabled=no interface=wlan1 use-peer-dns=no script=":local currentGateway [/ip dhcp-client\
+\_get [/ip dhcp-client find status=bound ] gateway ]\
+\n:local count [/ip route print count-only where comment=\"NYCMeshVPN\" ]\
+\n:if ( \$count = 0 ) do={/ip route add gateway=\$currentGateway dst-addre\
+ss=199.167.59.6/32 comment=NYCMeshVPN } else={\
+\n:if ( \$count = 1) do={:local champ [ /ip route find where comment=\"NYC\
+MeshVPN\" ] \
+\n:if ([/ip route get \$champ gateway] != \$currentGateway) do={/ip route \
+set \$champ gateway=\$currentGateway }\
+\n}\
+\n}" number=0
   
-  # DNS Firewall NAT
-  /ip dns
-  set allow-remote-requests=yes servers=10.10.10.10,8.8.8.8
-  /ip firewall address-list
-  add address=10.0.0.0/8 list=mesh
-  add address=199.167.59.0/24 list=mesh
-  add address=192.168.88.0/24 list=mesh
-  /ip firewall filter
-  add action=drop chain=input comment="drop all not coming from mesh" src-address-list=!mesh 
-  /ip firewall nat
-  add action=masquerade chain=srcnat comment="defconf: masquerade" ipsec-policy=out,none out-interface="NYCMESH l2tp-out1"
-  /ip route
-  add comment="New default" distance=1 gateway=10.70.72.1
-  /system clock
-  set time-zone-name=America/New_York
+# DNS Firewall NAT
+/ip dns
+set allow-remote-requests=yes servers=10.10.10.10,8.8.8.8
+/ip firewall address-list
+add address=10.0.0.0/8 list=mesh
+add address=199.167.59.0/24 list=mesh
+add address=192.168.88.0/24 list=mesh
+/ip firewall filter
+add action=drop chain=input comment="drop all not coming from mesh" src-address-list=!mesh 
+/ip firewall nat
+add action=masquerade chain=srcnat comment="defconf: masquerade" ipsec-policy=out,none out-interface="NYCMESH l2tp-out1"
+/ip route
+add comment="New default" distance=1 gateway=10.70.72.1
+/system clock
+set time-zone-name=America/New_York
   
-  ```
-  replace 1111 by your node number.
-   ```
-  /system identity
-  set name=n1111-sxt-0
+```
+replace 1111 by your node number.
+```
+/system identity
+set name=n1111-sxt-0
   
- ```
+```
   
 
-  ---  
+---  
 ### <a name="sxtClient"></a>SXTsq Client    
   
   
