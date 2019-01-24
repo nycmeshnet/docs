@@ -3,7 +3,9 @@ relativeurls = true
 languageCode = "en-us"
 title = "NYC Mesh Docs"
 pluralizeListTitles = false
+hrefTargetBlank = true
 
 # Markdown config
 [blackfriday]
 fractions = false
+hrefTargetBlank = true
