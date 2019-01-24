@@ -12,7 +12,7 @@ The PoE version accepts 12-57V passive PoE on port 1 and can be configured to pr
 
 ![MikroTik OmniTik PoE 5ac Ports](/img/hardware/mikrotik_omnitik5poeac_ports.jpg)
 
-Device specs are available at [mikrotik.com](https://mikrotik.com/product/rbomnitikpg_5hacd).
+Device specs are available at [Mikrotik.com](https://mikrotik.com/product/rbomnitikpg_5hacd)
 
 ## Uses
 
