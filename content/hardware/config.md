@@ -83,7 +83,7 @@ Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx addres
   
 In the terminal
 ```
-ssh admin@192.168.88.1
+ssh -o StrictHostKeyChecking=no admin@192.168.88.1
 ```   
 Say 'yes' to the warning and paste this-  
   
@@ -115,7 +115,7 @@ Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx addres
   
 In the terminal
 ```
-ssh admin@192.168.88.1
+ssh -o StrictHostKeyChecking=no admin@192.168.88.1
 ```   
 Say 'yes' to the warning and paste this-  
 ```
