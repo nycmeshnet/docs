@@ -65,7 +65,7 @@ For SN1 **only**, Go to Network and change the management IP address (192.168.1.
 
 Click save (twice if necessary)  
 
-To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan. Click the button next to the best AirMac AC signal. (-80 is bad, -50 is good) Click "SELECT" and then "SAVE CHANGES"
+To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan. Click the button next to the best AirMac AC signal. (-80 is bad, -50 is good) Click "SELECT" and then "SAVE CHANGES" (twice if necessary)
 
 For SN2+ and hubs, once this device pairs (numbers appear on dashboard) it will get a different management IP address using DHCP. To stay logged in to router, you must use the management wifi!
 
