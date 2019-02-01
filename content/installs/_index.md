@@ -11,5 +11,6 @@ Installers are people who help new users join our mesh, typically by installing 
 *   [Equipment](/installs/equipment)
 *   [Member Install Form](/installs/memberform)
 *   [CPE Install Guide](/installs/cpe)
+*   [Configs](/hardware/config/
 *   [How to Import NYC Mesh Node Data to Google Earth](https://nycmesh.slack.com/files/U51M5UP6F/F5VEK2UCR/nycmesh-google-earth-kml-howto.m4v)
 *   [Site Survey Form](https://goo.gl/forms/nq1UXX3UHPaGAZLy1)
