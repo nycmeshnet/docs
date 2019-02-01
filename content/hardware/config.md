@@ -188,10 +188,8 @@ set name=n1111-sxt-0
 ### <a name="sxtClient"></a>SXTsq Client    
   
   
-Assign a static IP to the computer you connect from  
-IP address: 192.168.88.5  
-subnet mask: 255.255.255.0  
-  
+Set your computer to connect using DHCP ("automatic" on PC)  
+Connect via ethernet and you will get and address like 192.168.88.xxx
   
 **Reset**  
 press the reset button WHILE powering on the unit by plugging in the POE cable.  
