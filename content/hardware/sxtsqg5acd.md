@@ -49,6 +49,10 @@ The initial IP address out of the box is 192.168.88.1, so set you computer’s l
 
 ## Configurations
 
+We have a few different configs for the SXTsq. They are all in [hardware/config](../config)
+
+The following is a detailed explanation of the unencrypted config. Please go to [hardware/config](../config) for the VPN config and all of the other configs.
+
 ### LinkNYC Kiosk connection ( encrypted )
 
 LinkNYC kiosks have both an unencrypted and encrypted network available. They function similarly and have the same Internet available.
