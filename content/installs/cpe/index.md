@@ -4,6 +4,8 @@ title: "Supernode 1 CPE"
 
 Members can buy their own cpe on Amazon etc. We can swap it with a preconfigured one on site to save time.
 
+The following is a detailed explanation. Please go to [hardware/config](/hardware/config/#lbe-client) for much easier instructions.
+
 ## Configuring supernode1 CPEs
 
 Line of sight to 375 Pearl St. Manhattan
