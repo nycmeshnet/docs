@@ -1,21 +1,21 @@
 ---
 title: OSPF
 ---
-Open Shortest Path First (OSPF) is a dynamic routing protocol. It uses a link state routing algorithm, thus, it performs functions such as detecting topologychanges and link failures. It generally converges quickly and in a loop-free manner. OSPF is often used in corporate networks within a datacenter or building.  
+Open Shortest Path First (OSPF) is a dynamic routing protocol. It uses a link state routing algorithm, thus, it performs functions such as detecting topology changes and link failures. It generally converges quickly and in a loop-free manner. OSPF is often used in corporate networks within a datacenter or building.  
 
 While OSPF is not generally used as a mesh protocol across a city, it has properties similar to other mesh protocols such as use of link state routing algorithms and auto-convergence.  
 
 ## Positives and negatives
 
-OSPF is an interesting choice as an in-neighborhood routing protocol because of it's easy of setup ( auto convergence, no ASNs ), and how ubiquitous it is ( nearly every cheap and expensive commercial and open device supports it ). These two positives alone make OSPF worth considering.
+OSPF is an interesting choice as an in-neighborhood routing protocol because of it's ease of setup (auto convergence, no ASNs), and how ubiquitous it is (nearly every cheap and expensive commercial and open device supports it). These two positives alone make OSPF worth considering.
 
-On the down-side, it is not specifically designed for an adhoc mesh, it trusts blindly, and has very few tunables. Additionally, there are a few technical challenges such as the lack of link-local address use, only advertising connected networks ( not summaries ), and some common defaults on various platforms.  
+On the down-side, it is not specifically designed for an adhoc mesh, it trusts blindly, and has very few tunables. Additionally, there are a few technical challenges such as the lack of link-local address use, only advertising connected networks (not summaries), and some common defaults on various platforms.  
 
 Many of these challenges can be overcome by taking some care to make good choices for options when setting up a network.
 
 ## NYC Mesh OSPF Rules
 
-_( Updated Jan 2019, in progress )_
+_(Updated Jan 2019, in progress)_
 
 As OSPF has some challenges in deployment outside of a datacenter environment, we will need to all adhere to some rules to prevent from a routing problem.
 OSPF, unlike BGP or other protocols, may/will refuse to connect to a peer which has different parameters set and can be a source of confusion.  
