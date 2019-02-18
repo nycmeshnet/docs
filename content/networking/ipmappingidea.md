@@ -60,6 +60,8 @@ Disadvantage:
 ---
 Strategy 3 - Human Easy Split:
 For each node number, split the number phyiscally in two parts and map the last two digits to the last octet, and the first two ( or three ) digits to the second-to-last octet
+If a node will have more than one router, increase the last octet by 100. Since we only use 0-99, 100-199 can be secondary for all nodes without hurting the human readability.
+This also reserves an extra 55 IPs ( 200-255 ) for every 100 nodes as more-than-secondary IPs that would have to be assigned statically but unlikely to hurt or overlap.
 Ex:
 node 10 =  	0 10
 node 200 = 	2 00
