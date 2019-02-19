@@ -10,15 +10,54 @@ collections:
     folder: "content/hardware" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Image", name: "thumbnail", widget: "image" }
       - { label: "Description", name: "body", widget: "markdown" }
   - name: "installs"
     label: "Installs"
     folder: "content/installs"
     create: true
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "intro"
+    label: "Intro"
+    folder: "content/intro"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "networking"
+    label: "Networking"
+    folder: "content/networking"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "nodes"
+    label: "Nodes"
+    folder: "content/nodes"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "organization"
+    label: "Organization"
+    folder: "content/organization"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "security"
+    label: "Security"
+    folder: "content/security"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "software"
+    label: "Software"
+    folder: "content/software"
+    create: true
+    fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
