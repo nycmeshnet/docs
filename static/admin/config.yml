@@ -13,3 +13,11 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Image", name: "thumbnail", widget: "image" }
       - { label: "Description", name: "body", widget: "markdown" }
+  - name: "installs"
+    label: "Installs"
+    folder: "content/installs"
+    create: true
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
