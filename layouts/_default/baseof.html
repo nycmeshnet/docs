@@ -47,6 +47,11 @@
     <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
     {{ end }}
     <!-- End of Twitter -->
+
+    <!-- Netlify Identity -->
+    {{ if .IsHome }}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {{ end }}
 </head>
 <body class="sans-serif">
     <div class="h-100 flex-ns">
@@ -57,5 +62,20 @@
             {{ end }}
         </div>
     </div>
+
+    <!-- Netlify Identity Redirect -->
+    {{ if .IsHome }}
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    {{ end }}
 </body>
 </html>

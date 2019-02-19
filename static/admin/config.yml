@@ -1,0 +1,63 @@
+backend:
+  name: github
+  repo: nycmeshnet/docs
+publish_mode: editorial_workflow
+media_folder: "static/img"
+public_folder: "/img"
+collections:
+  - name: "hardware" # Used in routes, e.g., /admin/collections/blog
+    label: "Hardware" # Used in the UI
+    folder: "content/hardware" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "body", widget: "markdown" }
+  - name: "installs"
+    label: "Installs"
+    folder: "content/installs"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "intro"
+    label: "Intro"
+    folder: "content/intro"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "networking"
+    label: "Networking"
+    folder: "content/networking"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "nodes"
+    label: "Nodes"
+    folder: "content/nodes"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "organization"
+    label: "Organization"
+    folder: "content/organization"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "security"
+    label: "Security"
+    folder: "content/security"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "software"
+    label: "Software"
+    folder: "content/software"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
