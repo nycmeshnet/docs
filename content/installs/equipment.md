@@ -1,5 +1,5 @@
 ---
-title: "Equipment"
+title: Equipment
 ---
 
 To connect to NYC Mesh, you will need to install wireless networking equipment on a rooftop or outside a window. This page lists a range of equipment and tools that are commonly used for typical installations. Before assembling any equipment, first carry out a site survey and make an install plan to narrow down the equipment you really need. For detailed information about specific routers, visit the [hardware](https://docs.nycmesh.net/hardware/) docs.
@@ -19,8 +19,8 @@ You can download a handy checklist of the equipment listed on this page [here](h
 | Power Over Ethernet (POE) adapter and power cable | ![alt text](https://i.imgur.com/mvWnLmL.jpg "POE") | Passing power to the outdoor router and data from the outdoor Ethernet cable to the indoor patch cable | Comes packaged with the outdoor router |
 | Switch router (pre-configured, for multiple-apartment installs) | ![alt text](https://i.imgur.com/SKAyY5b.jpg "Switch router") | Passing data to multiple apartments in one building | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
 | Indoor router | ![alt text](https://i.imgur.com/1icPBQB.jpg "Indoor router") | Connection point for user's devices | Order online (see [TP Link page](https://docs.nycmesh.net/hardware/tplink/) for an inexpensive and commonly-used model) or use existing indoor router |
-| CAT5e cable (outdoor-rated, grounded and shielded) | ![alt text](https://i.imgur.com/jEy1pxc.jpg "CAT5e cable") | Passing power and data between outdoor router, indoor router and power outlet | Available from online retailers in different spool lengths - [recommended product](https://www.amazon.com/Ubiquiti-Networks-TOUGHCable-Shielded-Ethernet/dp/B008L143VW) |
-| RJ45 Tough Connectors (metal, with grounding loop) | ![alt text](https://i.imgur.com/OWfMQu3.jpg "RJ45") | Gets crimped onto the ends of the CAT5e cable to provide power and data interface | Available from online retailers - [recommended product](https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0) |
+| CAT5e cable (outdoor-rated, grounded and shielded) | ![alt text](https://i.imgur.com/jEy1pxc.jpg "CAT5e cable") | Passing power and data between outdoor router, indoor router and power outlet | Available from online retailers in different spool lengths - [recommended product](https://www.amazon.com/Ubiquiti-Networks-TOUGHCable-Shielded-Ethernet/dp/B008L143VW?tag=nycmesh-20) |
+| RJ45 Tough Connectors (metal, with grounding loop) | ![alt text](https://i.imgur.com/OWfMQu3.jpg "RJ45") | Gets crimped onto the ends of the CAT5e cable to provide power and data interface | Available from online retailers - [recommended product](https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0?tag=nycmesh-20) |
 | Two Ethernet patch cables | ![alt text](https://i.imgur.com/6l8FGGh.jpg "Ethernet Patch cable") | Connecting routers to POE injector, battery pack, laptop  | Available from online retailers |
 | Battery pack with Ethernet port (charged) | ![alt text](https://i.imgur.com/hLgmFyQ.jpg "Battery pack") | Providing power to outdoor router while surveying for signal | Available from online retailers |
 | Gigabit USB/Thunderbolt to Ethernet adapter | ![alt text](https://i.imgur.com/q3DH0dc.jpg "Ethernet adapter") | Connecting laptop to outdoor router (not needed if connecting wirelessly) | Available from online retailers |
@@ -30,9 +30,9 @@ You can download a handy checklist of the equipment listed on this page [here](h
 
 | Product Name  | Product Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ---- |
-| Ethernet cable crimper | ![alt text](https://i.imgur.com/UNiGWRu.jpg "Crimper") | Attaching RJ-45 connectors to CAT5e cable | Online retailers (included in crimping all-in-one kit) - [recommended product](https://www.amazon.com/Professional-Maintenance-Connectors-Screwdriver-stripping/dp/B0798CQQX8) |
-| CAT5e cable stripper | ![alt text](https://i.imgur.com/zF4kuXt.jpg "Cable stripper") | Stripping CAT5e cable | Online retailers (included in crimping all-in-one kit) - [recommended product](https://www.amazon.com/Professional-Maintenance-Connectors-Screwdriver-stripping/dp/B0798CQQX8) |
-| Ethernet cable tester | ![alt text](https://i.imgur.com/JqzLNKp.jpg "Cable tester") | Testing that Ethernet cable has been correctly crimped | Online retailers (included in crimping all-in-one kit) - [recommended product](https://www.amazon.com/Professional-Maintenance-Connectors-Screwdriver-stripping/dp/B0798CQQX8) |
+| Ethernet cable crimper | ![alt text](https://i.imgur.com/UNiGWRu.jpg "Crimper") | Attaching RJ-45 connectors to CAT5e cable | Online retailers (included in crimping all-in-one kit) - [recommended product](https://www.amazon.com/Professional-Maintenance-Connectors-Screwdriver-stripping/dp/B0798CQQX8?tag=nycmesh-20) |
+| CAT5e cable stripper | ![alt text](https://i.imgur.com/zF4kuXt.jpg "Cable stripper") | Stripping CAT5e cable | Online retailers (included in crimping all-in-one kit) - [recommended product](https://www.amazon.com/Professional-Maintenance-Connectors-Screwdriver-stripping/dp/B0798CQQX8?tag=nycmesh-20) |
+| Ethernet cable tester | ![alt text](https://i.imgur.com/JqzLNKp.jpg "Cable tester") | Testing that Ethernet cable has been correctly crimped | Online retailers (included in crimping all-in-one kit) - [recommended product](https://www.amazon.com/Professional-Maintenance-Connectors-Screwdriver-stripping/dp/B0798CQQX8?tag=nycmesh-20) |
 | Scissors | ![alt text](https://i.imgur.com/ZnX3ZwF.jpg "Scissors") | Cutting CAT5e cable and cable ties | Hardware store tools aisle |
 | Needlenose pliers | ![alt text](https://i.imgur.com/8mXEltX.jpg "Needlenose pliers") | Clamping CAT5e cable ground wire, pulling cable through holes | Hardware store tools aisle |
 | Cordless hammer drill | ![alt text](https://i.imgur.com/UpnEduf.jpg "Hammer drill") | Drilling holes, inserting screws, securing pipe clamps  | Hardware store tools aisle |
