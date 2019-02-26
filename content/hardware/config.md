@@ -286,7 +286,7 @@ Reboot
   
   One of the SXT will act as an "AP" but can be associated to only one "client". The second SXT will be the "client".
   
-  After the configuration there will be no DHCH Server or Client, thus you will need to configure your laptop IP mannually in the same network range, for exemple  192.168.88.11
+  After the configuration there will be no DHCP Server or Client, thus you will need to configure your laptop IP mannually in the same network range, for exemple  192.168.88.11
   
 The SXT-AP and SXT-Client port address will be change in order to not interfere with another potential SXT default IP.  
 - AP will be ether1:  192.168.88.2  and bridge1:  192.168.88.3  
