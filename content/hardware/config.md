@@ -107,7 +107,7 @@ This script automatically connects the SXTsq to the private LinkNYC Kiosk channe
 
 [About VPN](/networking/vpn)
 
-This adds a VPN to the configuration so you will be connected to the mesh network over a virtual private network.  This bypasses any possible privacy issues of using the kiosk. This will limit your connection to around 100Mbps (still fast) as the router cpu must work harder to encrypt the data for a VPN connection.
+This adds a VPN to the configuration so you will be connected to the mesh network over a virtual private network.  This bypasses any possible privacy issues of using the kiosk. This will limit your connection to around 100Mbps (still fast) but could go faster as the router cpu must work harder to encrypt the data for a VPN connection. It's a limitation of the hardware, SXT in this case, not of the vpn.
   
 The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults).
   
@@ -279,21 +279,157 @@ Reboot
   
   ---  
   
-### <a name="sxtP2P"></a>SXTsq Point-to-Point  
+### <a name="sxtP2P"></a>SXTsq Point-to-Point  (PtP)  
   
-to come
   
+  The following works with two new SXTsq or a reset SXTsq. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults). It is recommended to update the firmware of your SXTsq to the latest. The under has been tested with firmware v.6.43.12
+  
+  One of the SXT will act as an "AP" but can be associated to only one "client". The second SXT will be the "client".
+  
+  After the configuration there will be no DHCH Server or Client, thus you will need to configure your laptop IP mannually in the same network range, for exemple  192.168.88.11
+  
+The SXT-AP and SXT-Client port address will be change in order to not interfere with another potential SXT default IP.  
+- AP will be ether1:  192.168.88.2  and bridge1:  192.168.88.3  
+ - Client will be ether1:  192.168.88.4  and bridge1:  192.168.88.5  
  
+Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx address
+
+
+
+In the terminal
+  ```
+ssh -o StrictHostKeyChecking=no admin@192.168.88.1
+  ```   
+Say 'yes' to the warning and paste this for the SXT-AP-
   
+  ```
+# Feb 25th 2019 for RouterOS 6.43.12
+# model = RBSXTsqG-5acD
+
+# SXT PtP / This is the AP 
+
+# Set the SXT Identity
+/system identity
+set name="sxt ptp ap"
+
+#add security profile (to secure wifi connection login) and SSID
+/interface wireless security-profiles
+set [ find default=yes ] supplicant-identity=MikroTik
+add authentication-types=wpa-psk,wpa2-psk management-protection=allowed mode=\
+dynamic-keys name=sxt-ap supplicant-identity="SXT PtP AP" \
+wpa-pre-shared-key=nycmeshnet wpa2-pre-shared-key=nycmeshnet
+
+#set the wireless (wlan1) to USA 2 and the proper band
+/interface wireless
+set [ find default-name=wlan1 ] band=5ghz-a/n/ac channel-width=\
+20/40/80mhz-Ceee country="united states2" disabled=no mode=bridge \
+security-profile=sxt-ap ssid=nycmesh-nn-sxtptp
+
+# disable the NAT and disable all the firewall filters
+/ip firewall nat
+set numbers=0 disabled=yes
+
+/ip firewall filter
+set numbers=1 disabled=yes
+set numbers=2 disabled=yes
+set numbers=3 disabled=yes
+set numbers=4 disabled=yes
+set numbers=5 disabled=yes
+set numbers=6 disabled=yes
+set numbers=7 disabled=yes
+set numbers=8 disabled=yes
+set numbers=9 disabled=yes
+set numbers=10 disabled=yes
+
+# disable the dhcp-client and server
+/ip dhcp-client
+set [find interface=wlan1 ] disabled=yes
+/ip dhcp-server
+set [find interface=ether1] disabled=yes
+
+#add a bridge and add port ether1 and wlan1 (switch)
+/interface bridge
+add name=bridge1
+/interface bridge port
+add bridge=bridge1 interface=ether1
+add bridge=bridge1 interface=wlan1
+
+#change IP address of the "sxt ptp client" to not mix with potential other SXT default IP address
+/ip address
+add address=192.168.88.3/24 interface=bridge1 network=192.168.88.0
+set [ find interface=ether1] address=192.168.88.2/24
+
+  ```  
   
+  Say 'yes' to the warning and paste this for the SXT-Client-
   
-  
-  
-  
-  
-  
-  
-  
+  ```
+# Feb 25th 2019 for RouterOS 6.43.12 
+# model = RBSXTsqG-5acD 
+
+# SXT PtP / This is the Client 
+
+# Set the SXT Identity
+/system identity
+set name="sxt ptp client"
+
+#add security profile (to secure wifi connection login)
+/interface wireless security-profiles
+set [ find default=yes ] authentication-types=wpa-psk,wpa2-psk group-ciphers=\
+tkip,aes-ccm mode=dynamic-keys supplicant-identity=MikroTik \
+unicast-ciphers=tkip,aes-ccm wpa-pre-shared-key=nycmeshnet \
+wpa2-pre-shared-key=nycmeshnet
+/interface wireless security-profiles
+add authentication-types=wpa-psk,wpa2-psk group-ciphers=tkip,aes-ccm \
+management-protection=allowed mode=dynamic-keys name=sxt-ap \
+supplicant-identity="sxt ptp client" unicast-ciphers=tkip,aes-ccm \
+wpa-pre-shared-key=nycmeshnet wpa2-pre-shared-key=nycmeshnet
+
+
+#set the wireless (wlan1) to USA 2 and the proper band.
+/interface wireless
+set [ find default-name=wlan1 ] band=5ghz-a/n/ac channel-width=\
+20/40/80mhz-Ceee country="united states2" disabled=no frequency=auto \
+mode=station-bridge security-profile=sxt-ap ssid=nycmesh-nn-sxtptp
+
+/interface wireless connect-list
+add interface=wlan1 security-profile=sxt-ap ssid=nycmesh-nn-sxptp
+
+# disable the NAT and disable all the firewall filters
+/ip firewall nat
+set numbers=0 disabled=yes
+
+/ip firewall filter
+set numbers=1 disabled=yes
+set numbers=2 disabled=yes
+set numbers=3 disabled=yes
+set numbers=4 disabled=yes
+set numbers=5 disabled=yes
+set numbers=6 disabled=yes
+set numbers=7 disabled=yes
+set numbers=8 disabled=yes
+set numbers=9 disabled=yes
+set numbers=10 disabled=yes
+
+# disable the dhcp-client and server
+/ip dhcp-client
+set [find interface=wlan1 ] disabled=yes
+/ip dhcp-server
+set [find interface=ether1] disabled=yes
+
+#add a bridge and add port ether1 and wlan1 (switch)
+/interface bridge
+add name=bridge1
+/interface bridge port
+add bridge=bridge1 interface=ether1
+add bridge=bridge1 interface=wlan1
+
+#change IP address of the "sxt ptp client" to not mix with potential other SXT default IP address
+/ip address
+add address=192.168.88.5/24 interface=bridge1 network=192.168.88.0
+set [ find interface=ether1] address=192.168.88.4/24
+
+  ```  
   
   
   
