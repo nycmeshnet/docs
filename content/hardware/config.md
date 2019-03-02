@@ -187,12 +187,18 @@ set name=n1111-sxt-0
 ---  
 ### <a name="sxtClient"></a>SXTsq Client    
   
-  
+**Hardware Setup**  
+Plug POE adapter into power source. 
+Connect POE+data port to SXT port with a patch cable. 
+Connect data port to laptop ethernet port with another patch cable. 
+(Note that a hardwired ethernet connection to your computer is required to configure! If your computer does not have an ethernet port you will need an ethernet port adapter.)
+
+**Network Setup**
 Set your computer to connect using DHCP ("automatic" on PC)  
 Connect via ethernet and you will get an address like 192.168.88.xxx
   
 **Reset**  
-press the reset button WHILE powering on the unit by plugging in the POE cable.  
+Press the reset button WHILE powering on the unit by plugging in the POE cable.  
 Once one of the LEDs begins to flash white/blue (about 5 seconds), release reset button while it's flashing. After one minute the device will be ready  
   
 **Connect to GUI**  
@@ -206,8 +212,9 @@ system > identity
 "n<your-node-id>-<device-type>-<index>". So if your node id is 1000, your device name could be: n1000-sxt-0  
   
 **Set a password**  
-System > password  
-IMPORTANT: You must use a unique and strong (at least 8 characters, the longer the better) password to ensure the security of your device!  
+System > password 
+For DIY installs, use your own unique and strong (at least 8 characters, the longer the better) password to ensure the security of your device!  
+For volunteer-led installs, use the standard NYC Mesh password. Reach out to the #install-team channel on slack if you need to request the password.
 
 **IP > Services**  
 - Disable telnet  
@@ -217,7 +224,6 @@ IMPORTANT: You must use a unique and strong (at least 8 characters, the longer t
 Other security precautions to consider
 https://wiki.mikrotik.com/wiki/Manual:Securing_Your_Router
 
-  
 **IP > firewall**  
 Find and disable this input rule:  
 4  
@@ -249,7 +255,7 @@ Set SSID of the hub you want to connect to e.g. nycmesh-xxx
 Set channel width to 20/40/80MHz XXXX  
 Set frequency to auto  
 Set security profile to nycmeshnet  
-(below only if you have SXT international version)  
+(Follow steps below only if you have SXT international version, indicated by "Type:INTL" label on the box)  
 Click Advanced Mode button at top  
 Scroll down and set country drop down to united states   
   
