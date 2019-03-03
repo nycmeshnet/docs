@@ -175,7 +175,9 @@ add action=accept chain=input
       *   Instead you need to upload the file using scp.
       *   From a Mac or Linux desktop, upload the file using scp:  
           `scp nycmesh-omni-####.rsc admin@192.168.88.1:flash/`  
-          You may need to confirm the SSH key ( typical with SSH )
+          You may need to confirm the SSH key ( typical with SSH )       
+      *   From a Windows desktop, you must have [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) installed and run the following command from the command prompt:
+          `pscp -scp nycmesh-omni-####.rsc admin@192.168.88.1:flash/`  
       * You should see the file in the WebUI as `flash/nycmesh-omni-####.rsc`
 *   Factory Reset the device with the option to restore this script.
       * From Web UI:
