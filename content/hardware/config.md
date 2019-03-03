@@ -76,6 +76,8 @@ Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory
 ---  
 
 ### <a name="sxtKiosk"></a>SXTsq kiosk  
+
+**This config may not work with Windows computers**
   
 The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults).
 
@@ -107,7 +109,7 @@ This script automatically connects the SXTsq to the private LinkNYC Kiosk channe
 
 [About VPN](/networking/vpn)
 
-**We're currently having problems with this config. It allows Windows computers to connect but introduces other problems**
+**We're currently having problems with this config. It allows Windows computers to connect but introduces another problem ith L2TP/IPSEC and the way the kiosks assign public IP addresses. Help us solve this if you can!**
 
 This adds a VPN to the configuration so you will be connected to the mesh network over a virtual private network.  This bypasses any possible privacy issues of using the kiosk. This will limit your connection to around 100Mbps (still fast) but could go faster as the router cpu must work harder to encrypt the data for a VPN connection. It's a limitation of the hardware, SXT in this case, not of the vpn.
   
