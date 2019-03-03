@@ -87,7 +87,7 @@ In the terminal
 ```
 ssh -o StrictHostKeyChecking=no admin@192.168.88.1
 ```   
-Say 'yes' to the warning and paste this-  
+Hit return to get the "[admin@MikroTik] >" prompt, and paste this-  
   
 ```  
 /interface wireless security-profiles  
@@ -121,7 +121,7 @@ In the terminal
 ```
 ssh -o StrictHostKeyChecking=no admin@192.168.88.1
 ```   
-Say 'yes' to the warning and paste this-  
+Hit return to get the "[admin@MikroTik] >" prompt, and paste this-  
 ```
 # SXT to Kiosk Private
 /interface wireless security-profiles
