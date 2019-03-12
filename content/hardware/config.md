@@ -7,7 +7,7 @@ weight: 99
   
 This doc is in progress. Please add links below to the specific config instructions   
   
-Check out our new [SXTsq VPN kiosk client config](#sxtVpn)!
+Check out our new [SXTsq VPN kiosk client config](#sxtVpn)!  ** VPN config has been removed due to issues with L2tp on Mikrotik Client **
   
 ## SXTsq    
 * [Kiosk client](#sxtKiosk)   
