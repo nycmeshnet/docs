@@ -21,7 +21,7 @@ There are many equipment on the market and we may choose in some cases different
 
 A typical installation has a [LiteBeam] (/hardware/litebeamac) antenna on the roof and from that antenna an ethernet cable  run to the apartment. (note: the antenna is sometime referred as the outdoor router).
 
-<img src="/img/typicalInstall/1unitn.jpg" alt="photo" style="width:350px;height:400px;" >
+<img src="/img/typicalInstall/1unit.jpg" alt="photo" style="width:350px;height:400px;" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/img/typicalInstall/lbejpipe.jpg" alt="photo" style="width:300px;height:400px;" >
 
@@ -40,7 +40,7 @@ In the apartment any type of wifi router can be installed. We install a [TP-Link
 
 To allow others to connect to your roof-top setup, several apartments in the building, from another roof-top or simply by using a laptop or smart phone (such as from a roof terrace) we need to add to the litebeam a second equipment that allow such connections. We use an [OmniTik] (hardware/mikrotikomnitik5ac/) mounted on the same pole or it can as well be mounted elsewhere on the roof.
 
-<img src="/img/typicalInstall/2unitsn.jpg" alt="photo" style="width:350px;height:400px;" >
+<img src="/img/typicalInstall/2units.jpg" alt="photo" style="width:350px;height:400px;" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/img/typicalInstall/lbe+Omni.jpg" alt="photo" style="width:300px;height:400px;" >
 
