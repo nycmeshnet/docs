@@ -4,6 +4,10 @@ title: "Outreach Material"
 
 **Flyers/Brochures**
 
+[Two page brochure](Brochure.pdf)  
+
+[One pager](Priorities-One-Pager.pdf)  
+
 [Building postcard - color version](flyer.jpg), [black & white version](flyer-bw.jpg),  
 [Chinese language](flyer-chinese.jpg)
 
