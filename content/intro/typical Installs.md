@@ -16,6 +16,8 @@ NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop"
 *Note: In some cases, such as large buildings we may use fiber to connect but would setup a rooftop "hub" to expand the network to surrounding neighbors. <br>
 There are many equipment on the market and we may choose in some cases different equipement than shown here under.
 
+
+<p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/glW_S9bKAHk?VIDEO_ID?version=3&loop=1&playlist=glW_S9bKAHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen; loop></iframe></p>
 <br><hr><br>
 **1.- Connect to a hub or supernode (one apartment - no roof-to-roof expansion)**  
 
