@@ -16,6 +16,7 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 **Commons**: The commons include public libraries, the Internet, parks and roads and some mesh networks. Guifi has a “Wireless Commons License”.  
 **CPE**: Customer premises equipment (e.g. a LiteBeam, NanoStation, home router). ISP jargon  
 **Dark fiber**: fiber cable that is not connected.  
+**DHCP**: or "Automatic" setting will automatically try to get you an IP address and subnet mask  
 **FFTF**: Fiber From The Farms Broadband Initiative -- Guifi term for BuB   
 **FNF**: Free Network Foundation  
 **Guifi**: The largest community owned network, based in Catalonia, Spain  
@@ -30,6 +31,7 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 **OLSR**: Optimized Link State Routing Protocol (popular mesh protocol)  
 **OpenWRT**: Open source Wireless Receiver/Transmitter (WRT) software  
 [**OSPF**](../../networking/ospf/): a popular dynamic routing protocol  
+[**Peering**](../../networking/peering/) An agreement between two networks two connect and exchange traffic without charge
 **P2P**: Point-to-point connection between two antennas  
 **P2MP**: Point-to-multipoint connection, e.g. between one sector antenna and multiple smaller antennas  
 **POE**: Power over ethernet (how Ubiquiti routers get 24 volt power)  
