@@ -22,6 +22,7 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 **Guifi**: The largest community owned network, based in Catalonia, Spain  
 **IPv4**: the most common version of the Internet Protocol (IP), An IPv4 address consists of four octets e.g. 192.168.1.20  
 **IPv6**: 6th version of Internet Protocol. Designed to replace IPv4. e.g. 2001:db8:0:1:1:1:1:1  
+**ISP**: Internet Service Provider  
 **HNA**: Host and Network Association information used by mesh protocols  
 **LIR**: local Internet registry, an organization that has been allocated a block of IP addresses by a regional Internet registry (RIR)  
 **LuCI**: (pronounced Lucy) Lua Unified Configuration Interface, the web interface in OpenWRT  
@@ -40,5 +41,6 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 **SSID**: Service set identification- the Wi-Fi access point name  
 **WAP**: Wireless Access Point  
 **WDS**: Wireless Distribution System, A mesh protocol we use  
+**WISP**: Wireless ISP  
 **WNDW**: Wireless Networking in the Developing World -- essential book  
 **WRT**: Wireless Receiver/Transmitter software (WRT)  
