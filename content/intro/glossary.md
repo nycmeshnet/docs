@@ -32,7 +32,7 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 **OLSR**: Optimized Link State Routing Protocol (popular mesh protocol)  
 **OpenWRT**: Open source Wireless Receiver/Transmitter (WRT) software  
 [**OSPF**](../../networking/ospf/): a popular dynamic routing protocol  
-[**Peering**](../../networking/peering/) An agreement between two networks two connect and exchange traffic without charge
+[**Peering**](../../networking/peering/) An agreement between two networks two connect and exchange traffic without charge  
 **P2P**: Point-to-point connection between two antennas  
 **P2MP**: Point-to-multipoint connection, e.g. between one sector antenna and multiple smaller antennas  
 **POE**: Power over ethernet (how Ubiquiti routers get 24 volt power)  
