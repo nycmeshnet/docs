@@ -21,7 +21,7 @@ There are many equipment on the market and we may choose in some cases different
 <br><hr><br>
 **1.- Connect to a hub or supernode (one apartment - no roof-to-roof expansion)**  
 
-A typical installation has a [LiteBeam] (/hardware/litebeamac) antenna on the roof and from that antenna an ethernet cable  run to the apartment. (note: the antenna is sometime referred as the outdoor router).
+A typical installation has a [LiteBeam] (/hardware/litebeamac) antenna on the roof. From that antenna an ethernet cable is run to the apartment. (note: the antenna is sometimes referred as the outdoor router).
 
 <img src="/img/typicalInstall/1unit.jpg" alt="photo" style="width:350px;height:400px;" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -34,19 +34,19 @@ Depending on the roof it can be mounted on an old TV antenna pole, on an added p
 <img src="/img/typicalInstall/lbejpipe2.jpg" alt="photo" style="width:300px;height:400px;" >
 <img src="/img/typicalInstall/lbeventpipe.jpg" alt="photo" style="width:300px;height:400px;" >
 
-In the apartment any type of wifi router can be installed. We install a [TP-Link router] (/hardware/tplink).
+In the apartment any type of WiFi router can be installed. We install a [TP-Link router] (/hardware/tplink).
 
 <br><hr><br>
 
 **2.- Connect to a hub or supernode (one or several apartments - with roof-to-roof expansion)**
 
-To allow others to connect to your roof-top setup, several apartments in the building, from another roof-top or simply by using a laptop or smart phone (such as from a roof terrace) we need to add to the litebeam a second equipment that allow such connections. We use an [OmniTik] (hardware/mikrotikomnitik5ac/) mounted on the same pole or it can as well be mounted elsewhere on the roof.
+To allow others to connect to your rooftop, several apartments in the building, from another roof-top or simply by using a laptop or smart phone (such as from a roof terrace) we need to add to the litebeam a second equipment that allows such connections. We use an [OmniTik] (hardware/mikrotikomnitik5ac/) mounted on the same pole or it can be mounted somewhere else on the roof.
 
 <img src="/img/typicalInstall/2units.jpg" alt="photo" style="width:350px;height:400px;" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/img/typicalInstall/lbe+Omni.jpg" alt="photo" style="width:300px;height:400px;" >
 
-The OmniTik is an Omnidirectional (360o) antenna. It covers about a 2-3 blocks radius. It has the advantage to allow more then one unit in the building to be connected to it. We connect the Litebeam to the OmniTik and apartment to the OmniTik with ethernet cables.
+The OmniTik is an Omnidirectional (360°) antenna. It has about 2-3 block radius. It has the advantage to allow more than one unit in the building to be connected to it. We connect the Litebeam to the OmniTik and the apartment to the OmniTik via ethernet.
 
 <img src="/img/typicalInstall/lbe+OmniPipe.jpg" alt="photo" style="width:300px;height:400px;" >
 <img src="/img/typicalInstall/lbe+OmniPole.jpg" alt="photo" style="width:300px;height:400px;" >
@@ -56,13 +56,13 @@ The OmniTik is an Omnidirectional (360o) antenna. It covers about a 2-3 blocks r
 <br> OmniTik not located next to the Litebeam<br>
 <img src="/img/typicalInstall/OmniAlone.jpg" alt="photo" style="width:400px;height:533px;">
 
-Other rooftops can connect to the OmniTik, either by using an other Omnitik, if close enough, or we use in some cases an [SXT] (/hardware/sxtsqg5acd/)
+Other rooftops can connect to the OmniTik by using another Omnitik if they are close enough or we use, in some cases, an [SXT] (/hardware/sxtsqg5acd/)
 
 <br><hr><br>
 
 **3.- A good rooftop can be "beefed up" to allow for more connectivity.**
 
-If the rooftop is interesting, good location, high enough, etc.. we may install "sectors" or other tpe of equipement. Sectors are antenna that "speaks" AirMax and have a longer range then an OmniTik. Or we may install connection to two hubs, etc....
+If the rooftop is interesting (at a good location, it's high enough, etc) we may install "sectors" or other type of equipement. Sectors are antennas that communicate via Ubiquiti's AirMax protocol and have a longer range than an OmniTik. Additionally, we may connect to two hubs, etc....
 
 Here three examples.
 
@@ -73,13 +73,13 @@ Here three examples.
 
 <br><hr><br>
 
-**4.- A building can connect to an other building with a OmniTik using a different atenna**
+**4.- A building can connect to an other building with an OmniTik using a different atenna**
 
-A building can connect to an other building with an OmniTik using a [SXT] ( /hardware/sxtsqg5acd/ ) antenna. It can then serve one or several apartments.
+A building can connect to another building with an OmniTik using a [SXT] ( /hardware/sxtsqg5acd/ ) antenna. It can then serve one or several apartments.
 
 <img src="/img/typicalInstall/sxt-2.jpg" alt="photo" style="width:300px;height:400px;" >
 <img src="/img/typicalInstall/sxt-3.jpg" alt="photo" style="width:300px;height:400px;" >
 
 <br><hr><br>
-Those are typical installations. Other setup are possible and in use throughout NYC Mesh.
+Those are typical installations. Other setups are possible and in use throughout NYC Mesh.
 
