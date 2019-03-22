@@ -24,6 +24,9 @@ Device specs are available at [Mikrotik.com](https://mikrotik.com/product/rbomni
 
 ### Omnitik config v3.2
 As discussed in the [MikroTik Specifics](/hardware/mikrotikspecifics) page, these devices need a script to be generated and loaded onto the device rather than a saved config file.  
+We now have a script generator you can find here [https://configgen.nycmesh.net/](https://configgen.nycmesh.net/)   
+Here is a slideshow of [configuring an OmniTik](https://docs.google.com/presentation/d/1V91gqeo19D-6bTG3Mtj7dhx7ERlzHOkplmf9-kAI3NU/present)  
+
 The below is a template script which needs some variables filled in.  
 This script _only_ works on the OmniTik 5ac PoE model  
 
