@@ -64,7 +64,7 @@ Other rooftops can connect to the OmniTik by using another Omnitik if they are c
 
 If the rooftop is interesting (at a good location, it's high enough, etc) we may install "sectors" or other type of equipement. Sectors are antennas that communicate via Ubiquiti's AirMax protocol and have a longer range than an OmniTik. Additionally, we may connect to two hubs, etc....
 
-Here three examples.
+Here four examples.
 
 <img src="/img/typicalInstall/hub100AVA.jpg" alt="photo" style="width:300px;height:400px;" >
 <img src="/img/typicalInstall/hub-sn4.jpg" alt="photo" style="width:300px;height:400px;" >
@@ -73,7 +73,7 @@ Here three examples.
 
 <br><hr><br>
 
-**4.- A building can connect to an other building with an OmniTik using a different atenna**
+**4.- A building can connect to an other building with an OmniTik using a different antenna**
 
 A building can connect to another building with an OmniTik using a [SXT] ( /hardware/sxtsqg5acd/ ) antenna. It can then serve one or several apartments.
 
