@@ -26,8 +26,7 @@ SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 * SN and Hub  
   
 ## OmniTik    
-* BGP/WDS    
-* Simple hub  
+* [Detailed config](/hardware/mikrotikomnitik5ac)
   
 ## EdgePoint    
 * Switch    
