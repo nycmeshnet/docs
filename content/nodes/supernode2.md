@@ -3,7 +3,7 @@ title: "Supernode 2"
 aliases: [/networking/supernode1/]
 ---
 
-⚠️  **Supernode 2 has been removed** ⚠️
+⚠️  **Supernode 2 is no longer active. The sector antennas were moved to [Soft Surplus](https://www.nycmesh.net/map/nodes/1417)** ⚠️
 
 Supernode 2 (node 570) was located at 1196 Metropolitan Avenue in Brooklyn New York. On October 7th, 2018 it was taken down due to roof repair.
 
