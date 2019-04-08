@@ -5,7 +5,7 @@ aliases: [/networking/supernode1/]
 
 ⚠️  **Supernode 2 has been removed** ⚠️
 
-Supernode 2 (node 570) was located at 1196 Metropolitan Avenue in Brooklyn New York. On October 7th, 2018 it was taken down due to a landlord dispute.
+Supernode 2 (node 570) was located at 1196 Metropolitan Avenue in Brooklyn New York. On October 7th, 2018 it was taken down due to roof repair.
 
 The information below is a point of reference for how supernode 2 was configured.
 
