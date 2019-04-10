@@ -36,4 +36,32 @@ Additionally, even with a simple username and password, the server can also stil
    * BGP Node-Peering ( Get a username and password from Zach _This will change later, just for not to get the Docs out, this is what we currently do._ )
 
 ## How To Connect
+
+### Windows 10
+ * Click on Start (Title menu) and type VPN
+ * Click on on Change Virtual Private Networks (VPN)
+ * Click on the plus button (Add a VPN connection)
+ * Choose VPN provider (Microsoft by default)
+ * Conenction name (Name it whatever you want)
+ * Server name or address **l2tpvpn.sn1.mesh.nycmesh.net**
+ * VPN Type: L2TP/IPsec with pre-shared key
+ * Pre-shared key: **nycmeshnet**
+ * Type of sign-in info: User name and password
+ * Username: **nycmesh**
+ * Password: **nycmeshnet**
+ * Check box to remember password so you don't have to type this everytime 
+ * Click save
+ * Click on newly created VPN connection and click connect
+ ### iPhone
+ * Go to Settings
+ * Tap on VPN
+ * Tap on Add VPN Configuration
+ * Tap on Type and choose L2TOP
+ * Description (Anything you want)
+ * Server: **l2tpvpn.sn1.mesh.nycmesh.net**
+ * Account: **nycmesh**
+ * Leave RSA SecurID off
+ * Password **nycmeshnet**
+ * Secret: **nycmeshnet**
+ 
 **TODO** _Coming December2018/January2019_
