@@ -8,12 +8,7 @@ weight: 99
 This doc is in progress. Please add links below to the specific config instructions   
   
 Check out our new [SXTsq VPN kiosk client config](#sxtVpn)!  ** VPN config has been removed due to issues with L2tp on Mikrotik Client **
-  
-## SXTsq    
-* [Kiosk client](#sxtKiosk)   
-* [OmniTik client](#sxtClient)  
-* [Point-to-point](#sxtP2P)   
-  
+
 ## LiteBeams  
 SN1 clients need to have an IP address assigned 192.168.42.xxx
 SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
@@ -21,12 +16,17 @@ SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 * SN1 orig config- [Detailed config](/installs/cpe), [Easy config](#lbe-client)     
 * SN2+ and hubs [Detailed config](/installs/cpe2), [Easy config](#lbe-client)         
 * P2P    
+    
+## SXTsq    
+* [Kiosk client](#sxtKiosk)   
+* [OmniTik client](#sxtClient)  
+* [Point-to-point](#sxtP2P)   
   
 ## LiteAC / LBE120 Sector    
-* SN and Hub  
+* SN and Hub  [Easy config](#liteac)
   
 ## OmniTik    
-* [Detailed config](/hardware/mikrotikomnitik5ac)
+* [Old config](/hardware/mikrotikomnitik5ac), [New Easy config](#omni)
   
 ## EdgePoint    
 * Switch    
@@ -345,8 +345,56 @@ add bridge=bridge1 interface=wlan1
 /ip address
 add address=192.168.88.5/24 interface=bridge1 network=192.168.88.0
 set [ find interface=ether1] address=192.168.88.4/24
-
   ```  
+
+---
+
+### <a name="liteac"></a>LiteAC 120 sector
+
+---
+
+### <a name="omni"></a>Standard Omnitik mesh config
+
+First generate a config file using our configgen-
+
+https://configgen.nycmesh.net/?device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl
+
+Enter the building node number and click "Download"
+
+To connect to a new default config Omnitik you need to power it via WAN port 1 (POE in) and connect to a LAN port (say port 2)
+
+Set your computer to DHCP (automatic) and it will get an address like 192.168.88.xxx
+
+Go to http://192.168.88.1 in your browser
+
+Update firmware to latest on your device- see [Mikrotik Firmware](/software/mikrotikfirmware)
+
+In the terminal-
+
+```
+scp -o StrictHostKeyChecking=no rooftop-ospf-####.rsc admin@192.168.88.1:flash/
+```
+
+(replacing "rooftop-ospf-####.rsc" with your file's name)
+
+scp will upload from your current directory, or you can drop the file into the terminal to paste the full pathname
+
+Go back to your browser and in Webfig click System and Reset Configuration
+
+Select:
+  * No Defaults
+  * Run After Reset: `flash/nycmesh-omni-####.rsc`  (click the popup on the right to select this)
+  * Apply
+
+This will cause it to reboot and play some beeps, ending with a short tune (Kernkraft 400)
+
+If it gets to the end and plays the tune it has been successful.
+
+Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you will probably plug a LiteBeam into that.
+
+Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments. 
+
+
   
   
   
