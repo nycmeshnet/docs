@@ -4,6 +4,7 @@ title: "Glossary"
 <!---
 IMPORTANT, markdown needs two spaces "  " at the end of every line here to create a new line!
 -->
+**Antenna**: Antenna, router and radio are often confused- [see our FAQ](https://www.nycmesh.net/faq#defrouter)  
 **AP**: a wifi Access Point  
 **ASN**: Autonomous System Number that identifies your network on BGP for [peering](../../networking/peering/). Our  number is [AS395853](https://www.peeringdb.com/asn/395853)  
 **Backhaul**: very high bandwidth connections, often point to point.  
@@ -37,6 +38,7 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 **P2MP**: Point-to-multipoint connection, e.g. between one sector antenna and multiple smaller antennas  
 **POE**: Power over ethernet (how Ubiquiti routers get 24 volt power)  
 **Radio**: The wireless receiver/transmitter part of a router  
+**Router**: Antenna, router and radio are often confused- [see our FAQ](https://www.nycmesh.net/faq#defrouter)  
 **RIR**: Regional Internet registry  
 **SSID**: Service set identification- the Wi-Fi access point name  
 **WAP**: Wireless Access Point  
