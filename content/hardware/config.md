@@ -381,9 +381,10 @@ scp will upload from your current directory, or you can drop the file into the t
 
 Go back to your browser and in Webfig click System and Reset Configuration
 
-Select:
-  * No Defaults
-  * Run After Reset: `flash/nycmesh-omni-####.rsc`  (click the popup on the right to select this)
+Select:  
+
+  * No Defaults  
+  * Run After Reset: `flash/nycmesh-omni-####.rsc`  (click the popup on the right to select this)  
   * Apply
 
 This will cause it to reboot and play some beeps, ending with a short tune (Kernkraft 400)
