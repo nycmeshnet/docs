@@ -2,7 +2,7 @@
 title: "Flashing Nanostation M5 with NYC Mesh Firmware"
 ---
 
-We have been moving towards MikroTik OmniTik as our mesh device. Before using a NanoStation, you should check with us that you are in range of another NanoStation. Some use the NanoStation when they are out of range of the mesh network and using the built-in tinc vpn connection.
+We have been moving towards MikroTik OmniTik as our mesh device. Before using a NanoStation, you should check with us that you are in range of another NanoStation. Some use the NanoStation when they are out of range of the mesh network using the built-in tinc vpn connection.
 
 Don't forget to read our [FAQ](https://nycmesh.net/faq) on the main site.  
 Also, please fill out the [Join](https://nycmesh.net/join) form.  
