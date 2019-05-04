@@ -10,12 +10,9 @@ NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop"
 
 * In the first category are equipment that "speaks" [AirMAX] (https://dl.ubnt.com/datasheets/airmax/UBNT_DS_airMAX_TDMA.pdf) (called a protocol).  Some hubs and supernods (that are in effect hubs) have antennas covering a sector, or 360o, that "speak" AirMax. To connect to those, you need to install on your roof an antenna that "speaks" that same AirMax language. See [Ubiquiti] (/hardware) equipement. In addition, some hubs may as well have antennas of the second category. 
 
-* The second category of equipment "speaks" the same language as your home router, [802.11] (https://en.wikipedia.org/wiki/IEEE_802.11) (there are sub categories of this protocol as it evolves. They are noted (a, b, g, n and ac), or 802.11a/b/g/n/ac) see [Mikrotik] (/hardware) equipment.
-
+* The second category of equipment "speaks" the uses the same wifi as your home router, [802.11] (https://en.wikipedia.org/wiki/IEEE_802.11) (there are sub categories of this protocol 802.11a/b/g/n/ac) see [Mikrotik] (/hardware) equipment.
 
 *Note: In some cases, such as large buildings we may use fiber to connect but would setup a rooftop "hub" to expand the network to surrounding neighbors. <br>
-There are many equipment on the market and we may choose in some cases different equipement than shown here under.
-
 
 <p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/glW_S9bKAHk?VIDEO_ID?version=3&loop=1&playlist=glW_S9bKAHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen; loop></iframe></p>
 <br><hr><br>
@@ -40,13 +37,13 @@ In the apartment any type of WiFi router can be installed. We install a [TP-Link
 
 **2.- Connect to a hub or supernode (one or several apartments - with roof-to-roof expansion)**
 
-To allow others to connect to your rooftop, several apartments in the building, from another roof-top or simply by using a laptop or smart phone (such as from a roof terrace) we need to add to the litebeam a second equipment that allows such connections. We use an [OmniTik] (hardware/mikrotikomnitik5ac/) mounted on the same pole or it can be mounted somewhere else on the roof.
+To allow others to connect to your rooftop LiteBeam router we need to add an ethernet router and an access point. For this we usually use an [OmniTik] (hardware/mikrotikomnitik5ac/) mounted on the same pole or it can be mounted somewhere else on the roof. The OmniTik will give you wifi on your roof and also allow 4 other apartments to connect with ethernet.
 
 <img src="/img/typicalInstall/2units.jpg" alt="photo" style="width:350px;height:400px;" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/img/typicalInstall/lbe+Omni.jpg" alt="photo" style="width:300px;height:400px;" >
 
-The OmniTik is an Omnidirectional (360°) antenna. It has about 2-3 block radius. It has the advantage to allow more than one unit in the building to be connected to it. We connect the Litebeam to the OmniTik and the apartment to the OmniTik via ethernet.
+The OmniTik is an Omnidirectional (360°) antenna. It has about 2-3 block radius. We connect the Litebeam to the OmniTik and  apartments to the OmniTik via ethernet.
 
 <img src="/img/typicalInstall/lbe+OmniPipe.jpg" alt="photo" style="width:300px;height:400px;" >
 <img src="/img/typicalInstall/lbe+OmniPole.jpg" alt="photo" style="width:300px;height:400px;" >
