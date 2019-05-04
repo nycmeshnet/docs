@@ -10,7 +10,7 @@ NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop"
 
 * In the first category are equipment that "speaks" [AirMAX] (https://dl.ubnt.com/datasheets/airmax/UBNT_DS_airMAX_TDMA.pdf) (called a protocol).  Some hubs and supernods (that are in effect hubs) have antennas covering a sector, or 360o, that "speak" AirMax. To connect to those, you need to install on your roof an antenna that "speaks" that same AirMax language. See [Ubiquiti] (/hardware) equipement. In addition, some hubs may as well have antennas of the second category. 
 
-* The second category of equipment "speaks" the uses the same wifi as your home router, [802.11] (https://en.wikipedia.org/wiki/IEEE_802.11) (there are sub categories of this protocol 802.11a/b/g/n/ac) see [Mikrotik] (/hardware) equipment.
+* The second category of equipment "speaks" the same wifi as your home router, [802.11] (https://en.wikipedia.org/wiki/IEEE_802.11) (there are sub categories of this protocol 802.11a/b/g/n/ac) see [Mikrotik] (/hardware) equipment.
 
 *Note: In some cases, such as large buildings we may use fiber to connect but would setup a rooftop "hub" to expand the network to surrounding neighbors. <br>
 
