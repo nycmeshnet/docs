@@ -8,9 +8,9 @@ The intention of this page is not to be technical but rather give to the non-tec
 
 NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop" using different type of equipment based on geography and topology. And doing so, expand NYC Mesh network coverage to the next block and so on*. The fondment of NYC Mesh is to share the connectivity with the neignbors, share ressources, share equipment, share the network. Create a community of communities connecting to each others. NYC Mesh uses basically two categories of equipment. 
 
-* In the first category are equipment that "speaks" [AirMAX] (https://dl.ubnt.com/datasheets/airmax/UBNT_DS_airMAX_TDMA.pdf) (AirMax protocol).  Some hubs and supernods (that are in effect hubs) have antennas covering a sector, or 360o, that "speak" AirMax. To connect to those, you need to install on your roof an antenna that understands that same AirMax language. See [Ubiquiti] (/hardware) equipment. In addition, some hubs may as well have antennas of the second category. 
+* In the first category are equipment that "speaks" [AirMAX] (https://dl.ubnt.com/datasheets/airmax/UBNT_DS_airMAX_TDMA.pdf) (AirMax protocol).  Some hubs and supernodes have antennas covering a sector, or 360o, that "speak" AirMax. To connect to those, you need to install on your roof an antenna that understands that same AirMax protocol. See [Ubiquiti] (/hardware) equipment. In addition, some hubs may as well have antennas of the second category. 
 
-* The second category of equipment uses the same wifi as your home router, [802.11] (https://en.wikipedia.org/wiki/IEEE_802.11) (there are sub categories of this protocol 802.11a/b/g/n/ac) see [Mikrotik] (/hardware) equipment.
+* The second category of equipment uses the same wifi as your home router, [802.11] (https://en.wikipedia.org/wiki/IEEE_802.11) (there are different versions of wifi- 802.11a/b/g/n/ac) see [Mikrotik] (/hardware) equipment.
 
 *Note: In some cases, such as large buildings we may use fiber to connect but would setup a rooftop "hub" to expand the network to surrounding neighbors. <br>
 
