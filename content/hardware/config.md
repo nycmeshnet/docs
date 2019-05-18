@@ -382,7 +382,7 @@ scp will upload from your current directory, or you can drop the file into the t
 From a Windows OS, you must have [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) installed and run the following command from the command prompt:
 
 ```
-pscp -scp nycmesh-omni-####.rsc admin@192.168.88.1:flash/`  
+pscp -scp nycmesh-omni-####.rsc admin@192.168.88.1:flash/  
 ```
 
 Go back to your browser and in Webfig click System > Reset Configuration
@@ -401,7 +401,7 @@ Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you will
 
 Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments. 
 
-Finally, change the password. Go to System > Password, leave Old Password blank and type in New Password/Confirm Password type in the standard NYC Mesh password.
+Finally, change the password. Go to System > Password, leave Old Password blank and in New Password/Confirm Password, type in the standard NYC Mesh password.
 
 
   
