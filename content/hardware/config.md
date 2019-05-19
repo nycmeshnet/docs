@@ -369,7 +369,7 @@ Go to http://192.168.88.1 in your browser
 
 Update firmware to latest on your device- see [Mikrotik Firmware](/software/mikrotikfirmware)
 
-In the terminal-
+In the terminal (mac and linux)-
 
 ```
 scp -o StrictHostKeyChecking=no rooftop-ospf-####.rsc admin@192.168.88.1:flash/
@@ -379,11 +379,17 @@ scp -o StrictHostKeyChecking=no rooftop-ospf-####.rsc admin@192.168.88.1:flash/
 
 scp will upload from your current directory, or you can drop the file into the terminal to paste the full pathname
 
-Go back to your browser and in Webfig click System and Reset Configuration
+From a Windows OS, you must have [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) installed and run the following command from the command prompt:
+
+```
+pscp -scp nycmesh-omni-####.rsc admin@192.168.88.1:flash/  
+```
+
+Go back to your browser and in Webfig click System > Reset Configuration
 
 Select:  
 
-  * No Defaults  
+  * No Default Configuration  
   * Run After Reset: `flash/nycmesh-omni-####.rsc`  (click the popup on the right to select this)  
   * Apply
 
@@ -394,6 +400,8 @@ If it gets to the end and plays the tune it has been successful.
 Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you will probably plug a LiteBeam into that.
 
 Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments. 
+
+Finally, change the password. Go to System > Password, leave Old Password blank and in New Password/Confirm Password, type in the standard NYC Mesh password.
 
 
   
