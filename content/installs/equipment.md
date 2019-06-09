@@ -15,15 +15,14 @@ You can download a handy checklist of the equipment listed on this page [here](h
 | Product Name  | Product Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ------- |
 | Laptop (charged) | ![alt text](https://i.imgur.com/rE9JFWH.jpg "Laptop") | Configuring outdoor and indoor routers, reading docs and install plan | Bring your own |
-| Outdoor router (pre-configured) | ![alt text](https://i.imgur.com/EYfuxfi.jpg "Outdoor router") | Connecting to a Supernode or Hub node | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
-| Power Over Ethernet (POE) adapter and power cable | ![alt text](https://i.imgur.com/mvWnLmL.jpg "POE") | Passing power to the outdoor router and data from the outdoor Ethernet cable to the indoor patch cable | Comes packaged with the outdoor router |
-| Switch router (pre-configured, for multiple-apartment installs) | ![alt text](https://i.imgur.com/SKAyY5b.jpg "Switch router") | Passing data to multiple apartments in one building | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
+| Outdoor router(s) (pre-configured) | ![alt text](https://i.imgur.com/EYfuxfi.jpg "Outdoor router") | Connecting to a node | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
+| Power Over Ethernet (POE) adapter and power cable | ![alt text](https://i.imgur.com/mvWnLmL.jpg "POE") | Providing power to the outdoor router and passing data to and from indoor router | Comes packaged with the outdoor router |
 | Indoor router | ![alt text](https://i.imgur.com/1icPBQB.jpg "Indoor router") | Connection point for user's devices | Order online (see [TP Link page](https://docs.nycmesh.net/hardware/tplink/) for an inexpensive and commonly-used model) or use existing indoor router |
 | CAT5e cable (outdoor-rated, grounded and shielded) | ![alt text](https://i.imgur.com/jEy1pxc.jpg "CAT5e cable") | Passing power and data between outdoor router, indoor router and power outlet | Available from online retailers in different spool lengths - [recommended product](https://www.amazon.com/Ubiquiti-Networks-TOUGHCable-Shielded-Ethernet/dp/B008L143VW?tag=nycmesh-20) |
 | RJ45 Tough Connectors (metal, with grounding loop) | ![alt text](https://i.imgur.com/OWfMQu3.jpg "RJ45") | Gets crimped onto the ends of the CAT5e cable to provide power and data interface | Available from online retailers - [recommended product](https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0?tag=nycmesh-20) |
 | Two Ethernet patch cables | ![alt text](https://i.imgur.com/6l8FGGh.jpg "Ethernet Patch cable") | Connecting routers to POE injector, battery pack, laptop  | Available from online retailers - [recommended product](https://www.amazon.com/gp/product/B00X8EPEWE/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1?tag=nycmesh-20) |
 | Portable battery pack with three-prong power outlet (charged) | ![alt text](https://i.imgur.com/hLgmFyQ.jpg "Battery pack") | Providing power to outdoor router while surveying for signal | Available from online retailers - [recommended product](https://www.amazon.com/NOVOO-20100mAh-Universal-Compatible-Smartphones/dp/B078HZXXMY?tag=nycmesh-20) |
-| Gigabit USB/Thunderbolt to Ethernet adapter | ![alt text](https://i.imgur.com/q3DH0dc.jpg "Ethernet adapter") | Connecting laptop to outdoor router (not needed if connecting wirelessly) | Available from online retailers |
+| Gigabit USB/Thunderbolt to Ethernet adapter | ![alt text](https://i.imgur.com/q3DH0dc.jpg "Ethernet adapter") | Connecting laptop without an ethernet port to outdoor router (not needed if connecting wirelessly) | Available from online retailers |
 
 
 ### Tools
@@ -68,7 +67,7 @@ You can download a handy checklist of the equipment listed on this page [here](h
 | WD-40 or other oil | ![alt text](https://i.imgur.com/3lzIxyg.jpg "WD40") | Drilling through thicker metals | Hardware store |
 | Small brush and dustpan | ![alt text](https://i.imgur.com/HPr0xuW.jpg "Tiny broom") | Sweeping up cable ends and metal shavings from drilling through window frame | Online retailers |
 | Small garbage bag | ![alt text](https://i.imgur.com/KXNTCjH.jpg "Garbage bag") | Disposing of garbage | Reuse a shopping bag |
-| Stair-climbing hand truck | ![alt text](https://i.imgur.com/7x3UWYR.jpg "Hand truck") | Transporting cable reel box and equipment bag in and out of subway stations | Online retailers, larger hardware stores |
+| Hand truck | ![alt text](https://i.imgur.com/7x3UWYR.jpg "Hand truck") | Transporting cable reel box and equipment bag in and out of subway stations - stair-climbing model is ideal! | Online retailers, larger hardware stores |
 
 ### Safety gear
 
