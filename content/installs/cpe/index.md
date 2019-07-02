@@ -20,7 +20,7 @@ A new Ubiquiti device has a default IP address 192.168.1.20 and name/pass ubnt, 
 
 Connect to the LiteBeamAC or NanoBeamAC via ethernet. Make sure you are on the same subnet by manually setting your network preferences, e.g. 192.168.1.11, Mask: 255.255.255.0
 
-You will get an ssh warning "Your connection is not...", ignore and click "advanced" to proceed. (This is because the interface uses https)
+You will get an ssl warning "Your connection is not...", ignore and click "advanced" to proceed. (This is because the interface uses https)
 
 **Flash with latest firmware**
 
