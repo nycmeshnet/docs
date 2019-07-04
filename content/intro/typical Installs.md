@@ -59,7 +59,7 @@ Other rooftops can connect to the OmniTik by using another Omnitik if they are c
 
 **3.- A good rooftop can be "beefed up" to allow for more connectivity.**
 
-If the rooftop is interesting (at a good location, it's high enough, etc) we may install "sectors" or other type of equipement. Sectors are antennas that communicate via Ubiquiti's AirMax protocol and have a longer range than an OmniTik. Additionally, we may connect to two hubs, etc....
+If the rooftop is interesting (at a good location, it's high enough, etc) we may install "[sectors] (/hardware/liteap/)" or other type of equipement. Sectors are antennas that communicate via Ubiquiti's AirMax protocol and have a longer range than an OmniTik. Additionally, we may connect to two hubs, etc....
 
 Here four examples.
 
@@ -70,7 +70,7 @@ Here four examples.
 
 <br><hr><br>
 
-**4.- A building can connect to an other building with an OmniTik using a different antenna**
+**4.- A building can connect to another building with an OmniTik using a different antenna**
 
 A building can connect to another building with an OmniTik using a [SXT] ( /hardware/sxtsqg5acd/ ) antenna. It can then serve one or several apartments.
 
