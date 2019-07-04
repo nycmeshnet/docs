@@ -37,7 +37,7 @@ In the apartment any type of WiFi router can be installed. We install a [TP-Link
 
 **2.- Connect to a hub or supernode (one or several apartments - with roof-to-roof expansion)**
 
-To allow others to connect to your rooftop LiteBeam router we need to add an ethernet router and an access point. For this we usually use an [OmniTik] (hardware/mikrotikomnitik5ac/) mounted on the same pole or it can be mounted somewhere else on the roof. The OmniTik will give you wifi on your roof and also allow 4 other apartments to connect with ethernet.
+To allow others to connect to your rooftop LiteBeam router we need to add an ethernet router and an access point. For this we usually use an [OmniTik] (/hardware/mikrotikomnitik5ac/) mounted on the same pole or it can be mounted somewhere else on the roof. The OmniTik will give you wifi on your roof and also allow 4 other apartments to connect with ethernet.
 
 <img src="/img/typicalInstall/2units.jpg" alt="photo" style="width:350px;height:400px;" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
