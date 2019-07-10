@@ -63,5 +63,15 @@ Additionally, even with a simple username and password, the server can also stil
  * Leave RSA SecurID off
  * Password **nycmeshnet**
  * Secret: **nycmeshnet**
+ ### Linux (Gnome/NetworkManager)
+ * Make sure you have the L2TP/IPsec NetworkManager plugin installed (`NetworkManager-l2tp-gnome` on Fedora)
+ * Add a new VPN of type 'Layer 2 Tunneling Protocol'
+ * Gateway: **l2tpvpn.sn1.mesh.nycmesh.net**
+ * Username: **nycmesh**
+ * Password: **nycmeshnet** (you may have to click a question mark on the right of the textbox to allow saving the password)
+ * Click "IPsec Settings"
+ * Check "Enable IPsec tunnel to L2TP host"
+ * Pre-shared key: **nycmeshnet**
+ * Save & Connect
  
 **TODO** _Coming December2018/January2019_
