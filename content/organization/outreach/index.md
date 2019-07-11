@@ -4,7 +4,7 @@ title: "Outreach Material"
 
 **Flyers/Brochures**
 
-[Two page trifold neighborhood brochure](https://docs.google.com/presentation/d/1D5idINRhLICwrbWa7w5Y5l_9wgV19KWEMIOoqrkXk8E/edit?usp=sharing)
+[Two page trifold neighborhood brochure](https://docs.google.com/presentation/d/1D5idINRhLICwrbWa7w5Y5l_9wgV19KWEMIOoqrkXk8E/edit?usp=sharing)  
 [Two page trifold general brochure](Brochure.pdf)  
 [One page general flyer](Priorities-One-Pager.pdf)  
 
