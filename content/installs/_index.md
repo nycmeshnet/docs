@@ -1,5 +1,6 @@
 ---
 title: "Installs"
+layout: single
 ---
 
 Installers are people who help new users join our mesh, typically by installing wireless equipment on their roof.
