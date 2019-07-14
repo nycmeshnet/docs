@@ -6,9 +6,9 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 
 You can download a handy checklist of the equipment listed on this page [here](https://docs.google.com/document/d/1NVBBS7dzPIF6RNpa8S-seFaqSoVuhaVcVaascf6aASo/edit?usp=sharing). 
 
-**For DIY installers:** To get help figuring out which equipment you need for your installation, first familiarize yourself with the equipment below and then reach out to the NYC Mesh community on [slack] on the #install channel.
+**For DIY installers:** To get help figuring out which essential equipment you need for your installation, first familiarize yourself with the equipment below and then reach out to the NYC Mesh community on [slack] on the #install channel.
 
-**For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel. Shared tools are available and we keep a small stock of networking equipment that can be distributed as needed.
+**For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel to ask to borrow them. Shared tools are available and we can purchase, order and ship networking equipment (routers, cable, connectors, etc.) to your address.
 
 ### Networking Equipment
 
@@ -21,7 +21,7 @@ You can download a handy checklist of the equipment listed on this page [here](h
 | CAT5e cable (outdoor-rated, grounded and shielded) | ![alt text](https://i.imgur.com/jEy1pxc.jpg "CAT5e cable") | Passing power and data between outdoor router, indoor router and power outlet | Available from online retailers in different spool lengths - [recommended product](https://www.amazon.com/Ubiquiti-Networks-TOUGHCable-Shielded-Ethernet/dp/B008L143VW?tag=nycmesh-20) |
 | RJ45 Tough Connectors (metal, with grounding loop) | ![alt text](https://i.imgur.com/OWfMQu3.jpg "RJ45") | Gets crimped onto the ends of the CAT5e cable to provide power and data interface | Available from online retailers - [recommended product](https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0?tag=nycmesh-20) |
 | Two Ethernet patch cables | ![alt text](https://i.imgur.com/6l8FGGh.jpg "Ethernet Patch cable") | Connecting routers to POE injector, battery pack, laptop  | Available from online retailers - [recommended product](https://www.amazon.com/gp/product/B00X8EPEWE/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1?tag=nycmesh-20) |
-| Portable battery pack with three-prong power outlet (charged) | ![alt text](https://i.imgur.com/hLgmFyQ.jpg "Battery pack") | Providing power to outdoor router while surveying for signal | Available from online retailers - [recommended product](https://www.amazon.com/NOVOO-20100mAh-Universal-Compatible-Smartphones/dp/B078HZXXMY?tag=nycmesh-20) |
+| Portable battery pack with three-prong power outlet (charged) | ![alt text](https://i.imgur.com/ejHRUWz.jpg "Battery pack") | Providing power to outdoor router while surveying for signal | Available from online retailers - [recommended product (less expensive)](https://www.amazon.com/NOVOO-20100mAh-Universal-Compatible-Smartphones/dp/B078HZXXMY?tag=nycmesh-20) [recommended product (better features)](https://www.amazon.com/dp/B07FYJVFNK/ref=cm_sw_r_cp_api_i_rc4kDbKN0YQX8tag=nycmesh-20)|
 | Gigabit USB/Thunderbolt to Ethernet adapter | ![alt text](https://i.imgur.com/q3DH0dc.jpg "Ethernet adapter") | Connecting laptop without an ethernet port to outdoor router (not needed if connecting wirelessly) | Available from online retailers |
 
 
@@ -48,7 +48,7 @@ You can download a handy checklist of the equipment listed on this page [here](h
 
 | Product Name  | Product Photo | Field Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ------- | ---- |
-| Small diameter (28) hose clamp  | ![alt text](https://i.imgur.com/rX4lSAK.jpg "Small Diameter Hose clamp in field") | ![alt text](https://i.imgur.com/9GMe0EM.jpg "Small Diameter Hose clamp") | Securing the router to a thin mast or pipe | Hardware store plumbing aisle |
+| Small diameter (28) hose clamp  | ![alt text](https://i.imgur.com/rX4lSAK.jpg "Small Diameter Hose clamp in field") | ![alt text](https://i.imgur.com/9GMe0EM.jpg "Small Diameter Hose clamp") | Securing the router to a thin mast or pipe | Comes with outdoor router, hardware store plumbing aisle |
 | Large diameter (88) hose clamp  | ![alt text](https://i.imgur.com/s932nZv.jpg "Large Diameter Hose clamp")  | ![alt text](https://i.imgur.com/ncbuXY5.jpg "Larde Diameter Hose clamp in field") | Securing the router or mast to a large pipe or window guard | Hardware store plumbing aisle |
 | J pipe antenna mast | ![alt text](https://i.imgur.com/iRbOsrt.jpg "J Pipe") | ![alt text](https://i.imgur.com/xRCL13J.jpg "J pipe in the field") | Mounting to a wall or parapet | Online retailers |
 | L pipe antenna mast | ![alt text](https://i.imgur.com/hF6IClf.jpg "L Pipe") | ![alt text](https://i.imgur.com/vgOZ29B.jpg "L pipe in the field") | Orienting an SXT router up and down | Online retailers |
