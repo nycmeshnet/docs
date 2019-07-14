@@ -1,9 +1,9 @@
 {{ $currentPage := . }}
-<div class="relative w-20-ns ph4-l ph3 flex justify-end-ns br bg-near-white b--light-gray">
+<div id="sidebar" class="relative ph4-l ph3 flex justify-end-ns br bg-near-white b--light-gray">
 	<div class="mw5 w-100 overflow-y-hidden flex flex-column">
 		<div class="nowrap flex items-center justify-start h3">
 			<a href="/" title="Home" class="f3-ns f4 fw7 black nowrap flex items-center">
-				<img src="/img/logo.svg" class="h2 mr2" /> 
+				<img src="/img/logo.svg" class="h2 mr2" />
 		        <span class="f4">NYC Mesh
 	            <span class="ml1 blue f5 ttu">Docs</span></span>
 			</a>
@@ -14,7 +14,7 @@
 		<div role="button" class="showDropdown bg-near-white h3 w3 flex items-center justify-center" tabindex="0">
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
 		</div>
-		<div class="dn db-ns dropdown overflow-y-hidden pv4-ns pv3">
+		<div class="dn db-ns dropdown overflow-y-auto pbv4-ns mt4-ns">
 			<ul class="list ma0 ph0">
 				{{ range .Site.Sections }}
 					<li>
@@ -22,7 +22,7 @@
 							{{ if eq $currentPage . | or (eq $currentPage.Parent .) }}
 							<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="#ccc" class="red mr2">
 								<path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6z"/>
-							</svg>	
+							</svg>
 							{{ else }}
 							<svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 8 16" fill="#ccc" class="red mr2">
 								<path fill-rule="evenodd" d="M7.5 8l-5 5L1 11.5 4.75 8 1 4.5 2.5 3z"/>
