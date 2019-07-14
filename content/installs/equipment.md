@@ -21,7 +21,7 @@ You can download a handy checklist of the equipment listed on this page [here](h
 | CAT5e cable (outdoor-rated, grounded and shielded) | ![alt text](https://i.imgur.com/jEy1pxc.jpg "CAT5e cable") | Passing power and data between outdoor router, indoor router and power outlet | Available from online retailers in different spool lengths - [recommended product](https://www.amazon.com/Ubiquiti-Networks-TOUGHCable-Shielded-Ethernet/dp/B008L143VW?tag=nycmesh-20) |
 | RJ45 Tough Connectors (metal, with grounding loop) | ![alt text](https://i.imgur.com/OWfMQu3.jpg "RJ45") | Gets crimped onto the ends of the CAT5e cable to provide power and data interface | Available from online retailers - [recommended product](https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0?tag=nycmesh-20) |
 | Two Ethernet patch cables | ![alt text](https://i.imgur.com/6l8FGGh.jpg "Ethernet Patch cable") | Connecting routers to POE injector, battery pack, laptop  | Available from online retailers - [recommended product](https://www.amazon.com/gp/product/B00X8EPEWE/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1?tag=nycmesh-20) |
-| Portable battery pack with three-prong power outlet (charged) | ![alt text](https://i.imgur.com/ejHRUWz.jpg "Battery pack") | Providing power to outdoor router while surveying for signal | Available from online retailers - [recommended product (less expensive)](https://www.amazon.com/NOVOO-20100mAh-Universal-Compatible-Smartphones/dp/B078HZXXMY?tag=nycmesh-20) [recommended product (better features)](https://www.amazon.com/dp/B07FYJVFNK/ref=cm_sw_r_cp_api_i_rc4kDbKN0YQX8tag=nycmesh-20)|
+| Portable battery pack with three-prong power outlet (charged) | ![alt text](https://i.imgur.com/e6BJXTJ.jpg "Battery pack") | Providing power to outdoor router while surveying for signal | Available from online retailers - [recommended product (less expensive)](https://chargewithpower.com/product/buy-100-percent-mpu951bk-portable-laptop-charger-power-bank-with-ac-outlet-charger-11600-mah-online/) / [recommended product (better features)](https://www.amazon.com/dp/B07FYJVFNK/ref=cm_sw_r_cp_api_i_rc4kDbKN0YQX8tag=nycmesh-20)|
 | Gigabit USB/Thunderbolt to Ethernet adapter | ![alt text](https://i.imgur.com/q3DH0dc.jpg "Ethernet adapter") | Connecting laptop without an ethernet port to outdoor router (not needed if connecting wirelessly) | Available from online retailers |
 
 
@@ -40,7 +40,7 @@ You can download a handy checklist of the equipment listed on this page [here](h
 | Cobalt / titanium drill bit (1/4") | ![alt text](https://i.imgur.com/r1PaS8R.jpg "Cobalt Drill Bit") | Drilling hole for CAT5e cable to pass through steel window frame | Hardware store drill bits aisle |
 | Hammer | ![alt text](https://i.imgur.com/e2297lH.jpg "Hammer") | Driving in concrete nails | Hardware store tools aisle |
 | Concrete nail | ![alt text](https://i.imgur.com/yofvjgF.jpg "Concrete nail") | Starting a hole in concrete or masonry (makes drilling easier) | Hardware store nails aisle |
-| Phillips Precision Screwdriver (No. 1) | ![alt text](https://i.imgur.com/MNupv1V.jpg "Phillips No. 1 Precision Screwdriver") | Assembling Litebeam Router | Hardware store tools aisle |
+| Phillips Precision Screwdriver (No. 1) | ![alt text](https://i.imgur.com/MNupv1V.jpg "Phillips No. 1 Precision Screwdriver") | Assembling Litebeam Router | Included in crimping all-in-one kit, Hardware store tools aisle |
 | Adjustable crescent wrench (6") | ![alt text](https://i.imgur.com/6jhA0iQ.jpg "Crescent wrench") | Assembling J-pipe mount | Hardware store tools aisle |
 | Vise grips | ![alt text](https://i.imgur.com/QuycUAr.jpg "Vise grips") | Removing stuck drill bits | Hardware store tools aisle |
 
@@ -68,6 +68,8 @@ You can download a handy checklist of the equipment listed on this page [here](h
 | Small brush and dustpan | ![alt text](https://i.imgur.com/HPr0xuW.jpg "Tiny broom") | Sweeping up cable ends and metal shavings from drilling through window frame | Online retailers |
 | Small garbage bag | ![alt text](https://i.imgur.com/KXNTCjH.jpg "Garbage bag") | Disposing of garbage | Reuse a shopping bag |
 | Hand truck | ![alt text](https://i.imgur.com/7x3UWYR.jpg "Hand truck") | Transporting cable reel box and equipment bag in and out of subway stations - stair-climbing model is ideal! | Online retailers, larger hardware stores |
+| Backpack | ![alt text](https://i.imgur.com/QKrBe4g.jpg "Backpack") | Transporting equipment safely up ladders - slim backpacks are the safest! | Many places |
+
 
 ### Safety gear
 
