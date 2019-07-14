@@ -4,8 +4,9 @@ title: "Outreach Material"
 
 **Flyers/Brochures**
 
-[Two page brochure](Brochure.pdf)  
-[One pager](Priorities-One-Pager.pdf)  
+[Two page trifold neighborhood brochure](https://docs.google.com/presentation/d/1D5idINRhLICwrbWa7w5Y5l_9wgV19KWEMIOoqrkXk8E/edit?usp=sharing)  
+[Two page trifold general brochure](Brochure.pdf)  
+[One page general flyer](Priorities-One-Pager.pdf)  
 
 [Building Postcard](flyer.jpg)  
 [Building Postcard [Black & White]](flyer-bw.jpg)  
@@ -13,10 +14,7 @@ title: "Outreach Material"
 
 [General one-page flyer pdf](leaflet-bw.pdf) -[(source file)](leaflet-rtfd.zip)
 
-[Brochure 1: Join NYC Mesh](NYC_Mesh_Brochure_01.jpg)  
-[Brochure 2: Join NYC Mesh](NYC_Mesh_Brochure_02.jpg)
-
-[One-Page flyer - old](building-leaflet.pdf) -[(source file)](building-leaflet.rtfd.zip)
+[One page narrow brochure: Join NYC Mesh](NYC_Mesh_Brochure_02.jpg)
 
 [Tri-fold brochure](meshmail.pdf)
 

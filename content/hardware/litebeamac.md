@@ -3,7 +3,7 @@ title: "Ubiquiti LiteBeam AC"
 ---
 The LiteBeamAC is a very good, cheap directional router. We use it for most rooftop installs. As with all Ubiquiti gear you need to flash it with the latest firmware first. Often they ship with old beta firmware, and the latest firmware usually gets you faster speeds.
 
-The AC in the name is not 802.11ac, it is Ubiquiti's own protocol. These devices can only connect to other Ubiquiti "AC" devices.
+The AC in the name is not [802.11ac] (https://en.wikipedia.org/wiki/IEEE_802.11), it is Ubiquiti's own protocol. These devices can only connect to other Ubiquiti "AC" devices.
 
 ![Ubiquity LiteBeam 5AC Gen2](/img/hardware/ubiquity_litebeam5acgen2.png)
 
@@ -15,7 +15,10 @@ Gen2 comes with a more sturdy mount (though less range) and also a management 2.
 
 LiteBeams are very directional so use the built-in alignment tool to get the strongest signal. We like to get better than -65db. Very close to the supernodes you can get -45db.
 
-The default IP is https://192.168.1.20/ with name:ubnt pwd:ubnt
+The default IP is https://192.168.1.20/ with:
+
+* name:ubnt
+* pwd:ubnt
 
 For Supernode1 we assign IP addresses in the 192.168.42.xxx range
 
