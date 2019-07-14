@@ -48,7 +48,7 @@ You can download a handy checklist of the equipment listed on this page [here](h
 
 | Product Name  | Product Photo | Field Photo | What it's used for | Where you can get it |
 | ------- | ------- | ------- | ------- | ---- |
-| Small diameter (28) hose clamp  | ![alt text](https://i.imgur.com/rX4lSAK.jpg "Small Diameter Hose clamp in field") | ![alt text](https://i.imgur.com/9GMe0EM.jpg "Small Diameter Hose clamp") | Securing the router to a thin mast or pipe | Hardware store plumbing aisle |
+| Small diameter (28) hose clamp  | ![alt text](https://i.imgur.com/rX4lSAK.jpg "Small Diameter Hose clamp in field") | ![alt text](https://i.imgur.com/9GMe0EM.jpg "Small Diameter Hose clamp") | Securing the router to a thin mast or pipe | Comes with outdoor router, hardware store plumbing aisle |
 | Large diameter (88) hose clamp  | ![alt text](https://i.imgur.com/s932nZv.jpg "Large Diameter Hose clamp")  | ![alt text](https://i.imgur.com/ncbuXY5.jpg "Larde Diameter Hose clamp in field") | Securing the router or mast to a large pipe or window guard | Hardware store plumbing aisle |
 | J pipe antenna mast | ![alt text](https://i.imgur.com/iRbOsrt.jpg "J Pipe") | ![alt text](https://i.imgur.com/xRCL13J.jpg "J pipe in the field") | Mounting to a wall or parapet | Online retailers |
 | L pipe antenna mast | ![alt text](https://i.imgur.com/hF6IClf.jpg "L Pipe") | ![alt text](https://i.imgur.com/vgOZ29B.jpg "L pipe in the field") | Orienting an SXT router up and down | Online retailers |
