@@ -6,9 +6,9 @@ To connect to NYC Mesh, you will need to install wireless networking equipment o
 
 You can download a handy checklist of the equipment listed on this page [here](https://docs.google.com/document/d/1NVBBS7dzPIF6RNpa8S-seFaqSoVuhaVcVaascf6aASo/edit?usp=sharing). 
 
-**For DIY installers:** To get help figuring out which equipment you need for your installation, first familiarize yourself with the equipment below and then reach out to the NYC Mesh community on [slack] on the #install channel.
+**For DIY installers:** To get help figuring out which essential equipment you need for your installation, first familiarize yourself with the equipment below and then reach out to the NYC Mesh community on [slack] on the #install channel.
 
-**For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel. Shared tools are available and we keep a small stock of networking equipment that can be distributed as needed.
+**For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel to ask to borrow them. Shared tools are available and we can purchase, order and ship networking equipment (routers, cable, connectors, etc.) to your address.
 
 ### Networking Equipment
 
