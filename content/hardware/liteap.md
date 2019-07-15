@@ -9,7 +9,7 @@ The AC in the name is not 802.11ac, it is Ubiquiti's own protocol. These devices
 
 ![Ubiquity LiteAP](/img/hardware/ubiquity_liteap.png)
 
-Device specs are available at [store.ubnt.com](https://store.ubnt.com/collections/wireless/products/litebeam-5ac-ap).
+Device specs are available at [ubnt.com](https://www.ui.com/airmax/liteap-ac/).
 
 The default IP is https://192.168.1.20/ with name:ubnt pwd:ubnt
 
