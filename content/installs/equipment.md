@@ -12,9 +12,9 @@ You can download a handy checklist of the equipment listed on this page [here](h
 
 ### Networking Equipment
 
-| Product Name  | Product Photo | What it's used for | Where you can get it |
-| ------- | ------- | ------- | ------- |
-| Laptop (charged) | ![alt text](https://i.imgur.com/rE9JFWH.jpg "Laptop") | Configuring outdoor and indoor routers, reading docs and install plan | Bring your own |
+| Product Name  | Product Photo | What it's used for | Where you can get it | Cost |
+| ------- | ------- | ------- | ------- | ------- |
+| Laptop (charged) | ![alt text](https://i.imgur.com/rE9JFWH.jpg "Laptop") | Configuring outdoor and indoor routers, reading docs and install plan | Bring your own | |
 | Outdoor router(s) (pre-configured) | ![alt text](https://i.imgur.com/EYfuxfi.jpg "Outdoor router") | Connecting to a node | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
 | Power Over Ethernet (POE) adapter and power cable | ![alt text](https://i.imgur.com/mvWnLmL.jpg "POE") | Providing power to the outdoor router and passing data to and from indoor router | Comes packaged with the outdoor router |
 | Indoor router | ![alt text](https://i.imgur.com/1icPBQB.jpg "Indoor router") | Connection point for user's devices | Order online (see [TP Link page](https://docs.nycmesh.net/hardware/tplink/) for an inexpensive and commonly-used model) or use existing indoor router |
@@ -27,8 +27,8 @@ You can download a handy checklist of the equipment listed on this page [here](h
 
 ### Tools
 
-| Product Name  | Product Photo | What it's used for | Where you can get it |
-| ------- | ------- | ------- | ---- |
+| Product Name  | Product Photo | What it's used for | Where you can get it | Cost |
+| ------- | ------- | ------- | ---- | ------- |
 | Ethernet cable crimper | ![alt text](https://i.imgur.com/UNiGWRu.jpg "Crimper") | Attaching RJ-45 connectors to CAT5e cable | Online retailers (included in crimping all-in-one kit) - [recommended product](https://www.amazon.com/Professional-Maintenance-Connectors-Screwdriver-stripping/dp/B0798CQQX8?tag=nycmesh-20) |
 | CAT5e cable stripper | ![alt text](https://i.imgur.com/zF4kuXt.jpg "Cable stripper") | Stripping CAT5e cable | Online retailers (included in crimping all-in-one kit) - [recommended product](https://www.amazon.com/Professional-Maintenance-Connectors-Screwdriver-stripping/dp/B0798CQQX8?tag=nycmesh-20) |
 | Ethernet cable tester | ![alt text](https://i.imgur.com/JqzLNKp.jpg "Cable tester") | Testing that Ethernet cable has been correctly crimped | Online retailers (included in crimping all-in-one kit) - [recommended product](https://www.amazon.com/Professional-Maintenance-Connectors-Screwdriver-stripping/dp/B0798CQQX8?tag=nycmesh-20) |
@@ -46,16 +46,17 @@ You can download a handy checklist of the equipment listed on this page [here](h
 
 ### Mounting Equipment
 
-| Product Name  | Product Photo | Field Photo | What it's used for | Where you can get it |
-| ------- | ------- | ------- | ------- | ---- |
+| Product Name  | Product Photo | Field Photo | What it's used for | Where you can get it | Cost |
+| ------- | ------- | ------- | ------- | ---- | ------- |
 | Small diameter (28) hose clamp  | ![alt text](https://i.imgur.com/rX4lSAK.jpg "Small Diameter Hose clamp in field") | ![alt text](https://i.imgur.com/9GMe0EM.jpg "Small Diameter Hose clamp") | Securing the router to a thin mast or pipe | Comes with outdoor router, hardware store plumbing aisle |
 | Large diameter (88) hose clamp  | ![alt text](https://i.imgur.com/s932nZv.jpg "Large Diameter Hose clamp")  | ![alt text](https://i.imgur.com/ncbuXY5.jpg "Larde Diameter Hose clamp in field") | Securing the router or mast to a large pipe or window guard | Hardware store plumbing aisle |
-| J pipe antenna mast | ![alt text](https://i.imgur.com/iRbOsrt.jpg "J Pipe") | ![alt text](https://i.imgur.com/xRCL13J.jpg "J pipe in the field") | Mounting to a wall or parapet | Online retailers |
-| L pipe antenna mast | ![alt text](https://i.imgur.com/hF6IClf.jpg "L Pipe") | ![alt text](https://i.imgur.com/vgOZ29B.jpg "L pipe in the field") | Orienting an SXT router up and down | Online retailers |
+| J pipe antenna mast | ![alt text](https://i.imgur.com/iRbOsrt.jpg "J Pipe") | ![alt text](https://i.imgur.com/xRCL13J.jpg "J pipe in the field") | Mounting to a wall or parapet | Online retailers - [recommended product](https://www.amazon.com/Ubiquiti-Universal-Antenna-Mount-UB-AM/dp/B006J1WSGI?tag=nycmesh-20) / [10-pack](https://www.amazon.com/Ubiquiti-Universal-Antenna-Mount-UB-AM/dp/B00HXT8TWC?tag=nycmesh-20)|
+| L pipe antenna mast | ![alt text](https://i.imgur.com/hF6IClf.jpg "L Pipe") | ![alt text](https://i.imgur.com/vgOZ29B.jpg "L pipe in the field") | Orienting an SXT router up and down | Online retailers - [recommended product](https://www.amazon.com/gp/product/B07B7JVTHX/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1?tag=nycmesh-20) |
 | Concrete screws (3/16" hex head CSH316134) | ![alt text](https://i.imgur.com/CaVQeHM.jpg "Concrete Screws") | ![alt text](https://i.imgur.com/fy1YZCv.jpg "Concrete Screws in Field") | Securing mast mounts to concrete or masonry | Hardware store screws and anchors aisle |
 | Washers (1/4" hole diameter) | ![alt text](https://i.imgur.com/6Rl41ue.jpg "Washers") | ![alt text](https://i.imgur.com/fy1YZCv.jpg "Concrete Screws in Field") | Securing mast mounts to concrete or masonry | Hardware store fasteners aisle |
 | Zip ties | ![alt text](https://i.imgur.com/6jjM6Ai.jpg "Zip Ties") | ![alt text](https://i.imgur.com/sIHVTCg.jpg "Zip tie in field") | Securing ethernet cable | Hardware store electrical aisle |
 | Cable staples | ![alt text](https://i.imgur.com/3vI3hd0.jpg "Cable Staples") | ![alt text](https://i.imgur.com/NuL5tqT.jpg "Cable staples in field") | Securing ethernet cable to an indoor wall | Hardware store electrical aisle |
+| Cable fastener clips | ![alt text](https://i.imgur.com/1UT4dVk.jpg "Cable Fastener Clips") | ![alt text](https://i.imgur.com/NuL5tqT.jpg "Cable fastener clips in field") | Securing ethernet cable to an outdoor vertical surface | Hardware store electrical aisle or online retailers - [recommended product](https://www.amazon.com/STEREN-Grip-Clip-Coaxial-Mounting-Fastener/dp/B000E9ZKDY?tag=nycmesh-20) |
 
 ### Miscellanious supplies
 
