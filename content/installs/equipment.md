@@ -12,7 +12,7 @@ You can download a handy checklist of the equipment listed on this page [here](h
 
 ### Networking Equipment
 
-| Product Name  | Product Photo | What it's used for | Where you can get it | Cost |
+| Product Name  | Product Photo | What it's used for | Where you can get it | Cost &nbsp; &nbsp; &nbsp; &nbsp; |
 | ------- | ------- | ------- | ------- | ------- |
 | Laptop (charged) | ![alt text](https://i.imgur.com/rE9JFWH.jpg "Laptop") | Configuring outdoor and indoor routers, reading docs and install plan | Bring your own | |
 | Outdoor router(s) (pre-configured) | ![alt text](https://i.imgur.com/EYfuxfi.jpg "Outdoor router") | Connecting to a node | Order online (refer to specific product page in [hardware](https://docs.nycmesh.net/hardware/) docs) |
