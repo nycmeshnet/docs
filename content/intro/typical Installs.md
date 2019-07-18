@@ -4,7 +4,7 @@ title: "Typical Installations"
 
 Please read our [FAQ](https://nycmesh.net/faq) if you haven't already.
 
-The intention of this page is not to be technical but rather give to the non-technical person an understanding of a typical installation. 
+The intention of this page is not to be technical but rather give to the non-technical person an understanding of a typical installation. <br><br>
 
 NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop" using different type of equipment based on geography and topology. And doing so, expand NYC Mesh network coverage to the next block and so on*. The fondment of NYC Mesh is to share the connectivity with the neignbors, share ressources, share equipment, share the network. Create a community of communities connecting to each others. NYC Mesh uses basically two categories of equipment. 
 
@@ -12,15 +12,15 @@ NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop"
 
 * The second category of equipment uses the same wifi as your home router, [802.11] (https://en.wikipedia.org/wiki/IEEE_802.11) (there are different versions of wifi- 802.11a/b/g/n/ac) see [Mikrotik] (/hardware) equipment.
 
-*Note: In some cases, such as large buildings we may use fiber to connect but would setup a rooftop "hub" to expand the network to surrounding neighbors. <br>
+*Note: In some cases, such as large buildings we may use fiber to connect but would setup a rooftop "hub" to expand the network to surrounding neighbors. <br><br><br>
 
 <p align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/glW_S9bKAHk?VIDEO_ID?version=3&loop=1&playlist=glW_S9bKAHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen; loop></iframe></p>
 <br><hr><br>
-**1.- Connect to a hub or supernode (one apartment - no roof-to-roof expansion)**  
+**1.- Connect to a hub or supernode (one apartment - no roof-to-roof expansion). Such installation does not allow expansion of the Mesh network, nor allow sharing with neighbor community**  
 
 A typical installation has a [LiteBeam] (/hardware/litebeamac) antenna on the roof. From that antenna an ethernet cable is run to the apartment. (note: the antenna is sometimes referred as the outdoor router).
 
-<img src="/img/typicalInstall/1unit.jpg" alt="photo" style="width:350px;height:400px;" >
+<img src="/img/typicalInstall/diagram_lbeonly_textbottom.jpg" alt="photo" style="width:350px;height:400px;" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/img/typicalInstall/lbejpipe.jpg" alt="photo" style="width:300px;height:400px;" >
 
@@ -35,11 +35,11 @@ In the apartment any type of WiFi router can be installed. We install a [TP-Link
 
 <br><hr><br>
 
-**2.- Connect to a hub or supernode (one or several apartments - with roof-to-roof expansion)**
+**2.- Connect to a hub or supernode (one or several apartments - with roof-to-roof expansion). Allow Mesh network expansion and sharing with the neighbor community**
 
 To allow others to connect to your rooftop LiteBeam router we need to add an ethernet router and an access point. For this we usually use an [OmniTik] (/hardware/mikrotikomnitik5ac/) mounted on the same pole or it can be mounted somewhere else on the roof. The OmniTik will give you wifi on your roof and also allow 4 other apartments to connect with ethernet.
 
-<img src="/img/typicalInstall/2units.jpg" alt="photo" style="width:350px;height:400px;" >
+<img src="/img/typicalInstall/diagram_lbeOmni_textside.jpg" alt="photo" style="width:700px;height:400px;" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/img/typicalInstall/lbe+Omni.jpg" alt="photo" style="width:300px;height:400px;" >
 
@@ -53,7 +53,9 @@ The OmniTik is an Omnidirectional (360°) antenna. It has about 2-3 block radius
 <br> OmniTik not located next to the Litebeam<br>
 <img src="/img/typicalInstall/OmniAlone.jpg" alt="photo" style="width:400px;height:533px;">
 
-Other rooftops can connect to the OmniTik by using another Omnitik if they are close enough or we use, in some cases, an [SXT] (/hardware/sxtsqg5acd/)
+Other rooftops can connect to the OmniTik by using another Omnitik if they are close enough or we use, in some cases, an [SXT] (/hardware/sxtsqg5acd/).
+
+This setup as a major benefit. It allow the devices to mesh with each other. If an other Omnitik is installed in a 2-3 blocks radius they will connect to each other and creat a mesh, thus improving reliability and allowing a) the Mesh network to expand, and b) the neighbor community to use it to access internet. 
 
 <br><hr><br>
 
@@ -79,4 +81,6 @@ A building can connect to another building with an OmniTik using a [SXT] ( /hard
 
 <br><hr><br>
 Those are typical installations. Other setups are possible and in use throughout NYC Mesh.
+
+For the most up-to-date overview of the entire install process, check out the [Install Training Presentation](https://docs.google.com/presentation/d/1Y0bafeH7h9SuAOrUSC_WHOnA7q-rLGTD0OOOmZLBETg/edit?usp=sharing).
 
