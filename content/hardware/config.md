@@ -5,9 +5,7 @@ weight: 99
 
 **List of devices we use and links to standard configs and firmware**   
   
-This doc is in progress. Please add links below to the specific config instructions   
-  
-Check out our new [SXTsq VPN kiosk client config](#sxtVpn)!  ** VPN config has been removed due to issues with L2tp on Mikrotik Client **
+This doc is in progress. Please add links below to the specific config instructions  
 
 ## LiteBeams  
 SN1 clients need to have an IP address assigned 192.168.42.xxx
