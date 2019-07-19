@@ -37,7 +37,7 @@ Peering Contact: peering@nycmesh.net
 Recommended Max Prefix IPv4: 10  
 Recommended Max Prefix IPv6: 10  
 PeerDB Page: [https://as395853.peeringdb.com](https://as395853.peeringdb.com)  
-As a non-profit, please consider providing as many routes as possible, including upstream or other routes.
+As we are a non-profit, please consider providing as many routes as possible, including upstream or other routes.
 
 **Peers**
 
