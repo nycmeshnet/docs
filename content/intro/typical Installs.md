@@ -55,7 +55,7 @@ The OmniTik is an Omnidirectional (360°) antenna. It has about 2-3 block radius
 
 Other rooftops can connect to the OmniTik by using another Omnitik if they are close enough or we use, in some cases, an [SXT] (/hardware/sxtsqg5acd/).
 
-This setup as a major benefit. It allow the devices to mesh with each other. If an other Omnitik is installed in a 2-3 blocks radius they will connect to each other and creat a mesh, thus improving reliability and allowing a) the Mesh network to expand, and b) the neighbor community to use it to access internet. 
+This setup as a major benefit. It allows the devices to mesh with each other. If an other Omnitik is installed in a 2-3 blocks radius they will connect to each other and create a mesh, thus improving reliability and allowing a) the Mesh network to expand, and b) the neighbor community to use it to access internet. 
 
 <br><hr><br>
 
@@ -63,7 +63,7 @@ This setup as a major benefit. It allow the devices to mesh with each other. If 
 
 If the rooftop is interesting (at a good location, it's high enough, etc) we may install "[sectors] (/hardware/liteap/)" or other type of equipement. Sectors are antennas that communicate via Ubiquiti's AirMax protocol and have a longer range than an OmniTik. Additionally, we may connect to two hubs, etc....
 
-Here four examples.
+Here are four examples.
 
 <img src="/img/typicalInstall/hub100AVA.jpg" alt="photo" style="width:300px;height:400px;" >
 <img src="/img/typicalInstall/hub-sn4.jpg" alt="photo" style="width:300px;height:400px;" >
