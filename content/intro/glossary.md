@@ -6,9 +6,10 @@ IMPORTANT, markdown needs two spaces "  " at the end of every line here to creat
 -->
 **Antenna**: Antenna, router and radio are often confused- [see our FAQ](https://www.nycmesh.net/faq#defrouter)  
 **AP**: a wifi Access Point  
+**ARIN** American Registry for Internet Numbers- where you get your ASN
 **ASN**: Autonomous System Number that identifies your network on BGP for [peering](../../networking/peering/). Our  number is [AS395853](https://www.peeringdb.com/asn/395853)  
-**Backhaul**: very high bandwidth connections, often point to point.  
-[**BGP**](../../networking/bgp/): This is the routing protocol of the Internet. We use it extensively to mesh our network and connect at an IXP  
+**Backhaul**: very high bandwidth connections, usually point to point.  
+[**BGP**](../../networking/bgp/): This is the routing protocol of the Internet. We use it extensively to mesh our network and to connect at an IXP  
 **BMX6**: An ad-hoc mesh protocol we use. (BatMan eXperimental 6)  
 **BuB**: “Bottom up Broadband” The beneficiaries of the networks actively participate in the planning, deployment and maintenance tasks.  
 **Captive portal**: a web page that is shown before connecting to the Internet normally  
