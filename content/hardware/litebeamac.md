@@ -22,4 +22,4 @@ The default IP is https://192.168.1.20/ with:
 
 For Supernode1 we assign IP addresses in the 192.168.42.xxx range
 
-[Install instructions are in these docs](../../installs/cpe)
+[Install instructions are in these docs](../../hardware/config/#lbe-client)
