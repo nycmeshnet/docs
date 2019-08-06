@@ -353,6 +353,32 @@ set [ find interface=ether1] address=192.168.88.4/24
 
 ### <a name="omni"></a>Standard Omnitik mesh config
 
+**1. Download Latest Firmware and Generate Configuration**
+
+1. Download the latest firmware - see [Mikrotik Firmware](https://docs.nycmesh.net/software/mikrotikfirmware).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 First generate a config file using our configgen-
 
 https://configgen.nycmesh.net/?device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl
