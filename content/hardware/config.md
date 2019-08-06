@@ -356,6 +356,9 @@ set [ find interface=ether1] address=192.168.88.4/24
 **1. Download Latest Firmware and Generate Configuration**
 
 1. Download the latest firmware - see [Mikrotik Firmware](https://docs.nycmesh.net/software/mikrotikfirmware).
+2. Generate a configuration file for your node by going to the NYC Mesh configuration generator [Configgen](https://configgen.nycmesh.net/?device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl). Type in the node number and click “Download Config”.
+
+**2. Factory Reset**
 
 
 
