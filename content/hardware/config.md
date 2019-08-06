@@ -400,81 +400,15 @@ pscp -scp rooftop-ospf-####.rsc admin@192.168.88.1:flash/
 4. Reopen the Mikrotik GUI in your web browser and navigate back to “Files” as described in section 3 above. You should see the config file you just uploaded.
 5. Click “System” in the left side menu.
 6. Click “Configuration” in the left side menu dropdown. Select:
-* No Default Configuration
-* Run After Reset: flash/nycmesh-omni-####.rsc (click the popup on the right to select this)
-* Apply
+  * No Default Configuration
+  * Run After Reset: flash/nycmesh-omni-####.rsc (click the popup on the right to select this)
+  * Apply
 7. The Omnitik will now reboot. If it plays some beeps, ending with a short tune [Kernkraft 400](https://www.youtube.com/watch?v=gbcG2TI4GBk), the configuration was a success!
 8. Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you can plug a LiteBeam into it. Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments.
 
+**6. Change the Password**
 
+1. Click “System” in the left side menu.
+2. Click “Password” in the left side menu dropdown.
+3. Type in the standard NYC Mesh password.
 
-...
-...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-First generate a config file using our configgen-
-
-https://configgen.nycmesh.net/?device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl
-
-Enter the building node number and click "Download"
-
-To connect to a new default config Omnitik you need to power it via WAN port 1 (POE in) and connect to a LAN port (say port 2)
-
-Set your computer to DHCP (automatic) and it will get an address like 192.168.88.xxx
-
-Go to http://192.168.88.1 in your browser
-
-Update firmware to latest on your device- see [Mikrotik Firmware](/software/mikrotikfirmware)
-
-In the terminal (mac and linux)-
-
-```
-scp -o StrictHostKeyChecking=no rooftop-ospf-####.rsc admin@192.168.88.1:flash/
-```
-
-(replacing "rooftop-ospf-####.rsc" with your file's name)
-
-scp will upload from your current directory, or you can drop the file into the terminal to paste the full pathname
-
-From a Windows OS, you must have [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) installed and run the following command from the command prompt:
-
-```
-pscp -scp nycmesh-omni-####.rsc admin@192.168.88.1:flash/  
-```
-
-Go back to your browser and in Webfig click System > Reset Configuration
-
-Select:  
-
-  * No Default Configuration  
-  * Run After Reset: `flash/nycmesh-omni-####.rsc`  (click the popup on the right to select this)  
-  * Apply
-
-This will cause it to reboot and play some beeps, ending with a short tune (Kernkraft 400)
-
-If it gets to the end and plays the tune it has been successful.
-
-Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you will probably plug a LiteBeam into that.
-
-Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments. 
-
-Finally, change the password. Go to System > Password, leave Old Password blank and in New Password/Confirm Password, type in the standard NYC Mesh password.
-
-
-  
-  
-  
