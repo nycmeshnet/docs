@@ -368,13 +368,43 @@ set [ find interface=ether1] address=192.168.88.4/24
 
 **3. Connect to the Router**
 
-1a. To connect to the Omnitik wirelessly, find the router’s SSID and connect to it.
-1b. To connect with a cable, plug one end of a patch cable into the Omnitik’s Port 2 and the other end into your computer’s LAN port. Set your computer to DHCP (automatic) and it will get an address like 192.168.88.xxx.
-2. Navigate to the default Mikrotik IP **192.168.88.1** in your web browser. This will open the Mikrotik GUI.
+1. To connect to the Omnitik wirelessly, find the router’s SSID and connect to it.
+2. To connect with a cable, plug one end of a patch cable into the Omnitik’s Port 2 and the other end into your computer’s LAN port. Set your computer to DHCP (automatic) and it will get an address like 192.168.88.xxx.
+3. Navigate to the default Mikrotik IP **192.168.88.1** in your web browser. This will open the Mikrotik GUI.
 The default username is admin and there is no password.
 
+**4. Upload Firmware**
 
+1. Open the Mikrotik GUI in your browser.
+2. Click “Webfig” in the top right corner.
+3. Click “Files” in the left side menu.
+4. Click “Choose File” at the top.
+5. Navigate to where you saved the firmware, select the file and click “Open”. You will see the file appear in the interface.
+6. Click “System” in the left side menu.
+7. Click “Reboot” in the dropdown menu.
+8. Click OK when prompted.
+9. Wait about one minute for the router to reboot. You will see the computer LED flashing on the router when it is ready.
+Refresh your browser to reenter the GUI. If the firmware update was successful, you will see the current firmware version in very small letters and numbers at the top left of the screen.
 
+**5. Upload Configuration**
+
+1. If you are using a Mac or Linux operating system, go into Terminal, navigate to the folder where you’ve saved the config and enter the following command, replacing “rooftop-ospf-####.rsc” with your file’s name.
+```
+scp -o StrictHostKeyChecking=no rooftop-ospf-####.rsc admin@192.168.88.1:flash/
+```
+2. If you are using a Windows operating system, go into Command Prompt, navigate to the folder where you’ve saved the config and enter the following command, replacing “rooftop-ospf-####.rsc” with your file’s name. You must have  [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or another SSH client installed for this to work.
+```
+pscp -scp rooftop-ospf-####.rsc admin@192.168.88.1:flash/ 
+```
+3. If asked “Dangerous Reset anyway?” type in Y and return/enter.
+4. Reopen the Mikrotik GUI in your web browser and navigate back to “Files” as described in section 3 above. You should see the config file you just uploaded.
+5. Click “System” in the left side menu.
+6. Click “Configuration” in the left side menu dropdown. Select:
+* No Default Configuration
+* Run After Reset: flash/nycmesh-omni-####.rsc (click the popup on the right to select this)
+* Apply
+7. The Omnitik will now reboot. If it plays some beeps, ending with a short tune [Kernkraft 400](https://www.youtube.com/watch?v=gbcG2TI4GBk), the configuration was a success!
+8. Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you can plug a LiteBeam into it. Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments.
 
 
 
