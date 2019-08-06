@@ -389,13 +389,13 @@ Refresh your browser to reenter the GUI. If the firmware update was successful, 
 **5. Upload Configuration**
 
 1. If you are using a Mac or Linux operating system, go into Terminal, navigate to the folder where you’ve saved the config and enter the following command, replacing “rooftop-ospf-####.rsc” with your file’s name.
-```
+  ```
 scp -o StrictHostKeyChecking=no rooftop-ospf-####.rsc admin@192.168.88.1:flash/
-```
+  ```
 2. If you are using a Windows operating system, go into Command Prompt, navigate to the folder where you’ve saved the config and enter the following command, replacing “rooftop-ospf-####.rsc” with your file’s name. You must have  [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or another SSH client installed for this to work.
-```
+  ```
 pscp -scp rooftop-ospf-####.rsc admin@192.168.88.1:flash/ 
-```
+  ```
 3. If asked “Dangerous Reset anyway?” type in Y and return/enter.
 4. Reopen the Mikrotik GUI in your web browser and navigate back to “Files” as described in section 3 above. You should see the config file you just uploaded.
 5. Click “System” in the left side menu.
