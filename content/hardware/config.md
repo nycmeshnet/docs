@@ -360,12 +360,26 @@ set [ find interface=ether1] address=192.168.88.4/24
 
 **2. Factory Reset**
 
+1. Plug the Omnitik’s POE injector into a power outlet and plug a patch cable into the POE+Data port.
+2. Hold down the Omnitik’s reset button (located near Port 1).
+3. Insert the other end of the patch cable into Port 1
+4. When the main power USR LED starts flashing blue, release the reset button to reset RouterOS configuration (total about 5 seconds).
+5. Wait around a minute for the Omnitik to restart before continuing. 
+
+**3. Connect to the Router**
+
+1a. To connect to the Omnitik wirelessly, find the router’s SSID and connect to it.
+1b. To connect with a cable, plug one end of a patch cable into the Omnitik’s Port 2 and the other end into your computer’s LAN port. Set your computer to DHCP (automatic) and it will get an address like 192.168.88.xxx.
+2. Navigate to the default Mikrotik IP **192.168.88.1** in your web browser. This will open the Mikrotik GUI.
+The default username is admin and there is no password.
 
 
 
 
 
 
+...
+...
 
 
 
