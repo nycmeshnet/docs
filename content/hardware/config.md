@@ -24,7 +24,8 @@ SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 * SN and Hub  [Easy config](#liteac)
   
 ## OmniTik    
-* [Old config](/hardware/mikrotikomnitik5ac), [New Easy config](#omni)
+* [Standard config](#omni)  
+* [Old instructions](/hardware/mikrotikomnitik5ac)
   
 ## EdgePoint    
 * Switch    
@@ -362,7 +363,7 @@ set [ find interface=ether1] address=192.168.88.4/24
 
 1. To connect to the Omnitik wirelessly, find the router’s SSID and connect to it.
 2. To connect with a cable, plug one end of a patch cable into the Omnitik’s Port 2 and the other end into your computer’s LAN port. Set your computer to DHCP (automatic) and it will get an address like 192.168.88.xxx.
-3. Navigate to the default Mikrotik IP **192.168.88.1** in your web browser. This will open the Mikrotik GUI.
+3. Navigate to the default Mikrotik IP [192.168.88.1](http://192.168.88.1) in your web browser. This will open the Mikrotik GUI.
 The default username is admin and there is no password.
 
 **3. Upload Firmware**
@@ -400,7 +401,9 @@ pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/
   * Run After Reset: flash/nycmesh-omni-####.rsc (click the popup on the right to select this)
   * Apply
 7. The Omnitik will now reboot. If it plays some beeps, ending with a short tune [Kernkraft 400](https://www.youtube.com/watch?v=gbcG2TI4GBk), the configuration was a success!
-8. Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you can plug a LiteBeam into it. Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments.
+8. Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you can plug a LiteBeam into it. Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments.  
+
+The Omnitik IP address has changed to a 10.69.x.x address. This is generated from the node number, e.g. for node 1234 the IP address will be 10.69.12.34
 
 **5. Change the Password**
 
