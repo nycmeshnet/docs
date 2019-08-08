@@ -358,14 +358,6 @@ set [ find interface=ether1] address=192.168.88.4/24
 1. Download the latest firmware - see [Mikrotik Firmware](https://docs.nycmesh.net/software/mikrotikfirmware).
 2. Generate a configuration file for your node by going to the NYC Mesh configuration generator [Configgen](https://configgen.nycmesh.net/?device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl). Type in the node number and click “Download Config”.
 
-**2. Factory Reset**
-
-1. Plug the Omnitik’s POE injector into a power outlet and plug a patch cable into the POE+Data port.
-2. Hold down the Omnitik’s reset button (located near Port 1).
-3. Insert the other end of the patch cable into Port 1.
-4. When the main power USR LED starts flashing blue, release the reset button to reset RouterOS configuration (total about 5 seconds).
-5. Wait around a minute for the Omnitik to restart before continuing. 
-
 **3. Connect to the Router**
 
 1. To connect to the Omnitik wirelessly, find the router’s SSID and connect to it.
