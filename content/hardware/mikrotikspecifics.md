@@ -2,7 +2,7 @@
 title: "MikroTik Specifics"
 ---
 
-Mikrotik routers have a few interesting things to note in order to under and use them well. This page documents those interesting pieces and might help clarify some things.
+Mikrotik routers have a few interesting things to note in order to understand and use them well. This page documents those interesting pieces and might help clarify some things.
 This page will be referenced by other pages and should be Mikrotik general.
 
 ## Device variants
