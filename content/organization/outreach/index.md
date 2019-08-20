@@ -8,7 +8,7 @@ title: "Outreach Material"
 [Two page trifold general brochure](Brochure.pdf)  
 [One page general flyer](Priorities-One-Pager.pdf)  
 
-[Building Postcard](2019-08 One page flyer.pdf)  
+[Building Postcard](2019-08-One-page-flyer.pdf)  
 [Building Postcard [Chinese]](flyer-chinese.jpg)
 
 [One page narrow brochure: Join NYC Mesh](NYC_Mesh_Brochure_02.jpg)
