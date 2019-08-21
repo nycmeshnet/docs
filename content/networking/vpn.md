@@ -39,13 +39,13 @@ Based on these decisions, you will need to choose a different protocol and setup
 
 The NYC Mesh VPN service currently offers VPN connectivity using the following protocols:
 
-#### [L2TP/IPSec]({{< relref "networking/vpnl2tpipsec" >}})
+#### [L2TP/IPsec]({{< relref "networking/vpnl2tpipsec" >}})
 
-VPNs that use a combination of the Layer 2 Tunneling Protocol (L2TP) and Internet Protocol Security (IPSec) protocols are a common general-purpose VPN deployment that work with most platforms. For example, computers running the Microsoft Windows and macOS operating systems support this type of VPN out-of-the-box. This type of VPN is a little bit oldschool in that it is typically found in enterprise corporate environments and thus does not provide much "mesh-y" functionality. It can also be a little slow.
+VPNs that use a combination of the Layer 2 Tunneling Protocol (L2TP) and Internet Protocol Security (IPsec) protocols are a common general-purpose VPN deployment that work with most platforms. For example, computers running the Microsoft Windows and macOS operating systems support this type of VPN out-of-the-box. This type of VPN is a little bit oldschool in that it is typically found in enterprise corporate environments and thus does not provide much "mesh-y" functionality. It can also be a little slow.
 
 NYC Mesh provides this type of endpoint because it is out-of-the-box compatible with most devices. We also **allow anonymous connections** to the NYC Mesh network via this VPN type.
 
-For configuration instructions, please see our [L2TP/IPSec page]({{< relref "networking/vpnl2tpipsec" >}}).
+For configuration instructions, please see our [L2TP/IPsec page]({{< relref "networking/vpnl2tpipsec" >}}).
 
 #### [Wireguard]({{< relref "networking/vpnwireguard" >}})
 
@@ -64,5 +64,5 @@ Other VPN protocols exist, but are either not offered by NYC Mesh endpoints or a
 This section provides an overview of the NYC Mesh VPN endpoints to which you can connect.
 
 ### Supernode 1
-* [L2TP/IPSec]({{< relref "networking/vpnl2tpipsec" >}}): `l2tpvpn.sn1.mesh.nycmesh.net`
+* [L2TP/IPsec]({{< relref "networking/vpnl2tpipsec" >}}): `l2tpvpn.sn1.mesh.nycmesh.net`
 * [Wireguard]({{< relref "networking/vpnwireguard" >}}): `wgvpn.sn1.mesh.nycmesh.net:51820`
