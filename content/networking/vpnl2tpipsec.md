@@ -53,12 +53,12 @@ This section provides step-by-step guides for connecting to one of NYC Mesh's L2
 1. Click on the plus button (Add a VPN connection)
 1. Choose VPN provider (Microsoft by default)
 1. Conenction name (Name it whatever you want)
-1. Server name or address **l2tpvpn.sn1.mesh.nycmesh.net**
+1. Server name or address `l2tpvpn.sn1.mesh.nycmesh.net`
 1. VPN Type: L2TP/IPsec with pre-shared key
-1. Pre-shared key: **nycmeshnet**
+1. Pre-shared key: `nycmeshnet`
 1. Type of sign-in info: User name and password
-1. Username: **nycmesh**
-1. Password: **nycmeshnet**
+1. Username: `nycmesh`
+1. Password: `nycmeshnet`
 1. Check box to remember password so you don't have to type this everytime 
 1. Click save
 1. Click on newly created VPN connection and click connect
