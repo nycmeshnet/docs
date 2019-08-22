@@ -2,7 +2,7 @@
 title: "VPN" 
 ---
 
-The NYC Mesh Virtual Private Network (VPN) is a system that enables a computer that is physically disconnected from the rest of the NYC Mesh network (e.g., because it is too distant from existing [nodes]({{< relref "nodes/_index.md" >}})) to access the other computers that make up the NYC Mesh network. Put another way, it extends the NYC Mesh network to computers that are not physically part of the mesh. This is used for a number of different purposes, including to provide access to intra-mesh services, ease new node installations, and more.
+The **NYC Mesh Virtual Private Network (VPN)** is a system that enables a computer that is physically disconnected from the rest of the NYC Mesh network (e.g., because it is too distant from existing [nodes]({{< relref "nodes/_index.md" >}})) to access the other computers that make up the NYC Mesh network. Put another way, it extends the NYC Mesh network to computers that are not physically part of the mesh. This is used for a number of different purposes, including to provide access to intra-mesh services, ease new node installations, and more.
 
 ## VPN Infrastructure
 NYC Mesh maintains some common [virtual private networking (VPN)](https://simple.wikipedia.org/wiki/Virtual_private_network) infrastructure for use by mesh members. The purpose of the VPN systems is to:
@@ -47,9 +47,9 @@ NYC Mesh provides this type of endpoint because it is out-of-the-box compatible 
 
 For configuration instructions, please see our [L2TP/IPsec page]({{< relref "networking/vpnl2tpipsec" >}}).
 
-#### [Wireguard]({{< relref "networking/vpnwireguard" >}})
+#### [WireGuard]({{< relref "networking/vpnwireguard" >}})
 
-[Wireguard](/networking/vpnwireguard) is a modern, very secure type of VPN that was originally developed for Linux. There are now versions of the Wireguard VPN client software available for recent macOS and Windows operating systems as well. Wireguard is also very fast, but has some funny routing requirements.
+[WireGuard]({{< relref "networking/vpnwireguard" >}}) is a modern type of VPN that was originally developed for Linux. There are now versions of the Wireguard VPN client software available for recent macOS and Windows operating systems as well. WireGuard is also very fast, but has some funny routing requirements.
 
 #### Other VPN types
 
@@ -65,4 +65,4 @@ This section provides an overview of the NYC Mesh VPN endpoints to which you can
 
 ### Supernode 1
 * [L2TP/IPsec]({{< relref "networking/vpnl2tpipsec" >}}): `l2tpvpn.sn1.mesh.nycmesh.net`
-* [Wireguard]({{< relref "networking/vpnwireguard" >}}): `wgvpn.sn1.mesh.nycmesh.net:51820`
+* [WireGuard]({{< relref "networking/vpnwireguard" >}}): `wgvpn.sn1.mesh.nycmesh.net:51820`
