@@ -67,6 +67,7 @@ You can download a handy checklist of the equipment listed on this page [here](h
 | Rubberized waterproof sealant | ![alt text](https://i.imgur.com/Gl02rst.jpg "Sealant") | Sealing gaps and holes to prevent water infiltration | Hardware store adhesives aisle |
 | WD-40 or other oil | ![alt text](https://i.imgur.com/3lzIxyg.jpg "WD40") | Drilling through thicker metals | Hardware store |
 | Small brush and dustpan | ![alt text](https://i.imgur.com/HPr0xuW.jpg "Tiny broom") | Sweeping up cable ends and metal shavings from drilling through window frame | Online retailers |
+| Biodegradable wet wipes | ![alt text](https://i.imgur.com/kEFb9Xe.jpg "Wet wipes") | Cleaning dirty hands | Online retailers - [recommended product](https://www.amazon.com/Eco-Naty-Hypoallergenic-Biodegradable-Compostable/dp/B00WW8XR4O?th=1) |
 | Small garbage bag | ![alt text](https://i.imgur.com/KXNTCjH.jpg "Garbage bag") | Disposing of garbage | Reuse a shopping bag |
 | Hand truck | ![alt text](https://i.imgur.com/7x3UWYR.jpg "Hand truck") | Transporting cable reel box and equipment bag in and out of subway stations - stair-climbing model is ideal! | Online retailers, larger hardware stores |
 | Backpack | ![alt text](https://i.imgur.com/QKrBe4g.jpg "Backpack") | Transporting equipment safely up ladders - slim backpacks are the safest! | Many places |
