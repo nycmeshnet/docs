@@ -373,10 +373,11 @@ The default username is admin and there is no password.
 3. Click “Files” in the left side menu.
 4. Click “Choose File” at the top.
 5. Navigate to where you saved the firmware, select the file and click “Open”. You will see the file appear in the interface.
-6. Click “System” in the left side menu.
-7. Click “Reboot” in the dropdown menu.
-8. Click OK when prompted.
-9. Wait about one minute for the router to reboot. You will see the computer LED flashing on the router when it is ready.
+6. Wait for the firmware to fully upload (you will see the upload progress in the bottom left corner).
+7. Click “System” in the left side menu.
+8. Click “Reboot” in the dropdown menu.
+9. Click OK when prompted.
+10. Wait about one minute for the router to reboot. You will see the computer LED flashing on the router when it is ready.
 Refresh your browser to reenter the GUI. If the firmware update was successful, you will see the current firmware version in very small letters and numbers at the top left of the screen.
 
 **4. Upload Configuration**
@@ -396,7 +397,7 @@ pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/
 3. If asked “Dangerous Reset anyway?” type in Y and return/enter.
 4. Reopen the Mikrotik GUI in your web browser and navigate back to “Files” as described in section 3 above. You should see the config file you just uploaded.
 5. Click “System” in the left side menu.
-6. Click “Configuration” in the left side menu dropdown. Select:
+6. Click “Reset Configuration” in the left side menu dropdown. Select:
   * No Default Configuration
   * Run After Reset: flash/nycmesh-omni-####.rsc (click the popup on the right to select this)
   * Apply
