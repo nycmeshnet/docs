@@ -7,7 +7,7 @@ There are two standards for ethernet cables. We use T-568B. (oO-gB-bG-brBR)
 ![window/wall install](/img/ethernet/T-568B.gif)
 [source](https://www.siongboon.com/projects/2006-03-06_serial_communication/)
 
-A straight cable will work as long as both ends are the same configuration, but to stop confusion we are sticking to the standard T-568B, which is the most common one in this country.
+A straight cable will work as long as both ends are the same configuration, but to stop confusion we only use the standard T-568B, which is the most common one in this country.
 
 In 100base-T (100Mbps most old ethernet), orange is data transmit (pins 1 & 2) and green is receive (pins 3 & 6) pins 4,5,7,8 are not used for data.
 
@@ -15,9 +15,7 @@ In 1000Base-T (gigabit ethernet) all pins are used for data. If pins 4,5,7 & 8 a
 
 4,5,7,8 are used for power over ethernet (POE). Pins 4 & 5 are negative and 7 & 8 are positive.
 
-If you plug POE into the "secondary" WAN port of a NanoStation, the main port will have live POE! This POE passthrough is great if you want to power a second NanoStation, but if you plug a live POE cable into an adapter or some device that does not expect POE it can break. We also turn on POE passthrough for both ports in some [installs](../nsm5).
-
-On a roof it is tempting to plug from a powered ethernet port into your laptop to configure the router. Usually the cheaper devices survive this accident because they don't use the POE pins. Apple's $30 thunderbolt ethernet adapters and other gigabit adapters will blow up. $9 USB 100Base-T adapters are a better bet if you think you will make this mistake. If you have a test cable with 4,5,7,8 disconnected you will be safe.
+If you plug a live POE cable into an adapter or some device that does not expect POE it can break. This is often how ethernet adapters and cable testers break! A cheap USB 100Base-T ethernet adapter will survive as it doesn't use the POE pins. 
 
 Ubiquiti POE is 24V DC, **half the voltage of standard 48V DC POE.** If you use standard POE you need to use a [Ubiquiti 8023af-adapter](https://www.ubnt.com/accessories/instant-8023af-adapters/)
 
