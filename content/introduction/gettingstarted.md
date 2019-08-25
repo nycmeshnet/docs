@@ -10,7 +10,7 @@ Join your home to the mesh | [Overview]({{< relref "overview" >}}), [New Node In
 Volunteer to install new nodes | [Overview]({{< relref "overview" >}}), [New Node Installation Guide]({{< relref "installs" >}}), [Hardware Reference]({{< relref "hardware" >}}), [Outreach and Publicity Guide]({{< relref "outreach" >}})
 Monitor mesh network services | [Overview]({{< relref "overview" >}}), [Intra-mesh Services and Features]({{< relref "intra-mesh-services" >}}), [Software Reference]({{< relref "software" >}})
 Help solve community member connectivity issues | [Overview]({{< relref "overview" >}}), [Outreach and Publicity Guide]({{< relref "outreach" >}}), [Troubleshooting Guide]({{< relref "troubleshooting" >}})
-Improve network security | [Overview]({{< relref "overview" >}}), [Intra-mesh Services and Features]({{< relref "intra-mesh-services" >}}), [Network Design Reference]({{< relref "network-design" >}}), [Software Reference]({{< relref "software" >}})
+Improve network security | [Overview]({{< relref "overview" >}}), [Intra-mesh Services and Features]({{< relref "intra-mesh-services" >}}), [Network Design Reference]({{< relref "network-design" >}}), [Software Reference]({{< relref "software" >}}), [Security]({{< relref "security" >}})
 Help scale the network | [Overview]({{< relref "overview" >}}), [Network Design Reference]({{< relref "network-design" >}}), [Hardware Reference]({{< relref "hardware" >}}), [Software Reference]({{< relref "software" >}})
 
 Of course, regardless of your goal, you may find more documentation areas helpful to you than simply the ones listed for your interest, above. These are just suggestions!
