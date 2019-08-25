@@ -11,8 +11,8 @@ This doc is in progress. Please add links below to the specific config instructi
 SN1 clients need to have an IP address assigned 192.168.42.xxx
 SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
   
-* SN1 orig config- [Detailed config](/installs/cpe), [Easy config](#lbe-client)     
-* SN2+ and hubs [Detailed config](/installs/cpe2), [Easy config](#lbe-client)         
+* P2MP (Supernode or hub sectors), [Easy config](#lbe-client)     
+* Old detailed config- [sn2](/installs/cpe2)   
 * P2P    
     
 ## SXTsq    
@@ -42,9 +42,9 @@ SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 
 ### <a name="lbe-client"></a>Litebeam client for Supernodes and hubs
 
-All Supernodes and hubs (apart from SN1) use the same sn2.cfg. Supernode 1 has a slightly different config (sn1.cnf) and it also needs an assigned IP address. 
+All Supernodes and hubs use the same sn2.cfg. 
 
-First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [sn1 config file](/download/sn1.html) and [sn2 config file](/download/sn2.html) and save to a folder for offline use. Also save these instructions (Cmd-S).
+First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [config file](https://configgen.nycmesh.net/?device=LiteBeam5AC&template=sn2.cfg.tmpl)
 
 Plug in LiteBeam to POE and connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (booting turns on wifi for 15 minutes)
 
@@ -54,17 +54,15 @@ Log in with username: ubnt and password: ubnt for a new device (or select upload
 
 Go to Settings>System and select "upload firmware" and choose the WA .bin file you downloaded before
 
-While still in System, scroll down to "upload configuration" and select sn1.cfg or sn2.cfg file you downloaded before
+While still in System, scroll down to "upload configuration" and select sn2.cfg file you downloaded before
 
-Change the "nn" device name from lbe-nycmesh-nn to your node number e.g. lbe-nycmesh-1234
-
-For SN1 **only**, Go to Network and change the management IP address (192.168.1.20) to the assigned IP address we have given you (192.168.42.xxx)  
+Check that the device name "lbe-nycmesh-xxxx" matches your node building number e.g. "lbe-nycmesh-1234" (building number is usually the node number)
 
 Click save (twice if necessary)  
 
-To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan. Click the button next to the best AirMac AC signal. (-80 is bad, -50 is good) Click "SELECT" and then "SAVE CHANGES" (twice if necessary)
+To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan. Click the button next to the best AirMac AC signal. (-80 is bad, -50 is good, -62 is typical) Click "SELECT" and then "SAVE CHANGES" (twice if necessary)
 
-For SN2+ and hubs, once this device pairs (numbers appear on dashboard) it will get a different management IP address using DHCP. To stay logged in to router, you must use the management wifi!
+Once this device pairs (numbers appear on dashboard) it will get a different IP address using DHCP. To stay logged in to router, you must use the management wifi!
 
 To disconnect from the LiteBeam dashboard and do a bandwidth test, connect via ethernet and set your network settings to "DHCP" (or "Automatic") and go to [speedtest](http://www.speedtest.net/)
 
