@@ -41,7 +41,7 @@ All supernode and hub clients use DHCP for the IP address and use WPA password:n
 
 ### <a name="lbe-client"></a>Litebeam client for Supernodes and hubs
 
-All Supernodes and hubs use the same sn2.cfg. 
+All Supernodes and hubs use the same sn2.cfg
 
 First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [config file](https://configgen.nycmesh.net/?device=LiteBeam5AC&template=sn2.cfg.tmpl)
 
@@ -66,6 +66,8 @@ Once this device pairs (numbers appear on dashboard) it will get a different IP 
 To disconnect from the LiteBeam dashboard and do a bandwidth test, connect via ethernet and set your network settings to "DHCP" (or "Automatic") and go to [speedtest](http://www.speedtest.net/)
 
 Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory defaults- press and hold the Reset button for more than 10 seconds while the LiteBeam ac is already powered on.
+
+What the config file does: The config file sets DHCP for the IP address, WPA password: nycmeshnet, adds the  building number to the device name, adds the UNMS key for monitoring and sets the SNMP location and contact to "nycmesh".
 
 ---  
 
