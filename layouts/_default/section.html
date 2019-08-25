@@ -4,14 +4,17 @@
 			<div class="f4 measure-wide-l">
 				{{ partial "title" . }}
 				<div class="f5">
-						{{ .Content }}
+					{{ .Content }}
+					<h2 id="section-contents">Section Contents</h2>
+					<ol>
 					{{ range .Data.Pages }}
-						<p>
+						<li>
 							<a href="{{ .RelPermalink }}">
 								{{ .Title }}
 							</a>
-						</p>
+						</li>
 					{{ end }}
+					</ol>
 				</div>
 			</div>
 		</div>
