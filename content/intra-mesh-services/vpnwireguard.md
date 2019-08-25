@@ -1,5 +1,7 @@
 ---
-title: "VPN - WireGuard"
+title: VPN - WireGuard
+aliases:
+    - /networking/vpnwireguard
 ---
 
 [WireGuard](https://wireguard.com/) is a newer, simpler, and faster [Free Software](https://www.gnu.org/philosophy/free-sw.html) VPN implementation and protocol. For comparison, the older [L2TP/IPsec VPNs]({{< relref "vpnl2tpipsec.md" >}}) will max out at about 100Mbps, but WireGuard VPNs can reach speeds upward of 300-400Mbps on decent hardware and even 1Gbps on a good workstation. Performance is better on computers running a Linux kernel because the WireGuard project was designed to live within the Linux kernel from the start. Userspace ports for macOS, Windows, iOS, Android, and other platforms are now available but are not as performant as the Linux kernelspace implementation.

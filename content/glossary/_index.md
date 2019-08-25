@@ -1,6 +1,6 @@
 ---
 title: Glossary
-weight: 1000
+weight: 1200
 ---
 
 Telecommunications, computing, and internetworking technologies often have an enormous amount of jargon associated with them. This jargon makes it possible to speak precisely and quickly to others who are in-the-know, but can also drastically increase the learning curve for newcomers. We offer this page as a quick reference guide for common terms, acronyms, and other abbreviations that NYC Mesh technical teams use on a regular basis.

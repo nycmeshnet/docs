@@ -1,9 +1,13 @@
 ---
 title: "Introduction"
 weight: 99
+aliases:
+    - intro
 ---
 
 [NYC Mesh](https://nycmesh.net/) is a community-owned network. This means that city residents take it upon themselves to maintain and grow the network. A massive amount of cooperation between many different people with many different skills is required to accomplish this, and this website is here to make sure that individuals who want to improve the network can get the knowledge and skills they need to do so.
+
+In this section, you'll find information that will help familiarize you with NYC Mesh's various communications and resource channels so that you can more easily navigate the rest of this guide and the rest of the NYC Mesh community. 
 
 ## Who should read this website
 

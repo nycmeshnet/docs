@@ -32,7 +32,7 @@ Each room in our Slack group, called a channel, hosts a discussion about a certa
 : This channel is for coordinating logistics regarding rooftop [installs]({{< relref "installs" >}}).
 
 `#mesh-services`
-: Hyperlocal services and content that are specific to NYC Mesh's network such as [the `.mesh` intra-mesh DNS TLD]({{< relref "networking/dns" >}}) are discussed here.
+: Hyperlocal services and content that are specific to NYC Mesh's network such as [the `.mesh` intra-mesh DNS TLD]({{< relref "network-design/dns" >}}) are discussed here.
 
 There are many additional Slack channels, and the channel list expands as people find new and fun things to talk about. You can spend a great deal of time searching within Slack to find even more topics, but the ones listed above are channels you should definitely be aware of.
 
@@ -59,6 +59,6 @@ Some important GitHub-hosted code repositories are listed here:
 : Various assets and hardware-specific config files for the physical devices that make up the infrastructure of our network.
 
 [`nycmesh-dns`](https://github.com/nycmeshnet/nycmesh-dns)
-: Configuration and zone files for our intra-mesh [DNS]({{< relref "networking/dns" >}}) servers and the hyperlocal `.mesh` TLD.
+: Configuration and zone files for our intra-mesh [DNS]({{< relref "network-design/dns" >}}) servers and the hyperlocal `.mesh` TLD.
 
 In addition to the source code itself, we also make use of GitHub's issue tracker to have asynchronous conversations about our software and firmware builds. These issue boards are a little bit like forum postings that you can read to understand why certain decisions were made and how a given component of our network evolved. They are also a good place to ask questions and report bugs.

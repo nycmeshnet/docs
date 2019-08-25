@@ -1,6 +1,7 @@
 ---
-title: "Installs"
+title: "New Node Installation Guide"
 layout: single
+weight: 400
 ---
 
 These docs cover the installation process for NYC Mesh nodes. 

@@ -1,5 +1,7 @@
 ---
 title: "Typical Installations"
+aliases:
+    - /intro/typical-installs
 ---
 
 Please read our [FAQ](https://nycmesh.net/faq) if you haven't already.

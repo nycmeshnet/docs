@@ -1,4 +1,4 @@
 ---
-title: "Hardware"
-weight: 200
+title: Hardware Reference
+weight: 700
 ---

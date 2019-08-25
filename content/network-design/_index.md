@@ -1,6 +1,7 @@
 ---
-title: "Networking"
+title: Network Design Reference
 layout: single
+weight: 600
 ---
 
 NYC Mesh is a mesh network.   

@@ -1,5 +1,6 @@
 ---
-title: "Software"
+title: Software Reference
+weight: 800
 ---
 
 ### Projects

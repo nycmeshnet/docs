@@ -1,5 +1,7 @@
 ---
-title: "VPN - L2TP/IPsec" 
+title: VPN - L2TP/IPsec
+aliases:
+    - /networking/vpnl2tpipsec
 ---
 
 An L2TP/IPsec VPN is an "enterprise VPN" setup, so called because it is most often used by corporations to provide remote access to one or more computers that are physically disconnected from the rest of their corporate network. It is based on a combination of the aforementioned L2TP and IPsec protocol standards. The former protocol (L2TP, the [Layer 2 Tunneling Protocol](https://en.wikipedia.org/wiki/Layer_2_Tunneling_Protocol)) carries a "call" over the Internet, while the latter protocol suite ([IPsec](https://en.wikipedia.org/wiki/IPsec), Internet Protocol Security) encrypts the call and authenticates the participants.
