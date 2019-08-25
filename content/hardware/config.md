@@ -8,8 +8,7 @@ weight: 99
 This doc is in progress. Please add links below to the specific config instructions  
 
 ## LiteBeams  
-SN1 clients need to have an IP address assigned 192.168.42.xxx
-SN2+ and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
+All supernode and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
   
 * P2MP (Supernode or hub sectors), [Easy config](#lbe-client)     
 * Old detailed config- [sn2](/installs/cpe2)   
