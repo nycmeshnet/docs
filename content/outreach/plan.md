@@ -1,5 +1,7 @@
 ---
 title: "Master Plan"
+aliases:
+    - /organization/plan
 ---
 
 Our basic plan is to create hubs and supernodes across the city so it is easy for any building to connect to our network. We think this will take about 50 tall buildings spread across all neighborhoods. We are currently only have 3 supernodes and about 5 major hub nodes so we are still a few years away from our goal.

@@ -1,5 +1,7 @@
 ---
 title: "Workflow"
+aliases:
+    - /organization/workflow
 ---
 
 # Overview
