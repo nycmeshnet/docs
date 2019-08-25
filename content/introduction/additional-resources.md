@@ -16,22 +16,22 @@ Many NYC Mesh members stay in touch via our Slack group. It is available at http
 
 Each room in our Slack group, called a channel, hosts a discussion about a certain topic. Here is a list of some of the most important Slack channels that you might want to join and check up on regularly:
 
-`#docs`
+[`#docs`](https://nycmesh.slack.com/messages/docs)
 : This channel is for documentation team members. Discussions about organizing NYC Mesh Docs happen here.
 
-`#general`
+[`#general`](https://nycmesh.slack.com/messages/general)
 : A general-purpose chat channel; like the lobby of a building or the living room in an apartment. Hang out with us here. :)
 
-`#hardware`
+[`#hardware`](https://nycmesh.slack.com/messages/hardware)
 : This channel is where general discussion about physical setups happen. Many people share pictures of custom attachments and insulation casings for their outdoor routers here, and ask questions about where to get the best tools or supplies.
 
 `#hub-*`
 : Slack channels whose names begin with `#hub-` are for discussions relating to their specific node. For example, the `#hub-saratoga-1340` Slack channel is about [the Saratoga node (number 1340)]({{< relref "nodes/node-1340" >}}).
 
-`#install-team`
+[`#install-team`](https://nycmesh.slack.com/messages/install-team)
 : This channel is for coordinating logistics regarding rooftop [installs]({{< relref "installs" >}}).
 
-`#mesh-services`
+[`#mesh-services`](https://nycmesh.slack.com/messages/mesh-services)
 : Hyperlocal services and content that are specific to NYC Mesh's network such as [the `.mesh` intra-mesh DNS TLD]({{< relref "network-design/dns" >}}) are discussed here.
 
 There are many additional Slack channels, and the channel list expands as people find new and fun things to talk about. You can spend a great deal of time searching within Slack to find even more topics, but the ones listed above are channels you should definitely be aware of.
