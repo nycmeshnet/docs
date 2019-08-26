@@ -1,12 +1,12 @@
 ---
-title: "Typical Installations"
+title: "Typical Installation Example"
 aliases:
     - /intro/typical-installs
 ---
 
-Please read our [FAQ](https://nycmesh.net/faq) if you haven't already.
+Now that you understand that NYC Mesh is composed of [end-user devices]({{< relref "end-user-connectivity" >}}), indoor and [outdoor routers]({{< relref "intra-mesh-connectivity" >}}), and a [connection to the Internet]({{< relref "internet-connectivity" >}}), let's put it all together by stepping through an example installation for a new NYC Mesh node at a very high level. Bear in mind that while this page describes a typical installation, it is merely an example. In real life, an install may not follow these steps exactly, and there may be extra steps that must be taken to connect the new node which are not described here.
 
-The intention of this page is not to be technical but rather give to the non-technical person an understanding of a typical installation. <br><br>
+Also, as a reminder, please read our [FAQ](https://nycmesh.net/faq) *instead of* this page if you are simply curious about how NYC Mesh works at a very basic level and have not done so already.
 
 NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop" using different type of equipment based on geography and topology. And doing so, expand NYC Mesh network coverage to the next block and so on*. The fondment of NYC Mesh is to share the connectivity with the neignbors, share ressources, share equipment, share the network. Create a community of communities connecting to each others. NYC Mesh uses basically two categories of equipment. 
 
