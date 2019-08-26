@@ -128,7 +128,7 @@ OpenWRT
 # P
 
 [Peering](../../networking/peering/)
-: An agreement between two networks two connect and exchange traffic without charge
+: An agreement between two networks to connect and exchange traffic without charge
 
 P2P
 : Point-to-point connection between two antennas
