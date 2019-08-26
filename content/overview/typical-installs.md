@@ -30,13 +30,19 @@ After the install team arrives at the site of the new node location, politely in
 
 The Ubiquiti LiteBeam AC (or just "LiteBeam" for short) is a single piece of hardware that functions as both a router and an antenna in a single casing. Another major advantage of this device is that it receives electrical power over a standard Ethernet network cable using a technology called [Power-over-Ethernet, or PoE](https://en.wikipedia.org/wiki/Power_over_Ethernet) for short. This means we can plug an Ethernet network cable into the LiteBeam and that same cable will serve as *both* a power cable and the network cable that will attach this outdoor router to the indoor router that we will install shortly.
 
-Before the Install Team can begin to attach the LiteBeam to the roof, however, they need to find one or more existing NYC Mesh antennas installed on nearby rooftops.
+### Supplying power to the outdoor router
+
+Once the Install Team has a good idea of the situation where the outdoor router will be installed, they will need to figure out how to run cabling from the new NYC Mesh member's apartment or home to the roof. This cabling will supply electrical power to the LiteBeam as well as eventually supply network connectivity to the indoor router. The simplest way to accomplish this is to plug a Power-over-Ethernet (PoE) injector into a wall outlet near a window that will serve as a passage towards the roof.
+
+With the PoE injector electrified, a properly crimped Ethernet cable can be run down from the roof, pushed through an access hole (called a *cable pass*) drilled into the window frame, and plugged into the PoE injector inside the apartment. The Ethernet cable is now also an electrical cable, and we can use it to supply power to the LiteBeam. Before the Install Team can begin to attach the LiteBeam to the roof, however, they need to find one or more existing NYC Mesh antennas installed on nearby rooftops.
 
 ### Pointing the antenna towards other nodes
 
 In order for the LiteBeam to provide the new NYC Mesh member with connectivity to the rest of the NYC Mesh network, it must be attached to the roof such that it points towards other NYC Mesh nodes. This is particularly important because the LiteBeam's radio antenna is *directional*. In other words, it can only receive and send radio signals in a single direction, as opposed to "in all directions," which is what an omni-directional antenna can do. If the Install Team mounts the LiteBeam to the roof without pointing it in the correct direction, the new node will not be connected to the rest of NYC Mesh and will, to put it bluntly, simply not work.
 
-Many Ubiquiti-branded devices come with a [built-in antenna alignment tool](https://help.ubnt.com/hc/en-us/articles/115010608187-UNMS-Mobile-app) and companion app for Android or iOS, which will aid in this process. Radio signal strength is measured in units of [decibel-milliwatts, or dBm](https://en.wikipedia.org/wiki/DBm). We like to make sure our outdoor routers are showing between -65dBm to -45dBm on both receive (RX) and transmit (TX) readings for optimal performance. Figure 3 shows a screenshot of the Ubiquiti mobile app's antenna alignment feature.
+After plugging the Ethernet cable that was run into the apartment and plugged into the PoE injector into the Ethernet-plus-power port on the bottom of the LiteBeam, the Install Team can connect directly to the LiteBeam using their laptops or smartphones over its own, dedicated management network. This network is simply another 2.4Ghz Wi-Fi network that provides access to the administrative Web-based interface of the LiteBeam hardware itself.
+
+Once logged into the LiteBeam's admin interface, the Install Team members can use the [built-in antenna alignment tool](https://help.ubnt.com/hc/en-us/articles/115010608187-UNMS-Mobile-app) and companion app for Android or iOS, to find the best position in which to mount the LiteBeam to the roof. Radio signal strength is measured in units of [decibel-milliwatts, or dBm](https://en.wikipedia.org/wiki/DBm), and we like to make sure our outdoor routers are showing between -65dBm to -45dBm on both receive (RX) and transmit (TX) readings for optimal performance. Figure 3 shows a screenshot of the Ubiquiti mobile app's antenna alignment feature.
 
 {{< figure src="https://web.archive.org/web/20190826223507if_/https://help.ubnt.com/hc/article_attachments/115018227467/image7.png" alt="" caption="Figure 3: Ubiquiti UNMS antenna alignment mobile app." >}}
 
@@ -55,11 +61,11 @@ Depending on the roof's construction, the Install Team may choose to mount the a
 
 ### Attaching the outdoor router to NYC Mesh
 
+The final step to perform on the roof is to attach the LiteBeam to the NYC Mesh network by configuring its network settings appropriately. The Install Team leader will have prepared a [LiteBeam configuration]({{< relref "hardware/config" >}}#lbe-client), upload it into the LiteBeam via the administrative interface, and save the new configuration. If successful, this should supply the LiteBeam with an NYC Mesh IP address and prepare it for use by the indoor router, which will be installed next.
 
+## Installing the indoor router
 
-## Running cable from the roof inside the home
-
-With the outdoor router successfully mounted and 
+With the outdoor router successfully aligned, mounted, and configured, the next step is to
 
 From that antenna an ethernet cable is run to the apartment. (note: the antenna is sometimes referred as the outdoor router).
 
