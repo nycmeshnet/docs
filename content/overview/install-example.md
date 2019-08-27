@@ -16,11 +16,11 @@ When the installation is complete, we will have successfully connected a new apa
 
 The process for installing a new node always starts with a [join request](https://nycmesh.net/join) by a prospective member of the community. This drops a pin for the location of the potential new node on the [NYC Mesh node map](https://nycmesh.net/map), and starts a conversation between an Install Team leader and the prospective new member about what joining NYC Mesh means. One of the considerations discussed is how to physically connect to our network.
 
-Since NYC Mesh is an "over the air" network that connects new nodes "rooftop-to-rooftop," the very first step is to make sure that the new node actually *can* be physically connected to the rest of the network. If the new node is simply too far away from an existing node, or if it cannot receive a good radio signal for other reasons such as obstacles that are in the way, we cannot proceed because we won't be able to physically attach any equipment we install to the rest of our network.
+Since NYC Mesh is an "over the air" (OTA) network that connects new nodes "rooftop-to-rooftop," the very first step is to make sure that the new node actually *can* be physically connected to the rest of the network. If the new node is simply too far away from an existing node, or if it cannot receive a good radio signal for other reasons such as obstacles that are in the way, we cannot proceed because we won't be able to physically attach any equipment we install to the rest of our network.
 
-However, let's assume that the new node is somewhere in New York City that we actually can reach with the radio signal from one of our other nodes. In this case, the Install Team leader will visit the potential new node location to perform a site survey. This simply means that they will check to make sure that the install team will be able to climb up on the roof safely and that the roof has at least some accomodations for installing routers and antennas.
+However, let's assume that the new node is somewhere in New York City that we actually can reach with the radio signal from one of our existing nodes. In this case, the Install Team leader will visit the potential new node location to perform a site survey. This simply means that they will check to make sure that the install team will be able to climb up on the roof safely and that the roof has at least some accomodations for installing routers and antennas.
 
-Assuming the site survey results in a green light for the install operation, the Install Team leader will coordinate with the new NYC Mesh member to choose a time for the install. They will also recruit an install team made up of volunteers, and they will be responsible for collecting the installation fee from the new member in order to cover the costs of the equipment that the install team will need to carry out their work.
+Assuming the site survey results in a green light for the install operation, the Install Team leader will coordinate with the new NYC Mesh member to schedule a time for the install. They will also recruit an install team made up of volunteers, and they will be responsible for collecting the installation fee from the new member in order to cover the costs of the equipment that the install team will need to carry out their work.
 
 ## Installing the outdoor router
 
@@ -48,7 +48,7 @@ Once logged into the LiteBeam's admin interface, the Install Team members can us
 
 ### Mounting the outdoor router
 
-Once the Install Team determines the correct angle at which to point the antenna so that it can successfully receive and send radio signals to other NYC Mesh nodes, they must next physically attach the antenna to the roof so that it remains securely in place. The Install Team will also be sure to leave some space for Ethernet cabling, which will be used in the next step. Figure 4 shows a LiteBeam attached to a roof edge using a pipe mount.
+Once the Install Team determines the correct angle at which to point the antenna so that it can successfully receive and send radio signals to other NYC Mesh nodes, they must next physically attach the antenna to the roof so that it remains securely in place. Figure 4 shows a LiteBeam attached to a roof edge using a pipe mount.
 
 {{< figure src="/img/typicalInstall/lbejpipe.jpg" alt="" caption="Figure 4: Ubiquiti LiteBeam AC mounted on a roof edge." >}}
 
@@ -79,11 +79,11 @@ The above example is of a single-apartment installation connected via point-to-p
 
 Some node locations are ideally suited to provide neighboring residents access to NYC Mesh, either due to the characteristics of their building or simply their geographical location. For instance, especially tall buildings provide ample opportunity to extend the range of the network simply due to the fact that their height lets us reach over obstacles. In these cases, the Install Team may opt to deploy an omni-directional antenna in combination with a point-to-point directional antenna in order to strategize for the future expansion of the mesh in the new node's neighborhood.
 
-Such a configuration may require additional up-front planning in order to accomodate longer cables, cable passes into more than one apartment, multiple antenna alignments and mounts, and more. For example, Figure 9 shows a variation on the simple configuration described above in which a multiple apartments in the same building are connected to NYC Mesh and two outdoor routers are installed instead of one in order to increase the density of the mesh in the neighborhood.
+Such a configuration may require additional up-front planning in order to accomodate longer cables, cable passes into more than one apartment, multiple antenna alignments and mounts, and more. For example, Figure 9 shows a variation on the simple configuration described above in which multiple apartments in the same building are connected to NYC Mesh and two outdoor routers are installed instead of one in order to increase the density of the mesh in the neighborhood.
 
 {{< figure src="/img/typicalInstall/diagram_lbeOmni_textside.jpg" alt="" caption="Figure 9: Example multi-router installation with omni-directional and directional (point-to-point) upstream links offering NYC Mesh connectivity to multiple apartments in the same building." >}}
 
-Figures 10, 11, and 12 show photographs of the rooftop installation diagramed in Figure 9 in which the new node has both an omni-directional router (specifically, a [MicroTik OmniTik 5 PoE AC]({{< relref "hardware/mikrotikomnitik5ac" >}}) and a directional router (a [Ubiquiti LiteBeam AC]({{< relref "hardware/litebeamac" >}}) installed.
+Figures 10, 11, and 12 show photographs of the rooftop installation diagramed in Figure 9 in which the new node has both an omni-directional router (specifically, a [MicroTik OmniTik 5 PoE AC]({{< relref "hardware/mikrotikomnitik5ac" >}})) and a directional router (a [Ubiquiti LiteBeam AC]({{< relref "hardware/litebeamac" >}})) installed.
 
 * {{< figure src="/img/typicalInstall/lbe+Omni.jpg" alt="" caption="Figure 10: Photograph of a rooftop bearing both an omni-directional and a directional router antenna." >}}
 * {{< figure src="/img/typicalInstall/lbe+OmniPipe.jpg" alt="" caption="Figure 11: Photograph of a rooftop bearing both an omni-directional and a directional router antenna." >}}
@@ -91,7 +91,7 @@ Figures 10, 11, and 12 show photographs of the rooftop installation diagramed in
 
 This sort of installation is especially nice on shared rooftops as the MicroTik OmniTik device can also provide direct [end-user connectivity]({{< relref "end-user-connectivity" >}}) via Wi-Fi on your roof and allow an additional four apartments in the building to connect over wired Ethernet. Meanwhile, the OmniTik also provides omni-directional radio extension of the mesh for another two to three New York City blocks, which is a major boon to the neighborhood. If another MicroTik OmniTik outdoor router is installed within this two or three block radius, they will mesh with each other, thus improving reliability and access to the Internet for the neighboring community while also providing a further opportunity to continue expanding the mesh.
 
-Figure 13 shows an MicroTik OmniTik omni-directional router alone on a rooftop.
+Figure 13 shows a MicroTik OmniTik omni-directional router alone on a rooftop.
 
 {{< figure src="/img/typicalInstall/OmniAlone.jpg" alt="" caption="Figure 13: MicroTik OmniTik 5 PoE AC on a rooftop either alone or not positioned near a second outdoor router." >}}
 
