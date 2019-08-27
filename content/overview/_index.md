@@ -6,7 +6,7 @@ weight: 200
 NYC Mesh is several things at once.
 
 * The **technical implementation** of NYC Mesh is known as a *mesh network*.
-* The **organization itself** is a non-commercial *Wireless ISP*.
+* The **organization itself** is a non-profit, wireless *community-owned network* offering benefits to members, such as Internet access.
 * The **connected participants** operate numerous *community networks* "on the mesh" for the purpose of supporting various neighborhood initiatives that are of interest to local residents.
 
 <iframe width="560" height="315" style="display: block; margin: 0 auto;" src="https://www.youtube-nocookie.com/embed/glW_S9bKAHk?VIDEO_ID?version=3&playlist=glW_S9bKAHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"><p>
@@ -21,13 +21,14 @@ Put another way, as a mesh, various nodes connect to each other in a non-hierarc
 
 This may already sound very familiar to you, because it's also how the Internet works! In fact, if you think of NYC Mesh's mesh network as a "small Internet" that just happens to be available in New York City, you would have a pretty good general idea of how our network operates. Of course, NYC Mesh is *not* "the Internet," but it does *connect to* the Internet, because NYC Mesh is also a Wireless ISP.
 
-## NYC Mesh as a Wireless ISP
+## NYC Mesh as a wireless community-owned network
 
-Among the many benefits of [joining NYC Mesh](https://nycmesh.net/join) is lower-cost, high-speed Internet access. This means that by participating in our mesh network, you can visit websites like Wikipedia, check your email, read local and international news, and do all the things you would expect to be able to do online with any other Internet service. In this sense, NYC Mesh functions very much like a commercial Internet Service Provider (ISP), except that NYC Mesh is a non-profit community group (i.e., we are not a commercial enterprise), and we use slightly different methods to conncet you to the Internet.
+Among the many benefits of [joining NYC Mesh](https://nycmesh.net/join) is lower-cost, high-speed Internet access. This means that by participating in our mesh network, you can visit websites like Wikipedia, check your email, read local and international news, and do all the things you would expect to be able to do online with any traditional or commercial Internet service.
 
-Unlike many traditional ISPs who use physical copper or fiber cabling buried under streets and sidewalks to connect their subscribers to the Internet, we use radio antennaes mounted on building rooftops to increase our coverage area. This is where the *wireless* in Wireless ISP (WISP) comes in. Whenever we install a new antennae on a rooftop, the physical coverage area of our network expands exactly as far as the radio signal will reach. The specifics of each installation varies but, in general, every new node means more coverage and a more resilient network for participants.
+Unlike many traditional and commercial ISPs who use physical copper or fiber cabling buried under streets and sidewalks to connect their subscribers to the Internet, our members intsall radio antennas mounted on their rooftops or windows to increase our coverage area. This is where the *wireless* in wireless community-owned network comes in. Whenever we install a new antenna on a rooftop, the physical coverage area of our network expands exactly as far as the radio signal will reach. The specifics of each installation varies but, in general, every new node means more coverage and a more resilient network for participants.
 
-However, to connect you to sites like Wikipedia and other services who do not have servers within NYC Mesh's physical mesh network, we also operate computers at major NYC Internet exchange points (IXPs) such as [DE-CIX](https://www.de-cix.net/en/locations/united-states/new-york). Thanks to the fact that these computers are physically connected both to the rest of the Internet *and* the NYC Mesh wireless mesh network, new NYC Mesh nodes can also access the rest of the Internet.
+
+In order for members to enjoy the full benefits of membership in our community-owned network, like Internet connectivity and the ability to browse sites like Wikipedia or other services who do not have servers within NYC Mesh's physical mesh network, we also operate computers at major NYC Internet exchange points (IXPs) such as [DE-CIX](https://www.de-cix.net/en/locations/united-states/new-york). Thanks to the fact that these computers are physically connected both to the rest of the Internet *and* the NYC Mesh wireless mesh network, new NYC Mesh nodes can also access the rest of the Internet.
 
 ## NYC Mesh as a community network
 
