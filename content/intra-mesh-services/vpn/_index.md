@@ -41,17 +41,17 @@ Based on these decisions, you will need to choose a different protocol and setup
 
 The NYC Mesh VPN service currently offers VPN connectivity using the following protocols:
 
-#### [L2TP/IPsec]({{< relref "intra-mesh-services/vpnl2tpipsec" >}})
+#### [L2TP/IPsec]({{< relref "intra-mesh-services/vpn/vpnl2tpipsec" >}})
 
 VPNs that use a combination of the Layer 2 Tunneling Protocol (L2TP) and Internet Protocol Security (IPsec) protocols are a common general-purpose VPN deployment that work with most platforms. For example, computers running the Microsoft Windows and macOS operating systems support this type of VPN out-of-the-box. This type of VPN is a little bit oldschool in that it is typically found in enterprise corporate environments and thus does not provide much "mesh-y" functionality. It can also be a little slow.
 
 NYC Mesh provides this type of endpoint because it is out-of-the-box compatible with most devices. We also **allow anonymous connections** to the NYC Mesh network via this VPN type.
 
-For configuration instructions, please see our [L2TP/IPsec page]({{< relref "intra-mesh-services/vpnl2tpipsec" >}}).
+For configuration instructions, please see our [L2TP/IPsec page]({{< relref "intra-mesh-services/vpn/vpnl2tpipsec" >}}).
 
-#### [WireGuard]({{< relref "intra-mesh-services/vpnwireguard" >}})
+#### [WireGuard]({{< relref "intra-mesh-services/vpn/vpnwireguard" >}})
 
-[WireGuard]({{< relref "intra-mesh-services/vpnwireguard" >}}) is a modern type of VPN that was originally developed for Linux. There are now versions of the Wireguard VPN client software available for recent macOS and Windows operating systems as well. WireGuard is also very fast, but has some funny routing requirements.
+[WireGuard]({{< relref "intra-mesh-services/vpn/vpnwireguard" >}}) is a modern type of VPN that was originally developed for Linux. There are now versions of the Wireguard VPN client software available for recent macOS and Windows operating systems as well. WireGuard is also very fast, but has some funny routing requirements.
 
 #### Other VPN types
 
@@ -66,5 +66,5 @@ Other VPN protocols exist, but are either not offered by NYC Mesh endpoints or a
 This section provides an overview of the NYC Mesh VPN endpoints to which you can connect.
 
 ### Supernode 1
-* [L2TP/IPsec]({{< relref "intra-mesh-services/vpnl2tpipsec" >}}): `l2tpvpn.sn1.mesh.nycmesh.net`
-* [WireGuard]({{< relref "intra-mesh-services/vpnwireguard" >}}): `wgvpn.sn1.mesh.nycmesh.net:51820`
+* [L2TP/IPsec]({{< relref "intra-mesh-services/vpn/vpnl2tpipsec" >}}): `l2tpvpn.sn1.mesh.nycmesh.net`
+* [WireGuard]({{< relref "intra-mesh-services/vpn/vpnwireguard" >}}): `wgvpn.sn1.mesh.nycmesh.net:51820`

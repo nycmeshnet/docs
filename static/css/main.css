@@ -245,6 +245,36 @@ ul li .check::before {
   background-color: #f5f5f5;
 }
 
+.breadcrumb-nav {
+    font-size: smaller;
+    margin-bottom: 1em;
+}
+.breadcrumb-nav p {
+    margin: 0;
+}
+.breadcrumb-nav ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.breadcrumb-nav li:not(:last-child)::after {
+    content: "\2192";
+    margin-right: .25em;
+}
+
+@media screen and (max-width: 50em) {
+    .breadcrumb-nav ol {
+        display: block;
+    }
+    .breadcrumb-nav li:not(:last-child)::after {
+        display: none;
+    }
+    .breadcrumb-nav li:not(:last-child)::before {
+        content: "\2193";
+    }
+}
+
 @media screen and (min-width: 50em) {
   #sidebar {
     width: 400px;

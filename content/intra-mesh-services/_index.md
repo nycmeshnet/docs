@@ -1,4 +1,12 @@
 ---
-title: Intra-Mesh Services and Features
+title: Intra-Mesh Services and Applications
 weight: 300
 ---
+
+Among the many benefits of participating in NYC Mesh is the ability to access services and applications that are owned and operated by fellow New Yorkers, be they neighbors who live across the street or friends who live in another part of the city. Since these applications are hosted by computers that are (usually) physically attached to the NYC Mesh network, they will remain available even if access to the Internet at large is not. This characteristic, in which a major Internet outage would not affect NYC Mesh-hosted applications and websites, is why we call these services *intra-mesh services*. Colloquially, you may hear people describe these services as being "on the mesh."
+
+Inversely, this same characteristic means that intra-mesh services are typically *not* available to the Internet at large. A friend living in Europe, for example, can not access an NYC Mesh intra-mesh service because they are simply too far away from NYC Mesh's mesh network in order to connect to it. The only exception to this is in the case of a computer or network connected to the NYC Mesh mesh network by way of a *Virtual Private Network (VPN)* interface. The VPN is a special-case service that provides a way to temporarily "move" a computer that is physically outside of the mesh so that it is logically inside of it. Refer to the [NYC Mesh VPN documentation]({{< relref "vpn" >}}) for more details about this feature.
+
+Moreover, unlike many well-known sites on the Internet such as Facebook, intra-mesh services are run by individual members just like you. This arguably makes them much more personable. It also means that most of the intra-mesh services currently hosted on the mesh focus on very local topics, such as issues relevent to specific neighborhoods or applications that help NYC Mesh volunteers monitor the health of the network itself.
+
+This section attempts to document all known intra-mesh services and applications that are accessible to NYC Mesh members. It also offers a brief overview of the purpose, use, and configuration of the application or service, along with contact information for the service's operator or administrative team, if available. If you run an intra-mesh service and want it listed here, please get in touch with the NYC Mesh Documentation team by [submitting a new issue ticket](https://github.com/nycmeshnet/docs/issues/new) or [opening a new pull request on GitHub](https://github.com/nycmeshnet/docs/blob/master/README.md#making-changes), or posting a message to [the `#docs` channel on our Slack](https://nycmesh.slack.com/messages/docs).
