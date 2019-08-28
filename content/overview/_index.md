@@ -19,7 +19,7 @@ The term *mesh network* refers to the pathways connecting various participating 
 
 Put another way, as a mesh, various nodes connect to each other in a non-hierarchical way. Traffic flows between nodes in either direction, i.e., each node both receives or relays messages that originated at other nodes and sends out its own messages. In order for a message (called a *packet*, *frame*, or *segment* in formal networking terminology) to get to its destination, it must travel through one or more intermediary nodes, so each node in the mesh also dynamically routes these messages and responds to changing network conditions in real time, such as congestion or link failures. If one route to "there" becomes unavailable, the message will simply be re-routed along a different path between nodes, i.e., it will take a detour.
 
-This may already sound very familiar to you, because it's also how the Internet works! In fact, if you think of NYC Mesh's mesh network as a "small Internet" that just happens to be available in New York City, you would have a pretty good general idea of how our network operates. Of course, NYC Mesh is *not* "the Internet," but it does *connect to* the Internet, because NYC Mesh is also a Wireless ISP.
+This may already sound very familiar to you, because it's also how the Internet works! In fact, if you think of NYC Mesh's mesh network as a "small Internet" that just happens to be available in New York City, you would have a pretty good general idea of how our network operates. Of course, NYC Mesh is *not* "the Internet," but it does *connect to* the Internet, because one of the benefits of being an NYC Mesh member is Internet access.
 
 ## NYC Mesh as a wireless community-owned network
 
