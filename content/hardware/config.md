@@ -384,13 +384,13 @@ Refresh your browser to reenter the GUI. If the firmware update was successful, 
 1. If you are using a Mac or Linux operating system, go into Terminal, navigate to the folder where you’ve saved the config and enter the following command, replacing “rooftop-ospf-####.rsc” with your file’s name.
 
   ```
-scp -o StrictHostKeyChecking=no rooftop-ospf.rsc admin@192.168.88.1:flash/
+scp -o StrictHostKeyChecking=no rooftop-ospf-####.rsc admin@192.168.88.1:flash/
   ```
   
-2. If you are using a Windows operating system, go into Command Prompt, navigate to the folder where you’ve saved the config and enter the following command, replacing “rooftop-ospf.rsc” with your file’s name. You must have  [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) or another SSH client installed for this to work.
+2. If you are using a Windows operating system, go into Command Prompt, navigate to the folder where you’ve saved the config and enter the following command, replacing “rooftop-ospf-####.rsc” with your file’s name. You must download pscp.exe from [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (64-bit or  32-bit) to the same folder then run:
 
   ```
-pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/ 
+pscp -scp rooftop-ospf-####.rsc admin@192.168.88.1:flash/ 
   ```
   
 3. If asked “Dangerous Reset anyway?” type in Y and return/enter.
@@ -399,9 +399,9 @@ pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/
 6. Click “Reset Configuration” in the left side menu dropdown. Select:
   * No Default Configuration
   * Run After Reset: flash/nycmesh-omni-####.rsc (click the popup on the right to select this)
-  * Apply
-7. The Omnitik will now reboot. If it plays some beeps, ending with a short tune [Kernkraft 400](https://www.youtube.com/watch?v=gbcG2TI4GBk), the configuration was a success!
-8. Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you can plug a LiteBeam into it. Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments.  
+7. Click "Reset Configuration"
+8. The Omnitik will now reboot. If it plays some beeps, ending with a short tune [Kernkraft 400](https://www.youtube.com/watch?v=gbcG2TI4GBk), the configuration was a success!
+9. Port 1 is now a LAN port but still POE IN, port 5 is now a WAN port and you can plug a LiteBeam into it. Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments.  
 
 The Omnitik IP address has changed to a 10.69.x.x address. This is generated from the node number, e.g. for node 1234 the IP address will be 10.69.12.34
 
