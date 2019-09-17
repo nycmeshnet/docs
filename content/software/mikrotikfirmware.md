@@ -13,7 +13,7 @@ Current Version: __6.44.2__
 |---|---|---|
 | SXTsq ac | ARM | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-arm-6.44.2.npk) |
 | hAP ac^2 | ARM | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-arm-6.44.2.npk) |
-| OmniTik 5ac | MIPSBE | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-mipsbe-6.44.2.npk) |
+| OmniTik 5ac | MIPSBE | [Download](https://download.mikrotik.com/routeros/6.45.6/routeros-mipsbe-6.45.6.npk) |
 | CCR Series | TILE | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-tile-6.44.2.npk) |
 | hAP mini | SMIPS | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-smips-6.44.2.npk) |
 | hAP lite | SMIPS | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-smips-6.44.2.npk) |
