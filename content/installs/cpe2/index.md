@@ -1,12 +1,15 @@
 ---
-title: "Supernode 2+ and Hub CPE"
+title: "Supernode and Hub CPE"
 ---
 
-This explains in detail how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with Hub nodes (such as Node 1340). [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](https://nycmesh.slack.com).  
+This explains in detail how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with Hub nodes (such as Node 1340). For further support use the *#install* channel on [our Slack](https://nycmesh.slack.com).  
 
-A less detailed quick config is [here](/hardware/config/#lbe-client)
+**This is for reference only! New config instructions are [here](/hardware/config/#lbe-client)**
+
+**New config instructions are [here](/hardware/config/#lbe-client)**
 
 #### Notable sites that can use this config:
+* Supernode 1 (previously SN1 had a different config)
 * Node 1340 (33 Saratoga Ave, serving Bed Stuy, Bushwick, Ridgewood, Crown Heights)
   * Line of sight to: 40.686017, -73.917494
   * Slack rooms: *#1340-alerts, #nycha, #bedstuy, #crownheights, #eastwburg_bushwick*
