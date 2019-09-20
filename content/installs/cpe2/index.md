@@ -155,7 +155,7 @@ To connect via management wifi-
 *   If you're using a *Gen 1* Litebeam you might need to activate UNII rules (which allows the device to use DFS channels as long as no radars are using them, like Gen 2 devices do). Ask for support on Slack #install channel on how to do so.
 
 **IMPORTANT:** Click SAVE CHANGES when you're done! (
-** Note: Sometimes the software launches a notification, you may need to click the save button again (since the browser removes focus from the button when the pop up notification comes up. This will relieve some frustration).
+** Note:** Sometimes the software launches a notification, you may need to click the save button again (since the browser removes focus from the button when the pop up notification comes up. This will relieve some frustration).
 
 ### 4. Pairing
 
