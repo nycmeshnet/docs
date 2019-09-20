@@ -7,8 +7,9 @@ This explains in detail how to configure Ubiquiti sector clients (e.g. LiteBeamA
 A less detailed quick config is [here](/hardware/config/#lbe-client)
 
 #### Notable sites that can use this config:
-* Node 1340 (33 Saratoga Ave, serving Bed Stuy, Bushwick, Ridgewood, Crown Heights)
-  * Latlon: 40.686017, -73.917494
+* Saratoga (1340)
+  * 33 Saratoga Ave, serving Bed Stuy, Bushwick, Ridgewood, Crown Heights
+  * GPS: 40.686017, -73.917494
   * Slack rooms: *#1340-alerts, #nycha, #bedstuy, #crownheights, #eastwburg_bushwick*
 * Supernode 3
 * Supernode 4
