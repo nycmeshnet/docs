@@ -6,8 +6,9 @@ This explains in detail how to configure Ubiquiti sector clients (e.g. LiteBeamA
 
 **This is for reference only! New config instructions are [here](/hardware/config/#lbe-client)**
 
-**New config instructions are [here](/hardware/config/#lbe-client)**
+***
 
+**New config instructions are [here](/hardware/config/#lbe-client)**
 #### Notable sites that can use this config:
 * Supernode 1 (previously SN1 had a different config)
 * Node 1340 (33 Saratoga Ave, serving Bed Stuy, Bushwick, Ridgewood, Crown Heights)
