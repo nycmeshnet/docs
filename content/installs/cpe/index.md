@@ -1,5 +1,5 @@
 ---
-title: "Pauiring with Supernode 1"
+title: "Pairing with Supernode 1"
 ---
 
 Members can buy their own Radios/Antennas/Routers. We can swap it with a preconfigured one on site to save time.
