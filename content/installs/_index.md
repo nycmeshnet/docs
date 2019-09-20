@@ -1,13 +1,16 @@
 ---
-title: "Installs"
+title: "Installs & Surveys"
 layout: single
 ---
 
-These docs cover the installation process for NYC Mesh nodes. 
+These docs cover the installation process for NYC Mesh nodes.
 
 For the most up-to-date overview of the entire install process, check out the [Install Training Presentation](https://docs.google.com/presentation/d/1Y0bafeH7h9SuAOrUSC_WHOnA7q-rLGTD0OOOmZLBETg/edit?usp=sharing).
 
 [Taking Panorama Photos](/installs/panoramas)
+
+[Surveying & Pairing with SN1](/installs/cpe)
+[Surveying & Pairing with other SNs or Hubs](/installs/cpe2)
 
 [Site Safety](/installs/safety)
 
