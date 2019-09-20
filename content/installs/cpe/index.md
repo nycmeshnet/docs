@@ -1,8 +1,8 @@
 ---
-title: "Supernode 1 CPE"
+title: "Pauiring with Supernode 1"
 ---
 
-Members can buy their own cpe on Amazon etc. We can swap it with a preconfigured one on site to save time.
+Members can buy their own Radios/Antennas/Routers. We can swap it with a preconfigured one on site to save time.
 
 The following is a detailed explanation. Please go to [hardware/config](/hardware/config/#lbe-client) for much easier instructions.
 
@@ -10,7 +10,7 @@ The following is a detailed explanation. Please go to [hardware/config](/hardwar
 
 Line of sight to 375 Pearl St. Manhattan
 
-[For connecting to supernode 2 see here](../cpe2)
+[For connecting to Supernode 2 or Hubs see here](../cpe2)
 
 ## Ubiquiti Prism clients-
 
@@ -49,34 +49,33 @@ Wireless \| Network \| Services \| System
 
 *   Manegement IP address : Static
 *   IP address : [192.168.42.x ] <-- Ask NYCMesh to assign this last number to you.
-                      
+
 
 [**Services**](./litebeam/services.png)
 
 *   [x]SNMP Agent
-*   community : public 
+*   community : public
 *   location : nycmesh
 *   contact : nycmesh  
 
 
 [**System**](./litebeam/system.png)
 
-*   Device name : nycmesh-lbe-nn (nn = Node Number) 
-*   (**lbe** is LiteBeam, **nbe** is NanoBeam)
+*   Device name : nycmesh-lbe-nn (nn = Node Number)
+*   (**lbe** is LiteBeam, **nbe** is NanoBeam, **pbe** is PowerBeam)
 
 You can download this example [LiteBeamAC config](./litebeam/WA-F09FC242795C.cfg) with the above configuration
 
-[**Wireless**] 
+[**Wireless**]
 
 *   Click [Select] then you wll see a lot of networks
 *   In the search box, type "nyc" to narrow down the search results --> [SCAN]
-*   Choose the strongest "nycmesh prism" signal.  eg.-50 is stronger than -80
-    You can only choose the ones with a circle mark on the left        
+*   Choose the strongest "nycmesh prism" signal.  eg.-50 is stronger than -80 (you can only choose the ones with a circle mark on their left)
 
 
 **Pairing with Supernode1**
 
-* Go to [Dash board] 
+* Go to [Dash board]
 
 Gen1 LiteBeams can only see s1 and s2 sectors, unless they are unlocked (giving them gen2 specs)
 Gen2 can see s2, s3 and prism2

@@ -1,5 +1,5 @@
 ---
-title: "Supernode 2+ and Hub CPE"
+title: "Pairing with Supernode 2 and Hubs"
 ---
 
 This explains in detail how to configure Ubiquiti sector clients (e.g. LiteBeamAC or NanoBeamAC) to work with Hub nodes (such as Node 1340). [For connecting to supernode 1 see here](../cpe). For further support use the *#install* channel on [our Slack](https://nycmesh.slack.com).  
@@ -8,11 +8,19 @@ A less detailed quick config is [here](/hardware/config/#lbe-client)
 
 #### Notable sites that can use this config:
 * Node 1340 (33 Saratoga Ave, serving Bed Stuy, Bushwick, Ridgewood, Crown Heights)
-  * Line of sight to: 40.686017, -73.917494
+  * Latlon: 40.686017, -73.917494
   * Slack rooms: *#1340-alerts, #nycha, #bedstuy, #crownheights, #eastwburg_bushwick*
 * Supernode 3
 * Supernode 4
-* Most Hubs ( Henry St )
+* Rivington Hotel (2643)
+  * Slack: *#hub-rivington-2643*
+* Soft Surplus (1417)
+  * Slack: *#hub-softsurplus-1417, #n-eastwburg_bushwick*
+* Guernsey Hub (2090)
+  * Slack: *#hub-guernsey-2090, #n-greenpoint*
+* Most Hubs
+  * Henry St
+  * When in doubt check the *#hubs* channel
 
 
 ### 0. Get everything ready
@@ -45,7 +53,7 @@ There are two ways to connect to the LiteBeam, ethernet or the management radio 
 1.  Connect the POE port on the POE adapter to the CPE via ethernet cable
 
   * A little blue light should come on to show the CPE is powered
-  
+
 To connect via management wifi-
 
 1.  Look for and connect to wifi SSID like-  "LBE-5AC-Gen2:...." or "NBE..." for Nanobeam
@@ -78,10 +86,10 @@ To connect via management wifi-
 
       *   Make sure your Wi-Fi is off and the ethernet connection is green in your Network Preferences
       *   Make sure you typed "http://" before the IP address (otherwise your browser might think you're trying to google the IP address)
-      *   Try connecting via the management WiFi instead of ethernet as above. 
+      *   Try connecting via the management WiFi instead of ethernet as above.
       *   If you still can't connect try hard resetting the device by inserting a pin or paperclip into the little hole above the port and pressing the internal button for about 10 seconds.
       *   If all else fails, try asking on the #install channel on [our Slack](https://nycmesh.slack.com)
-      
+
 
 1.  You will get an ssh warning "Your connection is not..." -- ignore it and click "advanced" to proceed. (This is because the interface uses https)
 
@@ -137,7 +145,7 @@ To connect via management wifi-
 [**Services**](./litebeam/services.png)
 
 *   Enable SNMP Agent
-*   SNMP community: public 
+*   SNMP community: public
 *   Location: nycmesh
 *   Contact: nycmesh
 
@@ -146,7 +154,7 @@ To connect via management wifi-
 *   Device name: nycmesh-lbe-#### (**lbe** is LiteBeam, **nbe** is NanoBeam, **####** is replaced with your node number)
 *   If you're using a *Gen 1* Litebeam you might need to activate UNII rules (which allows the device to use DFS channels as long as no radars are using them, like Gen 2 devices do). Ask for support on Slack #install channel on how to do so.
 
-**IMPORTANT:** Click SAVE CHANGES when you're done! 
+**IMPORTANT:** Click SAVE CHANGES when you're done!
 
 ### 4. Pairing
 
