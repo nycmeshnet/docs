@@ -4,9 +4,9 @@ title: Equipment
 
 To connect to NYC Mesh, you will need to install wireless networking equipment on a rooftop or outside a window. This page lists a range of equipment and tools that are commonly used for typical installations. Before assembling any equipment, first carry out a site survey and make an install plan to narrow down the equipment you really need. For detailed information about specific routers, visit the [hardware](https://docs.nycmesh.net/hardware/) docs.
 
-You can download a handy checklist of the equipment listed on this page [here](https://docs.google.com/document/d/1NVBBS7dzPIF6RNpa8S-seFaqSoVuhaVcVaascf6aASo/edit?usp=sharing). 
+You can download a handy checklist of the equipment listed on this page [here](https://docs.google.com/document/d/1NVBBS7dzPIF6RNpa8S-seFaqSoVuhaVcVaascf6aASo/edit?usp=sharing).
 
-**For DIY installers:** To get help figuring out which essential equipment you need for your installation, first familiarize yourself with the equipment below and then reach out to the NYC Mesh community on [slack] on the #install channel.
+**For DIY installers:** To get help figuring out which essential equipment you need for your installation, first familiarize yourself with the equipment below and then reach out to the NYC Mesh community on [slack] on the #diy-install-support channel.
 
 **For volunteer installers:** Prior to any install, make sure you have access to the equipment listed below. If you are missing any equipment needed for an install, reach out to install leaders on [slack] on the #install-team channel to ask to borrow them. Shared tools are available and we can purchase, order and ship networking equipment (routers, cable, connectors, etc.) to your address.
 
@@ -87,4 +87,3 @@ You can download a handy checklist of the equipment listed on this page [here](h
 
 
 [slack]: https://join.slack.com/t/nycmesh/shared_invite/enQtNDk0NDA4OTAyNDY0LTU5NWMyODY5ZTYyMDY2NzgzOTJmZjFmZTg3YWRjYjE0M2EyMzlhNDE3YmIxZmZhYTZmNjIwNTVkMDIwMjI2ZDg
-
