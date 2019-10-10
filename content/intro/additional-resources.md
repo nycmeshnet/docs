@@ -12,7 +12,7 @@ If you find that our docs are incomplete or inaccurate, don't give up! There are
 
 ## Slack
 
-Many NYC Mesh members stay in touch via our Slack group. It is available at https://nycmesh.slack.com and is basically a bunch of topically-oriented chat rooms. [Click here to join our Slack](https://nycmesh.slack.com/join/shared_invite/enQtNDk0NDA4OTAyNDY0LTU5NWMyODY5ZTYyMDY2NzgzOTJmZjFmZTg3YWRjYjE0M2EyMzlhNDE3YmIxZmZhYTZmNjIwNTVkMDIwMjI2ZDg).
+Many NYC Mesh members stay in touch via our Slack group. It is available at https://slack.nycmesh.net and is basically a bunch of topically-oriented chat rooms. [Click here to join our Slack](https://slack.nycmesh.net).
 
 Each room in our Slack group, called a channel, hosts a discussion about a certain topic. Here is a list of some of the most important Slack channels that you might want to join and check up on regularly:
 
