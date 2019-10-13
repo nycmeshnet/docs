@@ -2,6 +2,8 @@
 title: "How to Crimp an Ethernet cable"
 ---
 
+Here are some helpful videos on crimping. Like nearly everyone we use [the T-568B standard](../../hardware/ethernet)
+
 <br>
 <br>
 <br>
