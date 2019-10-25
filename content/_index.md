@@ -4,7 +4,6 @@ title: "Documentation"
 
 Hello and welcome to the documentation website for [NYC Mesh](https://nycmesh.net/)!
 
-Hello!!!
 
 This is a pull request
 
