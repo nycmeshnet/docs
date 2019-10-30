@@ -2,7 +2,7 @@
 title: "Ethernet"
 ---
 
-There are two standards for ethernet cables. We use T-568B. (oO-gB-bG-brBR)
+There is one commonly used standard for ethernet: T-568B. (oO-gB-bG-brBR)
 
 ![window/wall install](/img/ethernet/T-568B.gif)
 [source](https://www.siongboon.com/projects/2006-03-06_serial_communication/)
