@@ -25,7 +25,7 @@ Backhaul
 : very high bandwidth connections, usually point to point.
 
 [BGP](../../networking/bgp/)
-: This is the routing protocol of the Internet. We use it extensively to mesh our network and to connect at an IXP
+: This is the routing protocol of the Internet. We use it to connect at an IXP
 
 BMX6
 : An ad-hoc mesh protocol we use. (BatMan eXperimental 6)
