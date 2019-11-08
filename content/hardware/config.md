@@ -55,7 +55,7 @@ Go to Settings>System and select "upload firmware" and choose the WA .bin file y
 
 While still in System, scroll down to "upload configuration" and select sn2.cfg file you downloaded before
 
-Check that the device name "lbe-nycmesh-xxxx" matches your node building number e.g. "lbe-nycmesh-1234" (building number is usually the node number)
+Check that the device name "nycmesh-lbe-xxxx" matches your node building number e.g. "nycmesh-lbe-1234" (building number is usually the node number)
 
 Click save (twice if necessary)  
 
