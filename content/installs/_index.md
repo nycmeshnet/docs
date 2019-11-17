@@ -1,6 +1,7 @@
 ---
 title: "Installs"
 layout: single
+aliases: ["/install"]
 ---
 
 These docs cover the installation process for NYC Mesh nodes. 
