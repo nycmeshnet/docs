@@ -4,19 +4,18 @@ title: "MikroTik Firmware"
 
 Mikrotik devices come in a variety of architectures and form-factors. Fortunately the firmware versioning and built levels are the same across all platforms. The main variant is the architecture, which might be a different chip for each device model.  
 
-The firmware testing quality is fairly high, so there is little reason to wait to update after a firmware version comes out.  
+We follow the stable version of RouterOS (__6.46.1__), which is fairly well-tested, so there is little reason to wait to update after a new version comes out.
 
-Below is a table of the latest firmwares for Mikrotik devices that are in the mesh:  
-Current Version: __6.44.2__
+Below is a table of the latest firmwares for Mikrotik devices that are in the mesh:
 
 |Model|Architecture|Firmware link|
 |---|---|---|
-| SXTsq ac | ARM | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-arm-6.44.2.npk) |
-| hAP ac^2 | ARM | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-arm-6.44.2.npk) |
-| OmniTik 5ac | MIPSBE | [Download](https://download.mikrotik.com/routeros/6.45.6/routeros-mipsbe-6.45.6.npk) |
-| CCR Series | TILE | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-tile-6.44.2.npk) |
-| hAP mini | SMIPS | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-smips-6.44.2.npk) |
-| hAP lite | SMIPS | [Download](https://download.mikrotik.com/routeros/6.44.2/routeros-smips-6.44.2.npk) |
+| SXTsq ac | ARM | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-arm-6.46.1.npk) |
+| hAP ac^2 | ARM | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-arm-6.46.1.npk) |
+| OmniTik 5ac | MIPSBE | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-mipsbe-6.46.1.npk) |
+| CCR Series | TILE | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-tile-6.46.1.npk) |
+| hAP mini | SMIPS | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-smips-6.46.1.npk) |
+| hAP lite | SMIPS | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-smips-6.46.1.npk) |
 
 ## Installing firmware
 *   Login to your Mikrotik box Web UI ( CLI if you know how )
