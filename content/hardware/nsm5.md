@@ -4,6 +4,8 @@ title: "Ubiquiti Nanostation M5"
 
 The NanoStation M5 is a workhorse of mesh networks. There are two versions XM (pre 2016) and XW. It is 802.11n and 10/100 ethernet, so not the fastest on the block, but it has good support from OpenWRT. It also has two ethernet ports usually set up as WAN and LAN. Recent versions require downgrading AirOS before you flash.
 
+**For new installs we use the [OmniTik router](../mikrotikomnitik5ac/) for meshing. The following page is mainly for our legacy installs.**
+
 ![Ubiquity NanoStation M5](/img/hardware/ubiquity_nanostationm5.png)
 
 Device details are available at [ubnt.com](https://www.ubnt.com/airmax/nanostationm/).
