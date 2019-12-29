@@ -10,9 +10,9 @@ Below is a table of the latest firmwares for Mikrotik devices that are in the me
 
 |Model|Architecture|Firmware link|
 |---|---|---|
+| OmniTik 5ac | MIPSBE | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-mipsbe-6.46.1.npk) |
 | SXTsq ac | ARM | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-arm-6.46.1.npk) |
 | hAP ac^2 | ARM | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-arm-6.46.1.npk) |
-| OmniTik 5ac | MIPSBE | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-mipsbe-6.46.1.npk) |
 | CCR Series | TILE | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-tile-6.46.1.npk) |
 | hAP mini | SMIPS | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-smips-6.46.1.npk) |
 | hAP lite | SMIPS | [Download](https://download.mikrotik.com/routeros/6.46.1/routeros-smips-6.46.1.npk) |
