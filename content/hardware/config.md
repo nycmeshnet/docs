@@ -75,11 +75,13 @@ What the config file does: The config file sets DHCP for the IP address, WPA pas
 
 --- 
 
-### <a name="#sxtKioskConfig></a>SXTsq DIY kiosk config
+### <a name="#sxtKioskConfig"></a>SXTsq DIY kiosk config
   
 For connecting to a kiosk, download this [config file](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-kiosk-vpn-ospf.rsc.tmpl)
 
-### <a name="#sxtMeshConfig></a>SXTsq to Omnitik mesh config
+---
+
+### <a name="#sxtMeshConfig"></a>SXTsq to Omnitik mesh config
 
 You can install an SXTsq to connect to one of our OmniTik routers using OSPF/WDS meshing. The SXTsq is directional so it can reach further distances than an omnidirectional OmniTik.
 
@@ -87,6 +89,7 @@ If you are installing an SXTsq to plug into port 5 of an OmniTik use this [SXTsq
 
 If you are installing an SXTsq to plug directly into a home router use the [SXTsq "solo" config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf-solo.rsc.tmpl)
 
+---
 
 ### <a name="sxtKiosk"></a>SXTsq kiosk old manual config
 
