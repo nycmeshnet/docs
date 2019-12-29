@@ -15,8 +15,8 @@ All supernode and hub clients use DHCP for the IP address and use WPA password:n
 * P2P    
     
 ## SXTsq   
-* [Kiosk config](#sxtKioskConfig)
-* [Mesh config](#sxtMeshConfig)
+* [Kiosk config](#sxtKioskConfig)  
+* [Mesh config](#sxtMeshConfig)  
 
 ## SXTsq old manual config
 * [Kiosk client](#sxtKiosk)   
@@ -75,13 +75,13 @@ What the config file does: The config file sets DHCP for the IP address, WPA pas
 
 --- 
 
-### <a name="#sxtKioskConfig"></a>SXTsq DIY kiosk config
+### <a name="sxtKioskConfig"></a>SXTsq DIY kiosk config
   
 For connecting to a kiosk, download this [config file](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-kiosk-vpn-ospf.rsc.tmpl)
 
 ---
 
-### <a name="#sxtMeshConfig"></a>SXTsq to Omnitik mesh config
+### <a name="sxtMeshConfig"></a>SXTsq to Omnitik mesh config
 
 You can install an SXTsq to connect to one of our OmniTik routers using OSPF/WDS meshing. The SXTsq is directional so it can reach further distances than an omnidirectional OmniTik.
 
