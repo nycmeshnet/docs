@@ -14,7 +14,11 @@ All supernode and hub clients use DHCP for the IP address and use WPA password:n
 * Old detailed config- [sn2](/installs/cpe2)   
 * P2P    
     
-## SXTsq    
+## SXTsq   
+* [Kiosk config](#sxtKioskConfig)
+* [Mesh config](#sxtMeshConfig)
+
+## SXTsq old manual config
 * [Kiosk client](#sxtKiosk)   
 * [OmniTik client](#sxtClient)  
 * [Point-to-point](#sxtP2P)   
@@ -69,9 +73,22 @@ Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory
 
 What the config file does: The config file sets DHCP for the IP address, WPA password: nycmeshnet, adds the  building number to the device name, adds the UNMS key for monitoring and sets the SNMP location and contact to "nycmesh".
 
----  
+--- 
 
-### <a name="sxtKiosk"></a>SXTsq kiosk  
+### <a name="#sxtKioskConfig></a>SXTsq DIY kiosk config
+  
+For connecting to a kiosk, download this [config file](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-kiosk-vpn-ospf.rsc.tmpl)
+
+### <a name="#sxtMeshConfig></a>SXTsq to Omnitik mesh config
+
+You can install an SXTsq to connect to one of our OmniTik routers using OSPF/WDS meshing. The SXTsq is directional so it can reach further distances than an omnidirectional OmniTik.
+
+If you are installing an SXTsq to plug into port 5 of an OmniTik use this [SXTsq config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf.rsc.tmpl)
+
+If you are installing an SXTsq to plug directly into a home router use the [SXTsq "solo" config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf-solo.rsc.tmpl)
+
+
+### <a name="sxtKiosk"></a>SXTsq kiosk old manual config
 
 **This config may not work with Windows computers**
   
