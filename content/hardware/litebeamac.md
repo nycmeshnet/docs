@@ -20,7 +20,7 @@ The default IP over ethernet is https://192.168.1.20/
 If you connect to the management radio the IP is https://192.168.172.1/  
 
 Default login:  
-* name:ubnt
-* pwd:ubnt
+* name:ubnt  
+* pwd:ubnt  
 
 [Config instructions are here.](../../hardware/config/#lbe-client)
