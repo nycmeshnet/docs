@@ -16,7 +16,8 @@ Gen2 comes with a more sturdy mount (though less range) and also a management 2.
 
 LiteBeams are very directional so use the built-in alignment tool to get the strongest signal. We like to get better than -65db. Very close to the supernodes you can get -45db.
 
-The default IP over ethernet is https://192.168.1.20/. If you connect to the management radio the IP is https://192.168.172.1/
+The default IP over ethernet is https://192.168.1.20/. 
+If you connect to the management radio the IP is https://192.168.172.1/
 
 Default login:  
 * name:ubnt
