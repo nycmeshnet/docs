@@ -16,7 +16,7 @@ All supernode and hub clients use DHCP for the IP address and use WPA password:n
 
 ## OmniTik    
 * [Standard config](#omni)  
-* [Old instructions](/hardware/mikrotikomnitik5ac)
+* [General info](/hardware/mikrotikomnitik5ac)
     
 ## SXTsq   
 * [Mesh config](#sxtMeshConfig)  
