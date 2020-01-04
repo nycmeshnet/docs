@@ -27,13 +27,14 @@ As discussed in the [MikroTik Specifics](/hardware/mikrotikspecifics) page, thes
 We now have a script generator you can find here [https://configgen.nycmesh.net/](https://configgen.nycmesh.net/)   
 Here is a slideshow of [configuring an OmniTik](https://docs.google.com/presentation/d/1V91gqeo19D-6bTG3Mtj7dhx7ERlzHOkplmf9-kAI3NU/present)  
 
-Here is [the the new easy config instructions](../config/#omni)
+Here is [the current config instructions](../config/#omni)
 
+<details>
+<summary>Expand for `OLD nycmesh-omnitik-v3.2.rsc` example</summary>
+  
 The is our obsolete 3.2 template script which needs some variables filled in.  
 This script _only_ works on the OmniTik 5ac PoE model  
 
-<details>
-<summary>Expand for `nycmesh-omnitik-v3.2.rsc` example</summary>
 Version 3.2 Changelog:
 
 *   Separation of Public vs Tenant subnet  
