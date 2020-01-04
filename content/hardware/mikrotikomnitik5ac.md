@@ -27,9 +27,9 @@ As discussed in the [MikroTik Specifics](/hardware/mikrotikspecifics) page, thes
 We now have a script generator you can find here [https://configgen.nycmesh.net/](https://configgen.nycmesh.net/)   
 Here is a slideshow of [configuring an OmniTik](https://docs.google.com/presentation/d/1V91gqeo19D-6bTG3Mtj7dhx7ERlzHOkplmf9-kAI3NU/present)  
 
-Here is [the the new easy 4.0 config instructions](../config/#omni)
+Here is [the the new easy config instructions](../config/#omni)
 
-The below is our old 3.2 template script which needs some variables filled in.  
+The is our obsolete 3.2 template script which needs some variables filled in.  
 This script _only_ works on the OmniTik 5ac PoE model  
 
 <details>
@@ -165,8 +165,6 @@ add action=accept chain=input
 :beep frequency=800 length=500ms;
 :delay 50ms;
 ```
-</details>
-
 ### How to apply config:
 1.   Acquire config parameters ( BGP ASN, IP range, node number, etc. )
 2.   Fill in config file parameters at the top of the script.  
@@ -193,3 +191,5 @@ add action=accept chain=input
       * Or from CLI:
           * `/system reset-configuration run-after-reset=flash/nycmesh-omni-####.rsc no-defaults=yes`
           * Dangerous Reset anyway? Y
+
+</details>
