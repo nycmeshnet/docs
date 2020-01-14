@@ -6,9 +6,11 @@ Please read our [FAQ](https://nycmesh.net/faq) if you haven't already.
 
 The intention of this page is not to be technical but rather give to the non-technical person an understanding of a typical installation. <br><br>
 
-NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop" using different type of equipment based on geography and topology. And doing so, expand NYC Mesh network coverage to the next block and so on*. The fondment of NYC Mesh is to share the connectivity with the neignbors, share ressources, share equipment, share the network. Create a community of communities connecting to each others. NYC Mesh uses basically two categories of equipment. 
+NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop using different types of equipment based on geography and topology. And in doing so, to expand NYC Mesh network coverage to the next block and so on*. The fundament of NYC Mesh is to share the connectivity with neighbors, share resources, share equipment, share the network. Create a community of communities connecting to each other. 
 
-* In the first category are equipment that "speaks" [AirMAX] (https://dl.ubnt.com/datasheets/airmax/UBNT_DS_airMAX_TDMA.pdf) (AirMax protocol).  Some hubs and supernodes have antennas covering a sector, or 360°, that "speak" AirMax. To connect to those, you need to install on your roof an antenna that understands that same AirMax protocol. See [Ubiquiti] (/hardware) equipment. In addition, some hubs may as well have antennas of the second category. 
+NYC Mesh uses basically two categories of equipment. 
+
+* In the first category is equipment that "speaks" [AirMAX] (https://dl.ubnt.com/datasheets/airmax/UBNT_DS_airMAX_TDMA.pdf) (AirMax protocol).  Some hubs and supernodes have antennas covering a sector, or 360°, that "speak" AirMax. To connect to those, you need to install on your roof an antenna that understands that same AirMax protocol. See [Ubiquiti] (/hardware) equipment. In addition, some hubs may as well have antennas of the second category. 
 
 * The second category of equipment uses the same wifi as your home router, [802.11] (https://en.wikipedia.org/wiki/IEEE_802.11) (there are different versions of wifi- 802.11a/b/g/n/ac) see [Mikrotik] (/hardware) equipment.
 
@@ -18,7 +20,7 @@ NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop"
 <br><hr><br>
 **1.- Connect to a hub or supernode (one apartment - no roof-to-roof expansion). Such installation does not allow expansion of the Mesh network, nor allow sharing with neighbor community**  
 
-A typical installation has a [LiteBeam] (/hardware/litebeamac) antenna on the roof. From that antenna an ethernet cable is run to the apartment. (note: the antenna is sometimes referred as the outdoor router).
+A typical installation has a [LiteBeam] (/hardware/litebeamac) antenna on the roof. From that antenna an ethernet cable is run to the apartment. (note: the antenna is sometimes referred to as the outdoor router).
 
 <img src="/img/typicalInstall/diagram_lbeonly_textbottom.jpg" alt="photo" style="width:350px;height:400px;" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
