@@ -6,7 +6,7 @@ Please read our [FAQ](https://nycmesh.net/faq) if you haven't already.
 
 The intention of this page is not to be technical but rather give to the non-technical person an understanding of a typical installation. <br><br>
 
-NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop using different types of equipment based on geography and topology. And in doing so, to expand NYC Mesh network coverage to the next block and so on*. The fundament of NYC Mesh is to share the connectivity with neighbors, share resources, share equipment, share the network. Create a community of communities connecting to each other. 
+NYC Mesh is an "over the air" network. The aim is to connect rooftop to rooftop using different types of equipment based on geography and topology. And in doing so, to expand NYC Mesh network coverage to the next block and so on*. The idea of NYC Mesh is to share the connectivity with neighbors, share resources, share equipment, share the network. Create a community of communities connecting to each other. 
 
 NYC Mesh uses basically two categories of equipment. 
 
