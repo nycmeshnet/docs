@@ -105,16 +105,16 @@ Refresh your browser to reenter the GUI. If the firmware update was successful, 
 
 **4. Upload Configuration**
 
-1. If you are using a Mac or Linux operating system, go into Terminal, navigate to the folder where you’ve saved the config and enter the following command, replacing “rooftop-ospf-####.rsc” with your file’s name.
+1. If you are using a Mac or Linux operating system, go into Terminal, navigate to the folder where you’ve saved the config and enter the following command:
 
   ```
-scp -o StrictHostKeyChecking=no rooftop-ospf-####.rsc admin@192.168.88.1:flash/
+scp -o StrictHostKeyChecking=no rooftop-ospf.rsc admin@192.168.88.1:flash/
   ```
   
-2. If you are using a Windows operating system, go into Command Prompt, navigate to the folder where you’ve saved the config and enter the following command, replacing “rooftop-ospf-####.rsc” with your file’s name. You must download pscp.exe from [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (64-bit or  32-bit) to the same folder then run:
+2. If you are using a Windows operating system, go into Command Prompt, navigate to the folder where you’ve saved the config and enter the following command. You must download pscp.exe from [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (64-bit or  32-bit) to the same folder then run:
 
   ```
-pscp -scp rooftop-ospf-####.rsc admin@192.168.88.1:flash/ 
+pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/ 
   ```
   
 3. If asked “Dangerous Reset anyway?” type in Y and return/enter.
@@ -122,7 +122,7 @@ pscp -scp rooftop-ospf-####.rsc admin@192.168.88.1:flash/
 5. Click “System” in the left side menu.
 6. Click “Reset Configuration” in the left side menu dropdown. Select:
   * No Default Configuration
-  * Run After Reset: flash/nycmesh-omni-####.rsc (click the popup on the right to select this)
+  * Run After Reset: flash/rooftop-ospf.rsc (click the popup on the right to select this)
 7. Click "Reset Configuration"
 8. The Omnitik will now reboot. If it plays some beeps, ending with a short tune [Kernkraft 400](https://www.youtube.com/watch?v=gbcG2TI4GBk), the configuration was a success!
 9. Port 1 is now a LAN port but still POE IN. Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments.  
