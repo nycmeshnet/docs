@@ -1,0 +1,10 @@
+<div class="f6">
+  <p>
+    Last updated
+    <!-- Go-specific layout string that -looks- like a time, don't change -->
+    {{ .Lastmod.Format "January 2, 2006" }}
+    by
+    {{ .GitInfo.AuthorName }}
+    <br></br>
+  <p>
+</div>
