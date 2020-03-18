@@ -146,6 +146,8 @@ If you are installing an SXTsq to plug into port 5 of an OmniTik use this [SXTsq
 
 If you are installing an SXTsq to plug directly into a home router use the [SXTsq "solo" config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf-solo.rsc.tmpl)
 
+**You will need to edit the config. [Please see this bug](https://github.com/nycmeshnet/nycmesh-configgen/issues/9)**
+
 Once you have the configgen file you can use the [OmniTik instructions](#omni) on how to install it
 
 ---
