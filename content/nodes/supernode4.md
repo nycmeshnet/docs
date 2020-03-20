@@ -3,7 +3,7 @@ title: "Supernode 4"
 aliases: [/networking/supernode4/]
 ---
 
-⚠️ Supernode 2 is no longer active. [Supernode 4](https://nycmesh.net/map/?s=1348) was located at St. Francis School for the Deaf.
+⚠️ Supernode 4 is no longer active. [Supernode 4](https://nycmesh.net/map/?s=1348) was located at St. Francis School for the Deaf.
 
 
 ## Location
