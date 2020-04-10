@@ -2,6 +2,8 @@
 title: "NanoStationM5 Outdoor"
 ---
 
+We have moved on from NanoStations NSM5's. We're mostly using Ubiquiti LiteBeams and MikroTik OmniTik or SXTsq devices on rooftops now. We still support existing NanoStation installs, so this article is for those people.
+
 **Hardware**
 
 The simplest install is to use an existing vertical pipe and the two plastic ties that are included with the router. Also a thick PVC pipe can be attached to a railing using clamps.
