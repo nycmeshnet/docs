@@ -2,7 +2,7 @@
 title: "NanoStationM5 Outdoor"
 ---
 
-We have moved on from NanoStations NSM5's. We're mostly using Ubiquiti LiteBeams and MikroTik OmniTik or SXTsq devices on rooftops now. We still support existing NanoStation installs, so this article is for those people.
+**We have moved on from NanoStations NSM5's. We're mostly using Ubiquiti LiteBeams and MikroTik OmniTik or SXTsq devices on rooftops now. We still support existing NanoStation installs, so this article is for those people.**
 
 **Hardware**
 
