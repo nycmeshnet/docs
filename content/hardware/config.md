@@ -7,12 +7,15 @@ weight: 99
   
 This doc is in progress. Please add links below to the specific config instructions  
 
-## LiteBeams  
+## LiteBeam  
 All supernode and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
   
-* P2MP (Supernode or hub sectors), [Easy config](#lbe-client)     
+* [Standard config](#lbe-client) (P2MP to connect to Supernode or hub sectors)      
 * Old detailed config- [sn2](/installs/cpe2)   
 * P2P  
+
+## LiteBeamLR  
+[Standard config](#lr-client) We don't have a config generator yet for LR!
 
 ## OmniTik    
 * [Standard config](#omni)  
@@ -74,6 +77,14 @@ Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory
 What the config file does: The config file sets DHCP for the IP address, WPA password: nycmeshnet, adds the  building number to the device name, adds the UNMS key for monitoring and sets the SNMP location and contact to "nycmesh".
 
 --- 
+
+### <a name="lr-client"></a>LitebeamLR client for Supernodes and hubs
+
+You can't use the standard LiteBeam config in an LR. This will cause poor performance.
+
+Please upload this config (link to be added) and edit the device name
+
+---
 
 ### <a name="omni"></a>Standard Omnitik mesh config
 
