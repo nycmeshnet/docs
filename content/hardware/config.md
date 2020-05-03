@@ -10,12 +10,12 @@ This doc is in progress. Please add links below to the specific config instructi
 ## LiteBeam  
 All supernode and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
   
-* [Standard config](#lbe-client) (P2MP to connect to Supernode or hub sectors)      
+* [LiteBeam Standard config](#lbe-client) (P2MP to connect to Supernode or hub sectors)      
 * Old detailed config- [sn2](/installs/cpe2)   
 * P2P  
 
 ## LiteBeamLR  
-[Standard config](#lr-client) We don't have a config generator yet for LR!
+* [LR Standard config](#lr-client) We don't have a config generator yet for LR!
 
 ## OmniTik    
 * [Standard config](#omni)  
