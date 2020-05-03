@@ -82,7 +82,7 @@ What the config file does: The config file sets DHCP for the IP address, WPA pas
 
 You can't use the standard LiteBeam config in an LR. This will cause poor performance.
 
-Please upload this config (link to be added) and edit the device name
+Please upload [this config](../../download/lbe-LR.cfg) and edit the device name in the System tab
 
 ---
 
