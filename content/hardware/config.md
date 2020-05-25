@@ -164,6 +164,8 @@ Once you have the configgen file you can use the [OmniTik instructions](#omni) o
 ---
 
 ### <a name="sxtKioskConfig"></a>SXTsq DIY kiosk config
+
+The LinkNYC kiosks use [DFS channels](https://en.wikipedia.org/wiki/Dynamic_frequency_selection) which although legal and FCC approved aren't supported in some USA versions of hardware.
   
 For connecting to a kiosk, download this [config file](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-kiosk-vpn-ospf.rsc.tmpl)
 
