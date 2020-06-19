@@ -47,5 +47,5 @@ WireGuard implementations are being developed on a variety of platforms. The fol
 
 ### Connecting end-devices
 1. Ensure WireGuard will work on your device
-1. Generate a public key, and give it to Zach.
+1. Generate a Wireguard public key, and give it to Zach. (https://www.wireguard.com/quickstart/#key-generation)
 1. Zach will give you the server public key and assign you an IP address. _This will change later, but just for now to get the docs out, this is what we currently do._
