@@ -6,7 +6,7 @@ aliases: ["/install"]
 
 These docs cover the installation process for NYC Mesh nodes. 
 
-For the most up-to-date overview of the entire install process, check out the [Install Training Presentation](https://docs.google.com/presentation/d/1Y0bafeH7h9SuAOrUSC_WHOnA7q-rLGTD0OOOmZLBETg/edit?usp=sharing).
+For the most up-to-date overview of the entire install process, check out the **[Install Training Presentation](https://docs.google.com/presentation/d/1fpa24kkC5-hAwxAmz8kdTFDX0s1hxDKZ0aea4BzbN1g/edit?usp=sharing)**.
 
 [Taking Panorama Photos](/installs/panoramas)
 
