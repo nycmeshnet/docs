@@ -14,7 +14,7 @@ This router comes with a Level 4 licnese which is sufficient for its use.
 
 ### US vs International version
 
-There are both US and international versions that need to be considered. Please make sure to buy an international version if possible.
+The US versions of the OmniTik and SXTsq don't support the DFS range of 5GHz WiFi. We use the US version of the OmniTik. The US version of the SXTsq is not compatible with a LinkNYC kiosk. All LinkNYC kiosks are on DFS channels.
 
 ### PoE vs non-PoE
 
