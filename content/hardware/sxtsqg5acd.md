@@ -27,10 +27,9 @@ Mikrotik software usually requires a license, though all Mikrotik devices come w
 This antenna comes with a "Level 3" license which technically only allows it to function as a CPE, not an AP. Therefore this device can not be used as a base station.  
 
 ### US vs International version
-On the positive side, it is a great CPE and can connect to DFS channels ( international version ) and other intersting features such as EAP TTLS authentication.  
-Be aware during purchase -- this antenna has a US version and an International version.
-The US version is locked to "united states3" channels which are the non-DFS range.  
-The international version also has US settings, but it has two additional "united states" channel selections all for valid legal US channels. 
+On the positive side, it is a great CPE and can connect to DFS channels (international version) and has other interesting features such as EAP TTLS authentication.  
+
+Be aware during purchase -- this antenna has a US version and an International version. The US version is locked to "united states3" channels which are the non-DFS range. The international version also has US settings, but it has two additional "united states" channel selections all for valid legal US channels. You cannot connect to a LinkNYC kiosk with the US version.
 
 _To function on LinkNYC and other DFS networks, the international version is required, but be sure to put it in "united states2" mode before using it._
 
@@ -53,7 +52,7 @@ We have a few different configs for the SXTsq. They are all in [hardware/config]
 
 The following is a detailed explanation of the unencrypted config. Please go to [hardware/config](../config) for the VPN config and all of the other configs.
 
-### LinkNYC Kiosk connection ( encrypted )
+### LinkNYC Kiosk connection (encrypted)
 
 LinkNYC kiosks have both an unencrypted and encrypted network available. They function similarly and have the same Internet available.
 
