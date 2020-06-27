@@ -130,3 +130,6 @@ I've found this setting doesn't stick after reboot, so you need to add it to /et
 On the NSM5 the **"main" port is LAN** and the **secondary is "WAN"**. This is the most confusing thing about the router and mixing this up is the cause of most problems. **Always connect WAN on one router to LAN on another!**
 
 If you connect LAN to LAN it will be unstable as each LAN port usually has a DHCP server and both ports will be trying to assign an IP address to the other. Also don't connect WAN to WAN as this makes no sense. This is by far the biggest problem with people setting up routers and it is so simple to avoid.
+
+**Configuration Videos**
+* If you're trying to use this device to broadcast wifi from your existing home internet connection, follow the instructions in this video: https://www.youtube.com/watch?v=r1ruM6skrus
