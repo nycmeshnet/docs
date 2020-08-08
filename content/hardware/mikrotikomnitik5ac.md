@@ -20,6 +20,14 @@ Device specs are available at [Mikrotik.com](https://mikrotik.com/product/rbomni
 *   Rooftop installations for multi-tenant houses
 *   Providing public access via the omnidirectional antenna
 
+## How to reset
+
+1. Press reset
+2. Apply power
+3. Watch the power led, once it blinks, STOP pressing the reset button
+4. It will beep one time
+5. Once you hear two beeps, you should be able to access it. 
+
 ## Configurations
 
 ### Omnitik config
