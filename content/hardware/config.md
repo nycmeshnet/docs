@@ -50,7 +50,7 @@ SXTsq old manual config-
 
 All Supernodes and hubs use the same sn2.cfg
 
-First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [config file](https://configgen.nycmesh.net/?device=LiteBeam5AC&template=sn2.cfg.tmpl)
+First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [config file](https://configgen.nycmesh.net/?device=LiteBeam5AC&template=sn2.cfg.tmpl) (use your node number received afer registering)
 
 Plug in LiteBeam to POE and connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (booting turns on wifi for 15 minutes)
 
