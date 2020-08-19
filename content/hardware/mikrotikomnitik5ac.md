@@ -30,6 +30,16 @@ Device specs are available at [Mikrotik.com](https://mikrotik.com/product/rbomni
 4. It will beep one time
 5. Once you hear two beeps, you should be able to access it. 
 
+## How to upgrade the firmware
+
+1. Upload the routeros-mipsbe-x.x.x.npk file in http://192.168.88.1/webfig/#Files
+2. Select System Reboot
+
+## How to downgrade firmware
+1. Upload the routeros-mipsbe-x.x.x.npk file in http://192.168.88.1/webfig/#Files
+2. Go to Terminal and type `/system package downgrade;`
+
+
 ## Configurations
 
 ### Omnitik config
