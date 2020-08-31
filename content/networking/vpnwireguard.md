@@ -24,7 +24,7 @@ WireGuard implementations are being developed on a variety of platforms. The fol
 * Android devices: Yes, some - See WireGuard website
 * OpenWRT: Yes, in LEDE on latest versions, in certain builds
 * Apple devices: Yes, some - See Wireguard website
-* Mikrotik devices: No
+* Mikrotik devices: Starting in RouterOS 7.1beta2
 * Ubnt routers: No (well, technically yes, but the module has caused lots of problems, so please don't use it yet)
 * Windows devices: Yes, some - See WireGuard website
 
