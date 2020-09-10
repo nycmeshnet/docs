@@ -4,12 +4,12 @@ weight: 99
 ---
 
 **List of devices we use and links to standard configs and firmware**   
-  
+
 This doc is in progress. Please add links below to the specific config instructions  
 
 ## LiteBeam  
 All supernode and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
-  
+
 * [LiteBeam Standard config](#lbe-client) (P2MP to connect to Supernode or hub sectors)      
 * Old detailed config- [sn2](/installs/cpe2)   
 * P2P  
@@ -20,7 +20,7 @@ All supernode and hub clients use DHCP for the IP address and use WPA password:n
 ## OmniTik    
 * [Standard config](#omni)  
 * [General info](/hardware/mikrotikomnitik5ac)
-    
+
 ## SXTsq   
 * [Mesh config](#sxtMeshConfig)  
 * [Kiosk config](#sxtKioskConfig)  
@@ -29,21 +29,21 @@ SXTsq old manual config-
 * [Kiosk client](#sxtKiosk)   
 * [OmniTik client](#sxtClient)  
 * [Point-to-point](#sxtP2P)   
-  
+
 ## LiteAC / LBE120 Sector    
 * SN and Hub  [Easy config](#liteac)
-  
+
 ## EdgePoint    
 * Switch    
 * BGP    
-  
+
 ## NanoStation NSM5    
 * Dan Grinkevich image (qMp/bmx6/tinc)    
 * Joachim’s image (LEDE/bmx6)  
 
 ## TP-Link N300 (TL-WR841N)  
 * [Config](/installs/tp-link/)
-  
+
 ---  
 
 ### <a name="lbe-client"></a>Litebeam client for Supernodes and hubs
@@ -76,7 +76,7 @@ Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory
 
 What the config file does: The config file sets DHCP for the IP address, WPA password: nycmeshnet, adds the  building number to the device name, adds the UNMS key for monitoring and sets the SNMP location and contact to "nycmesh".
 
---- 
+---
 
 ### <a name="lr-client"></a>LitebeamLR client for Supernodes and hubs
 
@@ -116,13 +116,13 @@ The default username is admin and there is no password.
   ```
 scp -o StrictHostKeyChecking=no rooftop-ospf.rsc admin@192.168.88.1:flash/
   ```
-  
+
 2. If you are using a Windows operating system, go into Command Prompt, navigate to the folder where you’ve saved the config and enter the following command. You must download pscp.exe from [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (64-bit or  32-bit) to the same folder then run:
 
   ```
-pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/ 
+pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/
   ```
-  
+
 3. If asked “Dangerous Reset anyway?” type in Y and return/enter.
 4. Reopen the Mikrotik GUI in your web browser and navigate back to “Files” as described in section 3 above. You should see the config file you just uploaded.
 5. Click “System” in the left side menu.
@@ -161,7 +161,7 @@ Once you have the configgen file you can use the [OmniTik instructions](#omni) o
 ### <a name="sxtKioskConfig"></a>SXTsq DIY kiosk config
 
 The LinkNYC kiosks use [DFS channels](https://en.wikipedia.org/wiki/Dynamic_frequency_selection) which although legal and FCC approved aren't supported in some USA versions of hardware.
-  
+
 For connecting to a kiosk, download this [config file](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-kiosk-vpn-ospf.rsc.tmpl)
 
 Once you have the configgen file you can use the [OmniTik instructions](#omni) on how to install it
@@ -171,52 +171,52 @@ Once you have the configgen file you can use the [OmniTik instructions](#omni) o
 ### <a name="sxtKiosk"></a>SXTsq kiosk old manual config
 
 **This config may not work with Windows computers**
-  
+
 The following works with a new SXTsq or a reset SXTsq. You must have the "International" version. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults).
 
 Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx address
-  
+
 In the terminal
 ```
 ssh -o StrictHostKeyChecking=no admin@192.168.88.1
 ```   
 Hit return to get the "[admin@MikroTik] >" prompt, and paste this-  
-  
+
 ```  
 /interface wireless security-profiles  
 add authentication-types=wpa-eap,wpa2-eap eap-methods=eap-ttls-mschapv2 group-ciphers=tkip,aes-ccm mode=dynamic-keys mschapv2-password=5fsOpxER mschapv2-username=anonymous@citybridge.com name=linknyc supplicant-identity=anonymous@citybridge.com tls-mode=dont-verify-certificate unicast-ciphers=tkip,aes-ccm  
-  
+
 /interface wireless  
 set [ find default-name=wlan1 ] band=5ghz-a/n/ac channel-width=20/40/80mhz-Ceee country="united states2" default-authentication=no disabled=no frequency=auto security-profile=linknyc ssid="LinkNYC Private" wireless-protocol=802.11  
-  
+
 /interface wireless connect-list  
 add interface=wlan1 security-profile=linknyc ssid="LinkNYC Private" wireless-protocol=802.11  
-  
+
 ```  
-  
+
 This script automatically connects the SXTsq to the private LinkNYC Kiosk channel. No login is required.  
 
 ---  
 ### <a name="sxtClient"></a>SXTsq Client    
-  
-  
+
+
 Set your computer to connect using DHCP ("automatic" on PC)  
 Connect via ethernet and you will get an address like 192.168.88.xxx
-  
+
 **Reset**  
 press the reset button WHILE powering on the unit by plugging in the POE cable.  
 Once one of the LEDs begins to flash white/blue (about 5 seconds), release reset button while it's flashing. After one minute the device will be ready  
-  
+
 **Connect to GUI**  
 open your browser and connect to http://192.168.88.1/  
 default username: admin  
 default password: (leave empty)  
 Click the button that says "Webfig" in the top right  
-  
+
 **Name the device**   
 system > identity  
 "n<your-node-id>-<device-type>-<index>". So if your node id is 1000, your device name could be: n1000-sxt-0  
-  
+
 **Set a password**  
 System > password  
 IMPORTANT: You must use a unique and strong (at least 8 characters, the longer the better) password to ensure the security of your device!  
@@ -229,24 +229,24 @@ IMPORTANT: You must use a unique and strong (at least 8 characters, the longer t
 Other security precautions to consider
 https://wiki.mikrotik.com/wiki/Manual:Securing_Your_Router
 
-  
+
 **IP > firewall**  
 Find and disable this input rule:  
 4  
 ;;; defconf: drop all not coming from LAN  
-  
+
 **Bridge**  
 - add new  
 set Protocol Mode to "none"  
 - hit apply and OK  
-  
+
 **IP > DHCP Server**  
 disable by clicking the small [D] button  
-  
+
 **IP > DHCP Client**  
 - change Interface to bridge1  
 - hit apply and OK  
-  
+
 **Wireless > security profiles (tab)**   
 add new  
 name: nycmeshnet  
@@ -254,7 +254,7 @@ uncheck wpa psk
 leave wpa2 psk checked  
 write in wpa2 Pre-Shared-Key field: nycmeshnet  
 apply and ok  
-  
+
 **Wireless > wlan1**  
 Set mode to station-bridge  
 Set SSID of the hub you want to connect to e.g. nycmesh-xxx   
@@ -264,20 +264,20 @@ Set security profile to nycmeshnet
 (below only if you have SXT international version)  
 Click Advanced Mode button at top  
 Scroll down and set country drop down to united states   
-  
+
 When all settings are correct and the station connects the status should change from "searching for network" to "connected to ess".  
-  
+
 **Bridge > Ports**   
 Add new, set interface to ether1, set bridge to bridge1  
 Add new, set interface to wlan1, set bridge to bridge1  
-  
+
 **IP  > Addresses**   
 - Add new, set address to 192.168.88.1/24 set interface to bridge1
 - Delete entry 192.168.88.1/24 on interface ether1
 
 **Change your computer network settings back to automatic or DHCP**  
 (Note you must be connected to the access point to proceed beyond this point)
-  
+
 **Access GUI via routable IP address**  
 Use the name you used for your device, plus the name of the access point to generate the correct URL. For example if your node id is 1000 and the hub id is 500, the URL would be:  
 http://n1000-sxt-0.n500.mesh/  
@@ -288,22 +288,22 @@ http://n1000-sxt-0.n500.mesh/
 - update / reboot  
 2. system > routerboard > update  
 Reboot  
-  
+
   ---  
-  
+
 ### <a name="sxtP2P"></a>SXTsq Point-to-Point  (PtP)  
-  
-  
+
+
   The following works with two new SXTsq or a reset SXTsq. To reset an SXTsq, hold the reset button for about 5 seconds while the unit is booting and release as soon as green LED starts flashing (to reset RouterOS configuration to defaults). It is recommended to update the firmware of your SXTsq to the latest. The under has been tested with firmware v.6.43.12
-  
+
   One of the SXT will act as an "AP" but can be associated to only one "client". The second SXT will be the "client".
-  
+
   After the configuration there will be no DHCP Server or Client, thus you will need to configure your laptop IP mannually in the same network range, for exemple  192.168.88.11
-  
+
 The SXT-AP and SXT-Client port address will be change in order to not interfere with another potential SXT default IP.  
 - AP will be ether1:  192.168.88.2  and bridge1:  192.168.88.3  
  - Client will be ether1:  192.168.88.4  and bridge1:  192.168.88.5  
- 
+
 Connect to the SXTsq via ethernet and DHCP. You will get a 192.168.88.xxx address
 
 
@@ -313,12 +313,12 @@ In the terminal
 ssh -o StrictHostKeyChecking=no admin@192.168.88.1
   ```   
 Say 'yes' to the warning and paste this for the SXT-AP-
-  
+
   ```
 # Feb 25th 2019 for RouterOS 6.43.12
 # model = RBSXTsqG-5acD
 
-# SXT PtP / This is the AP 
+# SXT PtP / This is the AP
 
 # Set the SXT Identity
 /system identity
@@ -372,14 +372,14 @@ add address=192.168.88.3/24 interface=bridge1 network=192.168.88.0
 set [ find interface=ether1] address=192.168.88.2/24
 
   ```  
-  
-  Say 'yes' to the warning and paste this for the SXT-Client-
-  
-  ```
-# Feb 25th 2019 for RouterOS 6.43.12 
-# model = RBSXTsqG-5acD 
 
-# SXT PtP / This is the Client 
+  Say 'yes' to the warning and paste this for the SXT-Client-
+
+  ```
+# Feb 25th 2019 for RouterOS 6.43.12
+# model = RBSXTsqG-5acD
+
+# SXT PtP / This is the Client
 
 # Set the SXT Identity
 /system identity
@@ -447,4 +447,3 @@ set [ find interface=ether1] address=192.168.88.4/24
 ### <a name="liteac"></a>LiteAC 120 sector
 
 ---
-
