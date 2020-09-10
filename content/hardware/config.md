@@ -64,7 +64,7 @@ While still in System, scroll down to "upload configuration" and select sn2.cfg 
 
 Check that the device name "nycmesh-lbe-xxxx" matches your node building number e.g. "nycmesh-lbe-1234" (building number is usually the node number)
 
-Click save (twice if necessary).  The user/pwd will be changed. Ask on slack, mentionning your node number, for them to be DM to you (do not share them publicly).   
+Click save (twice if necessary). The username/password will be changed. Please mention your node number and that you’re looking for the new credentials on Slack in `#diy-install-support`, and they will be sent to you. **Please do not share them publicly!**
 
 To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan. Click the button next to the best AirMac AC signal. (-80 is bad, -50 is good, -62 is typical) Click "SELECT" and then "SAVE CHANGES" (twice if necessary)
 
