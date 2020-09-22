@@ -5,7 +5,7 @@ weight: 900
 
 For DIY we recommend [joining our Slack group](https://slack.nycmesh.net/) where you can chat with us.
 
-There is a channel in Slack- #diy-install-support where you can ask questions. We can guid you on what hardware to buy and what is the likely best connection you can make to a nearby antenna.
+There is a channel in Slack- #diy-install-support where you can ask questions. We can guide you on what hardware to buy, and what is the likely best connection to a nearby antenna.
 
 For DIY, you should still [fill in our join form](https://nycmesh.net/join). This will give you a request number (or node number) which you will need for your install. It will also get you in our system so we can give you advice and look for line-of-sight connections.
 
