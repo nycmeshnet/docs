@@ -7,9 +7,9 @@ For DIY we recommend [joining our Slack group](https://slack.nycmesh.net/) where
 
 There is a channel in Slack- #diy-install-support where you can ask questions. We can guide you on what hardware to buy, and what is the likely best connection to a nearby antenna.
 
-For DIY, you should still [fill in our join form](https://nycmesh.net/join). This will give you a request number (or node number) which you will need for your install. It will also get you in our system so we can give you advice and look for line-of-sight connections.
+For DIY, you must still [fill in our join form](https://nycmesh.net/join). This will give you a request number (aka "node number") which you will need for your install. It will also get you in our system so we can give you advice and look for line-of-sight connections.
 
-For a quick check for line-of-sight you can use our [line-of-sight tool](https://los.nycmesh.net). Put in your address and it will show you which hubs you might be able to connect to. 
+For a quick check of line-of-sight you can use our [line-of-sight tool](https://los.nycmesh.net). Put in your address and it will show you which hubs you might be able to connect to. 
 
 Our general install advice is here in [the docs](../installs/)
 
