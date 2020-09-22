@@ -3,7 +3,7 @@ title: DIY
 weight: 900
 ---
 
-For DIY we recommend [joining our Slack group](https://slack.nycmesh.net/) where you can chat with us.
+For a DIY ("do it yourself") install we recommend [joining our Slack group](https://slack.nycmesh.net/) where you can chat with us.
 
 There is a channel in Slack- #diy-install-support where you can ask questions. We can guide you on what hardware to buy, and what is the likely best connection to a nearby antenna.
 
