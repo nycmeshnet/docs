@@ -11,6 +11,8 @@ For DIY, you must still [fill in our join form](https://nycmesh.net/join). This 
 
 For a quick check of line-of-sight you can use our [line-of-sight tool](https://los.nycmesh.net). Put in your address and it will show you which hubs you might be able to connect to. 
 
+Here is a [list of equipment we typically use](../installs/equipment/). Remember to use outdoor ethernet cable, and securely mount your antennas on j-pipes or secured masts. Masts should be strong metal as plastic PVC pipes will bend.
+
 Our general install advice is here in [the docs](../installs/)
 
 We ask you, if you can, to support NYC Mesh with a [monthly subscription](https://nycmesh.net/donate). Donating helps maintain, operate and expand NYC Mesh so, just like you, others can benefit from the network.
