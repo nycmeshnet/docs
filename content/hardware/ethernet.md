@@ -1,8 +1,9 @@
 ---
 title: "Ethernet"
 ---
+For a rooftop install you need outdoor cable. We use Ubiquiti ToughCable Pro. Indoor cable is not UV resistant and will decay after a few months of sunlight.
 
-There is one commonly used standard for ethernet: T-568B. (oO-gB-bG-brBR)
+There is one commonly used standard for crimping ethernet: T-568B. (oO-gB-bG-brBR)
 
 ![window/wall install](/img/ethernet/T-568B.gif)
 [source](https://www.siongboon.com/projects/2006-03-06_serial_communication/)
