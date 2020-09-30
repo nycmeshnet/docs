@@ -1,7 +1,8 @@
 ---
 title: "Ethernet"
 ---
-For a rooftop install you need outdoor cable. We use Ubiquiti ToughCable Pro. Indoor cable is not UV resistant and will decay after a few months of sunlight.
+
+You must use black outdoor cable outside. Indoor cable will last about 6 months outside due to UV damage. We mostly use Ubiquiti ToughCable Pro CAT5.
 
 There is one commonly used standard for crimping ethernet: T-568B. (oO-gB-bG-brBR)
 
@@ -22,5 +23,4 @@ Ubiquiti POE is 24V DC, **half the voltage of standard (802.3af/at) 48V DC POE.*
 
 Ethernet cables need to be shorter than 100m (300'). Longer than that you will have data loss and the POE voltage will drop too low.
 
-You must use black outdoor cable outside. Indoor cable will last about 6 months outside due to UV damage. We mostly use Ubiquiti ToughCable Pro CAT5.
 
