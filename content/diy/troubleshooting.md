@@ -39,14 +39,18 @@ For more informations please refer to those services' website.
 ### WiFi Router Location
 
 If you’re connecting to the Internet via WiFi, make sure your router is placed as close to the middle of your home as possible, away from obstructions (such as cabinets) away from other electronic devices and off the floor.
-Wall, metal plate (air-vent), refrigerators or microwave ovens, reduce signal if not block it totally. Other electronic devices (microwave, TV, babymonitor, etc...) can create interferences.  Wi-Fi doesn’t do well around lots of water, either, so stay away from 100-gallon aquariums.
+Wall, metal plate (air-vent), refrigerators or microwave ovens, reduce signal if not block it totally. Other electronic devices (microwave, TV, babymonitor, cordeless phone, etc...) can create interferences.  Wi-Fi doesn’t do well around lots of water, either, so stay away from aquariums.
 
 ### Wifi band
 
 Wifi routers operate in different frequencies. The 5 GHz wireless frequency provides faster data rates at shorter distances and is typically much less busy than the 2.4 GHz wireless frequency. If wireless range is your priority, 2.4 GHz performs better than 5 GHz. But 2.4 Ghz is more subject to interferences. 5 GHz wireless frequency doesn’t penetrate solid objects nearly as well as the 2.4 GHz wireless frequency.
 A dual band router 2.4/5 Ghz usually perform better than a mono band 2.4Ghz router as your device (smartphone, laptop) picks up the best signal, 2.4 or 5 Ghz.
 
-Note: the 5GHz band has nothing to do with 5G cellular service. 2 differents things, the latest refers to 5th Generation.
+ - Note 1: WiFi 6 and 6 Ghz<br>
+             WiFi 6 referes to the new standard 802.11ax  (or AX WiFi). It works on 2.4, 5, or the newly open band 6 Ghz.  WiFi 6 &ne; 6 Ghz
+             The WiFi 6 improvement will not only affect 5GHz networks, which the industry has largely shifted to, and which provide faster data on shorter distances; it will also make 2.4GHz networks faster, which are typically slower but better at penetrating solid objects like walls.
+
+- Note 2: the 5GHz band has nothing to do with 5G cellular service. 2 differents things, the latest refers to 5th Generation.
 
 ### Wifi channels
 

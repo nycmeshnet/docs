@@ -1,5 +1,5 @@
 ---
-title: DIY
+title: DIY & Troubleshooting
 weight: 900
 ---
 
@@ -9,7 +9,7 @@ There is a channel in Slack- [#diy-install-support](https://app.slack.com/client
 
 For DIY, you must still [fill in our join form](https://nycmesh.net/join). This will give you a request number (aka "node number") which you will need for your install. It will also get you in our system so we can give you advice and look for line-of-sight connections.
 
-For a quick check of line-of-sight you can use our [line-of-sight tool](https://los.nycmesh.net). Put in your address and it will show you which hubs you might be able to connect to. 
+For a quick check of line-of-sight you can use our [line-of-sight tool](https://los.nycmesh.net). Put in your address and it will show you which hubs you might be able to connect to.
 
 Here is a [list of equipment we typically use](../installs/equipment/). Remember to use outdoor ethernet cable, and securely mount your antennas on j-pipes or secured masts. Masts should be strong metal as plastic PVC pipes will bend.
 
