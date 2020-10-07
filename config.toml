@@ -10,3 +10,5 @@ enableGitInfo = true
 [blackfriday]
 fractions = false
 hrefTargetBlank = true
+[markup.goldmark.renderer]
+unsafe= true
