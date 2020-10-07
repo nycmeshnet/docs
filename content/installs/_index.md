@@ -16,7 +16,7 @@ For the most up-to-date overview of the entire install process, check out the **
 
 [Equipment List](/installs/equipment)
 
-[Router Configurations](/hardware/config)
+[Device Configurations](/hardware/config)
 
 [Ethernet Cable Crimping Guide](/installs/crimping)
 
