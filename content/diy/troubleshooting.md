@@ -58,4 +58,4 @@ Wifi operates on different channels (like cars on different lanes on a highway).
 
 
 ### Test the performance
-It is a good idea to always use the same tool to test to be able to compare. We use [speedtest.com](https://www.speedtest.net/) against Pilot, NY.
+It is a good idea to always use the same tool to test to be able to compare. We use [speedtest.net](https://www.speedtest.net/) against Pilot, NY.
