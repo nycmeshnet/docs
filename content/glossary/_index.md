@@ -157,8 +157,14 @@ RIR
 
 # S
 
+Sector antenna
+: a directional antenna designed to connect to many other antennas. Typical "sectors" are 90 degrees or 120 degrees
+
 SSID
 : Service set identification- the Wi-Fi access point name
+
+Supernode
+: This is a large install, typically with a fiber connection and many sector and point-to-point antennas
 
 # T
 
