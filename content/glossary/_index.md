@@ -60,6 +60,9 @@ DHCP
 
 # E
 
+[Ethernet cable](../hardware/ethernet/)
+:The cable we use that has 8 wires for carrying data and power
+
 # F
 
 FFTF
