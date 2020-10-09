@@ -89,6 +89,9 @@ IPv6
 ISP
 : Internet Service Provider
 
+IXP
+: Internet Exchange Point, where internet networks come together to peer or exchange traffic between their networks. (An IXP is a network and not really a "point" or a building) 
+
 # J
 
 # K
