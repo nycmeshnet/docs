@@ -7,15 +7,17 @@ NYCMesh does not have yet a Mesh NTP server but 2 mesh members are providing NTP
 Use **10.10.10.123** as your NTP server address.
 
 ## What is NTP
-The Netwok Time Protocol is  a "network" protocol for devices to sych their clocks. See [Wiki[(https://en.wikipedia.org/wiki/Network_Time_Protocol)  
+The Netwok Time Protocol is  a "network" protocol for devices to sych their clocks. See [Wiki](https://en.wikipedia.org/wiki/Network_Time_Protocol)  
 
 ## IPs
 **10.10.10.123** - NTP for the mesh ( **Use this one** )  
 
 ## NTP stats and status
-Here are some stats on the NTP servers: 
-   [NTP server hosted at SN3](http://103.151.145.70/#server_jitters)
-   [NTP server hosted in Manhattan](https://noc.as397444.net/ntpgraphs/) it has a Stratum 1 receiver. 
+Here are some stats on the NTP servers: <br>
+
+   [NTP server hosted at SN3](http://103.151.145.70/#server_jitters) <br>
+   
+   [NTP server hosted in Manhattan](https://noc.as397444.net/ntpgraphs/) (it has a Stratum 1 receiver). 
 
 ## Alternatives
 There are many NTP servers on the Net, google offers it,  some hardware maker such as Ubiquiti, etc..
