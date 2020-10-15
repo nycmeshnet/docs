@@ -15,7 +15,7 @@ The Netwok Time Protocol is  a "network" protocol for devices to sych their cloc
 ## NTP stats and status
 Here are some stats on the NTP servers: <br>
 
-   [NTP server hosted at SN3](http://103.151.145.70/#server_jitters) <br>
+   [NTP server hosted at SN3](http://ntp1.sn3-1.aaka.sh/) <br>
    
    [NTP server hosted in Manhattan](https://noc.as397444.net/ntpgraphs/) (it has a Stratum 1 receiver). 
 
