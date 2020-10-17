@@ -11,13 +11,13 @@ If you do host a service that you would like to make available to the Mesh Commu
 
 You can also discuss services on our slack channel [#mesh-services](https://slack.nycmesh.net/)
 
-### **Network Services**
+### **Network services**
 
 - [DNS](/networking/dns/)
 - [NTP](/networking/ntp/)
 
 
-### **NYC Mesh Services**
+### **NYC Mesh services**
 
 - [NYC Mesh Meet](https://meet.nycmesh.net/) by @Zach
 - [ExcellentFiles](https://excellent.nyc) by @Eric Zhu.
