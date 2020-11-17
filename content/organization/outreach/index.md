@@ -4,11 +4,11 @@ title: "Outreach Material"
 
 **Flyers/Brochures**
 
-[Two page trifold neighborhood brochure](https://docs.google.com/presentation/d/1D5idINRhLICwrbWa7w5Y5l_9wgV19KWEMIOoqrkXk8E/edit?usp=sharing)  
+[Two page trifold neighborhood brochure (English/Spanish)](https://docs.google.com/presentation/d/1mKzGT6Scrkv27Hb_lb7oOLWi_fGDoIHwEBJtcxI64PQ/edit?usp=sharing)  
 [Two page trifold general brochure](Brochure.pdf)  
 [One page general flyer](Priorities-One-Pager.pdf)  
 
-[Building Postcard](2019-08-One-page-flyer.pdf)  
+[Building Postcard (English/Spanish)](https://docs.google.com/presentation/d/1WqvYEiE_J_LPH_eGNaouarhXnnWj8nOyKsJ9WlqPBPc/edit?usp=sharing)  
 [Building Postcard [Chinese]](flyer-chinese.jpg)
 
 [One page narrow brochure: Join NYC Mesh](NYC_Mesh_Brochure_02.jpg)
