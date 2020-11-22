@@ -84,6 +84,8 @@ You can't use the standard LiteBeam config in an LR. This will cause poor perfor
 
 Please upload [this config](../../download/lbe-LR.cfg) and edit the device name in the System tab
 
+After uploaded the config you must follow the above LiteBeam instructions for scanning and pairing etc.
+
 ---
 
 ### <a name="omni"></a>Standard Omnitik mesh config
