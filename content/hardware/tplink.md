@@ -33,7 +33,7 @@ Before configuring, ask the user member to tell you:
     *  Username: **admin**
     *  Password: **admin**
 
-1.  Set up the guest WiFi to “**-NYC Mesh Community WiFi-**” (including the dashes).
+1.  Set up the guest WiFi to “**-NYC Mesh Community guest-**” (including the dashes).
 Navigate to “Guest Network” and set as follows: ![alt text](https://i.imgur.com/BXzdita.jpg "Guest Network Configuration Settings")
 
 1.  Set up the home WiFi.
