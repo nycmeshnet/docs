@@ -393,7 +393,7 @@ set service dns forwarding options server=/mesh/10.10.10.11
 
 Make sure to configure the [DHCP server](https://help.ui.com/hc/en-us/articles/204952254-EdgeRouter-DHCP-Server) to provide your router's LAN address as the recursive DNS resolver.
 
-To be able to reach the .mesh TLD while SSH'd into your EdgeRouter, configure your EdgeRouter's to use its local DNS forwarder as its primary DNS server:
+To be able to reach the .mesh TLD while SSH'd into your EdgeRouter, configure your EdgeRouter to use its local DNS forwarder as its primary DNS server:
 
 ```
 set system name-server 127.0.0.1
