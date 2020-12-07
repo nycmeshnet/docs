@@ -2,7 +2,7 @@
 title: "VPN - L2TP/IPsec"
 ---
 
-L2TP/IPSec is a common general-purpose VPN protocol that work with most platforms. For example, computers running Windows, macOS, iPhones, and Android devices all support this type of VPN out-of-the-box. This type of VPN is a little bit oldschool, in that it is typically found in enterprise corporate environments, which is part of what makes it so ubiquitous.  
+L2TP/IPSec is a common general-purpose VPN protocol that work with most platforms. For example, computers running Windows, macOS, iPhones, and Android devices all support this type of VPN out-of-the-box. This type of VPN is a little bit oldschool, in that it is typically found in enterprise corporate environments, which is part of what makes it so ubiquitous.
 For this reason, we have decided to provide and endpoint of this protocol.
 
 Technically speaking, it is a combination of L2TP and IPsec protocol standards. The former protocol (L2TP, the [Layer 2 Tunneling Protocol](https://en.wikipedia.org/wiki/Layer_2_Tunneling_Protocol)) carries a "call" over the Internet, while the latter protocol suite ([IPsec](https://en.wikipedia.org/wiki/IPsec), Internet Protocol Security) encrypts the call and authenticates the participants. Although it's possible to use either protocol without the other, L2TP and IPsec are most often used together. This is because L2TP creates a connection but does not secure the connection, while IPSec protects traffic but does not itself create a network connection to carry traffic.
@@ -242,7 +242,7 @@ vpn {
 }
 ```
 
-#### PPP configuration workaround ####
+#### PPP configuration workaround
 
 There is [a bug in EdgeOS's PPP configuration](https://community.ui.com/questions/l2tp-client-CHAP-is-broken-due-to-bad-etc-ppp-chap-secrets/b40dd55c-9bc4-4222-bf33-b0a35e894183) that prevents EdgeRouter from connecting to the NYC Mesh VPN. Before you commit your VPN configuration, add the following scripts to your EdgeOS device:
 
@@ -381,7 +381,7 @@ round-trip min/avg/max/stddev = 10.603/13.523/16.394/2.364 ms
 
 Once your configuration is working, save it to your startup config.
 
-#### Configuring .mesh DNS lookup ####
+#### Configuring .mesh DNS lookup
 
 To use the .mesh top level domain to reach [mesh services]({{< relref "services" >}}), you will need to change the DNS configuration on your EdgeRouter. The simplest way to do this is to configure your router's DHCP server to tell clients to use the mesh's recursive resolver (`10.10.10.10`) as their DNS server. But this causes a problem with our split VPN config: if your VPN connection goes down, you won't be able to resolve domain names, even if you're still connected to the public internet.
 
@@ -399,7 +399,7 @@ To be able to reach the .mesh TLD while SSH'd into your EdgeRouter, configure yo
 set system name-server 127.0.0.1
 ```
 
-#### Known issues ####
+#### Known issues
 
 When your EdgeRouter sets up your L2TP interface, it fails to override the default MTU with the MTU specified in your interface configuration (this may be related to the [PPP configuration workaround]({{< relref "#ppp-configuration-workaround" >}})). This is a problem for OSPF peering because OSPF requires that both peers agree on an MTU.
 
