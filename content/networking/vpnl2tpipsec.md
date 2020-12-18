@@ -32,7 +32,7 @@ This section provides connection information for NYC Mesh VPN endpoints that use
     * Anonymous:
         * Username: `nycmesh`
         * Password: `nycmeshnet`
-    * *OSPF Node-Peering is currently disabled on Supernode 1*
+    * OSPF Node-Peering (Same, connect as above, use [OSPF]({{< relref "ospf" >}}) afterwards.)
 
 ### Supernode 3
 * Server domain name: `l2tpvpn.sn3.mesh.nycmesh.net`
