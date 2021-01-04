@@ -49,7 +49,7 @@ Here’s a short guide to help:
 
 The biggest confusion with OmniTiks is that one model has POE out (OmniTik POE) and one doesn't. They both look the same. There is obscure print near the ethernet ports that will tell you if it is ethernet out. OmniTik POE has a much larger power injector and this must be used to power it. If you accidentally power it with a smaller adapter it will work but the LiteBeam will occasionally reboot.
 
-Sometimes the OmniTik won't automatically power the LiteBeam. You can force on the power by going to Webfig>Interfaces>ether5 and select "PoE Out: forced on". Also check that you are using the correct power injector for the Omni as this can also cause this problem.
+Sometimes the OmniTik won't automatically power the LiteBeam. You can force on the power by going to Webfig>Interfaces>ether5 and select "PoE Out: forced on". If the "PoE Out" option is missing you have the wrong kind of OmniTik! Also check that you are using the correct power injector for the Omni as this can also cause this problem.
 
 Use electrical tape to tape the small DC power cable to the white injector after plugging it in. This often comes undone causing all sorts of problems. The DC power cable is the same as the tp-link DC cable, and will break the tp-link if you plug it into that instead.
 
