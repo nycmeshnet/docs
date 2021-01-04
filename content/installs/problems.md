@@ -12,6 +12,8 @@ We've had many antennas lose alignment in the wind. There's a few simple things 
 
 3. Make sure pipe mounts can't twist by putting a bolt through them. You'll need a set of metal drill bits (such as titanium) and some 2 1/2" long 1/4" bolts.
 
+If you can move the LiteBeam with your hands, it will also move in the wind. The LiteBeam LR needs even more care to stop it from moving.
+
 # Bad crimps
 
 Ethernet testers aren't perfect so you need to check your crimps visually-
