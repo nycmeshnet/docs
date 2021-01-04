@@ -21,7 +21,7 @@ Ethernet testers aren't perfect so you need to check your crimps visually-
 3. All pins are pushed down after crimping (extremely important!)
 4. The cable jacket is just inside the RJ-45 
 
-If these four things are correct the cable will work! 
+If the first three things are correct the cable will work! The jacket being inside the rj-45 gives it a bit more strength.
 
 It is possible that the wires aren't at the end and the pins aren't all down and the cable tester will wrongly say it is fine.
 
