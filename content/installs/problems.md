@@ -6,7 +6,7 @@ title: "Avoiding problems"
 
 We've had many antennas lose alignment in the wind. There's a few simple things you can do to prevent this-
 
-1. Use a socket and drill to tighten hose clamps. It's hard to get the hose clamp tight with a screw driver. You need a socket and a drill to get it really tight. You'll need a socket set that has both [american and metric sockets like this]()
+1. Use a socket and drill to tighten hose clamps. It's hard to get the hose clamp tight with a screw driver. You need a socket and a drill to get it really tight. You'll need a socket set that has both [american and metric sockets like this](https://www.amazon.com/PANOVOS-Driver-Metric-Socket-Wrench/dp/B01J3O4RYS/ref=sr_1_13?crid=2TECPORUO14Y4)
 
 2. Put one layer of electrical tape under the hose clamp. This can help stop slipping, especially on smooth j-pipes like the Ubiquiti ones.
 
