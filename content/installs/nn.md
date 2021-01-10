@@ -1,7 +1,7 @@
 ---
 title: "Network Number"
 ---
-Enter the install number below to get the NN that can be used to configure the rooftop antennas. This can also be used with multiple apartment installs to figure out the network number (NN) for the roof.
+Enter the install number below to get the NN that can be used to configure the rooftop antennas. This can also be used with existing multiple apartment installs to figure out the network number (NN) for the roof.
 
 <form action="https://script.google.com/macros/s/AKfycbw4WgfR01CLqZcTtQi_5o7l6GXTPKJs4ep2Tpw7TdeH-uqRiuY/exec" method="nn">
   <label for="installnum">Install number:</label>
@@ -10,6 +10,10 @@ Enter the install number below to get the NN that can be used to configure the r
   <input type="submit" value='Get NN'>
 </form>
 
+<br>
+<br>
+<br>
+<br>
 
 We have changed the way "node numbers" work and we're now using the term NN or "network number". 
 
