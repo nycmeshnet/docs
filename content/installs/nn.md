@@ -12,14 +12,8 @@ Enter the install number below to get the NN that can be used to configure the r
   <label for="installnum">Install number:</label>
   <input type="hidden" id="method" name="method" value="nn">
   <input type="number" id="id" name="id" min="1" max="100000">
-  <input type="submit">
+  <input type="submit" value='Get NN'>
 </form>
 
-<script language="JavaScript">
-    function showInput() {
-        document.getElementById('display').innerHTML = 
-                    document.getElementById("user_input").value;
-    }
-  </script>
 
 
