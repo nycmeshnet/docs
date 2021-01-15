@@ -7,6 +7,8 @@ weight: 99
 
 This doc is in progress. Please add links below to the specific config instructions  
 
+**Important**: Note that we use a **Network Number** (or **NN**) from now on to configure devices. The **Network Number** is not the Install Number (or request number) you received when registering.  You can find out your **NN** using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
+
 ## LiteBeam  
 All supernode and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 
@@ -50,7 +52,9 @@ SXTsq old manual config-
 
 All Supernodes and hubs use the same sn2.cfg
 
-First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [config file](https://configgen.nycmesh.net/?device=LiteBeam5AC&template=sn2.cfg.tmpl) (use your node number received afer registering)
+First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [config file](https://configgen.nycmesh.net/?device=LiteBeam5AC&template=sn2.cfg.tmpl) 
+<br/> <br/> 
+==> You will need your **Network Number** or **NN**. You can find out your NN using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
 
 Plug in LiteBeam to POE and connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (booting turns on wifi for 15 minutes)
 
@@ -62,9 +66,9 @@ Go to Settings>System and select "upload firmware" and choose the WA .bin file y
 
 While still in System, scroll down to "upload configuration" and select sn2.cfg file you downloaded before
 
-Check that the device name "nycmesh-lbe-xxxx" matches your node building number e.g. "nycmesh-lbe-1234" (building number is usually the node number)
+Check that the device name "nycmesh-lbe-xxxx" matches your network building number e.g. "nycmesh-lbe-1234" (building number is usually the network number)
 
-Click save (twice if necessary). The username/password will be changed. Please mention your node number and that you’re looking for the new credentials on Slack in `#diy-install-support`, and they will be sent to you. **Please do not share them publicly!**
+Click save (twice if necessary). The username/password will be changed. Please mention your network number and that you’re looking for the new credentials on Slack in `#diy-install-support`, and they will be sent to you. **Please do not share them publicly!**
 
 To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan. Click the button next to the best AirMac AC signal. (-80 is bad, -50 is good, -62 is typical) Click "SELECT" and then "SAVE CHANGES" (twice if necessary)
 
@@ -92,8 +96,10 @@ After uploaded the config you must follow the above LiteBeam instructions for sc
 
 **1. Download Latest Firmware and Generate Configuration**
 
+==> You will need your **Network Number** or **NN**. You can find out your NN using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
+
 1. Download the latest firmware - see [Mikrotik Firmware](https://docs.nycmesh.net/software/mikrotikfirmware).
-2. Generate a configuration file for your node by going to the NYC Mesh configuration generator [Configgen](https://configgen.nycmesh.net/?device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl). Type in the node number and click “Download Config”. For SXTsq config file [see below](#sxtMeshConfig)
+2. Generate a configuration file for your Network Number by going to the NYC Mesh configuration generator.  [Configgen](https://configgen.nycmesh.net/?device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl). Type in the network number and click “Download Config”. For SXTsq config file [see below](#sxtMeshConfig)
 
 **2. Connect to the Router**
 
@@ -136,7 +142,7 @@ pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/
 9. Port 1 is now a LAN port but still POE IN. Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments.  
 **Port 5 is now a WAN (mesh) port and you can plug a LiteBeam into it.** You can't plug a LiteBeam into other ports with this config!
 
-The Omnitik IP address has changed to a 10.69.x.x address. This is generated from the node number, e.g. for node 1234 the IP address will be 10.69.12.34
+The Omnitik IP address has changed to a 10.69.x.x address. This is generated from the network number, e.g. for network number 1234 the IP address will be 10.69.12.34
 
 **5. Change the Password**
 
@@ -217,7 +223,7 @@ Click the button that says "Webfig" in the top right
 
 **Name the device**   
 system > identity  
-"n<your-node-id>-<device-type>-<index>". So if your node id is 1000, your device name could be: n1000-sxt-0  
+"n<your-network-id>-<device-type>-<index>". So if your network id is 1000, your device name could be: n1000-sxt-0  
 
 **Set a password**  
 System > password  
@@ -281,7 +287,7 @@ Add new, set interface to wlan1, set bridge to bridge1
 (Note you must be connected to the access point to proceed beyond this point)
 
 **Access GUI via routable IP address**  
-Use the name you used for your device, plus the name of the access point to generate the correct URL. For example if your node id is 1000 and the hub id is 500, the URL would be:  
+Use the name you used for your device, plus the name of the access point to generate the correct URL. For example if your network id is 1000 and the hub id is 500, the URL would be:  
 http://n1000-sxt-0.n500.mesh/  
 
 **Update (2 step process)**   
