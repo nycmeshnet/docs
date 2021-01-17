@@ -146,11 +146,17 @@ The Omnitik IP address has changed to a 10.69.x.x address. This is generated fro
 
 ---
 
-### <a name="sxtMeshConfig"></a>SXTsq to Omnitik mesh config
+### <a name="sxtMeshConfig"></a>SXTsq to Omnitik mesh buggy config!
+
+**You will need to edit the config. [Please see this bug](https://github.com/nycmeshnet/nycmesh-configgen/issues/9)**
 
 You can install an SXTsq to connect to one of our OmniTik routers using OSPF/WDS meshing. The SXTsq is directional so it can reach further distances than an omnidirectional OmniTik.
 
+**You will need to edit the config. [Please see this bug](https://github.com/nycmeshnet/nycmesh-configgen/issues/9)**
+
 If you are installing an SXTsq to plug into port 5 of an OmniTik use this [SXTsq config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf.rsc.tmpl)
+
+**You will need to edit the config. [Please see this bug](https://github.com/nycmeshnet/nycmesh-configgen/issues/9)**
 
 If you are installing an SXTsq to plug directly into a home router use the [SXTsq "solo" config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf-solo.rsc.tmpl)
 
