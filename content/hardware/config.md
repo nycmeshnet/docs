@@ -155,6 +155,8 @@ The Omnitik IP address has changed to a 10.69.x.x address. This is generated fro
 ### <a name="sxtMeshConfig"></a>SXTsq to Omnitik mesh config
 
 You can install an SXTsq to connect to one of our OmniTik routers using OSPF/WDS meshing. The SXTsq is directional so it can reach further distances than an omnidirectional OmniTik.
+<br/> <br/> 
+==> You will need your **Network Number** or **NN**. You can find out your NN using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
 
 If you are installing an SXTsq to plug into port 5 of an OmniTik use this [SXTsq config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf.rsc.tmpl)
 
@@ -169,6 +171,8 @@ Once you have the configgen file you can use the [OmniTik instructions](#omni) o
 ### <a name="sxtKioskConfig"></a>SXTsq DIY kiosk config
 
 The LinkNYC kiosks use [DFS channels](https://en.wikipedia.org/wiki/Dynamic_frequency_selection) which although legal and FCC approved aren't supported in some USA versions of hardware.
+<br/> <br/> 
+==> You will need your **Network Number** or **NN**. You can find out your NN using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
 
 For connecting to a kiosk, download this [config file](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-kiosk-vpn-ospf.rsc.tmpl)
 

@@ -28,7 +28,7 @@ When devices are being configured and installed, they will receive a **Network N
 
 The Install Number is associated with a member. When installed it is linked to a Network Number.  The Network Number is associated with a building number (street address / BIN ). A building can have several Network Numbers in the event that it has for technical reasons 2 or more “nodes”.
 When a member moves, the Network Number stays with the building (especially when there are other members connected to this Network Number (Node). The moving member will register with their new street address and will receive a new Install Number. 
-<br/><br/><br/><br/>*Exemple*<br/><br/>
+<br/><br/><br/><br/>*Examples*<br/><br/>
 *John D. Install Number 2000, is connected to node with Network Number 5000*<br/>
 *Elis W. Insall Number 3000, is also connected to node with Network Number 5000*<br/>
 *Node with Network Number 5000 is on the building at address 55 Main Street.*<br/><br/>
