@@ -17,6 +17,21 @@ _*The Install Number is the number you received in an email right after you regi
 <br/>
 <br/>
 
+If you have the password you can assign a NN for an install number
+
+<form action="https://script.google.com/macros/s/AKfycbxpdoWgLX8YCywbYXWKyi5ZXUbjG46omTCxNCwSybc/dev" method="nn">
+  <label for="installnum">Install Number:</label>
+  <input type="hidden" id="method" name="method" value="nn">
+  <input type="number" id="id" name="id" min="1" max="100000">
+  <label for="pwd">Password:</label>
+  <input type="password" minlength="8" id="id" name="pwd" >
+  <input type="submit" value='Assign NN'>
+</form>
+
+<br/>
+<br/>
+
+
 We have changed the way "Node Numbers" work and we're now using the term NN or "Network Number". 
 
 Previously each registration would receive a **Node Number**. This number would be used to configure the devices. For example used in the litebeam naming and in the OmniTik configuration. The Node Number was used to generate the IP address range used by the OmniTik device.  Many registrations do not end up being installed and thus a lot of addresses are being “blocked” as reserved for those Node Numbers, Nodes associated with persons.  We gave ourselves a limit of 8192 “nodes”. This in order to “save” the IP range above, for further usage.
