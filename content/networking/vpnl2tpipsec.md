@@ -32,6 +32,7 @@ This section provides connection information for NYC Mesh VPN endpoints that use
     * Anonymous:
         * Username: `nycmesh`
         * Password: `nycmeshnet`
+        * Pre-shared key/secret: `nycmeshnet`
     * OSPF Node-Peering (Same, connect as above, use [OSPF]({{< relref "ospf" >}}) afterwards.)
 
 ### Supernode 3
@@ -40,6 +41,7 @@ This section provides connection information for NYC Mesh VPN endpoints that use
     * Anonymous:
         * Username: `nycmesh`
         * Password: `nycmeshnet`
+        * Pre-shared key/secret: `nycmeshnet`
     * OSPF Node-Peering (Same, connect as above, use [OSPF]({{< relref "ospf" >}}) afterwards.)
 
 ## Connection Guides
