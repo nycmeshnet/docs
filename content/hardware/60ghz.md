@@ -65,7 +65,7 @@ There's a very confusing range of Ubiquiti 60GHz. There's basically there's dish
 
 Similar looking to the MikroTik LHG 60G. 
 
-## Ubiquiti airFiber 60 LR (dish)
+## Ubiquiti airFiber 60 LR (dish) <img src="/img/hardware/60ghz/AF60LR.png" width="200" height="200" />
 
 We are currently running two links with these. Grand to Navy Yard, and PH to 5283  
 
