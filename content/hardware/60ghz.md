@@ -76,10 +76,12 @@ There's a very confusing range of Ubiquiti 60GHz. Basically there's dishes and e
 We are currently running two links with these. Grand to Navy Yard, and PH to 5283  
 
 The Navy Yard link:  
+
 - 2km and bandwidth decreases in the rain
 - "1751" capacity (they are adding up and down capacity together)
 
 The 5283 link:  
+      
 - 2.2km and works ok in rain
 - "1951" capacity
 - Price: $800 pair (sold as pair)
