@@ -67,7 +67,16 @@ Similar looking to the MikroTik LHG 60G.
 
 ## Ubiquiti airFiber 60 LR (dish)
 
-- Price: $800 pair (sold as matched pair)
+We are currently running two links with these. Grand to Navy Yard, and PH to 5283  
+
+The Navy Yard link
+- 2km and bandwidth decreases in the rain
+- "1751" capacity (they are adding up and down capacity together)
+THe 5283 link
+- is 2.2km and works ok in rain
+- "1951" capacity
+
+- Price: $800 pair (sold as pair)
 - Range: "Long Range, Up to 12 km" (hard to believe!)
 - 5GHz: no
 
