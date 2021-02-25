@@ -8,7 +8,8 @@ title: "60 GHz"
 
 Often these radios come with a 5GHz backup, which isn't really useful for bandwidth but it will keep your link online during rain.
 
-## MikroTik LHG 60G
+## MikroTik LHG 60G  
+<img src="/img/hardware/60ghz/LHG.jpg" height="160" />
 
 - Price $300 pair  
 - Range 200m 
@@ -17,7 +18,8 @@ Often these radios come with a 5GHz backup, which isn't really useful for bandwi
 
 We originally installed these for 800m links but they will go down every time in heavy rain. 200m seems a good distance for them. It's a cheap way to connect neighboring buildings. We use these between the Grand St towers.
 
-## IgniteNet Metrolink One 60-19
+## IgniteNet Metrolinq One 60-19  
+<img src="/img/hardware/60ghz/ML1.jpg" height="160" />
 
 - Price: $500 pair  
 - Range: 200m?  
@@ -37,35 +39,39 @@ We use these between Henry and Grand. It never got over 300 Mbps
 
 # Ubiquiti
 
-There's a very confusing range of Ubiquiti 60GHz. There's basically there's dishes and enclosed headlight looking ones
+There's a very confusing range of Ubiquiti 60GHz. Basically there's dishes and enclosed headlight looking ones
 
-## Ubiquiti Gigabeam (headlight)
+## Ubiquiti Gigabeam  
+<img src="/img/hardware/60ghz/GBE.png" height="160" />
 
 - Price: $260 pair
 - no quoted range! (assume it's meant for neighboring buildings)
 - 5GHz backup:
 
-## Ubiquiti Gigabeam Plus GBE-Plus (headlight)
+## Ubiquiti Gigabeam Plus GBE-Plus  
+<img src="/img/hardware/60ghz/GBE-Plus.png" height="160" />
 
 - Price: $360 pair
 - Range: "up to 1.5km"
 - 5GHz backup: no
 
-## Ubiquiti Gigabeam GBE-LR (dish)
+## Ubiquiti Gigabeam GBE-LR 
+<img src="/img/hardware/60ghz/GBELR.png" height="160" />
 
 - Price: $400 pair
 - Range: "long range"? probably means "up to 2km" like the af60
 - 5GHz backup: no
 
-## Ubiquiti airFiber 60 (dish)
+## Ubiquiti airFiber 60  
+<img src="/img/hardware/60ghz/AF60.png" height="160" />
 
 - Price: $600 pair
 - Range: "Long range, up to 2 km"
 - 5GHz backup: yes
 
-Similar looking to the MikroTik LHG 60G. 
 
-## Ubiquiti airFiber 60 LR (dish) <img src="/img/hardware/60ghz/AF60LR.png" width="200" height="200" />
+## Ubiquiti airFiber 60 LR (dish)  
+<img src="/img/hardware/60ghz/AF60LR.png" height="160" />
 
 We are currently running two links with these. Grand to Navy Yard, and PH to 5283  
 
@@ -74,9 +80,8 @@ The Navy Yard link:
 - "1751" capacity (they are adding up and down capacity together)
 
 The 5283 link:  
-- is 2.2km and works ok in rain
+- 2.2km and works ok in rain
 - "1951" capacity
-
 - Price: $800 pair (sold as pair)
 - Range: "Long Range, Up to 12 km" (hard to believe!)
 - 5GHz: no
