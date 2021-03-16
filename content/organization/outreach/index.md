@@ -17,6 +17,8 @@ title: "Outreach Material"
 
 [Church handout](church.pdf) -[(source file)](https://docs.google.com/document/d/1duBRyzncVxuODrXyH7ooDki2LEmwcyuOtkZJjcC3loo/edit?usp=sharing)
 
+[Thank you card](NYCMesh_ThankYou.pdf)
+
 **Letter Templates**
 
 [Fiber install for building](https://docs.google.com/document/d/1UTLYMidNWN3XWmzXjnmfF_zHWAyIOqoDm1BtRGWhfoQ/edit?usp=sharing)
@@ -24,6 +26,7 @@ title: "Outreach Material"
 [Sample introductory letter for businesses/community organizations](https://docs.google.com/document/d/1_BNWaigV6LNK3PMdgQ8bhw6EDUueLUpRGxrPGZjyl2o/edit?usp=sharing)
 
 [Proposal to building management/landlord](https://docs.google.com/document/d/1hmB5p-Zebi5frNimiwAoC7E-nAoWJGc49R2tNQW010Q/edit?usp=sharing)
+
 
 **Our logo**
 
