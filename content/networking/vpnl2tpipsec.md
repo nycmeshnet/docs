@@ -393,6 +393,12 @@ To fix this, you can configure [EdgeOS's DNS forwarder](https://help.ui.com/hc/e
 set service dns forwarding options server=/mesh/10.10.10.11
 ```
 
+Additionally, you can configure the DNS forwarder to use the mesh's name server for reverse DNS lookups on `10.0.0.0/8`:
+
+```
+set service dns forwarding options rev-server=10.0.0.0/8,10.10.10.11
+```
+
 Make sure to configure the [DHCP server](https://help.ui.com/hc/en-us/articles/204952254-EdgeRouter-DHCP-Server) to provide your router's LAN address as the recursive DNS resolver.
 
 To be able to reach the .mesh TLD while SSH'd into your EdgeRouter, configure your EdgeRouter to use its local DNS forwarder as its primary DNS server:
