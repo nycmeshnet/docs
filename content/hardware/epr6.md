@@ -62,23 +62,8 @@ coming
 
 
 ## Switched Mode ##
-To convert the EP-R6 to switched mode, follow these steps.
-This will create a switch, move all ports to it, move the management interface IP to it.
-As opposed to some documentation, it is not necessary to move some ports at a time and change the IP. This can all be applied at one time.
-
-```
-configure
-delete interfaces ethernet eth0 address
-set interfaces switch switch0 switch-port interface eth0
-set interfaces switch switch0 switch-port interface eth1
-set interfaces switch switch0 switch-port interface eth2
-set interfaces switch switch0 switch-port interface eth3
-set interfaces switch switch0 switch-port interface eth4
-set interfaces switch switch0 address 192.168.1.1/24
-commit
-save
-exit
-```
+To convert the EP-R6 to switched mode, there's now a simple wizard to in the gui to help.  
+[Here's Ubiquiti's guide](https://help.ui.com/hc/en-us/articles/217990978-EdgeRouter-Configure-an-EdgeRouter-as-a-Layer-2-Switch)
  
 ## Routed Mode ( NYCMesh Hub Node - BGP ) ##
 You will need to know the following to be able to continue:
