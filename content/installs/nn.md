@@ -3,7 +3,7 @@ title: "Network Number"
 ---
 Enter the Install Number* below to get the NN that can be used to configure the rooftop antennas/routers. This can also be used with existing multiple apartment installs to figure out the network number (NN) for the roof/building you are connected to.
 
-<form action="https://script.google.com/macros/s/AKfycbxen2c1qhjFxLgBzV0L1Fp5ncgwgYiYUcmtq8X9vBcLFhkF52-f8c08/exec">
+<form action="https://script.google.com/macros/s/AKfycbxdGd3yeC6xVWkt-r1yK5vN-0HTpir782fyjvRsObLbS6VTIY02uAGnXc2aJc0aU1bM/exec">
   <label for="installnum">Install Number:</label>
   <input type="hidden" id="method" name="method" value="nn">
   <input type="hidden" name="format" value="1" />
@@ -21,7 +21,7 @@ _*The Install Number is the number you received in an email right after you regi
 
 If you have the password you can assign a NN for an install number
 
-<form action="https://script.google.com/macros/s/AKfycbxen2c1qhjFxLgBzV0L1Fp5ncgwgYiYUcmtq8X9vBcLFhkF52-f8c08/exec">
+<form action="https://script.google.com/macros/s/AKfycbxdGd3yeC6xVWkt-r1yK5vN-0HTpir782fyjvRsObLbS6VTIY02uAGnXc2aJc0aU1bM/exec">
   <label for="installnum">Install Number:</label>
   <input type="hidden" id="method" name="method" value="nn">
   <input type="hidden" name="format" value="1" />
