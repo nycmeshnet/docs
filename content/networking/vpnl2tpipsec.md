@@ -295,10 +295,35 @@ fi
 echo "remotename xl2tpd" | sudo tee -a $CONFIG > /dev/null
 ```
 
-Make it executable and then commit your configuration:
+Make it executable:
 
 ```
 chmod +x /config/scripts/post-commit.d/fixup-l2tpc0.sh
+```
+
+#### MTU workaround
+
+Additionally, EdgeOS has [a bug where pppd fails to correctly set the MTU of the L2TP interface](https://community.ui.com/questions/Bug-pppd-does-not-set-mtu-correctly-on-l2tp-client-tunnels-in-EdgeOS-2-0-9/0cb2715e-3424-4f2f-ad63-a5990dc8f6f1). This is a problem if you plan to use OSPF over the VPN because OSPF requires that both peers agree on an MTU.
+
+This script, located at `/config/scripts/ppp/ip-up.d/l2tp-fix-mtu` works around this issue by manually setting the MTU after the connection comes up.
+
+```
+#!/bin/sh
+
+set -e
+
+MTU=$(grep mtu /etc/ppp/peers/$PPP_IFACE | awk '{ print $2 }')
+
+if echo $PPP_IFACE | grep -Eq ^l2tpc[0-9]+; then
+  ip link set dev $PPP_IFACE mtu $MTU
+fi
+```
+
+
+Make it executable, and commit your configuration:
+
+```
+chmod +x /config/scripts/ppp/ip-up.d/l2tp-fix-mtu
 commit
 ```
 
@@ -320,6 +345,14 @@ PING 10.70.72.1 (10.70.72.1) 56(84) bytes of data.
 3 packets transmitted, 3 received, 0% packet loss, time 2007ms
 rtt min/avg/max/mdev = 4.985/5.854/6.424/0.627 ms
 
+```
+
+Additionally, the MTU of your L2TP interface should be correctly set to 1400:
+
+```
+ubnt@edgerouter# ip link show l2tpc0
+34: l2tpc0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1400 qdisc pfifo_fast state UNKNOWN mode DEFAULT group default qlen 100
+    link/ppp
 ```
 
 Save your active configuration to the startup configuration so that your tunnel will still be there when you reboot, and exit configuration mode:
@@ -400,17 +433,5 @@ To be able to reach the .mesh TLD while SSH'd into your EdgeRouter, configure yo
 ```
 set system name-server 127.0.0.1
 ```
-
-#### Known issues
-
-When your EdgeRouter sets up your L2TP interface, it fails to override the default MTU with the MTU specified in your interface configuration (this may be related to the [PPP configuration workaround]({{< relref "#ppp-configuration-workaround" >}})). This is a problem for OSPF peering because OSPF requires that both peers agree on an MTU.
-
-To fix this manually, you can run the following command:
-
-```
-ip link set dev l2tpc0 mtu 1400
-```
-
-You will need to run this every time your interface comes up.
 
 </details>
