@@ -42,7 +42,7 @@ If you are local to New York City, you can attend any of our public events where
 
 ## GitHub
 
-Another good source of information is [our GitHub Organization](https://www.meetup.com/nycmesh/events/) and its various code repositories. A majority of our production and open-source code is available in one or more of these publicly visible `git` repos. Sometimes, the best place to look for an answer to a question you have is by reading the source code of the software we use, and this is where you can do that.
+Another good source of information is [our GitHub Organization](https://github.com/nycmeshnet/) and its various code repositories. A majority of our production and open-source code is available in one or more of these publicly visible `git` repos. Sometimes, the best place to look for an answer to a question you have is by reading the source code of the software we use, and this is where you can do that.
 
 Some important GitHub-hosted code repositories are listed here:
 
