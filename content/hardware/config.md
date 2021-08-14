@@ -52,7 +52,7 @@ SXTsq old manual config-
 
 All Supernodes and hubs use the same sn2.cfg
 
-First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [config file](https://configgen.nycmesh.net/?device=LiteBeam5AC&template=sn2.cfg.tmpl) 
+First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [config file](https://configgen.nycmesh.net/?version=v4.5&device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl) 
 <br/> <br/> 
 ==> You will need your **Network Number** or **NN**. You can find out your NN using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
 
