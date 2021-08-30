@@ -19,8 +19,9 @@ All supernode and hub clients use DHCP for the IP address and use WPA password:n
 ## LiteBeamLR  
 * [LR Standard config](#lr-client) We don't have a config generator yet for LR!
 
-## OmniTik    
-* [Standard config](#omni)  
+## OmniTik
+* [Standard config](#omniTerm)
+* [WinBox method](#omniWinbox)
 * [General info](/hardware/mikrotikomnitik5ac)
 
 ## SXTsq   
@@ -92,7 +93,7 @@ After uploaded the config you must follow the above LiteBeam instructions for sc
 
 ---
 
-### <a name="omni"></a>Standard Omnitik mesh config
+### <a name="omniTerm"></a>Standard Omnitik mesh config
 
 **1. Download Latest Firmware and Generate Configuration**
 
@@ -149,6 +150,114 @@ The Omnitik IP address has changed to a 10.69.x.x address. This is generated fro
 1. Click “System” in the left side menu.
 2. Click “Password” in the left side menu dropdown.
 3. Type in the standard NYC Mesh password.
+
+---
+
+### <a name="omniWinbox"></a>OmniTik mesh config with WinBox
+
+You can configure OmniTik routers and all MikroTik equipment with their WinBox software and associated app.
+
+**1. Download WinBox and other files**
+
+First you will need to download a WinBox-compatible client to configure the OmniTik.
+
+<details>
+<summary>Windows</summary>
+
+On the [MikroTik website](https://mikrotik.com/download), you can navigate to the WinBox button to download the version of WinBox that suits your computer.
+
+</details>
+
+<details>
+<summary>macOS</summary>
+
+Joshaven Potter has complied a version of WinBox with Wine which you can download [from their website](https://joshaven.com/resources/tools/winbox-for-mac/) and run without any additional configuration.
+
+</details>
+
+<details>
+<summary>Android</summary>
+
+The MikroTik Pro app uses the same WinBox protocol to upload files and configure your router without a computer. You can download it from the [Play Store](https://play.google.com/store/apps/details?id=com.mikrotik.android.tikapp).
+
+</details>
+
+<details>
+<summary>iOS</summary>
+
+The MikroTik app uses the same WinBox protocol to upload files and configure your router without a computer. You can download it from the [App Store](https://apps.apple.com/app/id1323064830).
+
+</details>
+
+Next you need to download new firmware from the [MikroTik website](https://mikrotik.com/download). In the RouterOS table, find the `MIPSBE` section and click on the floppy icon that corresponds with the "Main package" and "Stable" categories. You should see the downloaded file named `routeros-mipsbe-***.npk`.
+
+Lastly you will need to download the network configuration specific to your location. After completing the [join form](https://nycmesh.net/join) you should have received an email containing your Install Number. Enter this number below. If `error: no address for ****` is displayed, please reach out to us on [Slack](https://slack.nycmesh.net) at #install or via [email](mailto:install@nycmesh.net) to register your installation. If `Sorry, unable to open the file at this time
+` is displayed, try using Incognito Mode or Private Browsing.
+
+<form action="https://script.google.com/macros/s/AKfycbzYLzA7LSoTsXXaPKaKCXI2ZEviYvSjQloMurzW4w3LkuykewOSaVR6__ZL7P7VD1Bm/exec">
+  <label for="installnum">Install Number:</label>
+  <input type="hidden" id="method" name="method" value="nn">
+  <input type="hidden" name="format" value="1" />
+  <input type="number" id="id" name="id" min="1" max="100000">
+  <input type="submit" value='Get Network Number'>
+  <button type="button" onclick="window.location.href='/installs/nn/'">More Information</button>
+  <input type="hidden" name="format" value="1" />
+</form>
+
+Once you have your Network Number, go to the [Configgen utility](https://configgen.nycmesh.net/?device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl) and enter the number into the "network_number" field and click "Download Config". You should see the downloaded file named `rooftop-ospf.rsc`. If the file has a `.csv` extension, rename the file to remove the extension so that it ends in `.rsc`.
+
+**2. Connect to the router**
+
+You can connect to the router using an Ethernet cable or through Wi-Fi. There are caveats to both, but configuring wirelessly is the easiest to do when doing the install outside.
+
+<details>
+<summary>Wired</summary>
+
+Assuming your Ethernet adapter is setup to get an IP from the router using DHCP (probably default), all you have to do is plug an Ethernet cable from your computer to a Port 2-4 on the router.
+
+Do NOT plug the computer into the PoE injector (Port 1) as the default configuration blocks all inbound connections to this port, including WinBox.
+
+Do NOT plug the computer into Port 5, as we may be configuring this later to do PoE-Out which will damage any devices plugged in here that are not expecting power.
+
+</details>
+
+<details>
+<summary>Wireless</summary>
+
+Assuming your Wi-Fi adapter is setup to get an IP from the router using DHCP (probably default), all you have to do is look for a network in your Wi-Fi settings named `MikroTik-xxxxx`. This network will only appear after the router has fully powered on (two short beeps).
+
+If you are on a phone, sometimes you will have to turn off your Mobile data/turn on airplane mode in order to reach the router that technically does not have any internet yet.
+
+</details>
+
+Make sure any VPN software you have is disabled at this point, as it will likely block any connections to the router.
+
+From your WinBox software, find the "Neighbors" tab on the lower-half of the screen. On the MikroTik app, click on the "Discover" tab. You should see an entry on the list with Identity `MikroTik`. If you do not see anything, click "Refresh" or swipe down to rescan for devices. Double-check your connections and confirm you are getting an IP from the router (will be in the `192.168.88.***` range).
+
+Double-click or tap on the entry to load the IP into the software. On the App, you will be prompted to select either MAC or IP; select IP. Now, the default login `admin/[no password]` will be displayed and you can hit "Connect".
+
+You will get a prompt saying "RouterOS Default Configuration". Hit OK to get out of here (do NOT remove configuration or use quick setup). Now for the fun part.
+
+**3. Upload the configuration**
+
+On the sidebar (hamburger menu on mobile), click Files. Here is where we will upload those files from earlier.
+
+From your WinBox software, drag and drop the `routeros-mipsbe-***.npk` file into the blank space in the window. You should see the file transfer take a few seconds before it finishes. Next, drag and drop the `rooftop-ospf.rsc` file onto the flash folder. You should see the uploaded file labeled `flash/rooftop-ospf.rsc`.
+
+From your phone, hit the upload arrow button on the bottom-left of the screen and select the `routeros-mipsbe-***.npk` file. You can save as the original name and hit OK. You should see the file transfer take a few seconds before it finishes. Next, do the same with the rooftop-ospf.rsc file, but this time make sure you prepend the file name with `flash/` and hit OK. You should see the uploaded file labeled `flash/rooftop-ospf.rsc`.
+
+**4. Flash the config and party**
+
+On the sidebar (back button on mobile), click "System". Find the "Reset Configuration" option. Select the "No Default Configuration" checkbox, and under "Run After Reset", use the arrows to drop down the menu to reveal the files. Select `flash/rooftop-ospf.rsc`, and finally hit "Reset Configuration". The software will now disconnect and nothing will happen for a while; the router is upgrading the firmware. After you hear the two beeps and some music the configuration is complete.
+
+**5. Confirm settings and configuration**
+
+WinBox will inform you that the router has been disconnected. Hit Cancel. If you are connecting wirelessly, look in your Wi-Fi settings for `nycmesh-****-omni`. Connect to that wireless network with the password `nycmeshnet`. If you are connecting via Ethernet, you can test this on another device to make sure the Wi-Fi is working correctly. If you are not planning on adding devices or changing the configuration further, you are done! 🎉
+
+If you are planning on connecting a LiteBeam to your router or just want to learn about the configuration, go back to "Neighbors" or "Discover" depending on your platform; you should see an entry on the list with Identity "nycmesh-****-omni". Login to it like before.
+
+On the sidebar (hamburger on mobile), click "Interfaces" (then "Ethernet" on mobile). Double-click or tap on `ether5`. Click on the PoE tab, and change the "PoE Out" drop-down from `auto on` to `forced on`. Hit OK or the checkmark button on mobile. This improves reliability for connected PoE devices.
+
 
 ---
 
