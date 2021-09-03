@@ -4,7 +4,7 @@ title: "Unifi Access Points"
 
 We are using more UNIFI access points on installs these days. These devices are very frustrating to set up, so this document is designed to help.
 
-As of 2021 the latest firmware 4.3.28 has very short uptime (~30 days), so we are using a stable older version [4.3.20](https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin) (copy this link)
+As of 2021 the latest firmware 4.3.28 has very short uptime (<30 days), so we are using a stable older version [4.3.20](https://dl.ui.com/unifi/firmware/U7PG2/4.3.20.11298/BZ.qca956x.v4.3.20.11298.200704.1347.bin) (copy this link)
 
 Never use 4.3.28 or later, as the device will go down and require a site visit to reboot!
 
@@ -12,14 +12,18 @@ The devices are coming with very old firmware that isn't even compatible with th
 
 Adopting wirelessly doesn't work, so we adopt the AP to the controller wired before installing!
 
-After moving on site, you may need to ssh in and set-inform
+After moving on site, you may need to ssh in and set-inform to tell it the address of the controller
 
 ## SSH firmware instructions
 [Here's Ubiquiti's instructions](https://help.ui.com/hc/en-us/articles/204910064-UniFi-Upgrade-the-Firmware-of-a-UniFi-Device#h_01F8GWSNHCB18N8Z2PKGDXEYDY)
 
 We usually download the 4.3.20 update and choose the "Updating without internet..." option using scp.
 
-We mostly install these devices with one wired connection for every two or three unwired ("meshed"). It's best to avoid more than one wireless hop. Wireless meshing doesn't work after version 4.3.20. We're in a very long conversation with Ubiquiti about this.
+## Meshing
+
+We mostly install these devices with one wired connection for every two or three unwired ("meshed"). It's best to avoid more than one wireless hop. 
+
+Wireless meshing basically doesn't work after version 4.3.20. Apart from later versions being unstable, when one goes down it can take down all the other meshed devices! We're in a very long conversation with Ubiquiti about this.
 
 ## UAP-AC-M (rabbit ears)  
 <img src="/img/hardware/uap/uap-ac-m.png" height="160" />
