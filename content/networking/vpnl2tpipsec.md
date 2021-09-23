@@ -30,18 +30,18 @@ This section provides connection information for NYC Mesh VPN endpoints that use
 * Server domain name: `l2tpvpn.sn1.mesh.nycmesh.net`
 * Supported connection methods:
     * Anonymous:
-        * Username: `nycmesh`
-        * Password: `nycmeshnet`
-        * Pre-shared key/secret: `nycmeshnet`
+        * Username:
+        * Password:
+        * Pre-shared key/secret:
     * OSPF Node-Peering (Same, connect as above, use [OSPF]({{< relref "ospf" >}}) afterwards.)
 
 ### Supernode 3
 * Server domain name: `l2tpvpn.sn3.mesh.nycmesh.net`
 * Supported connection methods:
     * Anonymous:
-        * Username: `nycmesh`
-        * Password: `nycmeshnet`
-        * Pre-shared key/secret: `nycmeshnet`
+        * Username:
+        * Password:
+        * Pre-shared key/secret:
     * OSPF Node-Peering (Same, connect as above, use [OSPF]({{< relref "ospf" >}}) afterwards.)
 
 ## Connection Guides
