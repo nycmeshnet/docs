@@ -44,6 +44,9 @@ This section provides connection information for NYC Mesh VPN endpoints that use
         * Pre-shared key/secret:
     * OSPF Node-Peering (Same, connect as above, use [OSPF]({{< relref "ospf" >}}) afterwards.)
 
+### Account
+* [To request a vnp access](/networking/vpnl2tpipsecid)
+
 ## Connection Guides
 Please follow the below connection guides for each platform.
 
