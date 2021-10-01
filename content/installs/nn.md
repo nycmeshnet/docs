@@ -21,7 +21,7 @@ _*The Install Number is the number you received in an email right after you regi
 
 If you have the password you can assign a NN for an install number
 
-<form action="https://script.google.com/macros/s/AKfycbzYLzA7LSoTsXXaPKaKCXI2ZEviYvSjQloMurzW4w3LkuykewOSaVR6__ZL7P7VD1Bm/exec">
+<form action="https://script.google.com/macros/s/AKfycbxFFsorv0G0a2HngbI-HN8s-qXfZYdS5uq4CvbxpHb7i7bcPrq8DbaOlpAZkNeV-2wV/exec">
   <label for="installnum">Install Number:</label>
   <input type="hidden" id="method" name="method" value="nn">
   <input type="hidden" name="format" value="1" />
