@@ -149,7 +149,7 @@ The Omnitik IP address has changed to a 10.69.x.x address. This is generated fro
 2. Click “Password” in the left side menu dropdown.
 3. Type in the standard NYC Mesh password.
 
-**6. Force on POE for a LiteBeam
+**6. Force on POE for a LiteBeam**
 
 A typical install also has a LiteBeam on port 5 that is powered from the OmniTik. To do this you must-
 
