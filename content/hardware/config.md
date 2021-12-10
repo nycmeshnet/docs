@@ -140,8 +140,6 @@ pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/
   * Run After Reset: flash/rooftop-ospf.rsc (click the popup on the right to select this)
 7. Click "Reset Configuration"
 8. The Omnitik will now reboot. If it plays some beeps, ending with a short tune [Kernkraft 400](https://www.youtube.com/watch?v=gbcG2TI4GBk), the configuration was a success!
-9. Port 1 is now a LAN port but still POE IN. Ports 1, 2, 3 and 4 can be used as LAN ports to run cables down to apartments.  
-**Port 5 is now a WAN (mesh) port and you can plug a LiteBeam into it.** You can't plug a LiteBeam into other ports with this config!
 
 The Omnitik IP address has changed to a 10.69.x.x address. This is generated from the network number, e.g. for network number 1234 the IP address will be 10.69.12.34
 
@@ -150,6 +148,15 @@ The Omnitik IP address has changed to a 10.69.x.x address. This is generated fro
 1. Click “System” in the left side menu.
 2. Click “Password” in the left side menu dropdown.
 3. Type in the standard NYC Mesh password.
+
+**6. Force on POE for a LiteBeam
+
+A typical install also has a LiteBeam on port 5 that is powered from the OmniTik. To do this you must-
+
+1. Go to Webfig>interfaces>ether5
+2. Change "POE Out" to "forced on"
+
+Other devices can be powered from other ports if you change this setting
 
 ---
 
