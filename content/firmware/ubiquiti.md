@@ -25,7 +25,7 @@ We disable AirView on sectors to improve CPU performance
 *Notes on recent AirMax firmware*-  
 8.7.1 is fine, don't update!  
 8.7.4 the signal levels are artificially higher.  
-8.7.5 this a TDMA bug which causes performance to fail after a few days.  
+8.7.5 this has a TDMA bug which causes performance to fail after a few days.  
 
 
 **UniFi**
