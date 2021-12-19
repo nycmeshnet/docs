@@ -53,7 +53,7 @@ SXTsq old manual config-
 
 All Supernodes and hubs use the same sn2.cfg
 
-First download the [firmware](https://www.ubnt.com/download/airmax-ac/litebeam-ac-gen2/lbe-5ac-gen2) and the [config file](https://configgen.nycmesh.net/?version=v4.5&device=LiteBeam5AC&template=lbeGen2-8_7_1.cfg.tmpl)
+First download the stable [firmware](../../firmware/ubiquiti) and the [config file](https://configgen.nycmesh.net/?version=v4.5&device=LiteBeam5AC&template=lbeGen2-8_7_1.cfg.tmpl)
 <br/> <br/> 
 ==> You will need your **Network Number** or **NN**. You can find out your NN using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
 
@@ -95,11 +95,13 @@ After uploaded the config you must follow the above LiteBeam instructions for sc
 
 ### <a name="omniTerm"></a>Standard Omnitik mesh config
 
-**1. Download Latest Firmware and Generate Configuration**
+**1. Download Stable Firmware and Generate Configuration**
+
+**Don't use version 7** of firmware. It won't work! Use 6.47.x
 
 ==> You will need your **Network Number** or **NN**. You can find out your NN using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
 
-1. Download the latest firmware - see [Mikrotik Firmware](https://docs.nycmesh.net/software/mikrotikfirmware).
+1. Download the latest stable v6 firmware - see [Mikrotik Firmware](https://docs.nycmesh.net/software/mikrotikfirmware).
 2. Generate a configuration file for your Network Number by going to the NYC Mesh configuration generator.  [Configgen](https://configgen.nycmesh.net/?device=Omnitik5AC&template=rooftop-ospf.rsc.tmpl). Type in the network number and click “Download Config”. For SXTsq config file [see below](#sxtMeshConfig)
 
 **2. Connect to the Router**
