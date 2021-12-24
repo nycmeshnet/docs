@@ -29,9 +29,9 @@ If you need to downgrade, read the [instructions here](../../hardware/mikrotikom
 
 Mikrotik devices come in a variety of architectures and form-factors. Fortunately the firmware versioning and built levels are the same across all platforms. The main variant is the architecture, which might be a different chip for each device model.  
 
-We follow the stable version of RouterOS (__6.47.8__), which is fairly well-tested, so there is little reason to wait to update after a new version comes out.
+We use the stable version of RouterOS 6 (__6.47.8__)
 
-Below is a table of the latest firmwares for Mikrotik devices that are in the mesh:
+Below is a table of the 6.47.8 firmware for Mikrotik devices that are in the mesh:
 
 |Model|Architecture|Firmware link|
 |---|---|---|
