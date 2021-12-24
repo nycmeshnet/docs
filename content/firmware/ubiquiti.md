@@ -1,5 +1,6 @@
 ---
 title: Ubiquiti Firmware
+weight: 800
 ---
 
 Ubiquiti firmware has some buggy versions that need to be avoided. In general never use a ".0" release. It is beta quality and will probably have serious bugs that may be fixed by .1 or .2 version.

@@ -1,6 +1,7 @@
 ---
 title: MikroTik Firmware
 aliases: ["/software/mikrotikfirmware"]
+weight: 999
 ---
 
 MikroTik routerOS 6 firmware is generally stable. We are using 6.47.8  
