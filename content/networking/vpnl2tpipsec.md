@@ -63,8 +63,8 @@ Please follow the below connection guides for each platform.
 1. VPN Type: L2TP/IPsec with pre-shared key
 1. Pre-shared key: `nycmeshnet`
 1. Type of sign-in info: User name and password
-1. Username: `nycmesh`
-1. Password: `nycmeshnet`
+1. Username: `your personal user name`
+1. Password: `your personal password`
 1. Check box to remember password so you don't have to type this everytime
 1. Click save
 1. Click on newly created VPN connection and click connect
@@ -75,7 +75,7 @@ Please follow the below connection guides for each platform.
 <details>
 <summary>Expand to view instructions...</summary>
 
-See [Apple Support: Set up a VPN Connection](https://support.apple.com/guide/mac-help/set-up-a-vpn-connection-on-mac-mchlp2963/10.14/mac/10.14). Be sure to use the appropriate authentication credentials for your connection. For an anonymous connection, enter `nycmesh` as the "account name" and `nycmeshnet` in both the User Authentication's "password" field *and* the Machine Authentication's "Shared Secret" field.
+See [Apple Support: Set up a VPN Connection](https://support.apple.com/guide/mac-help/set-up-a-vpn-connection-on-mac-mchlp2963/10.14/mac/10.14). Be sure to use the appropriate authentication credentials for your connection. For an anonymous connection, enter `your personal user name` as the "account name" and `your personal user name` in the User Authentication's "password" field *and* 'nycmeshnet' the Machine Authentication's "Shared Secret" field.
 </details>
 
 ### Apple iOS
@@ -90,9 +90,9 @@ These instructions refer to Apple-branded handheld devices such as the iPhone an
 1. Tap on Type and choose L2TP
 1. Description (Anything you want)
 1. Server: `l2tpvpn.sn1.mesh.nycmesh.net`
-1. Account: `nycmesh`
+1. Account: `your personal user name`
 1. Leave RSA SecurID off
-1. Password `nycmeshnet`
+1. Password `your personal password`
 1. Secret: `nycmeshnet`
 
 See also [How-To Geek: How to Connect to a VPN From Your iPhone or iPad § Connect to IKEv2, L2TP/IPSec, and Cisco IPSec VPNs in iOS](https://www.howtogeek.com/215730/how-to-connect-to-a-vpn-from-your-iphone-or-ipad/).
@@ -116,8 +116,8 @@ Using GNOME/Network Manager:
 1. Make sure you have the L2TP/IPsec NetworkManager plugin installed (`NetworkManager-l2tp-gnome` on Fedora)
 1. Add a new VPN of type 'Layer 2 Tunneling Protocol'
 1. Gateway: `l2tpvpn.sn1.mesh.nycmesh.net`
-1. Username: `nycmesh`
-1. Password: `nycmeshnet` (you may have to click a question mark on the right of the textbox to allow saving the password)
+1. Username: `your personal user name`
+1. Password: `your personal passwrod` (you may have to click a question mark on the right of the textbox to allow saving the password)
 1. Click "IPsec Settings"
 1. Check "Enable IPsec tunnel to L2TP host"
 1. Pre-shared key: `nycmeshnet`
@@ -146,8 +146,8 @@ Then, configure the L2TP client interface (you should be able to copy and paste 
 ```
 set interfaces l2tp-client l2tpc0 server-ip l2tpvpn.sn1.mesh.nycmesh.net
 set interfaces l2tp-client l2tpc0 description "NYC Mesh VPN (SN1)"
-set interfaces l2tp-client l2tpc0 authentication user-id nycmesh
-set interfaces l2tp-client l2tpc0 authentication password nycmeshnet
+set interfaces l2tp-client l2tpc0 authentication user-id 'your personal user name'
+set interfaces l2tp-client l2tpc0 authentication password your personal password'
 set interfaces l2tp-client l2tpc0 require-ipsec
 ```
 
@@ -178,8 +178,8 @@ Here's what your final configuration should look like. You can view it with `sho
 interfaces {
     l2tp-client l2tpc0 {
         authentication {
-            password nycmeshnet
-            user-id nycmesh
+            password 'your personal password'
+            user-id your personal user name'
         }
         default-route auto
         description "NYC Mesh VPN (SN1)"
