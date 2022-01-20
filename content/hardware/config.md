@@ -9,15 +9,12 @@ This doc is in progress. Please add links below to the specific config instructi
 
 **Important**: Note that we use a **Network Number** (or **NN**) from now on to configure devices. The **Network Number** is not the Install Number (or request number) you received when registering.  You can find out your **NN** using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
 
-## LiteBeam  
+## LiteBeam / LiteBeam-LR
 All supernode and hub clients use DHCP for the IP address and use WPA password:nycmeshnet
 
-* [LiteBeam Standard config](#lbe-client) (P2MP to connect to Supernode or hub sectors)      
+* [LiteBeam Standard config](#lbe-client) (P2MP to connect to Supernode or hub sectors)
 * Old detailed config- [sn2](/installs/cpe2)   
 * P2P  
-
-## LiteBeamLR  
-* [LR Standard config](#lr-client) We don't have a config generator yet for LR!
 
 ## OmniTik
 * [Standard config](#omniTerm)
@@ -49,47 +46,38 @@ SXTsq old manual config-
 
 ---  
 
-### <a name="lbe-client"></a>Litebeam client for Supernodes and hubs
+### <a name="lbe-client"></a>LiteBeam client for Supernodes and hubs with sectors
 
-All Supernodes and hubs use the same sn2.cfg
+First, download the `WA` [firmware](../../firmware/ubiquiti) in case your LiteBeam is running an outdated version. We currently use 8.7.1 and 8.7.4 in our network depending on the location. Do not use 8.7.5 and newer as there are bugs that break connectivity after several days.
 
-First download the stable [firmware](../../firmware/ubiquiti) and the [config file](https://configgen.nycmesh.net/?version=v4.5&device=LiteBeam5AC&template=lbeGen2-8_7_1.cfg.tmpl)
-<br/> <br/> 
-==> You will need your **Network Number** or **NN**. You can find out your NN using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
+Second, download the config file for either a standard [LiteBeam](https://configgen.nycmesh.net/?version=v4.5&device=LiteBeam5AC&template=lbeGen2-8_7_1.cfg.tmpl) or [LiteBeam LR](https://configgen.nycmesh.net/?version=v4.5&device=LiteBeamLR). You will need your network number which is obtained by entering your Install Number below (you should have received this your email after completing the [join form](https://nycmesh.net/join)). If `error: no address for ****` is displayed, please reach out to us on [Slack](https://slack.nycmesh.net) at #install or via [email](mailto:install@nycmesh.net) to register your installation. If `Sorry, unable to open the file at this time
+` is displayed, try using Incognito Mode or Private Browsing.
 
-Plug in LiteBeam to POE and connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (booting turns on wifi for 15 minutes)
+<form action="https://script.google.com/macros/s/AKfycbzYLzA7LSoTsXXaPKaKCXI2ZEviYvSjQloMurzW4w3LkuykewOSaVR6__ZL7P7VD1Bm/exec">
+  <label for="installnum">Install Number:</label>
+  <input type="hidden" id="method" name="method" value="nn">
+  <input type="hidden" name="format" value="1" />
+  <input type="number" id="id" name="id" min="1" max="100000">
+  <input type="submit" value='Get Network Number'>
+  <button type="button" onclick="window.location.href='/installs/nn/'">More Information</button>
+  <input type="hidden" name="format" value="1" />
+</form>
 
-Go to https://192.168.172.1 in your browser, click "advanced" to proceed.
+Plug in LiteBeam to PoE and connect via management wifi- SSID- "LBE-5AC-Gen2:...." or "NBE..." (booting turns on wifi for 15 minutes)
 
-Log in with username: ubnt and password: ubnt for a new device (or select upload config!)
+Go to [https://192.168.172.1](https://192.168.172.1) in your browser if your device does not automatically redirect you. You may be met with a warning due to a self-signed security certificate, which you can bypass.
 
-Go to Settings>System and select "upload firmware" and choose the WA .bin file you downloaded before
+At the "Please Set Up Your Device" prompt, select `United States` under Country and `English` under language. Select the Terms of Use checkbox and click `Upload Backup Configuration`. Chose the `.cfg` file you downloaded from Configgen.
 
-While still in System, scroll down to "upload configuration" and select sn2.cfg file you downloaded before
+You will see a prompt on the top-right corner of the screen saying `Configuration backup file uploaded.` Select `Apply` and wait a minute for the page to reload. Sometimes you will have to refresh the page to get back into the interface.
 
-Check that the device name "nycmesh-lbe-xxxx" matches your network building number e.g. "nycmesh-lbe-1234" (building number is usually the network number)
-
-Click save (twice if necessary). The username/password will be changed. Please mention your network number and that you’re looking for the new credentials on Slack in `#diy-install-support`, and they will be sent to you. **Please do not share them publicly!**
+The username/password will be changed. Please mention your network number and that you’re looking for the new credentials on Slack in `#diy-install-support`, and they will be sent to you. **Please do not share them publicly!**
 
 To pair with the supernode or hub, go to Settings>Wireless and click the SSID "SELECT..." button. This will do a scan. Click the button next to the best AirMac AC signal. (-80 is bad, -50 is good, -62 is typical) Click "SELECT" and then "SAVE CHANGES" (twice if necessary)
 
-Once this device pairs (numbers appear on dashboard) it will get a different IP address using DHCP. To stay logged in to router, you must use the management wifi!
+**Troubleshooting:** If you are unable to log into the LiteBeam, reset it to factory defaults- press and hold the Reset button for more than 10 seconds while the LiteBeam is already powered on.
 
-To disconnect from the LiteBeam dashboard and do a bandwidth test, connect via ethernet and set your network settings to "DHCP" (or "Automatic") and go to [speedtest](http://www.speedtest.net/)
-
-Troubleshooting: If you are unable to log into the LiteBeam, reset it to factory defaults- press and hold the Reset button for more than 10 seconds while the LiteBeam ac is already powered on.
-
-What the config file does: The config file sets DHCP for the IP address, WPA password: nycmeshnet, adds the  building number to the device name, adds the UNMS key for monitoring and sets the SNMP location and contact to "nycmesh".
-
----
-
-### <a name="lr-client"></a>LitebeamLR client for Supernodes and hubs
-
-You can't use the standard LiteBeam config in an LR. This will cause poor performance.
-
-Please upload [this config](../../download/lbe-LR.cfg) and edit the device name in the System tab
-
-After uploaded the config you must follow the above LiteBeam instructions for scanning and pairing etc.
+What the config file does: The config file sets DHCP for the IP address, WPA password: nycmeshnet, adds the building number to the device name, adds the UNMS key for monitoring and sets the SNMP location and contact to "nycmesh".
 
 ---
 
