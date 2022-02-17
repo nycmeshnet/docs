@@ -12,7 +12,7 @@ At the moment, here are the biggest issues localized parts of our network face w
 
 Many nodes on the network are individually connected, meaning that your connection to the Mesh is only used by one router on a building and is not shared by anyone else. The equipment we use allows for 3-4 routers or apartments to be added to a node without any additional hardware.
 
-If multiple people in a building join the Mesh, they can typically use the same connection to the Mesh without saturating their link (you can see a list of bandwidth requirements for common internet services [here](https://docs.nycmesh.net/diy/troubleshooting]). However, issues do arise when a member uses file-sharing or torrenting services that can often max out the shared connection during periods of high load.
+If multiple people in a building join the Mesh, they can typically use the same connection to the Mesh without saturating their link (you can see a list of bandwidth requirements for common internet services [here](https://docs.nycmesh.net/diy/troubleshooting). However, issues do arise when a member uses file-sharing or torrenting services that can often max out the shared connection during periods of high load.
 
 If we notice this type of usage or receive a support request from a neighbor who is experiencing degraded service as a result, we will reach out to figure out a solution. **The fix is often as simple as leaving large downloads for overnight or enabling a throughput limit on syncs and backups for cloud services.**
 
