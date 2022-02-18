@@ -12,11 +12,7 @@ At the moment, here are the biggest issues localized parts of our network face w
 
 Many nodes on the network are interconnected or "meshing", meaning that even if there is only user of Mesh in your building, your connection to the Mesh may also be distributed to other Mesh members in your neighborhood. The equipment we use allows for 3-4 physical wired connections (apartments, next door buildings) to be added the rooftop equipment without any additional hardware, along with numerous wireless ones.
 
-<<<<<<< Updated upstream
-If multiple people in a building join the Mesh, they can typically use the same connection to the Mesh without saturating their link (you can see a list of bandwidth requirements for common internet services [here](https://docs.nycmesh.net/diy/troubleshooting). However, issues do arise when a member uses file-sharing or torrenting services that can often max out the shared connection during periods of high load.
-=======
-Many neighbors can typically use the same connection to the Mesh without saturating their link (you can see a list of bandwidth requirements for common internet services [here](https://docs.nycmesh.net/diy/troubleshooting). However, issues do arise when a member uses file-sharing or torrenting services that can often max out the shared connection during periods of high load.
->>>>>>> Stashed changes
+Many neighbors can typically use the same connection to the Mesh without saturating their link (you can see a list of bandwidth requirements for common internet services [here](https://docs.nycmesh.net/diy/troubleshooting)). However, issues do arise when a member uses file-sharing or torrenting services that can often max out the shared connection during periods of high load.
 
 If we notice this type of usage or receive a support request from a neighbor who is experiencing degraded service as a result, we will reach out to figure out a solution. **The fix is often as simple as leaving large downloads for overnight or enabling a throughput limit on syncs and backups for cloud services.**
 
@@ -30,13 +26,13 @@ We are a net-neutral network, where we do not log, inspect, or throttle any traf
 
 As we do not track member activity, there is simply no mechanism for investigating which member has caused a DMCA alert or spam filter to be triggered. However, we keep a public log of these alerts in [#abuse](https://nycmesh.slack.com/archives/CCY36KSHY) to make members aware of the content that generates these negative actions against the network as a whole.
 
-If there is clear evidence that such traffic is being generated from a node, we will reach out to figure out a solution. **The fix may be resolving a virus or botnet coming from a computer generating malicious traffic, which our volunteers can help resolve.**
+If there is clear evidence that such traffic is being generated from a particular node, we will reach out to the member at that node to figure out a solution. **The fix may be resolving a virus or botnet coming from a computer generating malicious traffic, which our volunteers can help resolve.**
 
 ### Misbehaving or misconfigured equipment disrupting connectivity for others or spamming log files slowing support functions.
 
 Our network is built in such a way that anyone who reads our documentation along with resources on the Internet can set up their own node and experiment with their configurations. We ask that any DIY setup is based off of the [configuration files](https://docs.nycmesh.net/hardware/config) we provide so that volunteers have access to the equipment in case of an issue.
 
-There are times where either user error or environmental factors cause harm to a piece of equipment that causes other members to become disconnected or our support system to flag your device as "flapping"; reconnecting rapidly for a period of over 5 minutes. These are both high priority issues that volunteers will quickly seek to rectify, and without guarantee of contact during a widespread outage.
+There are times where either user error or environmental factors cause other members to become disconnected or our support system to flag your device as "flapping"; reconnecting rapidly for a period of over 5 minutes. These are both high priority issues that volunteers will quickly seek to rectify, and without guarantee of contact during a widespread outage.
 
 If either of these conditions are observed by a volunteer, we will first determine the severity of the condition, disable or reconfigure equipment if it is causing a widespread outage, and reach out to figure out a solution. **The fix may be as simple as scheduling a support visit to replace a cable or equipment, or to assist in reconfiguring a DIY setup so as not to cause issues for other members.**
 
