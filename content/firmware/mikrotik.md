@@ -6,9 +6,7 @@ weight: 999
 
 MikroTik routerOS 6 firmware is generally stable. We are using 6.47.8  
 
-**Do not use version 7**
-
-**Do not use version 6.48**
+**Do not use version 7 or version 6.48**
 
 **routerOS 6**
 
@@ -23,7 +21,7 @@ We are testing some omnitiks with 6.49.2 but this is also not recommended
 
 **routerOS 7**
 
-Don't use!
+Don't use! It doesn't work!
 
 This has finally been released but it doesn't work with our configuration yet. We keep testing it as we are eager to use the newly added WireGuard.
 
