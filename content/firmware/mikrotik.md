@@ -8,13 +8,17 @@ MikroTik routerOS 6 firmware is generally stable. We are using 6.47.8
 
 **Do not use version 7**
 
+**Do not use version 6.48**
+
 **routerOS 6**
 
 Download 6.47.8 [OmniTik (mipsbe) here](https://download.mikrotik.com/routeros/6.47.8/routeros-mipsbe-6.47.8.npk) and [SXTsq (arm) here](https://download.mikrotik.com/routeros/6.47.8/routeros-arm-6.47.8.npk)
 
 Remember that OmniTiks use the "mipsbe" firmware and SXT's use the "arm" firmware due to different processors.
 
-We have had some crashes with 6.48 so we aren't recommending it yet
+We have had many crashes with 6.48 so don't use it.
+
+We are testing some omnitiks with 6.49.2 but this is also not recommended
 
 
 **routerOS 7**
