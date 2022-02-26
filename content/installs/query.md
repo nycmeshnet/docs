@@ -3,13 +3,14 @@ title: "Query"
 ---
 This is for installers to query our install spreadsheet. This is password protected.
 
-This uses simple matching for addresses. Type the number and street name, e.g. "123 Smith St". Don't enter a complete address!
+This uses simple matching for addresses. Type the number and street name, e.g. "123 Smith St". Don't enter a complete address! For NN, install number and email it uses exact matches.
 
-<form action="https://script.google.com/macros/s/AKfycbwihieta9TevYOqYc6prgdYdf1BSCLQUPRBU9NN4zz9-nk27DABTBzOVl17sg3FszJx/exec">
+<form action="https://script.google.com/macros/s/AKfycby7sTz9vDcTakhOXW7n2Ge7RBPVYL8PyNcpUouzPOqes_mTrn3ba7Nk2qxo0T9PRWsK/exec">
 
   <label for="Search type">Search type:</label>
   <select id="type" name="type">
     <option value="address">Address</option>
+    <option value="email">Email</option>
     <option value="nn">NN</option>
     <option value="install">Install num</option>
   </select>
