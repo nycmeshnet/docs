@@ -13,19 +13,20 @@ This uses simple matching for addresses. Type the number and street name, e.g. "
     <option value="nn">NN</option>
     <option value="install">Install num</option>
   </select>
-
+  <br/>
+  <br/>
   <label for="address">Search for:</label>
   <input type="hidden" id="method" name="method" value="query">
   <input type="hidden" name="format" value="1" />
   <input type="text" name="query" value=""/>
-  
+  <br/>
+  <br/>
   <label for="pwd">Password:</label>
   <input type="password" minlength="8" id="id" name="pwd" >
+  <br/>
+  <br/>
   <input type="submit" value='Enter query'>
 </form>
- 
-<br/>
-<br/>
 
 
 
