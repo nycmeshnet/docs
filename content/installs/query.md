@@ -5,7 +5,7 @@ This is for installers to query our install spreadsheet. This is password protec
 
 This uses simple matching for addresses. Type the number and street name, e.g. "123 Smith St". Don't enter a complete address! For NN, install number and email it uses exact matches.
 
-<form action="https://script.google.com/macros/s/AKfycbzgOEFfMU7HDB9OXYUw8h-i6EaZSRPCtFuiduPN_zpH-c0JxjRRJ7Op2Uyx0gkT1tIk/exec">
+<form action="https://script.google.com/macros/s/AKfycbxW5TYS5wTZKJAAF_HOyS6GGVozmUtFfVxYmsF-or84ORnGqaxKkqWAuNIPDwMhit_-/exec">
 
   <label for="Search type">Search type:</label>
   <select id="type" name="type">
