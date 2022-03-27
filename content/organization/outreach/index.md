@@ -2,6 +2,8 @@
 title: "Outreach Material"
 ---
 
+[NYC Mesh Member Guide pdf](NYC_Mesh_Member_Guide.pdf)
+
 **Flyers/Brochures**
 
 [Two page trifold neighborhood brochure (English/Spanish)](https://docs.google.com/presentation/d/1mKzGT6Scrkv27Hb_lb7oOLWi_fGDoIHwEBJtcxI64PQ/edit?usp=sharing)  

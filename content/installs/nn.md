@@ -3,11 +3,11 @@ title: "Network Number"
 ---
 Enter the Install Number* below to get the NN that can be used to configure the rooftop antennas/routers. This can also be used with existing multiple apartment installs to figure out the network number (NN) for the roof/building you are connected to.
 
-<form action="https://script.google.com/macros/s/AKfycbzYLzA7LSoTsXXaPKaKCXI2ZEviYvSjQloMurzW4w3LkuykewOSaVR6__ZL7P7VD1Bm/exec">
+<form action="https://script.google.com/macros/s/AKfycbw6p-KPv9i7xCVMXxd01eVfCE2bsMueKE2fD1En4i5SiQvSnFTGCkCEJMjkP5p8XTx1/exec">
   <label for="installnum">Install Number:</label>
   <input type="hidden" id="method" name="method" value="nn">
   <input type="hidden" name="format" value="1" />
-  <input type="number" id="id" name="id" min="1" max="100000">
+  <input type="number" id="id" name="id" min="1" max="100000" required>
   <input type="submit" value='Get NN'>
   <input type="hidden" name="format" value="1" />
 </form>
@@ -21,13 +21,12 @@ _*The Install Number is the number you received in an email right after you regi
 
 If you have the password you can assign a NN for an install number
 
-<form action="https://script.google.com/macros/s/AKfycbxFFsorv0G0a2HngbI-HN8s-qXfZYdS5uq4CvbxpHb7i7bcPrq8DbaOlpAZkNeV-2wV/exec">
-  <label for="installnum">Install Number:</label>
+<form action="https://script.google.com/macros/s/AKfycbw6p-KPv9i7xCVMXxd01eVfCE2bsMueKE2fD1En4i5SiQvSnFTGCkCEJMjkP5p8XTx1/exec">Install Number:</label>
   <input type="hidden" id="method" name="method" value="nn">
   <input type="hidden" name="format" value="1" />
-  <input type="number" id="id" name="id" min="1" max="100000">
+  <input type="number" id="id" name="id" min="1" max="100000" required>
   <label for="pwd">Password:</label>
-  <input type="password" minlength="8" id="id" name="pwd" >
+  <input type="password" minlength="8" id="id" name="pwd" required>
   <input type="submit" value='Assign NN'>
 </form>
 
