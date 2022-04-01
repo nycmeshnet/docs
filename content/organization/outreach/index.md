@@ -2,7 +2,8 @@
 title: "Outreach Material"
 ---
 
-[NYC Mesh Member Guide pdf](NYC_Mesh_Member_Guide.pdf)
+[NYC Mesh Member Guide (digital)](NYC_Mesh_Member_Guide.pdf)
+[NYC Mesh Member Guide (print)](NYC_Mesh_Member_Guide_print.pdf)
 
 **Flyers/Brochures**
 
