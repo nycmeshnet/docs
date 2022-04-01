@@ -1,5 +1,5 @@
 ---
-title: "Outreach Material"
+title: "Outreach Materials"
 ---
 
 [NYC Mesh Member Guide (digital)](NYC_Mesh_Member_Guide.pdf)
