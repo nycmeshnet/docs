@@ -181,6 +181,9 @@ SSID
 Supernode
 : This is a large install, typically with a fiber connection and many sector and point-to-point antennas
 
+Site survey
+: Normally refers to checking the suitability of a building for an install, for example taking panoramic photos of the view to see what other buildings are reachable, as well as checking how cables will be run. Also used for the process of scanning for wireless networks in some wireless products, for example a Ubiquiti LiteBeam refers to a network scan as a "Site Survey" in the web interface.
+
 # T
 
 # U
