@@ -106,7 +106,7 @@ The default username is admin and there is no password.
 3. Click “Files” in the left side menu.
 4. Click “Choose File” at the top.
 5. Navigate to where you saved the firmware, select the file and click “Open”. You will see the file appear in the interface.
-6. Wait for the firmware to fully upload (you will see the upload progress in the bottom left corner).
+6. Wait for the firmware to fully upload (you will see the upload progress in the bottom left corner). This firmware will automatically be installed when you reboot with the new configuration (see next section).
 
 **4. Upload Configuration**
 
@@ -129,7 +129,7 @@ pscp -scp rooftop-ospf.rsc admin@192.168.88.1:flash/
   * No Default Configuration
   * Run After Reset: flash/rooftop-ospf.rsc (click the popup on the right to select this)
 7. Click "Reset Configuration"
-8. The Omnitik will now reboot. If it plays some beeps, ending with a short tune [Kernkraft 400](https://www.youtube.com/watch?v=gbcG2TI4GBk), the configuration was a success!
+8. The Omnitik will now reboot (and install new firmware if you uploaded it). If it plays some beeps, ending with a short tune [Kernkraft 400](https://www.youtube.com/watch?v=gbcG2TI4GBk), the configuration was a success!
 
 The Omnitik IP address has changed to a 10.69.x.x address. This is generated from the network number, e.g. for network number 1234 the IP address will be 10.69.12.34
 

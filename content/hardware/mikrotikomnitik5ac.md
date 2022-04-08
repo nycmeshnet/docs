@@ -14,6 +14,8 @@ The PoE version accepts 12-57V passive PoE on port 1 and can be configured to pr
 
 ![MikroTik OmniTik PoE 5ac Ports](/img/hardware/mikrotik_omnitik5poeac_ports.jpg)
 
+The small round plastic tabs, shown in the picture above, should be removed for those cable ports you will use - push them firmly inwards to remove. Leave the tabs in unused ports to prevent water entry.
+
 Device specs are available at [Mikrotik.com](https://mikrotik.com/product/rbomnitikpg_5hacd)
 
 ## Uses
