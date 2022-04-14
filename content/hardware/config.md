@@ -258,28 +258,15 @@ On the sidebar (hamburger on mobile), click "Interfaces" (then "Ethernet" on mob
 
 ---
 
-### <a name="sxtMeshConfig"></a>SXTsq to Omnitik mesh buggy config!
+### <a name="sxtMeshConfig"></a>SXTsq to Omnitik Mesh
 
-**You will need to edit the config. [Please see this bug](https://github.com/nycmeshnet/nycmesh-configgen/issues/9)**
+You can install an SXTsq to connect to one of our OmniTik routers using OSPF/WDS meshing. The SXTsq is directional so it can reach further distances than an omnidirectional OmniTik. **Please note that a [Network Number](/installs/nn/) is required to use the config generators below.**
 
-The extra lines are specifically-  
-installation=any  
-before the  
-frequency=5180   
-
-You can install an SXTsq to connect to one of our OmniTik routers using OSPF/WDS meshing. The SXTsq is directional so it can reach further distances than an omnidirectional OmniTik.
-<br/> <br/> 
-==> You will need your **Network Number** or **NN**. You can find out your NN using your Install Number (request number) received by email when you registered. To find out what is your NN please see [Network Number](/installs/nn/)
-
-If you are installing an SXTsq to plug into port 5 of an OmniTik use this [SXTsq config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf.rsc.tmpl)
-
-**You will need to edit the config. [Please see this bug](https://github.com/nycmeshnet/nycmesh-configgen/issues/9)**
+If you are installing an SXTsq plugged into port 5 of an OmniTik, use the [SXTsq config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf.rsc.tmpl)
 
 If you are installing an SXTsq to plug directly into a home router use the [SXTsq "solo" config](https://configgen.nycmesh.net/?device=SXTsq5AC&template=sxtsq5ac-wds-ospf-solo.rsc.tmpl)
 
-**You will need to edit the config. [Please see this bug](https://github.com/nycmeshnet/nycmesh-configgen/issues/9)**
-
-Once you have the configgen file you can use the [OmniTik instructions](#omni) on how to install it
+Once you have the config downloaded from configgen, you can use the [OmniTik instructions](#omni) to install it.
 
 ---
 
