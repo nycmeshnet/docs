@@ -45,7 +45,9 @@ This section provides connection information for NYC Mesh VPN endpoints that use
     * OSPF Node-Peering (Same, connect as above, use [OSPF]({{< relref "ospf" >}}) afterwards.)
 
 ### Account
-* [To request a vnp access](/networking/vpnl2tpipsecid)
+* [To request a vpn access](/networking/vpnl2tpipsecid)
+
+_N.B. Your account will be specific to SN1 or SN3 - note in the comments if you have a preference_
 
 ## Connection Guides
 Please follow the below connection guides for each platform.
@@ -392,7 +394,7 @@ rtt min/avg/max/mdev = 4.286/5.408/7.082/1.207 ms
 ```
 
 Remember to save your configuration to the startup config once it's working.
-
+   
 #### Using NAT to reach the mesh from a device on your network ####
 
 You can now reach the mesh from your EdgeRouter, but you can't reach it from a device on your LAN like your laptop. The easiest way to do this is to use NAT:
@@ -418,6 +420,8 @@ round-trip min/avg/max/stddev = 10.603/13.523/16.394/2.364 ms
 ```
 
 Once your configuration is working, save it to your startup config.
+   
+If you can ping 10.10.10.10 from the router, but not other devices on your LAN, you may need to reboot the router to clear the route cache.
 
 #### Configuring .mesh DNS lookup
 
