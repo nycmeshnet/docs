@@ -1,5 +1,6 @@
 ---
 title: "Try the new LTU sector"
+aliases: ["/diy/LTU"]
 ---
 
 Ubiquiti has a new "technology" which is the successor to [AirMax](https://dl.ubnt.com/datasheets/airmax/UBNT_DS_airMAX_TDMA.pdf) , called [LTU](https://help.ui.com/hc/en-us/articles/360002759393-LTU-Frequently-Asked-Questions). 

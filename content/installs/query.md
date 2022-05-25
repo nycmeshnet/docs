@@ -1,5 +1,6 @@
 ---
 title: "Query"
+aliases: ["/query"]
 ---
 This is for installers to query our install spreadsheet. This is password protected.
 

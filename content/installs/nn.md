@@ -1,5 +1,6 @@
 ---
 title: "Network Number"
+aliases: ["/nn"]
 ---
 Enter the Install Number* below to get the NN that can be used to configure the rooftop antennas/routers. This can also be used with existing multiple apartment installs to figure out the network number (NN) for the roof/building you are connected to.
 
