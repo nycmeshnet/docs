@@ -32,7 +32,7 @@ Taking a panorama image should show as much of the surrounding landscape as poss
 * clear and well-lit (daytime photos only)
 * include existing antenna masts
 
-### Best practices for window panoramas
+### Best practices for DIY window panoramas
 
 * 180 degrees shown
 * open window and put your arm all the way out
