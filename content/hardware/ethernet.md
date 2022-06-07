@@ -1,5 +1,6 @@
 ---
 title: "Ethernet"
+aliases: ["/ethernet"]
 ---
 
 You must use black outdoor cable outside. Indoor cable will last about 6 months outside due to UV damage. We mostly use Ubiquiti ToughCable Pro CAT5.
