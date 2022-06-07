@@ -16,7 +16,11 @@ In 100base-T (100Mbps most old ethernet), orange is data transmit (pins 1 & 2) a
 
 In 1000Base-T (gigabit ethernet) all pins are used for data. If pins 4,5,7 & 8 are not connected the speed falls back to 100Mbps.
 
-4,5,7,8 are used for 24 volt passive power over ethernet (POE). Pins 4 & 5 are positive and 7 & 8 are negative.
+For Ubiquiti and Mikrotik 4,5,7,8 are used for 24 volt passive power over ethernet (POE). Pins 4 & 5 are positive and 7 & 8 are negative. Passive POE doesn't negotiate with the other device so it will always send power even if a wrong device (like a cable tester!) is plugged in. 
+
+There isn't a standard for passive POE so you need to check compatibility (which pins are used) if using a different manufacturer. 
+
+For active POE there are standards PoE 802.3af, PoE+ 802.3at and PoE++	IEEE 802.3bt. Again you need to check which one to use. 
 
 If you plug a live POE cable into an adapter or some device that does not expect POE it can break. This is often how ethernet adapters and cable testers break! A cheap USB 100Base-T ethernet adapter will survive as it doesn't use the POE pins. 
 
