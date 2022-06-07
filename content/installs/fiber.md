@@ -1,5 +1,6 @@
 ---
 title: "Fiber to the apartment"
+aliases: ["/fiber"]
 ---
 
 The first step is to screw the ONT into the wall in a convenient place using drywall achors. The ONT we are currently using is the Ubiquiti "UFiber loco GPON CPE"
