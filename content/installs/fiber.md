@@ -7,13 +7,13 @@ The first step is to screw the ONT into the wall in a convenient place using dry
 
 Only use white fiber inside apartments, never yellow or any other color. This is to better blend in with the wall. We have custom made 3mm white fiber with termination at one end. 
 
-Once the ONT is screwed into the wall, plug in the terminated end of the white fiber. Now you are ready to run the fiber to the exit point (usually above the front door). You first run the fiber down to the top of the baseboard and then along to the nearest corner, attaching it to the wall with silicon. You run the cable up the corner to the ceiling and follow along the corner of the ceiling to the exit point using silicon along the way.
+Once the ONT is screwed into the wall, plug in the terminated end of the white fiber. Now you are ready to run the fiber to the exit point (usually above the front door). You first run the fiber down to the top of the baseboard and then along to the nearest corner, attaching it to the wall with silicon (or staples). You run the cable up the corner to the ceiling and follow along the corner of the ceiling to the exit point using silicon or staples along the way.
 
 ![Ufiber ONT](/img/install/wallONT.jpg)
 
 As always with fiber, don't do any hard bends! Let the fiber curve around corners.
 
-There is no loose fiber in the apartment. No service loops. All the fiber is locked down with silicon the whole way. Any loose fiber will result in service calls. Any excess fiber is left in the raceways outside of the apartment!
+There is no loose fiber in the apartment. No service loops. All the fiber is locked down with silicon the whole way. Any loose fiber will result in service calls. Any excess fiber is left in the raceways outside of the apartment! Only have a few feet of excess. Trim the cable down before splicing. In the raceway just loop it in one long loop.
 
 At the exit point you drill a small hole (6mm?) and feed the unterminated end of the fiber through to the raceway. The fiber will be spliced outside of the apartment either with a fusion splicer or with a mechanical splice. The hole must be sealed after you're finished!
 
