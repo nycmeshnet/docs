@@ -73,4 +73,40 @@ These are notes collected by @JohnB from the fiber splicing class taught by Zach
   - Open the right door carefully and use the tweezers to grab and dispose of the fiber fragment left behind. It may stick to one of the black pads on the right door's right side
   - Open the left door to free the coating and fiber core. Do not touch the fiber core. 
   - Once cleaved, the fiber is ready for placement in the splicer. Move it to the splicer in the next step
-  - NOTE: The NYC Mesh sleeves are 60mm in length. That means that each of the two halves to be cleaved have to have less than 30mm of exposed fiber core after cleaving. However, if the fiber core is cut too short and the yellow jacket is not ...
+  - NOTE: The NYC Mesh sleeves are 60mm in length. That means that each of the two halves to be cleaved have to have less than 30mm of exposed fiber core after cleaving. However, if the fiber core is cut too short and the yellow jacket is not cut back enough, the primary door of the splicer might not close in the next step.
+- Step 3: Splicing
+  - Open the primary door of the splicer, and then open the left and right doors underneath.
+  - With the splicer on, press the RESET button to move it into the starting position. If RESET is not pressed and the X and Y axis cameras are on, the splicer is in SET mode and still needs RESET pressed. RESET mode will take the splicer to a menu outlining the settings to be used for splicing. 
+  - Also press HEAT to start pre-warming the heat shrink channel for a later step
+  - Imagine an up/down line in between the two metal pointy electrodes of the splicer.  This marks the center line. Place the fiber in a perpendicular orientation to this line on either the left or right side, taking care not to cross the center line. Get the end of the fiber as close as possible but not crossing this imaginary line. The alignment motors can only move forward, so if the end were to cross, the splicing could not occur. The fiber core should sit within the crook of two blue V-shaped holders, and the white part will likely be under the left door closure area. The yellow jacket also needs to be beyond the edge of the splicer's primary door, or the door will not close. Once the fiber, coating, and jacket are all in place, close the left door to hold it. 
+  - Repeat Step 1 for the other fiber. NOTE that at least one half needs the sleeve slid onto it before splicing. The yellow jacket is bigger than the sleeve, so it will need to be cut back further so the sleeve and jacket can be pushed out of the way of the splicer's primary door.
+  - Repeat Step 2 for the other fiber, cleaving it and preparing it for splicing
+  - Repeat Step 3 up to this point, placing the fiber on the right half of the splicer without crossing the imaginary center line. Close the right door
+  - Close the primary door of the splicer
+  - Press the SET button to begin the splicing process. First it will move the ends of each fiber core into view of the cameras. Each should appear flat and cylindrical and as "clean" as possible. The splicer will first "zap" the ends to clean them further, and will then run a longer fusion process to merge the two fibers. Once visible again, a single uninterrupted fiber should be seen on the camera views. 
+- Step 4: Sleeving
+  - Open the primary door of the splicer, and then open the door on the side with the sleeve. 
+  - Grasp the fiber cable jacket/sleeve on the freed side, and then open  the opposite side's door and grab that side as well
+  - Move the sleeve to cover the spliced area. Be VERY careful not to bend or shift the two halves of the cable, as the fiber cores are barely held together at this point and can snap/shear easily. The sleeve must fully cover the exposed fiber core, spanning from the white coating on one side to the white coating on the other. If it does not reach, the splice is invalid, and the full cutting/stripping/cleaning/cleaving process will need to be re-done.
+  - Open the left, right, and clear center doors of the heat shrink heater portion of the splicer
+  - Move the now-aligned sleeve plus the two cable halves into the heater. Close the heater doors, ensuring that that fiber cables sit in the U-shaped channels on each side.
+  - Press the HEAT button on the splicer to perform the heat-shrinking operation. It will begin heating
+  - Meanwhile, close the left/right/primary splicer doors and press RESET to prepare the splicer for the next run. 
+  - Once the heat shrink operation is done, the splicer will beep. Open the doors and carefully move the cable to the cooling tray. Leaving it in the heater too long may cause it to cool and stick to the heater, making removal difficult.
+  - NOTE: Ideally, regular black heat shrink would be added to the cable as well and fully cover the coating, going from yellow jacket to yellow jacket.
+- Step 5: Testing
+  - First, a visual check can be done using the OTDR. Set it into VFL mode, which emits a 650nm red light. Look for "light leaks" along the cable's length, especially around the splice. If red light can be seen, that means it's not being efficiently reflected down the length of the cable, and could indicate signal loss
+  - Next, an attenuation check can be performed. the OTDR to OTDR mode, which will generate a graph with distance/position on the X axis and attenuation on the Y axis. Since the OTDR is outputting a known signal strength, the exact loss at any point can be measured. This can be done by emitting a very short-duration pulse and then switching into listening mode to evaluate when and how strong the backscatter returns. 
+  - Next, an overall signal loss check can be performed. Set the OTDR to output a 1mW 1310nm signal, and plug the other end either into the OTDR receive jack, or a second strength tester's jack. The dB of the returned signal indicates how much loss there was simply from entering and exiting the newly-created cable. -3dB to -4dB is about what's expected in a well-made cable, after loss from the connectors plus the cable length. If -70dBm is being read, the cable either has a break, or the output from the OTDR is not yet emitting. 
+
+## Resources
+
+- OTDR tester https://www.amazon.com/YEDEMC-Mini-Pro-Mulit-Function-5m-60Km-Dynamic/dp/B07Z1XCRBF
+- Heat shrink tubing sleeves https://www.amazon.com/Shrinkable-Optical-Fusion-Splice-Protection/dp/B01FR0ZTNA
+- Fiber Optic stripper tool https://www.amazon.com/Jonard-Tools-Fiber-Optic-Stripper/dp/B006962CUK
+- Fiber Optic Fusion Splicer https://www.amazon.com/SPEEDWOLF-Alignment-Portable-Splicing-6XElectrodes/dp/B07RKVXZ5R
+- Article on different connector types https://www.fiber-optic-solutions.com/evolution-of-flat-pc-upc-and-apc-fiber-connectors.html
+- Article on different components in a fiber cable http://labman.phys.utk.edu/phys222core/modules/m7/optical-fibers.html
+- Article and calculator to convert decibels to milliwatts https://www.rapidtables.com/convert/power/dBm_to_mW.html
+- Article on the inverse square law https://energyeducation.ca/encyclopedia/Inverse_square_law
+- Article referencing the 9 micron size of single-mode fiber https://www.thefoa.org/tech/ref/basic/fiber.html
