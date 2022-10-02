@@ -10,7 +10,7 @@ This page will be referenced by other pages and should be Mikrotik general.
 ### License
 
 Mikrotik software usually requires a license, though all Mikrotik devices come with an internal license, which varies with the model.
-This router comes with a Level 4 licnese which is sufficient for its use.
+This router comes with a Level 4 license which is sufficient for its use.
 
 ### US vs International version
 
