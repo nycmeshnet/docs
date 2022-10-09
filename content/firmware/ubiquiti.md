@@ -7,7 +7,6 @@ Ubiquiti firmware has some buggy versions that need to be avoided. In general ne
 
 Ubiquiti have two very separate product lines with different firmware, AirMAX and UniFi
 
-**Don't use the latest firmware from Ubiquiti!** Use the stable versions below-
 
 **AirMAX**
 
