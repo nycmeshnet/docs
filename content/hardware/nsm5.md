@@ -27,7 +27,7 @@ The [Ubiquiti window/wall mount](http://www.amazon.com/Ubiquiti-Networks-NanoSta
 
 ![window/wall install](/img/nsm5/ubiquiti-window-wall-mount.jpg)
 
-The [Ubiquiti universal antenna mount](http://www.amazon.com/gp/product/B006J1WSGI?tag=nycmesh-20) can be used on rooftops or walls, where a very strong mount is needed.
+The [Ubiquiti universal antenna mount](https://store.ui.com/collections/operator-airmax-and-ltu-accessories/products/universal-antenna-mount) can be used on rooftops or walls, where a very strong mount is needed.
 
 ![universal antenna mount](/img/nsm5/ubiquiti-universal-mount.jpg)
 
