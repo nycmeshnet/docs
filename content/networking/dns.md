@@ -33,5 +33,7 @@ This also allows more than one node to host a resolver, or, a dot-mesh DNS serve
 ## Running a DNS Server
 _This is a Work in progress_  
 Today there is a DNS server run at Supernode 1 as a VM. More are planned. It would be nice if at least every supernode ran a DNS clone.  
-In the future it is expected that anyone who wants to run one can do so using a Docker container etc.   
-To get a jump-start on this, check out the Git repo an take a look at the README. It's an ever-changing process.  
+In the future it is expected that anyone who wants to run one can do so using a Docker container etc.
+To get a jump-start on this, check out the Git repo an take a look at the README. It's an ever-changing process.
+
+### Note: https://github.com/nycmeshnet/nycmesh-dns/pull/44/files
