@@ -9,7 +9,7 @@ Only use white fiber inside apartments, never yellow or any other color. This is
 
 Once the ONT is screwed into the wall, plug in the terminated end of the white fiber. Now you are ready to run the fiber to the exit point (usually above the front door). You first run the fiber down to the top of the baseboard and then along to the nearest corner, attaching it to the wall with silicone (or staples). You run the cable up the corner to the ceiling and follow along the corner of the ceiling to the exit point using silicone or staples along the way.
 
-![Ufiber ONT](/img/install/wallONT.jpg)
+![Ufiber ONT](/img/installs/wallONT.jpg)
 
 As always with fiber, don't do any hard bends! Let the fiber curve around corners.
 
