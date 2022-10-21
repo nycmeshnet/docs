@@ -15,7 +15,7 @@ TOC<br>
 &ensp;    3.1. Description<br>
 &ensp;    3.2. Hazards<br>
 &ensp;    3.3. Potential Consequences<br>
-  4. Dos and Don't<br>
+  4. Dos and Don'ts<br>
   5. Recap<br>
   6. Resources<br>
 
@@ -134,29 +134,29 @@ There are two ways in which scraps are hazardous; pricking and snapping.
 
 ### Hazard origins
 
-Cleaving
-  -> scrap
-  -> shards
+Cleaving<br>
+  -> scrap<br>
+  -> shards<br>
 
-Cutting cable
-  -> shards
+Cutting cable<br>
+  -> shards<br>
 
-Snapping scrap
-  -> scrap
-  -> shards
+Snapping scrap<br>
+  -> scrap<br>
+  -> shards<br>
 
-Stripping jacket/cladding
-  -> shards
+Stripping jacket/cladding<br>
+  -> shards<br>
 
 ### Hazards 
-Scrap
-  -> pricking
-  -> ingestion
+Scrap<br>
+  -> pricking<br>
+  -> ingestion<br>
 
-Shards
-  -> inhalation
-  -> ingestion
-  -> skin, eye contact
+Shards<br>
+  -> inhalation<br>
+  -> ingestion<br>
+  -> skin, eye contact<br>
 
 ### Potential Health Consequences
 
