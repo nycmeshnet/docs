@@ -35,47 +35,47 @@ Bellow are pictures taken through out the splicing process. (the ordering number
 
 07) Stripping the outer jacket of SWS:
 
-![](/img/installs/fiberSplicingSteps/01_strip_12cm_outerjacket_SWS.JPG)
+![](/img/installs/fiberSplicingTutorial/01_strip_12cm_outerjacket_SWS.JPG)
 
 09) Stripping the inner jacket of SWS:
 
-![](/img/installs/fiberSplicingSteps/02_strip_2cm_innerjacket_SWS.JPG)
+![](/img/installs/fiberSplicingTutorial/02_strip_2cm_innerjacket_SWS.JPG)
 
 11) Positioning the stripped SWS in the cleaver:
 
-![](/img/installs/fiberSplicingSteps/03_position_SWS_in_cleaver_closeup.JPG)
+![](/img/installs/fiberSplicingTutorial/03_position_SWS_in_cleaver_closeup.JPG)
 
 13) Positioning the cleaved SWS in the splicer:
 
-![](/img/installs/fiberSplicingSteps/04_position_SWS_in_splicer.JPG)
+![](/img/installs/fiberSplicingTutorial/04_position_SWS_in_splicer.JPG)
 
 16-17) Stripping the outer and inner jackets of SWOS:
 
-![](/img/installs/fiberSplicingSteps/05_strip_5cm_outerjacket_2cm_innerjacket_SWOS.JPG)
+![](/img/installs/fiberSplicingTutorial/05_strip_5cm_outerjacket_2cm_innerjacket_SWOS.JPG)
 
 21) Positioning the cleaved SWOS in the splicer:
 
-![](/img/installs/fiberSplicingSteps/06_position_SWOS_in_splicer_closeup.JPG)
+![](/img/installs/fiberSplicingTutorial/06_position_SWOS_in_splicer_closeup.JPG)
 
 23) Read splicer sceen to view the quality of the splice and an estimate of signal loss:
 
-![](/img/installs/fiberSplicingSteps/07_fiber_fused.JPG)
+![](/img/installs/fiberSplicingTutorial/07_fiber_fused.JPG)
 
 24) Test splice:
 
-![](/img/installs/fiberSplicingSteps/08_optical_power_meter_1550nm_reading_neg320dBm.JPG)
+![](/img/installs/fiberSplicingTutorial/08_optical_power_meter_1550nm_reading_neg320dBm.JPG)
 
 26) Place shrink sleeve over the fused, bare fiber and move the whole to the splicer's heating compartment to shrink the sleeve:
 
-![](/img/installs/fiberSplicingSteps/09_place_fused_fiber_with_shrinksleeve_in_heating_compartment.JPG)
+![](/img/installs/fiberSplicingTutorial/09_place_fused_fiber_with_shrinksleeve_in_heating_compartment.JPG)
 
 27) Verify that the sleeve has in fact shrunk (may need to heat 1-3 times):
 
-![](/img/installs/fiberSplicingSteps/10_shrunk_sleeve_wrapping_bare_fiber.JPG)
+![](/img/installs/fiberSplicingTutorial/10_shrunk_sleeve_wrapping_bare_fiber.JPG)
 
 The result:
 
-![](/img/installs/fiberSplicingSteps/11_fused_cable_on_ruler_15cm_between_outerjackets.JPG)
+![](/img/installs/fiberSplicingTutorial/11_fused_cable_on_ruler_15cm_between_outerjackets.JPG)
 
 
 ## 3. Detailed list of steps
@@ -170,7 +170,7 @@ The result:
 
 In order to strip jackets quickly and precisely the installer should make a template, such as the one shown bellow.
 
-{{< figure src="/img/installs/fiberSplicingSteps/edu_template.JPG" height=375 width=500 >}}
+{{< figure src="/img/installs/fiberSplicingTutorial/edu_template.JPG" height=375 width=500 >}}
 
 
 Note that the template in the picture is crowded to illustrate the instructions in section 3; a color coded stick may be easier to work with.
@@ -198,8 +198,8 @@ The pictures show that:
 - The shrink sleeve on SWS needs to be >4cm away from the splicer needles to clear the clamp (includes 1.5cm of bare fiber) -> 10cm of inner jacket on top of the 1.5cm of bare fiber.
 - The resulting gap (shown in the result picture in section 2), from outer jacket to outer jacket, which needs to be wrapped in shrink tubing is about 16cm -> cut 20cm of unshrunk shrink tubing.
 
-![cleaver pads under ruler](/img/installs/fiberSplicingSteps/cleaver_pads_under_ruler.JPG)
+![cleaver pads under ruler](/img/installs/fiberSplicingTutorial/cleaver_pads_under_ruler.JPG)
 
-![shrinksleeve on ruler](/img/installs/fiberSplicingSteps/shrinksleeve_on_ruler.JPG)
+![shrinksleeve on ruler](/img/installs/fiberSplicingTutorial/shrinksleeve_on_ruler.JPG)
 
-![splicer measurement](/img/installs/fiberSplicingSteps/splicer_measurement.JPG)
+![splicer measurement](/img/installs/fiberSplicingTutorial/splicer_measurement.JPG)
