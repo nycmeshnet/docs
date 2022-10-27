@@ -170,8 +170,7 @@ The result:
 
 In order to strip jackets quickly and precisely the installer should make a template, such as the one shown bellow.
 
-{{< figure src="/img/installs/fiberSplicingTutorial/edu_template.JPG" height=375 width=500 >}}
-
+![stripping template](/img/installs/fiberSplicingTutorial/edu_template.JPG)
 
 Note that the template in the picture is crowded to illustrate the instructions in section 3; a color coded stick may be easier to work with.
 
