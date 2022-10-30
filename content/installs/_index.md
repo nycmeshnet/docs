@@ -24,4 +24,4 @@ For the most up-to-date overview of the entire install process, check out the **
 
 [Network Number lookup](nn)
 
-[Fiber to the apartment](/fiber)
+[Fiber to the apartment](../fiber)
