@@ -992,7 +992,7 @@ img {
 	float: none;
 }
 .sans-serif {
-	font-family: arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, ubuntu, roboto, sans-serif;
 }
 .serif {
 	font-family: georgia, times, serif;
