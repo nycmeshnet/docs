@@ -13,14 +13,14 @@ Ubiquiti have two very separate product lines with different firmware, AirMAX an
 
 We are currently updating to 8.7.11 on most CPE (like the LiteBeams)
 
-Verions notes:  
+Version notes:  
 8.7.11 (the latest) seems to be working and stable  
 8.7.7 and 8.7.9 are good  
 8.7.4 and 8.7.5 tend to crash  
 8.7.1 the management radio disconnects constantly
 
 Ubiquiti changed the signal to read 5db hotter in versions after 8.7.1, so a -50  
-It's just that the signals read better than expected. So a -55dB in the newer versions would be -60dB in 8.7.1 or earlier  
+So a -55dB in the newer versions would be -60dB in 8.7.1 or earlier  
 
 Download [8.7.11 here](https://dl.ui.com/firmwares/XC-fw/v8.7.11/WA.v8.7.11.46972.220614.0420.bin)
 
