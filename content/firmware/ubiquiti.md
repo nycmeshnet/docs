@@ -17,6 +17,7 @@ Version notes:
 8.7.11 (the latest) seems to be working and stable  
 8.7.7 and 8.7.9 are good  
 8.7.4 and 8.7.5 tend to crash  
+8.7.5 has a TDMA bug which causes performance to fail after a few days. 
 8.7.1 the management radio disconnects constantly
 
 Ubiquiti changed the signal to read 5db hotter in versions after 8.7.1, so a -50  
@@ -30,12 +31,7 @@ Download [8.5.12 here](https://dl.ui.com/firmwares/XC-fw/v8.5.12/WA.v8.5.12.4018
 
 NEVER UPGRADE A SECTOR WITHOUT ASKING EVERYONE FIRST!
 
-We disable AirView on sectors to improve CPU performance
-
-*Notes on recent AirMax firmware*-  
-8.7.1 is fine, don't update!  
-8.7.4 the signal levels are artificially higher.  
-8.7.5 this has a TDMA bug which causes performance to fail after a few days.  
+We disable AirView on sectors to improve CPU performance 
 
 
 **UniFi**
