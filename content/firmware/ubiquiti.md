@@ -17,8 +17,8 @@ Version notes:
 8.7.11 (the latest) seems to be working and stable  
 8.7.7 and 8.7.9 are good  
 8.7.4 and 8.7.5 tend to crash  
-8.7.5 has a TDMA bug which causes performance to fail after a few days. 
-8.7.1 the management radio disconnects constantly
+8.7.5 has a TDMA bug which causes performance to fail after a few days.  
+8.7.1 the management radio disconnects constantly  
 
 Ubiquiti changed the signal to read 5db hotter in versions after 8.7.1, so a -50  
 So a -55dB in the newer versions would be -60dB in 8.7.1 or earlier  
