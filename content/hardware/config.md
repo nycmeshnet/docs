@@ -19,6 +19,7 @@ All supernode and hub clients use DHCP for the IP address and use WPA password:n
 ## OmniTik
 * [Standard config](#omniTerm)
 * [WinBox method](#omniWinbox)
+* [On-site configuring!](#omni-onsite)
 * [General info](/hardware/mikrotikomnitik5ac)
 
 ## SXTsq   
@@ -255,6 +256,21 @@ If you are planning on connecting a LiteBeam to your router or just want to lear
 
 On the sidebar (hamburger on mobile), click "Interfaces" (then "Ethernet" on mobile). Double-click or tap on `ether5`. Click on the PoE tab, and change the "PoE Out" drop-down from `auto on` to `forced on`. Hit OK or the checkmark button on mobile. This improves reliability for connected PoE devices.
 
+---
+
+### <a name="omni-onsite"></a>Omnitik on-site config
+
+Open /webfig/#Wireless.Registration and check to which Omni it meshes.
+
+Open /webfig/#Routing:OSPF.Routes and check what is the gateway to exit (the default route 0.0.0.0/0)
+ 
+Choose the one that has the strongest signal and is in the default route. Try no to connect to a nearby Omni only if possible, choose an Omni that has a LiteBeam or other direct path.
+
+Open the wlan4 interface.  
+Change the XXXX in the SSID by the NN of the Omni you want to connect to.  
+Enable that interface. Save.  
+
+Note: Do not use wlan4 if there is an litebeam or Sxt or other link antenna on the Omni you are setting up.
 
 ---
 
