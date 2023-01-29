@@ -46,3 +46,8 @@ We have mesh Wi-Fi access points around the complex mounted on lightpoles.
 ## Coverage
 
 Grand street also hosts a variety of sectors and Point-to-Point links. It has direct connections to both Vernon and SN1, along with high bandwidth links to other hubs in Brooklyn and further up the river to Greenpoint.
+
+<br>
+
+<img title="Grand Street Panorama" src="/img/nycmesh-1934-Panorama.png" class="w-40">
+<img title="Grand Street Panorama" src="/img/nycmesh-1934-Ponorama2.png" class="w-40">
