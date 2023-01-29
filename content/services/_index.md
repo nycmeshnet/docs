@@ -17,16 +17,15 @@ You can also discuss services on our slack channel [#mesh-services](https://slac
 - [NTP](/networking/ntp/)
 
 
-### **NYC Mesh services**
+### **Public services**
 
 - [NYC Mesh Meet](https://meet.nycmesh.net/) by @Zach
 - [ExcellentFiles](https://excellent.nyc) by @Eric Zhu.
 > It is a free file host hosted on sn3. Anyone can get 10G of free storage. It can support around ~25 users for now.  
 *"I choose Nextcloud because it is very user friendly, and there is a nice mobile app, and desktop sync app. I have also enabled contacts + calendar sync. I use it myself coz i want to rely on other services less; to be more autonomous :)"*
+- [Mastodon](https://mastodon.nycmesh.net) on @Daniel Heredia's server at SN3, open to all.
 
+### **Projects**  *Services that are in development...*
 
-### **Projects:**  *Services that are in development...*
-
-Contact @George on [slack](https://slack.nycmesh.net/) who is working on a [chat app](https://github.com/maybejustmaybe/mesh-chat)
-
-
+- [Support Bot](https://github.com/nycmeshnet/nycmesh-support-bot) on Slack to automatically respond to [#support](https://app.slack.com/client/T02MB96L1/C679UKBUK) channel inquiries
+- [Chat app](https://github.com/maybejustmaybe/mesh-chat) by @George on [slack](https://slack.nycmesh.net/)
