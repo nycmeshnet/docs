@@ -24,6 +24,7 @@ You can also discuss services on our slack channel [#mesh-services](https://slac
 > It is a free file host hosted on sn3. Anyone can get 10G of free storage. It can support around ~25 users for now.  
 *"I choose Nextcloud because it is very user friendly, and there is a nice mobile app, and desktop sync app. I have also enabled contacts + calendar sync. I use it myself coz i want to rely on other services less; to be more autonomous :)"*
 - [Mastodon](https://mastodon.nycmesh.net) on @Daniel Heredia's server at SN3, open to all.
+- [NYC Building KML Tool](https://dantonio.tech/programs/nyckml/) by @Daniel Heredia, takes two address and uses NYC DCP and DOB databases to create a KML line between the rooftops to determine LoS ([code](https://dantonio.tech/programs/nyckml/)).
 
 ### **Projects**  *Services that are in development...*
 
