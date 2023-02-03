@@ -1,5 +1,5 @@
 ---
-title: "Supernode 2 - Depreciated"
+title: "Supernode 2 - Decommissioned"
 aliases: [/networking/supernode1/]
 ---
 
