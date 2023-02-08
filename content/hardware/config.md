@@ -46,7 +46,7 @@ All supernode and hub clients use DHCP for the IP address and use WPA password:n
 
 ### <a name="lbe-client"></a>LiteBeam client for Supernodes and hubs with sectors
 
-First, download the `WA` [firmware](../../firmware/ubiquiti) in case your LiteBeam is running an outdated version. We currently use 8.7.1 and 8.7.4 in our network depending on the location. Do not use 8.7.5 and newer as there are bugs that break connectivity after several days.
+First, download the `WA` [firmware](../../firmware/ubiquiti) in case your LiteBeam is running an outdated version. We currently recommend 8.7.11 for new installs in our network. Do not use 8.7.4 or 8.7.5 as there are bugs that break connectivity after several days.
 
 Second, download the config file for either a standard [LiteBeam](https://configgen.nycmesh.net/?version=v4.5&device=LiteBeam5AC&template=lbeGen2-8_7_1.cfg.tmpl) or [LiteBeam LR](https://configgen.nycmesh.net/?version=v4.5&device=LiteBeamLR). You will need your network number which is obtained by entering your Install Number below (you should have received this your email after completing the [join form](https://nycmesh.net/join)). If `error: no address for ****` is displayed, please reach out to us on [Slack](https://slack.nycmesh.net) at #install or via [email](mailto:install@nycmesh.net) to register your installation. If `Sorry, unable to open the file at this time
 ` is displayed, try using Incognito Mode or Private Browsing.
