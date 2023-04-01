@@ -49,6 +49,8 @@ Flyers and Posters to distribute in buildings with existing mesh connections. <b
 
 [Building Postcard [Chinese]](flyer-chinese.jpg)
 
+[Public WiFi Access Poster](https://docs.google.com/presentation/d/1Il80WQlluKZ16T5-gqD9Q7gUfE8dP8xAXhogMp8wvUQ/edit?usp=sharing)
+
 <br>
 
 **Letter Templates**
