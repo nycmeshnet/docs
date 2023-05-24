@@ -3,7 +3,7 @@ title: "Sunset Park Libary (Node 231)"
 aliases: [/networking/sunset-park-library/]
 ---
 
-Sunset Park Library is located in the Sunset Park neibourhood of Brooklyn. It is a new construction (as of early 2023) to serve as a library and affordable housing building. The bottom floor is a Library, with apartment units above.
+[Sunset Park Library](https://www.nycmesh.net/map/nodes/231 "Sunset Park Library") is located in the Sunset Park neibourhood of Brooklyn. It is a new construction (as of early 2023) to serve as a library and affordable housing building. The bottom floor is a Library, with apartment units above.
 
 In March of 2023, we began work installing a community hub on the library. The library has Line-Of-Sight to SN3, along with the majority of the surrounding area, extending mesh covereage further south in Brooklyn.
 
