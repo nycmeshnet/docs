@@ -4,9 +4,11 @@ aliases: ["/query"]
 ---
 This is for installers to query our install spreadsheet. This is password protected.
 
+**If you have trouble running this script, try using an incognito (private) window in your browser**
+
 This uses simple matching for addresses. Type the number and street name, e.g. "123 Smith St". Don't enter a complete address! For NN, install number and email it uses exact matches.
 
-<form action="https://script.google.com/macros/s/AKfycbzuqh8zxiMzRq3NXl3HTUwWyKKcGacpNPXvX5G1UdgLhZvCtBKuT64f3dRGPna8C8rv/exec">
+<form action="https://script.google.com/macros/s/AKfycbyymyGxWMPV5ubpt9SeylHlZNCbZqsZOuKdYVoAwEXGwamorsTKgF2oMLKaBT6okZvs/exec">
 
   <label for="Search type">Search type:</label>
   <select id="type" name="type">
@@ -14,6 +16,7 @@ This uses simple matching for addresses. Type the number and street name, e.g. "
     <option value="email">Email</option>
     <option value="nn">NN</option>
     <option value="install">Install num</option>
+    <option value="bin">BIN</option>
   </select>
   <br/>
   <br/>
@@ -29,3 +32,4 @@ This uses simple matching for addresses. Type the number and street name, e.g. "
   <br/>
   <input type="submit" value='Enter query'>
 </form>
+
