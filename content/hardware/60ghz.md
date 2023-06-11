@@ -27,6 +27,8 @@ This is a chart with all the antennas made by the manufactuers we typically use.
 | Image | Product Name | Price per Link | Rated Range | Has Backup | Deployed in Mesh | Notes |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | <img src="/img/hardware/60ghz/LHG.jpg" height="160" /> | [LHG 60G](https://mikrotik.com/product/lhg_60g) | $300 | 1.5km | No | Yes | Original workhorse for short-to-medium-length links between buildings. Susceptible to rain at 800m, supports 2Gbps under ideal conditions. |
+<img src="/img/hardware/60ghz/mikrotik_ptp.png" height="500" />
+<img src="/img/hardware/60ghz/mikrotik_ptmp.png" height="500" />
 
 ## IgniteNet
 
