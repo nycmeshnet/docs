@@ -36,7 +36,7 @@ You can download a handy checklist of the equipment listed on this page [here](h
 | Scissors | ![alt text](https://i.imgur.com/ZnX3ZwF.jpg "Scissors") | Cutting CAT5e cable and cable ties | Hardware store tools aisle |
 | Needlenose pliers | ![alt text](https://i.imgur.com/J94gO2I.jpg "Needlenose pliers") | Clamping CAT5e cable ground wire, pulling cable through holes | Hardware store tools aisle - [recommended product](https://www.amazon.com/gp/product/B000A0OW2M/ref=ox_sc_saved_title_3?smid=A2Q1LRYTXHYQ2K&pldnSite=1&th=1) | $12 |
 | Cordless hammer drill | ![alt text](https://i.imgur.com/UpnEduf.jpg "Hammer drill") | Drilling holes, inserting screws, securing pipe clamps  | Hardware store tools aisle
-| Hex socket drill bits (3/8" for hose clamps and 1/4" for masonry screws) | ![alt text](https://i.imgur.com/60SL2bY.jpg "Hex Socket bit") | Tightening hose clamps, inserting concrete screws | Hardware store drill bits aisle |
+| Nut driver bits (7mm for hose clamps and 1/4" for masonry screws) | ![alt text](https://i.imgur.com/60SL2bY.jpg "Nut Driver bit") | Tightening hose clamps, inserting concrete screws | Hardware store drill bits aisle |
 | Carbide-tip masonry drill bit (5/32") | ![alt text](https://i.imgur.com/8v2cbO0.jpg "Masonry Drill Bit") | Drilling holes in concrete or masonry for inserting masonry screws | Hardware store drill bits aisle |
 | Cobalt / titanium drill bit (1/4") | ![alt text](https://i.imgur.com/r1PaS8R.jpg "Cobalt Drill Bit") | Drilling hole for CAT5e cable to pass through steel window frame | Hardware store drill bits aisle |
 | Hammer | ![alt text](https://i.imgur.com/e2297lH.jpg "Hammer") | Driving in concrete nails | Hardware store tools aisle |
