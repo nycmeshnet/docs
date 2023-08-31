@@ -2,6 +2,8 @@
 title: "Query"
 aliases: ["/query"]
 ---
+**This page works best in incognito/private window mode!**
+
 This is for installers to query our install spreadsheet. This is password protected.
 
 This uses simple matching for addresses. Type the number and street name, e.g. "123 Smith St". Don't enter a complete address! For NN, install number and email it uses exact matches.
