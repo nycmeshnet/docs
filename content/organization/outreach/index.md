@@ -1,5 +1,6 @@
 ---
 title: "Outreach Materials"
+aliases: ["/leaflet","outreach"]
 ---
 **Mesh Guide:**
 
@@ -13,15 +14,15 @@ Mesh Guide given to new members and for general mesh info. <br> (Paper copies ar
 
 **Flyers/Brochures:**
 
-General Infomation
+General Information
 
-[Two page trifold general brochure](Brochure.pdf) 
+[2023 Trifold color](NYC_Mesh_Trifold_5.17.23.pdf)
+
+[2020 Two page trifold general brochure](Brochure.pdf) 
 
 [One page general flyer](Priorities-One-Pager.pdf) 
 
 [One page narrow brochure: Join NYC Mesh](NYC_Mesh_Brochure_02.jpg)
-
-[Tri-fold brochure](meshmail.pdf)
 
 [Church handout](church.pdf) -[(source file)](https://docs.google.com/document/d/1duBRyzncVxuODrXyH7ooDki2LEmwcyuOtkZJjcC3loo/edit?usp=sharing)
 
