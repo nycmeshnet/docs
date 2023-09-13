@@ -34,7 +34,4 @@ This uses simple matching for addresses. Type the number and street name, e.g. "
   <br/>
   <input type="submit" value='Enter query'>
 </form>
-<<<<<<< HEAD
 
-=======
->>>>>>> e6bab0e197cfa3f5a5ffbc915e8a20ccb1613461
