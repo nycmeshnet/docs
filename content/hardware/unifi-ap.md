@@ -32,6 +32,22 @@ Wireless meshing basically doesn't work after version 4.3.20. Apart from later v
 
 We've installed these at Clemente and they have proved to be reliable when running 4.3.20
 
+### Configuring
+
+Connect to omni network (`nycmesh-<nn>-omni`). Look for the IP address (in the DHCP Leases or use Torch on WebFig) and SSH into the rabbit ears (will probably have to disable bridge filters)
+
+```
+ssh -oHostKeyAlgorithms=+ssh-dss ubnt@10.103.175.49
+```
+
+Default password is `ubnt`
+
+Run `set-inform http://10.70.95.63:8080/inform` to tell it where to phone home to (Our Unifi Controller)
+
+You should see it in the unifi controller interface right away. Wait a bit. It'll reboot eventually.
+
+Go ahead and configure it. Give it a name (NN and location). Move it into a site (create a new one if this is a new site)
+
 ## UAP-AC-M-PRO
 <img src="/img/hardware/uap/uap-ac-m-pro.jpg" height="160" />
 
