@@ -2,7 +2,7 @@
 title: "VPN - WireGuard + OSPF"
 ---
 
-[WireGuard](https://wireguard.com/) is generally described on another page, here: [VPN - Wireguard]({{ relref "vpnwireguard.md"}}). This page is about what is needed to configure WireGuard for routing over the VPN; especially with a focus on OSPF.
+[WireGuard](https://wireguard.com/) is generally described on another page, here: [VPN - Wireguard]({{< relref "vpnwireguard.md" >}}). This page is about what is needed to configure WireGuard for routing over the VPN; especially with a focus on OSPF.
 
 ## A Note on Cryptokey Routing
 It's worth a section to touch on the cryptokey routing feature of WireGuard and how it works with the mesh.  
