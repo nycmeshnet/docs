@@ -258,7 +258,15 @@ On the sidebar (hamburger on mobile), click "Interfaces" (then "Ethernet" on mob
 ### <a name="liteac"></a>LiteAP 120 sector
 
 
-Connect to the LiteAP GUI.  Upgrade the firmware
+Connect to the LiteAP GUI. You'll need to plug in your laptop directly to the device and set the following config:
+
+| IP           | Netmask       | Default Route |
+|--------------|---------------|---------------|
+| 192.168.1.19 | 255.255.255.0 | 192.168.1.20  |
+
+If you need to reset it, just hold the reset button for >10 seconds.
+
+[Upgrade the firmware](https://ui.com/download/software/lap-120). 8.5.12 is the most stable. **Some of the below settings will be missing if you're on older firmware.**
 
 In Wireless set:<br>
 - Wireless mode to **Access Point PtMP airmax AC** <br>
@@ -267,23 +275,29 @@ In Wireless set:<br>
 - Control Freq.  ON <br>
     Select all freq. and uncheck from 5565 to 5705 (5565 and 5705 included)  
     (This is extremely **important**, due to FCC regulations in NY we need to make sure to not use any channel overlapping 5590 - 5677)<br>
-- choose a center freq. different then other local antenna (sector, litebeam, powerbeam, etc ...)<br>
+- choose a center freq. different then other local antenna (sector, litebeam, powerbeam, etc ...) (This is going to require some site surveying skills)<br>
 - Wireless Security: WPA security personal  /  Preshared key: nycmeshnet <br>
 - TDD framing: Flexible  (or Flexibe (new) depending on firmware)<br>
 - ReSE ON <br>
-- Advance:  Isolation ON <br>
+- Advanced:  Isolation ON <br>
 
 In Network set:<br>
- - DHCP  and fallback IP 192.168.1.20
+ - DHCP
+ - Fallback IP: 192.168.1.20
  
  In Services:<br>
-  - Add UNMS key
+  - Add UNMS key (Or, just make sure it's able to access the internet and we can adopt it with UISP)
 
 In System set:<br>
   - Device name: same as SSID<br>
-  - turn NTP server ON<br>
+  - turn NTP client ON<br>
   - Set the time zone<br>
   
   <br><br>
+
+Control Frequency List (Copypasta this into the device):
+```
+5165,5170,5175,5180,5185,5190,5195,5200,5205,5210,5215,5220,5225,5230,5235,5240,5260,5265,5270,5275,5280,5285,5290,5295,5300,5305,5310,5315,5320,5325,5330,5335,5485,5490,5495,5500,5505,5510,5515,5520,5525,5530,5535,5540,5545,5550,5555,5560,5570,5575,5580,5590,5595,5600,5610,5615,5620,5630,5635,5640,5650,5655,5660,5670,5675,5680,5690,5695,5700,5710,5740,5745,5750,5755,5760,5765,5770,5775,5780,5785,5790,5795,5800,5805,5810,5815,5820,5825,5830,5835
+```
 
 ---
