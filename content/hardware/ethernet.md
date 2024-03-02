@@ -22,7 +22,7 @@ There isn't a standard for passive POE so you need to check compatibility (which
 
 For active POE there are standards PoE 802.3af, PoE+ 802.3at and PoE++	IEEE 802.3bt. Again you need to check which one to use. Active POE negotiates with the device so it shouldn't fry your cable tester.
 
-Ubiquiti POE is 24V DC, **half the voltage of standard (802.3af/at) 48V DC POE.** If you use standard POE you need to use a [Ubiquiti 8023af-adapter](https://www.ubnt.com/accessories/instant-8023af-adapters/)
+Ubiquiti POE is 24V DC, **half the voltage of standard (802.3af/at) 48V DC POE.** If you use standard POE you need to use a [Ubiquiti 8023af-adapter](https://store.ui.com/us/en/collections/uisp-accessory-tech-poe-surge-converters/products/ins-3af-i-g)
 
 Ethernet cables need to be shorter than 100m (300'). Longer than that you will have data loss and the POE voltage will drop too low.
 
