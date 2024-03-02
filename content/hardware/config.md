@@ -255,35 +255,36 @@ On the sidebar (hamburger on mobile), click "Interfaces" (then "Ethernet" on mob
 
 ---
 
-### <a name="liteac"></a>LiteAP 120 sector
-
-
-Connect to the LiteAP GUI.  Upgrade the firmware
-
-In Wireless set:<br>
-- Wireless mode to **Access Point PtMP airmax AC** <br>
-- SSID  "nycmesh-xxxx-direction" (for exemple: nycmesh-1635-east) <br>
-- channel width  40 Mhz <br>
-- Control Freq.  ON <br>
-    Select all freq. and uncheck from 5565 to 5705 (5565 and 5705 included)  
-    (This is extremely **important**, due to FCC regulations in NY we need to make sure to not use any channel overlapping 5590 - 5677)<br>
-- choose a center freq. different then other local antenna (sector, litebeam, powerbeam, etc ...)<br>
-- Wireless Security: WPA security personal  /  Preshared key: nycmeshnet <br>
-- TDD framing: Flexible  (or Flexibe (new) depending on firmware)<br>
-- ReSE ON <br>
-- Advance:  Isolation ON <br>
-
-In Network set:<br>
- - DHCP  and fallback IP 192.168.1.20
- 
- In Services:<br>
-  - Add UNMS key
-
-In System set:<br>
-  - Device name: same as SSID<br>
-  - turn NTP server ON<br>
-  - Set the time zone<br>
-  
-  <br><br>
+# LiteAP 120 Sector Configuration Guide
+## Connect to the LiteAP GUI
+1. **Upgrade the Firmware:** Ensure your LiteAP device runs the latest firmware version for optimal performance and security.
+## Wireless Settings
+Configure your wireless settings as follows to comply with FCC regulations and ensure optimal network performance:
+- **Wireless Mode:** Set to `Access Point PtMP airmax AC`.
+- **SSID:** Use the format `nycmesh-xxxx-direction` (e.g., `nycmesh-1635-east`) to name your network uniquely.
+- **Channel Width:** Select `40 MHz` to optimize bandwidth.
+- **Control Frequency:** Enable with the option `ON`.
+- **Frequency Selection:**
+    - Check all frequencies but uncheck the range from `5565` to `5705` MHz (inclusive).
+    - **Important:** This step ensures compliance with FCC regulations in New York, avoiding channels overlapping `5590 - 5677` MHz.
+- **Center Frequency:** Choose a center frequency that does not overlap with other local antennas (e.g., sector, litebeam, powerbeam).
+- **Wireless Security:**
+    - Mode: `WPA Security Personal`.
+    - Pre-shared Key: `nycmeshnet`.
+- **TDD Framing:** Set to `Flexible` or `Flexible (new)` depending on the firmware version.
+- **ReSE:** Enable with `ON`.
+- **Advanced Settings:**
+    - Enable `Isolation` to prevent direct client-to-client communication.
+## Network Settings
+Configure network parameters to ensure reliable connectivity:
+- **DHCP:** Enable DHCP to automatically assign IP addresses.
+- **Fallback IP:** Set to `192.168.1.20` for direct device access if DHCP fails.
+## Services
+- **UNMS Key:** Add your UNMS key here for remote management and monitoring.
+## System Settings
+Finalize your device setup with system configurations:
+- **Device Name:** Set this to the same as your SSID for consistency.
+- **NTP Server:** Enable with `ON` to keep your device's clock accurate.
+- **Time Zone:** Select the appropriate time zone for your location.
 
 ---
