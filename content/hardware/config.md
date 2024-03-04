@@ -255,36 +255,37 @@ On the sidebar (hamburger on mobile), click "Interfaces" (then "Ethernet" on mob
 
 ---
 
-# LiteAP 120 Sector Configuration Guide
-## Connect to the LiteAP GUI
-1. **Upgrade the Firmware:** Ensure your LiteAP device runs the latest firmware version for optimal performance and security.
-## Wireless Settings
-Configure your wireless settings as follows to comply with FCC regulations and ensure optimal network performance:
-- **Wireless Mode:** Set to `Access Point PtMP airmax AC`.
-- **SSID:** Use the format `nycmesh-xxxx-direction` (e.g., `nycmesh-1635-east`) to name your network uniquely.
-- **Channel Width:** Select `40 MHz` to optimize bandwidth.
-- **Control Frequency:** Enable with the option `ON`.
-- **Frequency Selection:**
-    - Check all frequencies but uncheck the range from `5565` to `5705` MHz (inclusive).
-    - **Important:** This step ensures compliance with FCC regulations in New York, avoiding channels overlapping `5590 - 5677` MHz.
-- **Center Frequency:** Choose a center frequency that does not overlap with other local antennas (e.g., sector, litebeam, powerbeam).
-- **Wireless Security:**
-    - Mode: `WPA Security Personal`.
-    - Pre-shared Key: `nycmeshnet`.
-- **TDD Framing:** Set to `Flexible` or `Flexible (new)` depending on the firmware version.
-- **ReSE:** Enable with `ON`.
-- **Advanced Settings:**
-    - Enable `Isolation` to prevent direct client-to-client communication.
-## Network Settings
-Configure network parameters to ensure reliable connectivity:
-- **DHCP:** Enable DHCP to automatically assign IP addresses.
-- **Fallback IP:** Set to `192.168.1.20` for direct device access if DHCP fails.
-## Services
-- **UNMS Key:** Add your UNMS key here for remote management and monitoring.
-## System Settings
-Finalize your device setup with system configurations:
-- **Device Name:** Set this to the same as your SSID for consistency.
-- **NTP Server:** Enable with `ON` to keep your device's clock accurate.
-- **Time Zone:** Select the appropriate time zone for your location.
+### LiteAP 120 Sector Configuration Guidelines
+
+#### 1. **Firmware Update Advisory:**
+
+- Access the LiteAP Graphical User Interface (GUI).
+- **Important**: It is not recommended to upgrade to the latest firmware version due to issues with Dynamic Frequency Selection (DFS) observed after version 8.5.12. For more stable DFS performance, we advise downgrading or maintaining the firmware at version **8.5.12**.
+
+#### 2. **Wireless Configuration:**
+
+- Set **Wireless Mode** to "Access Point PtMP airMAX AC."
+- Configure the **SSID** as "nycmesh-NN-direction," where "NN" represents the Node Number, which is a numerical value less than 8000. This detail is critical for correct identification within the network. Refer to the NYC Mesh documentation at https://docs.nycmesh.net/installs/nn/ for further guidance on obtaining your Node Number.
+- Adjust **Channel Width** to **40 MHz**.
+- Enable **Control Frequency**. Carefully select all frequencies but specifically **exclude the range from 5565 to 5705 MHz** (inclusive) to adhere to FCC regulations in New York, avoiding channel overlap between 5590 - 5677 MHz.
+- Choose a **Center Frequency** distinct from those used by other nearby antennas (e.g., sector, litebeam, powerbeam) to minimize interference.
+- Under **Wireless Security**, opt for **WPA Personal** encryption and set the **Preshared Key** to "nycmeshnet."
+- Select **Flexible** or **Flexible (new)** for **TDD Framing**, contingent on your firmware version.
+- Enable **ReSE**.
+- In **Advanced** settings, turn on **Isolation**.
+
+#### 3. **Network Setup:**
+
+- Utilize **DHCP** and establish a fallback IP address as **192.168.1.20**.
+
+#### 4. **Services Adjustments:**
+
+- Enter the **UNMS Key** for integration with Ubiquiti Network Management System (UNMS).
+
+#### 5. **System Adjustments:**
+
+- Assign the **Device Name** as your SSID for consistency across the network.
+- Activate the **NTP Server** for accurate time synchronization.
+- Configure the **Time Zone** to align with your local area.
 
 ---
