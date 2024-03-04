@@ -269,7 +269,7 @@ On the sidebar (hamburger on mobile), click "Interfaces" (then "Ethernet" on mob
 - Adjust **Channel Width** to **40 MHz**.
 - Enable **Control Frequency**. Carefully select all frequencies but specifically **exclude the range from 5565 to 5705 MHz** (inclusive) to adhere to FCC regulations in New York, avoiding channel overlap between 5590 - 5677 MHz.
 - Choose a **Center Frequency** distinct from those used by other nearby antennas (e.g., sector, litebeam, powerbeam) to minimize interference.
-- Under **Wireless Security**, opt for **WPA Personal** encryption and set the **Preshared Key** to "nycmeshnet."
+- Under **Wireless Security**, opt for **WPA Personal** encryption and set the **Preshared Key** to "nycmeshnet"
 - Select **Flexible** or **Flexible (new)** for **TDD Framing**, contingent on your firmware version.
 - Enable **ReSE**.
 - In **Advanced** settings, turn on **Isolation**.
