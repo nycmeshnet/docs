@@ -255,35 +255,37 @@ On the sidebar (hamburger on mobile), click "Interfaces" (then "Ethernet" on mob
 
 ---
 
-### <a name="liteac"></a>LiteAP 120 sector
+### LiteAP 120 Sector Configuration Guidelines
 
+#### 1. **Firmware Update Advisory:**
 
-Connect to the LiteAP GUI.  Upgrade the firmware
+- Access the LiteAP Graphical User Interface (GUI).
+- **Important**: It is not recommended to upgrade to the latest firmware version due to issues with Dynamic Frequency Selection (DFS) observed after version 8.5.12. For more stable DFS performance, we advise downgrading or maintaining the firmware at version **8.5.12**.
 
-In Wireless set:<br>
-- Wireless mode to **Access Point PtMP airmax AC** <br>
-- SSID  "nycmesh-xxxx-direction" (for exemple: nycmesh-1635-east) <br>
-- channel width  40 Mhz <br>
-- Control Freq.  ON <br>
-    Select all freq. and uncheck from 5565 to 5705 (5565 and 5705 included)  
-    (This is extremely **important**, due to FCC regulations in NY we need to make sure to not use any channel overlapping 5590 - 5677)<br>
-- choose a center freq. different then other local antenna (sector, litebeam, powerbeam, etc ...)<br>
-- Wireless Security: WPA security personal  /  Preshared key: nycmeshnet <br>
-- TDD framing: Flexible  (or Flexibe (new) depending on firmware)<br>
-- ReSE ON <br>
-- Advance:  Isolation ON <br>
+#### 2. **Wireless Configuration:**
 
-In Network set:<br>
- - DHCP  and fallback IP 192.168.1.20
- 
- In Services:<br>
-  - Add UNMS key
+- Set **Wireless Mode** to "Access Point PtMP airMAX AC."
+- Configure the **SSID** as "nycmesh-NN-direction," where "NN" represents the Node Number, which is a numerical value less than 8000. This detail is critical for correct identification within the network. Refer to the NYC Mesh documentation at https://docs.nycmesh.net/installs/nn/ for further guidance on obtaining your Node Number.
+- Adjust **Channel Width** to **40 MHz**.
+- Enable **Control Frequency**. Carefully select all frequencies but specifically **exclude the range from 5565 to 5705 MHz** (inclusive) to adhere to FCC regulations in New York, avoiding channel overlap between 5590 - 5677 MHz.
+- Choose a **Center Frequency** distinct from those used by other nearby antennas (e.g., sector, litebeam, powerbeam) to minimize interference.
+- Under **Wireless Security**, opt for **WPA Personal** encryption and set the **Preshared Key** to "nycmeshnet"
+- Select **Flexible** or **Flexible (new)** for **TDD Framing**, contingent on your firmware version.
+- Enable **ReSE**.
+- In **Advanced** settings, turn on **Isolation**.
 
-In System set:<br>
-  - Device name: same as SSID<br>
-  - turn NTP server ON<br>
-  - Set the time zone<br>
-  
-  <br><br>
+#### 3. **Network Setup:**
+
+- Utilize **DHCP** and establish a fallback IP address as **192.168.1.20**.
+
+#### 4. **Services Adjustments:**
+
+- Enter the **UNMS Key** for integration with Ubiquiti Network Management System (UNMS).
+
+#### 5. **System Adjustments:**
+
+- Assign the **Device Name** as your SSID for consistency across the network.
+- Activate the **NTP Server** for accurate time synchronization.
+- Configure the **Time Zone** to align with your local area.
 
 ---
