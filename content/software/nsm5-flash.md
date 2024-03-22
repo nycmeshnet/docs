@@ -59,8 +59,6 @@ Wait ten minutes or so. It now has a SSID name like "nycmesh 1a2b" and a random 
 
 * <a htag="mailto:newnode@nycmesh.net">Email us</a> and we will check that everything is working and add you to the mesh. You must do this as we manually configure the tinc tunneling for each newly flashed router.
 
-**You must also install a watchdog script to keep the network stable**. [Here are the instructions](/howto/watchdog). <a htag="mailto:newnode@nycmesh.net">Email us</a> if you are not comfortable doing this. This script will be included in the next version of our firmware.
-
 You're done! 
 Now your router is flashed, read how to [install a NanoStation](/howto/nsm5-install/)
 
