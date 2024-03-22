@@ -16,6 +16,8 @@ Mesh Guide given to new members and for general mesh info. <br> (Paper copies ar
 
 General Information
 
+[2024 Cut-the-Cord Streaming TV guide](cut-the-cord.pdf)
+
 [2023 Trifold color](NYC_Mesh_Trifold_5.17.23.pdf)
 
 [2020 Two page trifold general brochure](Brochure.pdf) 
