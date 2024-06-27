@@ -13,7 +13,7 @@ The purpose of this diagram is to give a technical overview of the typical LiteB
 
 * [LiteBeam5AC config here](https://github.com/nycmeshnet/nycmesh-configs/blob/master/LiteBeam5AC/lbe-new-8_7_1.cfg.tmpl)
 
-* This diagram was created on app.diagrams.net (formerly draw.io). The diagram source is located in `/assets/diagram_source/` in his git repository
+* This diagram was created on app.diagrams.net (formerly draw.io). The diagram source is located in `/assets/diagram_source/` in this git repository
 
 
 <img src="/img/diagrams/typical_install_Litebeam_Omni.png">
