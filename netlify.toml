@@ -1,2 +1,9 @@
 [build.environment]
 HUGO_VERSION = "0.57.2"
+
+# Test redirect of all pages in /networking/ to https://wiki.mesh.nycmesh.net/books/5-networking
+[[redirects]]
+from = "/networking/*"
+to = "https://wiki.mesh.nycmesh.net/books/5-networking"
+status = 301
+force = true
