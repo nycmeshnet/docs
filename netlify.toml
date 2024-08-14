@@ -1,9 +1,93 @@
 [build.environment]
 HUGO_VERSION = "0.57.2"
 
-# Test redirect of all pages in /networking/ to https://wiki.mesh.nycmesh.net/books/5-networking
+#Redirects to the Wiki for /installs/ section of the docs
 [[redirects]]
-from = "/networking/*"
-to = "https://wiki.mesh.nycmesh.net/books/5-networking"
-status = 301
+from = "/installs/problems/"
+to = "https://wiki.mesh.nycmesh.net/link/80#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/equipment/"
+to = "https://wiki.mesh.nycmesh.net/link/70#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/fibersafety/"
+to = "https://wiki.mesh.nycmesh.net/link/72#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/fibersplicingpresentationnotes_07192022/"
+to = "https://wiki.mesh.nycmesh.net/link/73#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/fibersplicingtutorial/"
+to = "https://wiki.mesh.nycmesh.net/link/73#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/fibertotheapartment/"
+to = "https://wiki.mesh.nycmesh.net/link/75#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/crimping/"
+to = "https://wiki.mesh.nycmesh.net/link/68#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/install-wiki/"
+to = "https://wiki.mesh.nycmesh.net/link/83#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/linknyc/"
+to = "https://wiki.mesh.nycmesh.net/link/76#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/memberform/"
+to = "https://wiki.mesh.nycmesh.net/link/77#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/nn/"
+to = ""
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/panoramas/"
+to = "https://wiki.mesh.nycmesh.net/link/79#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/query/"
+to = "https://forms.grandsvc.mesh.nycmesh.net/query"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/safety/"
+to = "https://wiki.mesh.nycmesh.net/link/82#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/surveys/"
+to = "https://wiki.mesh.nycmesh.net/link/83#bkmrk-page-title"
+status = 302
 force = true
