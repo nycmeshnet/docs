@@ -64,7 +64,7 @@ force = true
 
 [[redirects]]
 from = "/installs/nn/"
-to = ""
+to = "https://www.nycmesh.net/nn"
 status = 302
 force = true
 
