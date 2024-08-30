@@ -429,8 +429,8 @@ status = 302
 force = true
 
 #Final catch-all redirect. Will trigger if nothing above is matched. Should catch any spelling errors, new pages or anything else weird that happends.
-##[[redirects]]
-##from = "/*"
-##to = "https://wiki.mesh.nycmesh.net/link/169#bkmrk-page-title"
-##status = 302
-##force = true
+[[redirects]]
+from = "/*"
+to = "https://wiki.mesh.nycmesh.net/link/169#bkmrk-page-title"
+status = 302
+force = true
