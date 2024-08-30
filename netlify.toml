@@ -1,6 +1,166 @@
 [build.environment]
 HUGO_VERSION = "0.57.2"
 
+#Redirects to the wiki for intro pages
+[[redirects]]
+from = "/intro/"
+to = "https://wiki.mesh.nycmesh.net/link/169#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/intro/additional-resources/"
+to = "https://wiki.mesh.nycmesh.net/link/85#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/intro/gettingstarted/"
+to = "https://wiki.mesh.nycmesh.net/link/86#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/intro/typical-installs/"
+to = "https://wiki.mesh.nycmesh.net/link/87#bkmrk-page-title"
+status = 302
+force = true
+
+#Redirects to the Wiki for Hardware Section
+[[redirects]]
+from = "/hardware/config/"
+to = "https://wiki.mesh.nycmesh.net/link/54#bkmrk-page-titled"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/60ghz/"
+to = "https://wiki.mesh.nycmesh.net/link/51#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/chromebook/"
+to = "https://wiki.mesh.nycmesh.net/link/53#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/mikrotiknetpower15fr/"
+to = "https://wiki.mesh.nycmesh.net/link/59#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/mikrotikomnitik5ac/"
+to = "https://wiki.mesh.nycmesh.net/link/60#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/mikrotikpowerboxpro/"
+to = "https://wiki.mesh.nycmesh.net/link/61#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/mikrotikspecifics/"
+to = "https://wiki.mesh.nycmesh.net/link/62#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/sxtsqg5acd/"
+to = "https://wiki.mesh.nycmesh.net/link/65#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/tplink/"
+to = "https://wiki.mesh.nycmesh.net/link/66#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/ltu/"
+to = "https://wiki.mesh.nycmesh.net/link/52#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/epr6/"
+to = "https://wiki.mesh.nycmesh.net/link/55#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/liteap/"
+to = "https://wiki.mesh.nycmesh.net/link/57#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/litebeamac/"
+to = "https://wiki.mesh.nycmesh.net/link/58#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/nsm5/"
+to = "https://wiki.mesh.nycmesh.net/link/64#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/hardware/unifi-ap/"
+to = "https://wiki.mesh.nycmesh.net/link/67#bkmrk-page-title"
+status = 302
+force = true
+
+#Redirects to the wiki for firmware section
+[[redirects]]
+from = "/firmware/ubiquiti/"
+to = "https://wiki.mesh.nycmesh.net/link/49#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/firmware/mikrotik/"
+to = "https://wiki.mesh.nycmesh.net/link/47#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/firmware/custom/"
+to = "https://wiki.mesh.nycmesh.net/link/169#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/firmware/mikrotik_netinstall_recovery/"
+to = "https://wiki.mesh.nycmesh.net/link/48#bkmrk-page-title"
+status = 302
+force = true
+
+#Redirects to the wiki for the diagrams/diy/glossary sections
+[[redirects]]
+from = "/diagrams/*"
+to = "https://wiki.mesh.nycmesh.net/link/41#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/diy/*"
+to = "https://wiki.mesh.nycmesh.net/link/43#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/glossary/"
+to = "https://wiki.mesh.nycmesh.net/link/50#bkmrk-page-title"
+status = 302
+force = true
+
 #Redirects to the Wiki for /installs/ section of the docs
 [[redirects]]
 from = "/installs/problems/"
@@ -11,6 +171,12 @@ force = true
 [[redirects]]
 from = "/installs/equipment/"
 to = "https://wiki.mesh.nycmesh.net/link/70#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/installs/etiquette/"
+to = "https://wiki.mesh.nycmesh.net/link/71#bkmrk-page-title"
 status = 302
 force = true
 
@@ -46,7 +212,7 @@ force = true
 
 [[redirects]]
 from = "/installs/install-wiki/"
-to = "https://wiki.mesh.nycmesh.net/link/83#bkmrk-page-title"
+to = "https://wiki.mesh.nycmesh.net/link/169#bkmrk-page-title"
 status = 302
 force = true
 
@@ -64,7 +230,7 @@ force = true
 
 [[redirects]]
 from = "/installs/nn/"
-to = "https://www.nycmesh.net/nn"
+to = "https://nycmesh.net/nn"
 status = 302
 force = true
 
@@ -89,5 +255,176 @@ force = true
 [[redirects]]
 from = "/installs/surveys/"
 to = "https://wiki.mesh.nycmesh.net/link/83#bkmrk-page-title"
+status = 302
+force = true
+
+#Redirects for /networking/ to wiki
+[[redirects]]
+from = "/networking/10-69-net-network/"
+to = "https://wiki.mesh.nycmesh.net/link/88#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/bgp/"
+to = "https://wiki.mesh.nycmesh.net/link/90#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/classes/"
+to = "https://wiki.mesh.nycmesh.net/link/91#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/dns/"
+to = "https://wiki.mesh.nycmesh.net/link/92#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/hubs/"
+to = "https://wiki.mesh.nycmesh.net/link/93#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/ipmappingidea/"
+to = "https://wiki.mesh.nycmesh.net/link/94#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/mesh/"
+to = "https://wiki.mesh.nycmesh.net/link/95#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/nn/"
+to = "https://nycmesh.net/nn"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/ntp/"
+to = "https://wiki.mesh.nycmesh.net/link/96#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/ospf/"
+to = "https://wiki.mesh.nycmesh.net/link/130#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/peering/"
+to = "https://wiki.mesh.nycmesh.net/link/98#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/supernode-architecture/"
+to = "https://wiki.mesh.nycmesh.net/link/99#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/vpn/"
+to = "https://wiki.mesh.nycmesh.net/link/100#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/vpnl2tpipsec/"
+to = "https://wiki.mesh.nycmesh.net/link/101#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/vpnl2tpipsecid/"
+to = "https://wiki.mesh.nycmesh.net/link/102#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/vpnwireguard/"
+to = "https://wiki.mesh.nycmesh.net/link/103#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/networking/vpnwireguardospf/"
+to = "https://wiki.mesh.nycmesh.net/link/104#bkmrk-page-title"
+status = 302
+force = true
+
+#Redirect nodes/organization/security/services/software sections to wiki
+[[redirects]]
+from = "/nodes/*"
+to = "https://wiki.mesh.nycmesh.net/link/169#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/organization/culture/"
+to = "https://wiki.mesh.nycmesh.net/link/114#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/organization/documents/"
+to = "https:/nycmesh.net/orgdocs"
+status = 302
+force = true
+
+[[redirects]]
+from = "/organization/plan/"
+to = "https://wiki.mesh.nycmesh.net/link/115#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/organization/outreach/"
+to = "https://wiki.mesh.nycmesh.net/link/123#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/organization/protecting/"
+to = "https://wiki.mesh.nycmesh.net/link/116#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/organization/workflow/"
+to = "https://wiki.mesh.nycmesh.net/link/117#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/security/"
+to = "https://wiki.mesh.nycmesh.net/link/118#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/services/"
+to = "https://wiki.mesh.nycmesh.net/link/119#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
+from = "/software/*"
+to = "https://wiki.mesh.nycmesh.net/link/169#bkmrk-page-title"
+status = 302
+force = true
+
+#Final catch-all redirect. Will trigger if nothing above is matched. Should catch any spelling errors, new pages or anything else weird that happends.
+[[redirects]]
+from = "/*"
+to = "https://wiki.mesh.nycmesh.net/link/169#bkmrk-page-title"
 status = 302
 force = true
