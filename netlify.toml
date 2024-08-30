@@ -46,6 +46,12 @@ status = 302
 force = true
 
 [[redirects]]
+from = "/hardware/ethernet/"
+to = "https://wiki.mesh.nycmesh.net/link/56#bkmrk-page-title"
+status = 302
+force = true
+
+[[redirects]]
 from = "/hardware/mikrotiknetpower15fr/"
 to = "https://wiki.mesh.nycmesh.net/link/59#bkmrk-page-title"
 status = 302
@@ -376,7 +382,7 @@ force = true
 
 [[redirects]]
 from = "/organization/documents/"
-to = "https:/nycmesh.net/orgdocs"
+to = "https://nycmesh.net/orgdocs"
 status = 302
 force = true
 
