@@ -248,7 +248,7 @@ force = true
 
 [[redirects]]
 from = "/installs/query/"
-to = "https://forms.grandsvc.mesh.nycmesh.net/query"
+to = "https://nycmesh.net/query"
 status = 302
 force = true
 
