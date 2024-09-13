@@ -241,6 +241,12 @@ status = 302
 force = true
 
 [[redirects]]
+from = "/nn/"
+to = "https://nycmesh.net/nn"
+status = 302
+force = true
+
+[[redirects]]
 from = "/installs/panoramas/"
 to = "https://wiki.mesh.nycmesh.net/link/79#bkmrk-page-title"
 status = 302
