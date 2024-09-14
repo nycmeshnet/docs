@@ -241,7 +241,7 @@ status = 302
 force = true
 
 [[redirects]]
-from = "/nn/"
+from = "/nn"
 to = "https://nycmesh.net/nn"
 status = 302
 force = true
