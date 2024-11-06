@@ -236,13 +236,13 @@ force = true
 
 [[redirects]]
 from = "/installs/nn/"
-to = "https://nycmesh.net/nn"
+to = "https://forms.nycmesh.net/nn-assign" #updated to point to MeshDB page
 status = 302
 force = true
 
 [[redirects]]
 from = "/nn"
-to = "https://nycmesh.net/nn"
+to = "https://forms.nycmesh.net/nn-assign" #updated to point to MeshDB page
 status = 302
 force = true
 
@@ -254,7 +254,7 @@ force = true
 
 [[redirects]]
 from = "/installs/query/"
-to = "https://nycmesh.net/query"
+to = "https://forms.nycmesh.net/query" #updated to point to MeshDB page
 status = 302
 force = true
 
@@ -315,7 +315,7 @@ force = true
 
 [[redirects]]
 from = "/networking/nn/"
-to = "https://nycmesh.net/nn"
+to = "https://forms.nycmesh.net/nn-assign" #updated to point to MeshDB page
 status = 302
 force = true
 
